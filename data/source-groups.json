@@ -1,0 +1,608 @@
+[
+  {
+    "canonicalIndex": 26,
+    "otherIndices": [
+      27
+    ]
+  },
+  {
+    "canonicalIndex": 38,
+    "otherIndices": [
+      37
+    ]
+  },
+  {
+    "canonicalIndex": 80,
+    "otherIndices": [
+      81
+    ]
+  },
+  {
+    "canonicalIndex": 129,
+    "otherIndices": [
+      130
+    ]
+  },
+  {
+    "canonicalIndex": 147,
+    "otherIndices": [
+      227
+    ]
+  },
+  {
+    "canonicalIndex": 148,
+    "otherIndices": [
+      228
+    ]
+  },
+  {
+    "canonicalIndex": 149,
+    "otherIndices": [
+      229
+    ]
+  },
+  {
+    "canonicalIndex": 150,
+    "otherIndices": [
+      230
+    ]
+  },
+  {
+    "canonicalIndex": 151,
+    "otherIndices": [
+      231
+    ]
+  },
+  {
+    "canonicalIndex": 152,
+    "otherIndices": [
+      232
+    ]
+  },
+  {
+    "canonicalIndex": 153,
+    "otherIndices": [
+      233
+    ]
+  },
+  {
+    "canonicalIndex": 154,
+    "otherIndices": [
+      234
+    ]
+  },
+  {
+    "canonicalIndex": 155,
+    "otherIndices": [
+      235
+    ]
+  },
+  {
+    "canonicalIndex": 156,
+    "otherIndices": [
+      236
+    ]
+  },
+  {
+    "canonicalIndex": 157,
+    "otherIndices": [
+      237
+    ]
+  },
+  {
+    "canonicalIndex": 158,
+    "otherIndices": [
+      238
+    ]
+  },
+  {
+    "canonicalIndex": 160,
+    "otherIndices": [
+      240
+    ]
+  },
+  {
+    "canonicalIndex": 161,
+    "otherIndices": [
+      241
+    ]
+  },
+  {
+    "canonicalIndex": 167,
+    "otherIndices": [
+      168
+    ]
+  },
+  {
+    "canonicalIndex": 266,
+    "otherIndices": [
+      267
+    ]
+  },
+  {
+    "canonicalIndex": 277,
+    "otherIndices": [
+      278
+    ]
+  },
+  {
+    "canonicalIndex": 292,
+    "otherIndices": [
+      293
+    ]
+  },
+  {
+    "canonicalIndex": 356,
+    "otherIndices": [
+      357
+    ]
+  },
+  {
+    "canonicalIndex": 360,
+    "otherIndices": [
+      361
+    ]
+  },
+  {
+    "canonicalIndex": 394,
+    "otherIndices": [
+      395
+    ]
+  },
+  {
+    "canonicalIndex": 405,
+    "otherIndices": [
+      469
+    ]
+  },
+  {
+    "canonicalIndex": 406,
+    "otherIndices": [
+      470
+    ]
+  },
+  {
+    "canonicalIndex": 408,
+    "otherIndices": [
+      472
+    ]
+  },
+  {
+    "canonicalIndex": 409,
+    "otherIndices": [
+      410,
+      473
+    ]
+  },
+  {
+    "canonicalIndex": 411,
+    "otherIndices": [
+      474
+    ]
+  },
+  {
+    "canonicalIndex": 413,
+    "otherIndices": [
+      476
+    ]
+  },
+  {
+    "canonicalIndex": 414,
+    "otherIndices": [
+      477
+    ]
+  },
+  {
+    "canonicalIndex": 415,
+    "otherIndices": [
+      478
+    ]
+  },
+  {
+    "canonicalIndex": 416,
+    "otherIndices": [
+      479
+    ]
+  },
+  {
+    "canonicalIndex": 417,
+    "otherIndices": [
+      480
+    ]
+  },
+  {
+    "canonicalIndex": 418,
+    "otherIndices": [
+      481
+    ]
+  },
+  {
+    "canonicalIndex": 419,
+    "otherIndices": [
+      482
+    ]
+  },
+  {
+    "canonicalIndex": 420,
+    "otherIndices": [
+      483
+    ]
+  },
+  {
+    "canonicalIndex": 421,
+    "otherIndices": [
+      484
+    ]
+  },
+  {
+    "canonicalIndex": 423,
+    "otherIndices": [
+      485
+    ]
+  },
+  {
+    "canonicalIndex": 424,
+    "otherIndices": [
+      486
+    ]
+  },
+  {
+    "canonicalIndex": 425,
+    "otherIndices": [
+      487,
+      488
+    ]
+  },
+  {
+    "canonicalIndex": 426,
+    "otherIndices": [
+      489
+    ]
+  },
+  {
+    "canonicalIndex": 427,
+    "otherIndices": [
+      490
+    ]
+  },
+  {
+    "canonicalIndex": 428,
+    "otherIndices": [
+      491
+    ]
+  },
+  {
+    "canonicalIndex": 429,
+    "otherIndices": [
+      492
+    ]
+  },
+  {
+    "canonicalIndex": 430,
+    "otherIndices": [
+      493
+    ]
+  },
+  {
+    "canonicalIndex": 431,
+    "otherIndices": [
+      494
+    ]
+  },
+  {
+    "canonicalIndex": 432,
+    "otherIndices": [
+      495
+    ]
+  },
+  {
+    "canonicalIndex": 433,
+    "otherIndices": [
+      496
+    ]
+  },
+  {
+    "canonicalIndex": 434,
+    "otherIndices": [
+      497
+    ]
+  },
+  {
+    "canonicalIndex": 435,
+    "otherIndices": [
+      498
+    ]
+  },
+  {
+    "canonicalIndex": 436,
+    "otherIndices": [
+      499
+    ]
+  },
+  {
+    "canonicalIndex": 437,
+    "otherIndices": [
+      500
+    ]
+  },
+  {
+    "canonicalIndex": 438,
+    "otherIndices": [
+      502,
+      501
+    ]
+  },
+  {
+    "canonicalIndex": 439,
+    "otherIndices": [
+      503,
+      504
+    ]
+  },
+  {
+    "canonicalIndex": 441,
+    "otherIndices": [
+      506
+    ]
+  },
+  {
+    "canonicalIndex": 442,
+    "otherIndices": [
+      507
+    ]
+  },
+  {
+    "canonicalIndex": 444,
+    "otherIndices": [
+      510
+    ]
+  },
+  {
+    "canonicalIndex": 445,
+    "otherIndices": [
+      698,
+      699,
+      511
+    ]
+  },
+  {
+    "canonicalIndex": 446,
+    "otherIndices": [
+      712,
+      512
+    ]
+  },
+  {
+    "canonicalIndex": 447,
+    "otherIndices": [
+      513
+    ]
+  },
+  {
+    "canonicalIndex": 448,
+    "otherIndices": [
+      514
+    ]
+  },
+  {
+    "canonicalIndex": 449,
+    "otherIndices": [
+      516
+    ]
+  },
+  {
+    "canonicalIndex": 451,
+    "otherIndices": [
+      452,
+      517
+    ]
+  },
+  {
+    "canonicalIndex": 453,
+    "otherIndices": [
+      518
+    ]
+  },
+  {
+    "canonicalIndex": 454,
+    "otherIndices": [
+      520
+    ]
+  },
+  {
+    "canonicalIndex": 455,
+    "otherIndices": [
+      521
+    ]
+  },
+  {
+    "canonicalIndex": 457,
+    "otherIndices": [
+      523
+    ]
+  },
+  {
+    "canonicalIndex": 458,
+    "otherIndices": [
+      524
+    ]
+  },
+  {
+    "canonicalIndex": 459,
+    "otherIndices": [
+      525
+    ]
+  },
+  {
+    "canonicalIndex": 460,
+    "otherIndices": [
+      527
+    ]
+  },
+  {
+    "canonicalIndex": 461,
+    "otherIndices": [
+      528
+    ]
+  },
+  {
+    "canonicalIndex": 462,
+    "otherIndices": [
+      529
+    ]
+  },
+  {
+    "canonicalIndex": 464,
+    "otherIndices": [
+      530
+    ]
+  },
+  {
+    "canonicalIndex": 465,
+    "otherIndices": [
+      466,
+      467
+    ]
+  },
+  {
+    "canonicalIndex": 536,
+    "otherIndices": [
+      537
+    ]
+  },
+  {
+    "canonicalIndex": 539,
+    "otherIndices": [
+      651
+    ]
+  },
+  {
+    "canonicalIndex": 548,
+    "otherIndices": [
+      549
+    ]
+  },
+  {
+    "canonicalIndex": 556,
+    "otherIndices": [
+      557
+    ]
+  },
+  {
+    "canonicalIndex": 585,
+    "otherIndices": [
+      586
+    ]
+  },
+  {
+    "canonicalIndex": 589,
+    "otherIndices": [
+      656
+    ]
+  },
+  {
+    "canonicalIndex": 601,
+    "otherIndices": [
+      602
+    ]
+  },
+  {
+    "canonicalIndex": 603,
+    "otherIndices": [
+      693,
+      694
+    ]
+  },
+  {
+    "canonicalIndex": 606,
+    "otherIndices": [
+      703,
+      704
+    ]
+  },
+  {
+    "canonicalIndex": 607,
+    "otherIndices": [
+      675,
+      676,
+      677,
+      678
+    ]
+  },
+  {
+    "canonicalIndex": 615,
+    "otherIndices": [
+      700,
+      701,
+      616
+    ]
+  },
+  {
+    "canonicalIndex": 645,
+    "otherIndices": [
+      644,
+      646
+    ]
+  },
+  {
+    "canonicalIndex": 652,
+    "otherIndices": [
+      653
+    ]
+  },
+  {
+    "canonicalIndex": 660,
+    "otherIndices": [
+      661
+    ]
+  },
+  {
+    "canonicalIndex": 666,
+    "otherIndices": [
+      665
+    ]
+  },
+  {
+    "canonicalIndex": 681,
+    "otherIndices": [
+      682
+    ]
+  },
+  {
+    "canonicalIndex": 691,
+    "otherIndices": [
+      692
+    ]
+  },
+  {
+    "canonicalIndex": 696,
+    "otherIndices": [
+      697
+    ]
+  },
+  {
+    "canonicalIndex": 709,
+    "otherIndices": [
+      710
+    ]
+  },
+  {
+    "canonicalIndex": 713,
+    "otherIndices": [
+      714
+    ]
+  },
+  {
+    "canonicalIndex": 718,
+    "otherIndices": [
+      719,
+      720
+    ]
+  },
+  {
+    "canonicalIndex": 723,
+    "otherIndices": [
+      724
+    ]
+  }
+]

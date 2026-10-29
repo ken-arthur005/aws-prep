@@ -48,3 +48,5 @@ next-env.d.ts
 /data/remaining.txt
 /.playwright-mcp/
 /scripts/__pycache__/
+/data/review-queue/
+/data/ocr-inspect.txt

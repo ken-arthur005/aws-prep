@@ -34,23 +34,29 @@ AWS's passing score of **720** is scaled; the app deliberately does not equate i
 
 ## Content coverage and quality
 
-All **727 uploaded PNG screenshots** are represented, with original source links preserved. The initial extraction/deduplication produces **635 question/source records**:
+All **727 uploaded PNG screenshots** have an editorial disposition, with original source links preserved. After combining duplicate and split captures there are **606 question/source records**:
 
-- **198 study-ready questions** have independently prepared answers, a rationale for every option, key takeaways and AWS reading links.
-- **74 source records are explicitly flagged** for obsolete information, ambiguous/contradictory premises, missing options or non-question material.
-- **363 extracted records still await editorial answer/explanation review.** They remain inspectable in the library and are excluded from scored practice and exams. They must not be treated as reviewed or silently assigned an answer.
+- **534 study-ready questions** have independently prepared answers, a rationale for every option, key takeaways and AWS reading links.
+- **72 reviewed exclusions** have specific notes documenting obsolete service eligibility, contradictory/missing answers, unreadable crops or non-question material. They remain inspectable and do not enter scored sessions.
+- **0 awaiting review.** The bank builder and tests reject an unexplained return to the review backlog.
 
 The screenshot's chosen answers, checkmarks and highlights are never used as an answer key. Some material is materially outdated: the S3 object-size limit changed, and CloudTrail Lake closed to new customers on May 31, 2026. The source-quality notes explain affected records.
 
-The shipped app is usable now, but the editorial review of the entire extracted pool is **not complete**. The library and counts expose that distinction.
+The editorial pass is complete for this uploaded collection. Source-faithful transcription repairs and explicitly labeled study variants recover useful material; substantive corrections are described in each question's notes and marked **Updated source**. Original screenshots remain available for comparison. These are independent study explanations, not an official AWS answer key or a guarantee every source scenario is deployment-ready.
+
+The question pool has 176 Secure, 156 Resilient, 130 High-performing and 72 Cost-optimized questions. Full mocks still sample approximately the official domain weights, rather than copying these pool proportions.
 
 ### Source of truth
 
 - `data/questions.json`: shipped question bank, explanations, status and citations.
 - `data/source-manifest.json`: mapping of every screenshot to its question/source record, including duplicates and continuations.
+- `data/content-review.md`: generated coverage summary and the documented reason/reference for every excluded record.
+- `data/source-groups.json`: established duplicate/continuation groups, retained so editing one capture does not resurrect an unanswered duplicate.
+- `data/text-repairs.json`: token-preserving OCR reading-order repairs for 1,037 options across 281 captures. Radio-button glyphs no longer split capitalized words away from their sentences.
 - `data/extracted.json`: coordinate-parser output retained for editorial review/rebuilding.
 - `scripts/content.py`: explicit editorial answer decisions, corrections and quality flags. Indexes reference the existing, sorted 727-source extraction; review the source order before importing a different collection.
-- `scripts/build_bank.py`: deterministic bank generation, deduplication and invariant checks.
+- `scripts/content_remaining.py`: completed second pass, explicit option-order remaps and re-review of earlier exclusions.
+- `scripts/build_bank.py`: deterministic bank generation, source-order checksum protection, duplicate flattening, alias generation and invariant checks. Bookmark aliases preserve saved references to merged unscored source captures.
 
 Rebuild after an editorial change:
 
@@ -66,7 +72,8 @@ The app itself does not run OCR. Initial extraction was performed locally with W
 1. Use Python 3.12, an English Windows OCR language pack, Pillow, and PyWinRT packages for `Windows.Media.Ocr`, `Windows.Graphics.Imaging`, `Windows.Storage`, `Windows.Globalization`, `Windows.Foundation`, and `Windows.Storage.Streams`.
 2. Run `python scripts/extract_questions.py`. This writes resumable, coordinate-preserving `data/ocr.json`.
 3. Run `python scripts/parse_questions.py` to generate `data/extracted.json` and a human-readable `data/review.txt`.
-4. Review extraction accuracy, source order, duplicate/continuation mappings and all editorial decisions before rebuilding. Adding/reordering source files without updating the editorial mapping can invalidate answer associations.
+4. Optionally run `python scripts/reflow_ocr.py` to recover reading order only where the meaningful token multiset and option position are preserved.
+5. Review extraction accuracy, source order, duplicate/continuation mappings and all editorial decisions before rebuilding. The frozen source checksum prevents applying old indexed reviews to a reordered collection.
 
 OCR raw output/logs and browser-check artifacts are ignored by Git. The original screenshot files are preserved.
 

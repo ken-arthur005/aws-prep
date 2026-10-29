@@ -19,6 +19,9 @@ def clean(text):
 
 
 def rows(words):
+    # OCR can recognize a radio-button circle above the text baseline. If it
+    # anchors a text row, capitals get separated from the rest of their sentence.
+    words = [w for w in words if not (w["text"] in {"O", "o", "0", "©", "○", "✓", "✔"} and w["h"] >= 20 and .65 < w["w"] / w["h"] < 1.4)]
     buckets = []
     for word in sorted(words, key=lambda w: (w["y"], w["x"])):
         if not buckets or abs(word["y"] - buckets[-1][0]) > 9:
@@ -101,4 +104,5 @@ def main():
     print(f"Parsed {len(parsed)} screenshots; {sum(4 <= len(q['options']) <= 6 for q in parsed)} have 4-6 options")
 
 
-main()
+if __name__ == "__main__":
+    main()

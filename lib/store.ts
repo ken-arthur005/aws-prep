@@ -3,12 +3,19 @@
 import { useSyncExternalStore } from "react";
 import type { StudyState, Question, Session } from "./types";
 import { localDate } from "./study";
+import aliases from "../data/source-aliases.json";
 
 const KEY = "cloudbound-study-v1";
 const EMPTY: StudyState = { version: 1, examDate: "", dailyTarget: 40, attempts: [], bookmarks: [], completedTasks: [], sessions: [], activeSession: null, storageError: "" };
 let current = EMPTY;
 let loaded = false;
 const listeners = new Set<() => void>();
+const sourceAliases: Record<string, string> = aliases;
+
+export function reconcileSourceBookmarks(state: StudyState): StudyState {
+  const bookmarks = [...new Set(state.bookmarks.map(id => sourceAliases[id] ?? id))];
+  return bookmarks.length === state.bookmarks.length && bookmarks.every((id, i) => id === state.bookmarks[i]) ? state : { ...state, bookmarks };
+}
 
 function isSession(value: unknown, ids: Set<string>): value is Session {
   if (!value || typeof value !== "object") return false;
@@ -17,7 +24,8 @@ function isSession(value: unknown, ids: Set<string>): value is Session {
 }
 export function validateBackup(value: unknown, bank?: Question[]): StudyState {
   if (!value || typeof value !== "object") throw new Error("Choose a Cloudbound JSON backup.");
-  const s = value as StudyState;
+  const original = value as StudyState;
+  const s = Array.isArray(original.bookmarks) && original.bookmarks.every(id => typeof id === "string") ? reconcileSourceBookmarks(original) : original;
   const ids = new Set(bank?.map(q => q.id) ?? [...(Array.isArray(s.sessions) ? s.sessions.flatMap(session => session.questionIds ?? []) : []), ...(s.activeSession?.questionIds ?? [])]);
   const date = /^\d{4}-\d{2}-\d{2}$/.test(s.examDate ?? "") && !Number.isNaN(Date.parse(`${s.examDate}T00:00:00`));
   if (s.version !== 1 || !date || !Number.isFinite(s.dailyTarget) || s.dailyTarget < 1 || s.dailyTarget > 500 || !Array.isArray(s.attempts) || !Array.isArray(s.bookmarks) || !s.bookmarks.every(id => typeof id === "string") || !Array.isArray(s.completedTasks) || !s.completedTasks.every(id => typeof id === "string") || !Array.isArray(s.sessions) || !s.sessions.every(session => isSession(session, ids)) || (s.activeSession !== null && !isSession(s.activeSession, ids))) throw new Error("This backup has missing or invalid study data.");
@@ -43,7 +51,14 @@ function snapshot() {
     current = { ...EMPTY, examDate: localDate(date) };
     try {
       const raw = localStorage.getItem(KEY);
-      if (raw) current = validateBackup(JSON.parse(raw));
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        current = validateBackup(parsed);
+        if (JSON.stringify(parsed.bookmarks) !== JSON.stringify(current.bookmarks)) {
+          try { localStorage.setItem(KEY, JSON.stringify(current)); }
+          catch { current = { ...current, storageError: "Merged-source bookmarks were recovered but could not be saved. Export a backup before closing this page." }; }
+        }
+      }
     } catch { current = { ...current, storageError: "Saved progress could not be loaded. You can restore a backup in Settings." }; }
   }
   return current;

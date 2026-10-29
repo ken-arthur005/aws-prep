@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ArrowDownToLine, ArrowLeft, ArrowRight, ArrowUpRight, BarChart3, BookMarked, BookOpen, Bookmark, Check, CheckCheck, ChevronLeft, ChevronRight, CircleHelp, Clock3, Cloud as CloudIcon, Download, ExternalLink, Flag, FlaskConical, FolderOpen, Heart, LayoutDashboard, Lightbulb, ListFilter, Menu, Play, RotateCcw, Search, Settings2, ShieldCheck, Sparkles, Sprout, Target, Timer, Upload, Wallet, X, Zap } from "lucide-react";
 import { Cloud } from "./cloud";
 import { DOMAINS, EXAM_GUIDE, accuracy, createSession, daysUntil, domainStats, finishSession, firstAttempts, formatTime, isCorrect, latestAttempts, localDate, percent, selectQuestions } from "@/lib/study";
-import { getStudy, resetStudy, updateStudy, useStudy, validateBackup } from "@/lib/store";
+import { getStudy, reconcileSourceBookmarks, resetStudy, updateStudy, useStudy, validateBackup } from "@/lib/store";
 import type { DomainId, Question, Session, StudyState, Tab } from "@/lib/types";
 
 const NAV = [
@@ -44,6 +44,8 @@ export default function StudyApp({ questions, sourceCount }: { questions: Questi
   const remaining = daysUntil(state.examDate);
   const latest = latestAttempts(state.attempts);
   const missed = ready.filter(q => latest.get(q.id)?.correct === false);
+
+  useEffect(() => { updateStudy(reconcileSourceBookmarks); }, []);
 
   useEffect(() => {
     const onHash = () => {
@@ -190,7 +192,8 @@ function SessionScreen({ session, questions, now, state, bookmark, finish, leave
   const q = questions.find(q => q.id === session.questionIds[session.index])!;
   const selected = session.answers[q.id] ?? [];
   const checked = session.checked.includes(q.id);
-  const domain = DOMAINS.find(d => d.id === q.domain)!;
+  const baseDomain = DOMAINS.find(d => d.id === q.domain)!;
+  const domain = { ...baseDomain, short: q.adapted ? `${baseDomain.short} · Updated source` : baseDomain.short };
   const answered = Object.values(session.answers).filter(v => v.length > 0).length;
   const time = session.deadline ? Math.max(0, (session.deadline - (now || session.startedAt)) / 1000) : null;
   const flush = useQuestionClock(session.id, q.id);
@@ -265,7 +268,18 @@ function ReviewShelf({ questions, state, practice, bookmark, runDay, start }: { 
   const latest = latestAttempts(state.attempts);
   const items = questions.filter(q => filter === "missed" ? q.status === "ready" && latest.get(q.id)?.correct === false : state.bookmarks.includes(q.id));
   const missedCount = questions.filter(q => q.status === "ready" && latest.get(q.id)?.correct === false).length;
-  return <><PageHeading eyebrow="THE GOOD STUFF IS WORTH A SECOND LOOK" title="Your little shelf of lightbulbs." description="Revisit the tricky bits, save useful connections, and keep your sprint moving."/><div className="review-layout"><section><div className="section-heading"><div className="filter-tabs"><button className={filter === "missed" ? "selected" : ""} onClick={() => setFilter("missed")}>Missed lately <span>{missedCount}</span></button><button className={filter === "bookmarked" ? "selected" : ""} onClick={() => setFilter("bookmarked")}>Bookmarked <span>{state.bookmarks.length}</span></button></div><button className="button small" disabled={!items.length} onClick={() => practice(undefined, filter)}>Practice this stack <Play size={15}/></button></div>{items.length ? items.map(q => <div className="library-item" key={q.id}><div><span className="eyebrow">{q.topic}</span><h3>{q.title}</h3><p>{q.prompt.slice(0, 175)}…</p><button className="text-button" onClick={() => start([q], "practice", "Review a tricky connection", 1)}>Try it again <ArrowRight size={15}/></button></div><button className="icon-button" onClick={() => bookmark(q.id)} aria-label={state.bookmarks.includes(q.id) ? "Remove bookmark" : "Bookmark question"}><Bookmark size={19} fill={state.bookmarks.includes(q.id) ? "currentColor" : "none"}/></button></div>) : <Empty icon={filter === "missed" ? Lightbulb : Bookmark} title={filter === "missed" ? "No loose threads here. Yet!" : "Make room for your favorite connections."}>{filter === "missed" ? "Questions you miss will appear here. Answer them correctly on a later attempt to clear them from this stack." : "Tap the bookmark on any question to bring it back here."}<br/><button className="button" onClick={() => practice()}>Explore some questions <ArrowRight size={16}/></button></Empty>}</section><aside className="panel sprint-checklist"><Chip color="yellow">YOUR FOUR-DAY SPRINT</Chip><h2>A plan. Not a pressure cooker.</h2><p>Work through these milestones. Mark each day when you&apos;re happy with the progress.</p>{dayTasks.map((task, i) => <div className="sprint-check-item" key={task.title}><label className="check-label"><input type="checkbox" checked={state.completedTasks.includes(`day-${i}`)} onChange={() => updateStudy(s => ({ ...s, completedTasks: s.completedTasks.includes(`day-${i}`) ? s.completedTasks.filter(t => t !== `day-${i}`) : [...s.completedTasks, `day-${i}`] }))}/><span><small>DAY {i+1}</small><strong>{task.title}</strong></span></label><p>{task.detail}</p><button className="text-button" onClick={() => runDay(i)}>{task.action}<ArrowUpRight size={15}/></button></div>)}</aside></div></>;
+  return <>
+    <PageHeading eyebrow="THE GOOD STUFF IS WORTH A SECOND LOOK" title="Your little shelf of lightbulbs." description="Revisit the tricky bits, save useful connections, and keep your sprint moving."/>
+    <div className="review-layout"><section>
+      <div className="section-heading"><div className="filter-tabs"><button className={filter === "missed" ? "selected" : ""} onClick={() => setFilter("missed")}>Missed lately <span>{missedCount}</span></button><button className={filter === "bookmarked" ? "selected" : ""} onClick={() => setFilter("bookmarked")}>Bookmarked <span>{state.bookmarks.length}</span></button></div><button className="button small" disabled={!items.some(q => q.status === "ready")} onClick={() => practice(undefined, filter)}>Practice this stack <Play size={15}/></button></div>
+      {items.length ? items.map(q => <div className="library-item" key={q.id}>
+        <div><span className="eyebrow">{q.topic}</span><h3>{q.title}</h3><p>{q.prompt.slice(0, 175)}…</p>
+          {q.status === "ready" ? <button className="text-button" onClick={() => start([q], "practice", "Review a tricky connection", 1)}>Try it again <ArrowRight size={15}/></button> : <><Chip color="peach">Reviewed · excluded</Chip><p>{q.note}</p><a className="text-button" href={`/questions/${encodeURIComponent(q.sources[0])}`} target="_blank" rel="noreferrer">Inspect original source <ExternalLink size={15}/></a></>}
+        </div>
+        <button className="icon-button" onClick={() => bookmark(q.id)} aria-label={state.bookmarks.includes(q.id) ? "Remove bookmark" : "Bookmark question"}><Bookmark size={19} fill={state.bookmarks.includes(q.id) ? "currentColor" : "none"}/></button>
+      </div>) : <Empty icon={filter === "missed" ? Lightbulb : Bookmark} title={filter === "missed" ? "No loose threads here. Yet!" : "Make room for your favorite connections."}>{filter === "missed" ? "Questions you miss will appear here. Answer them correctly on a later attempt to clear them from this stack." : "Tap the bookmark on any question to bring it back here."}<br/><button className="button" onClick={() => practice()}>Explore some questions <ArrowRight size={16}/></button></Empty>}
+    </section><aside className="panel sprint-checklist"><Chip color="yellow">YOUR FOUR-DAY SPRINT</Chip><h2>A plan. Not a pressure cooker.</h2><p>Work through these milestones. Mark each day when you&apos;re happy with the progress.</p>{dayTasks.map((task, i) => <div className="sprint-check-item" key={task.title}><label className="check-label"><input type="checkbox" checked={state.completedTasks.includes(`day-${i}`)} onChange={() => updateStudy(s => ({ ...s, completedTasks: s.completedTasks.includes(`day-${i}`) ? s.completedTasks.filter(t => t !== `day-${i}`) : [...s.completedTasks, `day-${i}`] }))}/><span><small>DAY {i+1}</small><strong>{task.title}</strong></span></label><p>{task.detail}</p><button className="text-button" onClick={() => runDay(i)}>{task.action}<ArrowUpRight size={15}/></button></div>)}</aside></div>
+  </>;
 }
 
 function Library({ questions, state, sourceCount, start, bookmark }: { questions: Question[]; state: StudyState; sourceCount: number; start: Start; bookmark: (id: string) => void }) {
@@ -278,8 +292,40 @@ function Library({ questions, state, sourceCount, start, bookmark }: { questions
   const pages = Math.ceil(results.length / 12);
   const shown = results.slice(page * 12, (page+1) * 12);
   const counts = { ready: questions.filter(q => q.status === "ready").length, review: questions.filter(q => q.status !== "ready").length };
-  return <><PageHeading eyebrow="ALL YOUR QUESTIONS, A LITTLE MORE ORGANIZED" title="A whole sky of possibilities." description={`${sourceCount} uploaded screenshots, organized into ${questions.length} question records. Study-ready content is kept separate from items that need review.`}/><div className="library-toolbar"><label className="search-input"><Search size={19}/><span className="sr-only">Search question text, answers, or topics</span><input value={search} onChange={e => { setSearch(e.target.value); setPage(0); }} placeholder="Search S3, failover, encryption…"/>{search && <button className="icon-button" onClick={() => { setSearch(""); setPage(0); }} aria-label="Clear search"><X size={16}/></button>}</label><label><span className="sr-only">Filter domain</span><select value={domain} onChange={e => { setDomain(e.target.value); setPage(0); }}><option value="all">All domains</option>{DOMAINS.map(d => <option key={d.id} value={d.id}>{d.short}</option>)}</select></label></div><div className="section-heading"><div className="filter-tabs"><button className={status === "ready" ? "selected" : ""} onClick={() => { setStatus("ready"); setPage(0); }}>Study-ready <span>{counts.ready}</span></button><button className={status === "review" ? "selected" : ""} onClick={() => { setStatus("review"); setPage(0); }}>Content review <span>{counts.review}</span></button><button className={status === "all" ? "selected" : ""} onClick={() => { setStatus("all"); setPage(0); }}>All</button></div><span className="quiet-note">{results.length} results</span></div>{status === "review" && <div className="content-note"><CircleHelp size={19}/><p>These source items are incomplete, outdated, ambiguous, or awaiting answer review. They do not enter scored sessions. Open the original to inspect the source.</p></div>}
-    <div className="library-list">{shown.map(q => <article className="library-item" key={q.id}><div className="library-item-content"><div className="library-item-meta"><Chip color={DOMAINS.find(d => d.id === q.domain)?.color}>{DOMAINS.find(d => d.id === q.domain)?.short}</Chip><span>{q.topic}</span><span className={`status-label ${q.status === "ready" ? "ready" : ""}`}>{q.status === "ready" ? <><Check size={13}/> Study-ready</> : q.status === "legacy" ? "Outdated / ambiguous" : "Needs review"}</span></div><h3>{q.title}</h3><p>{q.prompt.length > 225 ? q.prompt.slice(0, 225)+"…" : q.prompt}</p><div className="library-actions">{q.status === "ready" ? <button className="text-button" disabled={!!state.activeSession} onClick={() => start([q], "practice", q.topic, 1)}>Explore this question <ArrowRight size={16}/></button> : <button className="text-button" onClick={() => setPreview(preview === q.id ? null : q.id)}>{preview === q.id ? "Close source notes" : "Inspect source & notes"}<ExternalLink size={14}/></button>}<span>#{String(q.number).padStart(3, "0")} · {q.select > 1 ? `Select ${q.select}` : "Single answer"}{q.sources.length > 1 && ` · ${q.sources.length} sources`}</span></div>{preview === q.id && <div className="source-preview"><p>{q.note || "This extraction has not yet been independently answered. No answer key has been inferred from screenshot selections."}</p>{q.takeaway && <p><strong>Concept:</strong> {q.takeaway}</p>}{q.options.length > 0 && <ol type="A">{q.options.map((option, i) => <li key={i}>{option}</li>)}</ol>}{q.sources.map(source => <a key={source} href={`/questions/${encodeURIComponent(source)}`} target="_blank" rel="noreferrer">{source}<ArrowUpRight size={15}/></a>)}{q.readMore.map(link => <a key={link.url} href={link.url} target="_blank" rel="noreferrer">{link.title}<ArrowUpRight size={15}/></a>)}</div>}</div><button className="icon-button" aria-label={state.bookmarks.includes(q.id) ? "Remove bookmark" : "Bookmark question"} onClick={() => bookmark(q.id)} aria-pressed={state.bookmarks.includes(q.id)}><Bookmark size={19} fill={state.bookmarks.includes(q.id) ? "currentColor" : "none"}/></button></article>)}</div>{!results.length && <Empty icon={Search} title="No clouds in this corner.">Try a broader search or a different domain.</Empty>}{pages > 1 && <div className="pagination"><button className="button small" disabled={page === 0} onClick={() => setPage(page-1)}><ChevronLeft size={15}/> Previous</button><span>Page {page+1} of {pages}</span><button className="button small" disabled={page+1 >= pages} onClick={() => setPage(page+1)}>Next <ChevronRight size={15}/></button></div>}
+  return <>
+    <PageHeading eyebrow="ALL YOUR QUESTIONS, A LITTLE MORE ORGANIZED" title="A whole sky of possibilities." description={`${sourceCount} screenshots reviewed, organized into ${questions.length} question/source records. ${counts.ready} are study-ready; ${counts.review} have documented exclusions.`}/>
+    <div className="library-toolbar">
+      <label className="search-input"><Search size={19}/><span className="sr-only">Search question text, answers, or topics</span><input value={search} onChange={e => { setSearch(e.target.value); setPage(0); }} placeholder="Search S3, failover, encryption…"/>{search && <button className="icon-button" onClick={() => { setSearch(""); setPage(0); }} aria-label="Clear search"><X size={16}/></button>}</label>
+      <label><span className="sr-only">Filter domain</span><select value={domain} onChange={e => { setDomain(e.target.value); setPage(0); }}><option value="all">All domains</option>{DOMAINS.map(d => <option key={d.id} value={d.id}>{d.short}</option>)}</select></label>
+    </div>
+    <div className="section-heading">
+      <div className="filter-tabs">
+        <button className={status === "ready" ? "selected" : ""} onClick={() => { setStatus("ready"); setPage(0); }}>Study-ready <span>{counts.ready}</span></button>
+        <button className={status === "review" ? "selected" : ""} onClick={() => { setStatus("review"); setPage(0); }}>Reviewed exclusions <span>{counts.review}</span></button>
+        <button className={status === "all" ? "selected" : ""} onClick={() => { setStatus("all"); setPage(0); }}>All</button>
+      </div>
+      <span className="quiet-note">{results.length} results</span>
+    </div>
+    {status === "review" && <div className="content-note"><CircleHelp size={19}/><p>These sources have been reviewed and excluded for a documented problem: obsolete eligibility, contradictory answers, incomplete crops, or non-question material. They are not awaiting background review and do not enter scored sessions. Open the notes for the specific reason.</p></div>}
+    <div className="library-list">{shown.map(q => <article className="library-item" key={q.id}>
+      <div className="library-item-content">
+        <div className="library-item-meta"><Chip color={DOMAINS.find(d => d.id === q.domain)?.color}>{DOMAINS.find(d => d.id === q.domain)?.short}</Chip><span>{q.topic}</span>{q.adapted && <Chip color="peach">Updated source</Chip>}<span className={`status-label ${q.status === "ready" ? "ready" : ""}`}>{q.status === "ready" ? <><Check size={13}/> Study-ready</> : "Reviewed · excluded"}</span></div>
+        <h3>{q.title}</h3><p>{q.prompt.length > 225 ? q.prompt.slice(0, 225)+"…" : q.prompt}</p>
+        <div className="library-actions">
+          {q.status === "ready" ? <button className="text-button" disabled={!!state.activeSession} onClick={() => start([q], "practice", q.topic, 1)}>Explore this question <ArrowRight size={16}/></button> : <button className="text-button" onClick={() => setPreview(preview === q.id ? null : q.id)}>{preview === q.id ? "Close source notes" : "Inspect source & notes"}<ExternalLink size={14}/></button>}
+          <span>#{String(q.number).padStart(3, "0")} · {q.select > 1 ? `Select ${q.select}` : "Single answer"}{q.sources.length > 1 && ` · ${q.sources.length} sources`}</span>
+        </div>
+        {preview === q.id && <div className="source-preview">
+          <p>{q.note}</p>{q.takeaway && <p><strong>Concept:</strong> {q.takeaway}</p>}
+          {q.options.length > 0 && <ol type="A">{q.options.map((option, i) => <li key={i}>{option}</li>)}</ol>}
+          {q.sources.map(source => <a key={source} href={`/questions/${encodeURIComponent(source)}`} target="_blank" rel="noreferrer">{source}<ArrowUpRight size={15}/></a>)}
+          {q.readMore.map(link => <a key={link.url} href={link.url} target="_blank" rel="noreferrer">{link.title}<ArrowUpRight size={15}/></a>)}
+        </div>}
+      </div>
+      <button className="icon-button" aria-label={state.bookmarks.includes(q.id) ? "Remove bookmark" : "Bookmark question"} onClick={() => bookmark(q.id)} aria-pressed={state.bookmarks.includes(q.id)}><Bookmark size={19} fill={state.bookmarks.includes(q.id) ? "currentColor" : "none"}/></button>
+    </article>)}</div>
+    {!results.length && <Empty icon={Search} title="No clouds in this corner.">Try a broader search or a different domain.</Empty>}
+    {pages > 1 && <div className="pagination"><button className="button small" disabled={page === 0} onClick={() => setPage(page-1)}><ChevronLeft size={15}/> Previous</button><span>Page {page+1} of {pages}</span><button className="button small" disabled={page+1 >= pages} onClick={() => setPage(page+1)}>Next <ChevronRight size={15}/></button></div>}
   </>;
 }
 

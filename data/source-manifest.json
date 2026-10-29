@@ -1,9 +1,9 @@
 {
   "sources": 727,
-  "uniqueRecords": 635,
-  "studyReady": 198,
-  "flagged": 74,
-  "awaitingReview": 363,
+  "uniqueRecords": 606,
+  "studyReady": 534,
+  "flagged": 72,
+  "awaitingReview": 0,
   "manifest": [
     {
       "sourceIndex": 0,
@@ -171,7 +171,7 @@
       "sourceIndex": 27,
       "source": "Screenshot 2026-10-09 031420.png",
       "questionId": "q-197bc318fb",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 28,
@@ -495,7 +495,7 @@
       "sourceIndex": 81,
       "source": "Screenshot 2026-10-09 035929.png",
       "questionId": "q-2d1da453ec",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 82,
@@ -789,7 +789,7 @@
       "sourceIndex": 130,
       "source": "Screenshot 2026-10-09 042800.png",
       "questionId": "q-988f121eda",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 131,
@@ -1017,7 +1017,7 @@
       "sourceIndex": 168,
       "source": "Screenshot 2026-10-09 115503.png",
       "questionId": "q-222460d6b0",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 169,
@@ -1371,73 +1371,73 @@
       "sourceIndex": 227,
       "source": "Screenshot 2026-10-09 131215.png",
       "questionId": "q-0160bc1244",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 228,
       "source": "Screenshot 2026-10-09 131237.png",
       "questionId": "q-7a6f6d224e",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 229,
       "source": "Screenshot 2026-10-09 131252.png",
       "questionId": "q-60fa86aaf8",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 230,
       "source": "Screenshot 2026-10-09 131311.png",
       "questionId": "q-9f6401049f",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 231,
       "source": "Screenshot 2026-10-09 131327.png",
       "questionId": "q-c2138090a7",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 232,
       "source": "Screenshot 2026-10-09 131346.png",
       "questionId": "q-8f7bd3e630",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 233,
       "source": "Screenshot 2026-10-09 131403.png",
       "questionId": "q-04f2834711",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 234,
       "source": "Screenshot 2026-10-09 131419.png",
       "questionId": "q-cc2c9f545c",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 235,
       "source": "Screenshot 2026-10-09 131434.png",
       "questionId": "q-1b532c778d",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 236,
       "source": "Screenshot 2026-10-09 131508.png",
       "questionId": "q-1b4c1caddb",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 237,
       "source": "Screenshot 2026-10-09 131541.png",
       "questionId": "q-11238ff1a5",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 238,
       "source": "Screenshot 2026-10-09 131600.png",
       "questionId": "q-9fc2f76756",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 239,
@@ -1449,13 +1449,13 @@
       "sourceIndex": 240,
       "source": "Screenshot 2026-10-09 131635.png",
       "questionId": "q-4081b169a5",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 241,
       "source": "Screenshot 2026-10-09 131652.png",
       "questionId": "q-fa88d2b0a6",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 242,
@@ -1611,7 +1611,7 @@
       "sourceIndex": 267,
       "source": "Screenshot 2026-10-09 133005.png",
       "questionId": "q-da5385e616",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 268,
@@ -1677,7 +1677,7 @@
       "sourceIndex": 278,
       "source": "Screenshot 2026-10-09 134921.png",
       "questionId": "q-58aa771bef",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 279,
@@ -1767,7 +1767,7 @@
       "sourceIndex": 293,
       "source": "Screenshot 2026-10-09 152507.png",
       "questionId": "q-b8c25de35c",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 294,
@@ -2150,8 +2150,8 @@
     {
       "sourceIndex": 357,
       "source": "Screenshot 2026-10-16 105954.png",
-      "questionId": "q-5db5cf474b",
-      "kind": "question"
+      "questionId": "q-32e0bb1ad3",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 358,
@@ -2174,8 +2174,8 @@
     {
       "sourceIndex": 361,
       "source": "Screenshot 2026-10-16 113918.png",
-      "questionId": "q-4818cb76b0",
-      "kind": "question"
+      "questionId": "q-b91a4e4dba",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 362,
@@ -2379,7 +2379,7 @@
       "sourceIndex": 395,
       "source": "Screenshot 2026-10-16 123848.png",
       "questionId": "q-aff6ac3ff1",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 396,
@@ -2469,7 +2469,7 @@
       "sourceIndex": 410,
       "source": "Screenshot 2026-10-17 070819.png",
       "questionId": "q-ba2ab6dadc",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 411,
@@ -2721,7 +2721,7 @@
       "sourceIndex": 452,
       "source": "Screenshot 2026-10-17 084715.png",
       "questionId": "q-b1e6629593",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 453,
@@ -2793,7 +2793,7 @@
       "sourceIndex": 464,
       "source": "Screenshot 2026-10-17 085227.png",
       "questionId": "q-824ed6c08b",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 465,
@@ -2805,13 +2805,13 @@
       "sourceIndex": 466,
       "source": "Screenshot 2026-10-17 140036.png",
       "questionId": "q-fbf40706d4",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 467,
       "source": "Screenshot 2026-10-17 142043.png",
       "questionId": "q-fbf40706d4",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 468,
@@ -2823,235 +2823,235 @@
       "sourceIndex": 469,
       "source": "Screenshot 2026-10-18 113150.png",
       "questionId": "q-a624e238ff",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 470,
       "source": "Screenshot 2026-10-18 114011.png",
-      "questionId": "q-5ca0e41e10",
-      "kind": "question"
+      "questionId": "q-39586a8b3c",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 471,
       "source": "Screenshot 2026-10-18 114143.png",
       "questionId": "q-a290d70649",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 472,
       "source": "Screenshot 2026-10-18 114207.png",
       "questionId": "q-f9345c354f",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 473,
       "source": "Screenshot 2026-10-18 114259.png",
       "questionId": "q-ba2ab6dadc",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 474,
       "source": "Screenshot 2026-10-18 114337.png",
       "questionId": "q-493e455ad2",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 475,
       "source": "Screenshot 2026-10-18 114403.png",
       "questionId": "q-abe6ea6a1a",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 476,
       "source": "Screenshot 2026-10-18 114438.png",
       "questionId": "q-60881da3e2",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 477,
       "source": "Screenshot 2026-10-18 114509.png",
       "questionId": "q-c8c64edb91",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 478,
       "source": "Screenshot 2026-10-18 114611.png",
       "questionId": "q-c360d97b80",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 479,
       "source": "Screenshot 2026-10-18 114706.png",
       "questionId": "q-02059f46cb",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 480,
       "source": "Screenshot 2026-10-18 114805.png",
       "questionId": "q-0bc42a3c94",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 481,
       "source": "Screenshot 2026-10-18 114901.png",
       "questionId": "q-706ae31f98",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 482,
       "source": "Screenshot 2026-10-18 115111.png",
-      "questionId": "q-08385ddc07",
-      "kind": "question"
+      "questionId": "q-beb45f6b25",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 483,
       "source": "Screenshot 2026-10-18 115256.png",
       "questionId": "q-110ab1db45",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 484,
       "source": "Screenshot 2026-10-18 115326.png",
       "questionId": "q-8c24f72770",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 485,
       "source": "Screenshot 2026-10-18 120155.png",
       "questionId": "q-295025b374",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 486,
       "source": "Screenshot 2026-10-18 120518.png",
       "questionId": "q-ce7ee861f0",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 487,
       "source": "Screenshot 2026-10-18 120554.png",
       "questionId": "q-7906763ff2",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 488,
       "source": "Screenshot 2026-10-18 120805.png",
       "questionId": "q-7906763ff2",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 489,
       "source": "Screenshot 2026-10-18 120824.png",
       "questionId": "q-292dbdf8a2",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 490,
       "source": "Screenshot 2026-10-18 120932.png",
       "questionId": "q-616cde6cf6",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 491,
       "source": "Screenshot 2026-10-18 120953.png",
       "questionId": "q-ada299e044",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 492,
       "source": "Screenshot 2026-10-18 121020.png",
       "questionId": "q-5d91811026",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 493,
       "source": "Screenshot 2026-10-18 121109.png",
       "questionId": "q-3eee2ff9f4",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 494,
       "source": "Screenshot 2026-10-18 121135.png",
       "questionId": "q-aa6f41bc5d",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 495,
       "source": "Screenshot 2026-10-18 121159.png",
-      "questionId": "q-c693701189",
-      "kind": "question"
+      "questionId": "q-a9ae2e1369",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 496,
       "source": "Screenshot 2026-10-18 121212.png",
       "questionId": "q-797bf79af6",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 497,
       "source": "Screenshot 2026-10-18 121321.png",
       "questionId": "q-5b5718b832",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 498,
       "source": "Screenshot 2026-10-18 121349.png",
       "questionId": "q-bfef84a4af",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 499,
       "source": "Screenshot 2026-10-18 121421.png",
       "questionId": "q-fcd35bc167",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 500,
       "source": "Screenshot 2026-10-18 121445.png",
-      "questionId": "q-556b203f69",
-      "kind": "question"
+      "questionId": "q-64265fe039",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 501,
       "source": "Screenshot 2026-10-18 121508.png",
       "questionId": "q-f30ef65797",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 502,
       "source": "Screenshot 2026-10-18 121516.png",
-      "questionId": "q-757f662c6b",
-      "kind": "question"
+      "questionId": "q-f30ef65797",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 503,
       "source": "Screenshot 2026-10-18 121539.png",
       "questionId": "q-da44c36e51",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 504,
       "source": "Screenshot 2026-10-18 121548.png",
       "questionId": "q-da44c36e51",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 505,
       "source": "Screenshot 2026-10-18 121645.png",
       "questionId": "q-e5f4fec726",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 506,
       "source": "Screenshot 2026-10-18 121655.png",
-      "questionId": "q-0192cb70a2",
-      "kind": "question"
+      "questionId": "q-3d7dc0f69c",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 507,
       "source": "Screenshot 2026-10-18 121713.png",
       "questionId": "q-f72bd11da5",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 508,
@@ -3069,31 +3069,31 @@
       "sourceIndex": 510,
       "source": "Screenshot 2026-10-18 121824.png",
       "questionId": "q-802d846ff0",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 511,
       "source": "Screenshot 2026-10-18 121841.png",
       "questionId": "q-bf9b247f1a",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 512,
       "source": "Screenshot 2026-10-18 121856.png",
       "questionId": "q-8da5c75204",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 513,
       "source": "Screenshot 2026-10-18 121911.png",
       "questionId": "q-63c5e48991",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 514,
       "source": "Screenshot 2026-10-18 121936.png",
       "questionId": "q-db48e2b2c1",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 515,
@@ -3105,19 +3105,19 @@
       "sourceIndex": 516,
       "source": "Screenshot 2026-10-18 122010.png",
       "questionId": "q-ff5ec080e5",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 517,
       "source": "Screenshot 2026-10-18 122041.png",
       "questionId": "q-b1e6629593",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 518,
       "source": "Screenshot 2026-10-18 122057.png",
       "questionId": "q-525c6f3d52",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 519,
@@ -3129,13 +3129,13 @@
       "sourceIndex": 520,
       "source": "Screenshot 2026-10-18 122158.png",
       "questionId": "q-7e1dbdc2dd",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 521,
       "source": "Screenshot 2026-10-18 122212.png",
-      "questionId": "q-eec109c4c9",
-      "kind": "question"
+      "questionId": "q-2c8a38e155",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 522,
@@ -3147,19 +3147,19 @@
       "sourceIndex": 523,
       "source": "Screenshot 2026-10-18 122302.png",
       "questionId": "q-380bf42e42",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 524,
       "source": "Screenshot 2026-10-18 122320.png",
       "questionId": "q-89c88e0c37",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 525,
       "source": "Screenshot 2026-10-18 122337.png",
       "questionId": "q-d5544ec7a1",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 526,
@@ -3171,25 +3171,25 @@
       "sourceIndex": 527,
       "source": "Screenshot 2026-10-18 122411.png",
       "questionId": "q-3914b6526f",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 528,
       "source": "Screenshot 2026-10-18 122425.png",
       "questionId": "q-2efee8b9a1",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 529,
       "source": "Screenshot 2026-10-18 122444.png",
       "questionId": "q-860ff8f28f",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 530,
       "source": "Screenshot 2026-10-18 122502.png",
       "questionId": "q-824ed6c08b",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 531,
@@ -3231,7 +3231,7 @@
       "sourceIndex": 537,
       "source": "Screenshot 2026-10-22 121511.png",
       "questionId": "q-d9e3e02140",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 538,
@@ -3302,8 +3302,8 @@
     {
       "sourceIndex": 549,
       "source": "Screenshot 2026-10-22 131249.png",
-      "questionId": "q-73f7eff645",
-      "kind": "question"
+      "questionId": "q-a3ec79a777",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 550,
@@ -3351,7 +3351,7 @@
       "sourceIndex": 557,
       "source": "Screenshot 2026-10-22 135222.png",
       "questionId": "q-906607bdf2",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 558,
@@ -3524,8 +3524,8 @@
     {
       "sourceIndex": 586,
       "source": "Screenshot 2026-10-23 124122.png",
-      "questionId": "q-9e004e8689",
-      "kind": "question"
+      "questionId": "q-cd6a71f837",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 587,
@@ -3621,7 +3621,7 @@
       "sourceIndex": 602,
       "source": "Screenshot 2026-10-23 132750.png",
       "questionId": "q-d5c7632f2c",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 603,
@@ -3705,7 +3705,7 @@
       "sourceIndex": 616,
       "source": "Screenshot 2026-10-23 134246.png",
       "questionId": "q-45fa3b0290",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 617,
@@ -3872,8 +3872,8 @@
     {
       "sourceIndex": 644,
       "source": "Screenshot 2026-10-24 110603.png",
-      "questionId": "q-cc58cc1c87",
-      "kind": "question"
+      "questionId": "q-45dfc36521",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 645,
@@ -3885,7 +3885,7 @@
       "sourceIndex": 646,
       "source": "Screenshot 2026-10-24 110652.png",
       "questionId": "q-45dfc36521",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 647,
@@ -3914,8 +3914,8 @@
     {
       "sourceIndex": 651,
       "source": "Screenshot 2026-10-24 111045.png",
-      "questionId": "q-9c3f5230e8",
-      "kind": "question"
+      "questionId": "q-b14b012f37",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 652,
@@ -3927,7 +3927,7 @@
       "sourceIndex": 653,
       "source": "Screenshot 2026-10-24 111537.png",
       "questionId": "q-0354c8b0ad",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 654,
@@ -3944,8 +3944,8 @@
     {
       "sourceIndex": 656,
       "source": "Screenshot 2026-10-24 111849.png",
-      "questionId": "q-42c312d1c7",
-      "kind": "question"
+      "questionId": "q-80c205c9be",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 657,
@@ -3975,7 +3975,7 @@
       "sourceIndex": 661,
       "source": "Screenshot 2026-10-24 112908.png",
       "questionId": "q-980bb09571",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 662,
@@ -3998,8 +3998,8 @@
     {
       "sourceIndex": 665,
       "source": "Screenshot 2026-10-24 113107.png",
-      "questionId": "q-733ae5a749",
-      "kind": "question"
+      "questionId": "q-78334fd049",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 666,
@@ -4058,26 +4058,26 @@
     {
       "sourceIndex": 675,
       "source": "Screenshot 2026-10-24 113705.png",
-      "questionId": "q-4777d0a53c",
-      "kind": "question"
+      "questionId": "q-8cd3b36bc1",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 676,
       "source": "Screenshot 2026-10-24 113710.png",
-      "questionId": "q-67b15b5f65",
-      "kind": "question"
+      "questionId": "q-8cd3b36bc1",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 677,
       "source": "Screenshot 2026-10-24 113721.png",
-      "questionId": "q-8bf1c2beb1",
-      "kind": "question"
+      "questionId": "q-8cd3b36bc1",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 678,
       "source": "Screenshot 2026-10-24 113730.png",
-      "questionId": "q-a931306c79",
-      "kind": "question"
+      "questionId": "q-8cd3b36bc1",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 679,
@@ -4101,7 +4101,7 @@
       "sourceIndex": 682,
       "source": "Screenshot 2026-10-24 113951.png",
       "questionId": "q-cbfaeea4a5",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 683,
@@ -4160,20 +4160,20 @@
     {
       "sourceIndex": 692,
       "source": "Screenshot 2026-10-24 115238.png",
-      "questionId": "q-b8123c9aee",
-      "kind": "question"
+      "questionId": "q-286412cfe6",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 693,
       "source": "Screenshot 2026-10-24 115304.png",
-      "questionId": "q-6571aff96f",
-      "kind": "question"
+      "questionId": "q-4d5d4b2312",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 694,
       "source": "Screenshot 2026-10-24 115310.png",
-      "questionId": "q-f0aa5f6874",
-      "kind": "question"
+      "questionId": "q-4d5d4b2312",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 695,
@@ -4191,49 +4191,49 @@
       "sourceIndex": 697,
       "source": "Screenshot 2026-10-24 121027.png",
       "questionId": "q-9ea7d755e7",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 698,
       "source": "Screenshot 2026-10-24 121053.png",
-      "questionId": "q-94209fd8d9",
-      "kind": "question"
+      "questionId": "q-bf9b247f1a",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 699,
       "source": "Screenshot 2026-10-24 121059.png",
-      "questionId": "q-cd759c5ad0",
-      "kind": "question"
+      "questionId": "q-bf9b247f1a",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 700,
       "source": "Screenshot 2026-10-24 121149.png",
-      "questionId": "q-b3a086a71b",
-      "kind": "question"
+      "questionId": "q-45fa3b0290",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 701,
       "source": "Screenshot 2026-10-24 121154.png",
-      "questionId": "q-823661ee63",
-      "kind": "question"
+      "questionId": "q-45fa3b0290",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 702,
       "source": "Screenshot 2026-10-24 121330.png",
-      "questionId": "q-823661ee63",
-      "kind": "duplicate"
+      "questionId": "q-45fa3b0290",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 703,
       "source": "Screenshot 2026-10-24 121401.png",
-      "questionId": "q-edc27e0104",
-      "kind": "question"
+      "questionId": "q-acc415c6ac",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 704,
       "source": "Screenshot 2026-10-24 121416.png",
-      "questionId": "q-4e87ffc327",
-      "kind": "question"
+      "questionId": "q-acc415c6ac",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 705,
@@ -4269,7 +4269,7 @@
       "sourceIndex": 710,
       "source": "Screenshot 2026-10-24 121852.png",
       "questionId": "q-e99c8b3c6c",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 711,
@@ -4280,8 +4280,8 @@
     {
       "sourceIndex": 712,
       "source": "Screenshot 2026-10-24 122130.png",
-      "questionId": "q-7c6077cad9",
-      "kind": "question"
+      "questionId": "q-8da5c75204",
+      "kind": "continuation"
     },
     {
       "sourceIndex": 713,
@@ -4293,7 +4293,7 @@
       "sourceIndex": 714,
       "source": "Screenshot 2026-10-24 122357.png",
       "questionId": "q-f7232e9a0f",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 715,
@@ -4323,13 +4323,13 @@
       "sourceIndex": 719,
       "source": "Screenshot 2026-10-24 122936.png",
       "questionId": "q-5aec38b1a1",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 720,
       "source": "Screenshot 2026-10-24 123040.png",
       "questionId": "q-5aec38b1a1",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 721,
@@ -4353,7 +4353,7 @@
       "sourceIndex": 724,
       "source": "Screenshot 2026-10-24 123309.png",
       "questionId": "q-5fc8275f81",
-      "kind": "duplicate"
+      "kind": "continuation"
     },
     {
       "sourceIndex": 725,

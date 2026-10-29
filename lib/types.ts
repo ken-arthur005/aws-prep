@@ -14,6 +14,7 @@ export type Question = {
   sources: string[];
   status: "ready" | "review" | "legacy";
   note: string;
+  adapted?: boolean;
   readMore: { title: string; url: string }[];
 };
 export type Attempt = { questionId: string; sessionId: string; selected: number[]; correct: boolean; seconds: number; at: number; mode: "practice" | "exam" };

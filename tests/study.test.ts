@@ -1,9 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { accuracy, createSession, domainStats, finishSession, firstAttempts, isCorrect, latestAttempts, selectQuestions } from "../lib/study";
-import { validateBackup } from "../lib/store";
+import { reconcileSourceBookmarks, validateBackup } from "../lib/store";
 import type { Attempt, DomainId, Question, StudyState } from "../lib/types";
 import bank from "../data/questions.json";
+import raw from "../data/extracted.json";
+import textRepairs from "../data/text-repairs.json";
+import manifest from "../data/source-manifest.json";
 
 const questions = bank.questions as Question[];
 const ready = questions.filter(q => q.status === "ready");
@@ -106,4 +109,48 @@ test("all 727 screenshot sources are preserved exactly once across records", () 
   const sources = questions.flatMap(q => q.sources);
   assert.equal(sources.length, 727);
   assert.equal(new Set(sources).size, 727);
+});
+
+test("editorial backlog cannot silently return or enter a scored mock", () => {
+  assert.equal(questions.filter(q => q.status === "review").length, 0);
+  const excluded = questions.filter(q => q.status === "legacy");
+  assert.ok(excluded.length > 0);
+  assert.ok(excluded.every(q => q.note.length >= 100 && q.readMore.length > 0));
+  assert.ok(selectQuestions(questions, 65, [], true).every(q => q.explanations.length === q.options.length));
+});
+
+test("bookmarks from merged unscored captures resolve without resetting progress", () => {
+  const [oldId, canonical] = Object.entries(bank.aliases)[0];
+  const prior = { ...blank(), bookmarks: [oldId, canonical], attempts: [attempt(ready[0].id, true, 1)] };
+  const updated = reconcileSourceBookmarks(prior);
+  assert.deepEqual(updated.bookmarks, [canonical]);
+  assert.equal(updated.attempts, prior.attempts);
+  assert.equal(updated.examDate, prior.examDate);
+  assert.deepEqual(validateBackup(JSON.parse(JSON.stringify(prior)), questions).bookmarks, [canonical]);
+});
+
+test("reading-order repairs preserve meaningful tokens and the original option positions", () => {
+  const tokens = (text: string) => text.match(/\S+/g)?.filter(token => !["O", "o", "○", "©", "✓", "✔"].includes(token)).sort() ?? [];
+  const repairs = textRepairs as Record<string, { prompt?: string; option?: Record<string, string> }>;
+  for (const [index, change] of Object.entries(repairs)) {
+    const original = raw[Number(index)];
+    if (change.prompt) assert.deepEqual(tokens(change.prompt), tokens(original.prompt), index);
+    for (const [position, text] of Object.entries(change.option ?? {})) {
+      assert.ok(Number(position) < original.options.length);
+      assert.deepEqual(tokens(text), tokens(original.options[Number(position)]), `${index}/${position}`);
+    }
+  }
+});
+
+test("coverage reports and bookmark aliases agree with the shipped bank", () => {
+  assert.equal(manifest.studyReady, ready.length);
+  assert.equal(manifest.uniqueRecords, questions.length);
+  assert.equal(manifest.awaitingReview, 0);
+  assert.equal(manifest.manifest.length, bank.sourceCount);
+  const ids = new Set(questions.map(q => q.id));
+  for (const [source, target] of Object.entries(bank.aliases)) {
+    assert.notEqual(source, target);
+    assert.ok(ids.has(target));
+    assert.equal((bank.aliases as Record<string, string>)[target], undefined);
+  }
 });
