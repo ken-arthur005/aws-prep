@@ -1,6 +1,7 @@
 """Build the shipped question bank and a traceable source coverage report."""
 import json
 import re
+import textwrap
 from difflib import SequenceMatcher
 from pathlib import Path
 from content import REVIEWS, HOLDS, FIXES, MERGES, DOCS
@@ -81,7 +82,7 @@ def main():
             q["status"] = "legacy"
         if index in REVIEWS:
             apply_review(q, REVIEWS[index])
-        q["title"] = fix.get("title", q["takeaway"].split(". ")[0][:108].rstrip(".") if q["takeaway"] else q["topic"] + ": " + " ".join(q["prompt"].split()[:13]).rstrip("?.") + "…")
+        q["title"] = fix.get("title", textwrap.shorten(q["takeaway"].split(". ")[0].rstrip("."), width=108, placeholder="…") if q["takeaway"] else q["topic"] + ": " + " ".join(q["prompt"].split()[:13]).rstrip("?.") + "…")
         bank.append(q)
         keys[key] = q
         manifest.append({"sourceIndex": index, "source": source["source"], "questionId": q["id"], "kind": "question"})

@@ -129,7 +129,7 @@
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html"
         }
       ],
-      "title": "Aurora Serverless v2 automatically adjusts database compute capacity within configured limits for variable w"
+      "title": "Aurora Serverless v2 automatically adjusts database compute capacity within configured limits for variable…"
     },
     {
       "id": "q-eadfc0674b",
@@ -234,7 +234,7 @@
           "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html"
         }
       ],
-      "title": "Digital signatures use an asymmetric signing key: protect the private key and let recipients verify with the"
+      "title": "Digital signatures use an asymmetric signing key: protect the private key and let recipients verify with…"
     },
     {
       "id": "q-e88d796105",
@@ -332,7 +332,7 @@
           "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/cfn-init.html"
         }
       ],
-      "title": "cfn-init reads AWS::CloudFormation::Init metadata and installs packages, writes files and starts services du"
+      "title": "cfn-init reads AWS::CloudFormation::Init metadata and installs packages, writes files and starts services…"
     },
     {
       "id": "q-6c62927967",
@@ -372,7 +372,7 @@
           "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html"
         }
       ],
-      "title": "Use a KMS interface VPC endpoint and a key-policy condition on aws:SourceVpce when access must come through "
+      "title": "Use a KMS interface VPC endpoint and a key-policy condition on aws:SourceVpce when access must come through…"
     },
     {
       "id": "q-8ca9c2f766",
@@ -408,7 +408,7 @@
           "url": "https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html"
         }
       ],
-      "title": "MGN rehosts complete servers using continuous replication and a controlled cutover; database migration and f"
+      "title": "MGN rehosts complete servers using continuous replication and a controlled cutover; database migration and…"
     },
     {
       "id": "q-418f22185c",
@@ -484,7 +484,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
         }
       ],
-      "title": "For durable, long-retained data with rare access and no fast-retrieval requirement, Deep Archive minimizes s"
+      "title": "For durable, long-retained data with rare access and no fast-retrieval requirement, Deep Archive minimizes…"
     },
     {
       "id": "q-aa0b16af4e",
@@ -681,7 +681,7 @@
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.Endpoints.html"
         }
       ],
-      "title": "Separate Aurora read traffic from writes: the reader endpoint distributes read connections across Aurora Rep"
+      "title": "Separate Aurora read traffic from writes: the reader endpoint distributes read connections across Aurora…"
     },
     {
       "id": "q-50968b836d",
@@ -741,7 +741,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html"
         }
       ],
-      "title": "SSE-C lets S3 perform encryption while the client supplies the encryption key on each request; S3 does not r"
+      "title": "SSE-C lets S3 perform encryption while the client supplies the encryption key on each request; S3 does not…"
     },
     {
       "id": "q-1c4f4e1013",
@@ -883,7 +883,7 @@
           "url": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/using-fsx-lustre.html"
         }
       ],
-      "title": "Lustre Scratch is optimized for temporary processing where files can be recreated; persistent deployments ar"
+      "title": "Lustre Scratch is optimized for temporary processing where files can be recreated; persistent deployments…"
     },
     {
       "id": "q-ffde3e5020",
@@ -919,7 +919,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html"
         }
       ],
-      "title": "Associating a secondary VPC CIDR automatically creates local routes so resources inside that CIDR can route "
+      "title": "Associating a secondary VPC CIDR automatically creates local routes so resources inside that CIDR can route…"
     },
     {
       "id": "q-2180f815d7",
@@ -955,7 +955,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
         }
       ],
-      "title": "Glacier Instant Retrieval is designed for long-lived archive data accessed roughly quarterly but still requi"
+      "title": "Glacier Instant Retrieval is designed for long-lived archive data accessed roughly quarterly but still…"
     },
     {
       "id": "q-c345532cfd",
@@ -1024,7 +1024,7 @@
           "url": "https://docs.aws.amazon.com/efs/latest/ug/lifecycle-management-efs.html"
         }
       ],
-      "title": "EFS supplies managed elastic NFS, and lifecycle management can move cold files into lower-cost access classe"
+      "title": "EFS supplies managed elastic NFS, and lifecycle management can move cold files into lower-cost access…"
     },
     {
       "id": "q-5a46a71eb4",
@@ -1060,7 +1060,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html"
         }
       ],
-      "title": "Choose the narrowest useful Flow Log scope: a subnet log captures all affected ENIs without logging the othe"
+      "title": "Choose the narrowest useful Flow Log scope: a subnet log captures all affected ENIs without logging the…"
     },
     {
       "id": "q-3835078873",
@@ -1099,7 +1099,7 @@
           "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html"
         }
       ],
-      "title": "Application Manager helps investigate application resources; Parameter Store SecureString suits centrally ma"
+      "title": "Application Manager helps investigate application resources; Parameter Store SecureString suits centrally…"
     },
     {
       "id": "q-9485319e7b",
@@ -1204,7 +1204,7 @@
           "url": "https://docs.aws.amazon.com/documentdb/latest/developerguide/how-it-works.html"
         }
       ],
-      "title": "DocumentDB is the managed MongoDB-compatible choice among these options, but compatibility must be tested ra"
+      "title": "DocumentDB is the managed MongoDB-compatible choice among these options, but compatibility must be tested…"
     },
     {
       "id": "q-d1f585dc4a",
@@ -1302,11 +1302,11 @@
       "note": "Ownership is distinct from permitted processing, retention, privacy and AI service-improvement terms. Consult the applicable AWS agreement and service data-protection documentation.",
       "readMore": [
         {
-          "title": "Macie: discovering sensitive S3 data",
-          "url": "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html"
+          "title": "Comprehend FAQs: customer content and data privacy",
+          "url": "https://aws.amazon.com/comprehend/faqs/"
         }
       ],
-      "title": "Using an AWS AI service does not transfer ownership of customer content to AWS; data-use and retention terms"
+      "title": "Using an AWS AI service does not transfer ownership of customer content to AWS; data-use and retention…"
     },
     {
       "id": "q-69297b30e4",
@@ -1342,7 +1342,7 @@
           "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-anywhere.html"
         }
       ],
-      "title": "ECS Anywhere uses the SSM agent for registration/credentials, the ECS agent for task orchestration, and a co"
+      "title": "ECS Anywhere uses the SSM agent for registration/credentials, the ECS agent for task orchestration, and a…"
     },
     {
       "id": "q-7654a2ed77",
@@ -1407,7 +1407,7 @@
           "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-anywhere.html"
         }
       ],
-      "title": "ECS Anywhere extends the ECS control plane to customer-managed external servers, with the necessary agents a"
+      "title": "ECS Anywhere extends the ECS control plane to customer-managed external servers, with the necessary agents…"
     },
     {
       "id": "q-2d274ca2a6",
@@ -1601,7 +1601,7 @@
           "url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html"
         }
       ],
-      "title": "Compute Savings Plans exchange a consistent dollars-per-hour commitment for discounts across eligible EC2, F"
+      "title": "Compute Savings Plans exchange a consistent dollars-per-hour commitment for discounts across eligible EC2,…"
     },
     {
       "id": "q-bfb010a84d",
@@ -1673,7 +1673,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html"
         }
       ],
-      "title": "Signed cookies authorize access to restricted CloudFront content without changing the original URL, and can "
+      "title": "Signed cookies authorize access to restricted CloudFront content without changing the original URL, and can…"
     },
     {
       "id": "q-eeeaed1180",
@@ -1774,7 +1774,7 @@
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html"
         }
       ],
-      "title": "Aurora's distributed storage repairs failed storage segments, while replicas in different AZs provide comput"
+      "title": "Aurora's distributed storage repairs failed storage segments, while replicas in different AZs provide…"
     },
     {
       "id": "q-bedebb8e78",
@@ -1911,7 +1911,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html"
         }
       ],
-      "title": "Requester Pays shifts eligible S3 request and download-transfer charges to authenticated requesters; the buc"
+      "title": "Requester Pays shifts eligible S3 request and download-transfer charges to authenticated requesters; the…"
     },
     {
       "id": "q-fc8bd87420",
@@ -1947,7 +1947,7 @@
           "url": "https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html"
         }
       ],
-      "title": "Kinesis Video Streams is built for durable camera-video ingestion with encryption; analytics runs in consume"
+      "title": "Kinesis Video Streams is built for durable camera-video ingestion with encryption; analytics runs in…"
     },
     {
       "id": "q-9a931af375",
@@ -2023,7 +2023,7 @@
           "url": "https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html"
         }
       ],
-      "title": "Inspector continuously assesses supported workloads for software vulnerabilities and unintended network expo"
+      "title": "Inspector continuously assesses supported workloads for software vulnerabilities and unintended network…"
     },
     {
       "id": "q-dab18ddb4e",
@@ -2059,7 +2059,7 @@
           "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-condition-types.html"
         }
       ],
-      "title": "One ALB can route HTTP requests to different target groups using host/path conditions, reducing unnecessary "
+      "title": "One ALB can route HTTP requests to different target groups using host/path conditions, reducing unnecessary…"
     },
     {
       "id": "q-86214946ee",
@@ -2217,7 +2217,7 @@
           "url": "https://docs.aws.amazon.com/documentdb/latest/developerguide/how-it-works.html"
         }
       ],
-      "title": "DocumentDB separates compute from a distributed storage layer with six copies across three AZs, rather than "
+      "title": "DocumentDB separates compute from a distributed storage layer with six copies across three AZs, rather than…"
     },
     {
       "id": "q-c332995fa8",
@@ -2257,7 +2257,7 @@
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html"
         }
       ],
-      "title": "Sharing an encrypted AMI also requires authorizing the destination principal to use its customer-managed KMS"
+      "title": "Sharing an encrypted AMI also requires authorizing the destination principal to use its customer-managed…"
     },
     {
       "id": "q-7831e0ba94",
@@ -2293,7 +2293,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/health-checks-overview.html"
         }
       ],
-      "title": "A multi-AZ Auto Scaling group with desired capacity one can replace a failed instance, but it does not provi"
+      "title": "A multi-AZ Auto Scaling group with desired capacity one can replace a failed instance, but it does not…"
     },
     {
       "id": "q-0df65a036b",
@@ -2358,7 +2358,7 @@
           "url": "https://docs.aws.amazon.com/documentdb/latest/developerguide/how-it-works.html"
         }
       ],
-      "title": "DocumentDB fits document-oriented JSON data and flexible schemas among these choices; validate performance a"
+      "title": "DocumentDB fits document-oriented JSON data and flexible schemas among these choices; validate performance…"
     },
     {
       "id": "q-93233727ec",
@@ -2430,7 +2430,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-s3.html"
         }
       ],
-      "title": "An S3 gateway endpoint inserts routes to the S3 prefix list and avoids NAT/Internet Gateway traversal for su"
+      "title": "An S3 gateway endpoint inserts routes to the S3 prefix list and avoids NAT/Internet Gateway traversal for…"
     },
     {
       "id": "q-80f65d8653",
@@ -2571,7 +2571,7 @@
           "url": "https://docs.aws.amazon.com/ebs/latest/userguide/snapshot-archive.html"
         }
       ],
-      "title": "EBS Snapshots Archive is the managed low-cost tier for infrequently restored long-term snapshots; restoratio"
+      "title": "EBS Snapshots Archive is the managed low-cost tier for infrequently restored long-term snapshots;…"
     },
     {
       "id": "q-dbabac2a84",
@@ -2713,7 +2713,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scheduled-scaling.html"
         }
       ],
-      "title": "When the demand spike is predictable, scheduled scaling can provision capacity before it starts instead of r"
+      "title": "When the demand spike is predictable, scheduled scaling can provision capacity before it starts instead of…"
     },
     {
       "id": "q-c6c260dc04",
@@ -2753,7 +2753,7 @@
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html"
         }
       ],
-      "title": "Use a Lambda execution role with the exact DynamoDB actions and table ARN required, rather than embedding lo"
+      "title": "Use a Lambda execution role with the exact DynamoDB actions and table ARN required, rather than embedding…"
     },
     {
       "id": "q-b8e7d08cb2",
@@ -2861,7 +2861,7 @@
           "url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html"
         }
       ],
-      "title": "For a stable commitment to a particular EC2 instance family and Region, EC2 Instance Savings Plans trade fle"
+      "title": "For a stable commitment to a particular EC2 instance family and Region, EC2 Instance Savings Plans trade…"
     },
     {
       "id": "q-3ab8c49fca",
@@ -2973,7 +2973,7 @@
           "url": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html"
         }
       ],
-      "title": "For supported source and target engines, DMS full load plus change data capture can keep a target current un"
+      "title": "For supported source and target engines, DMS full load plus change data capture can keep a target current…"
     },
     {
       "id": "q-d1d15a0620",
@@ -3013,7 +3013,7 @@
           "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html"
         }
       ],
-      "title": "Kinesis Data Streams retains events for independent consumers; an SQS queue distributes each message to comp"
+      "title": "Kinesis Data Streams retains events for independent consumers; an SQS queue distributes each message to…"
     },
     {
       "id": "q-568433c1a2",
@@ -3049,7 +3049,7 @@
           "url": "https://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html"
         }
       ],
-      "title": "Use AD Connector to proxy an existing directory, or Managed Microsoft AD with appropriate trusts, instead of"
+      "title": "Use AD Connector to proxy an existing directory, or Managed Microsoft AD with appropriate trusts, instead…"
     },
     {
       "id": "q-7e6ade9ca6",
@@ -3085,7 +3085,7 @@
           "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/purchase-reserved-node-instance.html"
         }
       ],
-      "title": "Use a Redshift reserved-node commitment for predictably utilized provisioned capacity; pause/resume is only "
+      "title": "Use a Redshift reserved-node commitment for predictably utilized provisioned capacity; pause/resume is only…"
     },
     {
       "id": "q-68d6e2a38a",
@@ -3121,7 +3121,7 @@
           "url": "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html"
         }
       ],
-      "title": "DataSync agents and scheduled tasks automate incremental file transfers between supported on-premises and AW"
+      "title": "DataSync agents and scheduled tasks automate incremental file transfers between supported on-premises and…"
     },
     {
       "id": "q-a233e7ea31",
@@ -3157,7 +3157,7 @@
           "url": "https://docs.aws.amazon.com/waf/latest/developerguide/aws-managed-rule-groups-use-case.html"
         }
       ],
-      "title": "Use WAF's AWS-managed PHP rule group for PHP-specific request signatures rather than treating DDoS protectio"
+      "title": "Use WAF's AWS-managed PHP rule group for PHP-specific request signatures rather than treating DDoS…"
     },
     {
       "id": "q-8f5c76e385",
@@ -3471,7 +3471,7 @@
           "url": "https://docs.aws.amazon.com/sns/latest/dg/sns-sqs-as-subscriber.html"
         }
       ],
-      "title": "Use S3 ObjectRemoved event notifications to publish to SNS; confirm the email subscription and permit S3 to "
+      "title": "Use S3 ObjectRemoved event notifications to publish to SNS; confirm the email subscription and permit S3 to…"
     },
     {
       "id": "q-bef477d12d",
@@ -3572,7 +3572,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/endpoint-service-overview.html"
         }
       ],
-      "title": "PrivateLink exposes a specific service through consumer interface endpoints without full network-to-network "
+      "title": "PrivateLink exposes a specific service through consumer interface endpoints without full network-to-network…"
     },
     {
       "id": "q-380fef0dba",
@@ -3637,7 +3637,7 @@
           "url": "https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html"
         }
       ],
-      "title": "License Manager tracks and can enforce rules for supported license configurations across resources/accounts;"
+      "title": "License Manager tracks and can enforce rules for supported license configurations across…"
     },
     {
       "id": "q-a20c015b16",
@@ -3753,7 +3753,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html"
         }
       ],
-      "title": "Centralize application/OS log files with CloudWatch Logs for retention and analysis; CloudTrail records supp"
+      "title": "Centralize application/OS log files with CloudWatch Logs for retention and analysis; CloudTrail records…"
     },
     {
       "id": "q-c6889b81d4",
@@ -3789,7 +3789,7 @@
           "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html"
         }
       ],
-      "title": "EFA adds OS-bypass capabilities for tightly coupled HPC/ML internode communication on supported instances an"
+      "title": "EFA adds OS-bypass capabilities for tightly coupled HPC/ML internode communication on supported instances…"
     },
     {
       "id": "q-17908128d9",
@@ -3898,7 +3898,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
         }
       ],
-      "title": "A public NAT gateway gives private instances outbound IPv4 internet access without accepting unsolicited inb"
+      "title": "A public NAT gateway gives private instances outbound IPv4 internet access without accepting unsolicited…"
     },
     {
       "id": "q-20689060b1",
@@ -3978,7 +3978,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/endpoint-service-overview.html"
         }
       ],
-      "title": "DataSync private endpoints plus private hybrid connectivity can transfer supported on-premises data without "
+      "title": "DataSync private endpoints plus private hybrid connectivity can transfer supported on-premises data without…"
     },
     {
       "id": "q-02b70226c4",
@@ -4051,7 +4051,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html"
         }
       ],
-      "title": "CloudFront signed cookies are convenient for authorizing a subscriber to a set of restricted files rather th"
+      "title": "CloudFront signed cookies are convenient for authorizing a subscriber to a set of restricted files rather…"
     },
     {
       "id": "q-610fb68cc7",
@@ -4088,7 +4088,7 @@
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
         }
       ],
-      "title": "DynamoDB Streams captures item-level changes, and a Lambda event source mapping invokes processing code for "
+      "title": "DynamoDB Streams captures item-level changes, and a Lambda event source mapping invokes processing code for…"
     },
     {
       "id": "q-0f41e65294",
@@ -4127,7 +4127,7 @@
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithAutomatedBackups.html"
         }
       ],
-      "title": "RDS combines automated daily snapshots and transaction-log backups for point-in-time recovery within the con"
+      "title": "RDS combines automated daily snapshots and transaction-log backups for point-in-time recovery within the…"
     },
     {
       "id": "q-4dc4cf4996",
@@ -4193,7 +4193,7 @@
           "url": "https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html"
         }
       ],
-      "title": "Use Kinesis Data Streams for parallel ingestion/consumption and Firehose for managed delivery of records int"
+      "title": "Use Kinesis Data Streams for parallel ingestion/consumption and Firehose for managed delivery of records…"
     },
     {
       "id": "q-e4a7977275",
@@ -4269,7 +4269,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
         }
       ],
-      "title": "For zonal NAT gateways, route each AZ's private subnets through a local gateway to avoid one-AZ dependency a"
+      "title": "For zonal NAT gateways, route each AZ's private subnets through a local gateway to avoid one-AZ dependency…"
     },
     {
       "id": "q-cf2683dcec",
@@ -4363,7 +4363,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/PresignedUrlUploadObject.html"
         }
       ],
-      "title": "An S3 presigned PUT URL delegates a specific upload operation for a limited time without giving the recipien"
+      "title": "An S3 presigned PUT URL delegates a specific upload operation for a limited time without giving the…"
     },
     {
       "id": "q-3862d6f7c0",
@@ -4403,7 +4403,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
         }
       ],
-      "title": "Store image bodies in S3 and independently indexed image metadata in DynamoDB when low-latency keyed lookup "
+      "title": "Store image bodies in S3 and independently indexed image metadata in DynamoDB when low-latency keyed lookup…"
     },
     {
       "id": "q-988f121eda",
@@ -4440,7 +4440,7 @@
           "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html"
         }
       ],
-      "title": "Elastic Beanstalk automates application-environment provisioning, load balancing and scaling for supported p"
+      "title": "Elastic Beanstalk automates application-environment provisioning, load balancing and scaling for supported…"
     },
     {
       "id": "q-c845e82a7d",
@@ -4580,7 +4580,7 @@
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html"
         }
       ],
-      "title": "Configure an identity-pool role mapping with an appropriate trust policy and least-privilege DynamoDB permis"
+      "title": "Configure an identity-pool role mapping with an appropriate trust policy and least-privilege DynamoDB…"
     },
     {
       "id": "q-8d92500c9b",
@@ -4720,7 +4720,7 @@
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html"
         }
       ],
-      "title": "DynamoDB global tables replicate managed table data across selected Regions so clients can use a local regio"
+      "title": "DynamoDB global tables replicate managed table data across selected Regions so clients can use a local…"
     },
     {
       "id": "q-c49c245c53",
@@ -4786,7 +4786,7 @@
           "url": "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html"
         }
       ],
-      "title": "Cached volumes keep the primary dataset in AWS with a local cache of hot blocks; stored volumes keep the com"
+      "title": "Cached volumes keep the primary dataset in AWS with a local cache of hot blocks; stored volumes keep the…"
     },
     {
       "id": "q-9f6f1c357d",
@@ -4888,7 +4888,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html"
         }
       ],
-      "title": "CloudFront caches content near viewers and can use an S3 origin without copying the whole bucket into anothe"
+      "title": "CloudFront caches content near viewers and can use an S3 origin without copying the whole bucket into…"
     },
     {
       "id": "q-f45e7de0dd",
@@ -4924,7 +4924,7 @@
           "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
         }
       ],
-      "title": "Cognito user pools manage customer sign-up/sign-in and federation; identity pools are needed when the client"
+      "title": "Cognito user pools manage customer sign-up/sign-in and federation; identity pools are needed when the…"
     },
     {
       "id": "q-196dcb1231",
@@ -4960,7 +4960,7 @@
           "url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html"
         }
       ],
-      "title": "Site-to-Site VPN can establish managed IPsec connectivity over existing internet links more quickly than pro"
+      "title": "Site-to-Site VPN can establish managed IPsec connectivity over existing internet links more quickly than…"
     },
     {
       "id": "q-27425bbaa6",
@@ -5000,7 +5000,7 @@
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html"
         }
       ],
-      "title": "Cognito identity pools can issue limited guest credentials through an unauthenticated role; keep that role n"
+      "title": "Cognito identity pools can issue limited guest credentials through an unauthenticated role; keep that role…"
     },
     {
       "id": "q-0160bc1244",
@@ -5037,7 +5037,7 @@
           "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
         }
       ],
-      "title": "Cognito user pools support federation with social, OIDC and SAML identity providers while maintaining user-p"
+      "title": "Cognito user pools support federation with social, OIDC and SAML identity providers while maintaining user-…"
     },
     {
       "id": "q-7a6f6d224e",
@@ -5079,7 +5079,7 @@
           "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake.html"
         }
       ],
-      "title": "Capture viewer-request access logs and administrative API audit activity as separate evidence sources; enabl"
+      "title": "Capture viewer-request access logs and administrative API audit activity as separate evidence sources;…"
     },
     {
       "id": "q-60fa86aaf8",
@@ -5120,7 +5120,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html"
         }
       ],
-      "title": "Create gateway endpoints and route-table associations in each relevant VPC for private S3 and DynamoDB acces"
+      "title": "Create gateway endpoints and route-table associations in each relevant VPC for private S3 and DynamoDB…"
     },
     {
       "id": "q-9f6401049f",
@@ -5343,7 +5343,7 @@
           "url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html"
         }
       ],
-      "title": "Direct Connect supplies a dedicated private path; a Site-to-Site VPN over that path supplies the explicitly "
+      "title": "Direct Connect supplies a dedicated private path; a Site-to-Site VPN over that path supplies the explicitly…"
     },
     {
       "id": "q-1b4c1caddb",
@@ -5452,7 +5452,7 @@
           "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/purchase-reserved-node-instance.html"
         }
       ],
-      "title": "Review manual snapshot retention: manual backups persist until explicitly deleted and can continue accumulat"
+      "title": "Review manual snapshot retention: manual backups persist until explicitly deleted and can continue…"
     },
     {
       "id": "q-f7ab9cc523",
@@ -5529,7 +5529,7 @@
           "url": "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html"
         }
       ],
-      "title": "Stored Volume Gateway keeps the complete primary volume on premises and backs it up using durable AWS snapsh"
+      "title": "Stored Volume Gateway keeps the complete primary volume on premises and backs it up using durable AWS…"
     },
     {
       "id": "q-fa88d2b0a6",
@@ -5594,7 +5594,7 @@
           "url": "https://docs.aws.amazon.com/quicksight/latest/user/supported-data-sources.html"
         }
       ],
-      "title": "QuickSight supplies business dashboards and forecasting from supported S3-based datasets without first build"
+      "title": "QuickSight supplies business dashboards and forecasting from supported S3-based datasets without first…"
     },
     {
       "id": "q-59d1465b7b",
@@ -5630,7 +5630,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html"
         }
       ],
-      "title": "The unified CloudWatch agent can append instance/ASG dimensions and publish aggregation dimensions while ret"
+      "title": "The unified CloudWatch agent can append instance/ASG dimensions and publish aggregation dimensions while…"
     },
     {
       "id": "q-6080ba1d36",
@@ -5666,7 +5666,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-enter-exit-standby.html"
         }
       ],
-      "title": "Standby removes an Auto Scaling instance from serving traffic without terminating it, allowing maintenance b"
+      "title": "Standby removes an Auto Scaling instance from serving traffic without terminating it, allowing maintenance…"
     },
     {
       "id": "q-6fd87c4e5c",
@@ -5706,7 +5706,7 @@
           "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-condition-types.html"
         }
       ],
-      "title": "Use health-aware load balancing plus Auto Scaling replacement, with sufficient healthy capacity to absorb a "
+      "title": "Use health-aware load balancing plus Auto Scaling replacement, with sufficient healthy capacity to absorb a…"
     },
     {
       "id": "q-d7c22b7104",
@@ -5742,7 +5742,7 @@
           "url": "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html"
         }
       ],
-      "title": "Client VPN is for authenticated individual users; Site-to-Site VPN connects networks, while Direct Connect n"
+      "title": "Client VPN is for authenticated individual users; Site-to-Site VPN connects networks, while Direct Connect…"
     },
     {
       "id": "q-222460d6b0",
@@ -5821,7 +5821,7 @@
           "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-networking-awsvpc.html"
         }
       ],
-      "title": "awsvpc gives each ECS task its own ENI and security-group association, enabling task-level networking and vi"
+      "title": "awsvpc gives each ECS task its own ENI and security-group association, enabling task-level networking and…"
     },
     {
       "id": "q-4a86fcb878",
@@ -5890,7 +5890,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/endpoint-service-overview.html"
         }
       ],
-      "title": "S3 interface endpoints can be reached from on-premises networks over supported private connectivity; S3 gate"
+      "title": "S3 interface endpoints can be reached from on-premises networks over supported private connectivity; S3…"
     },
     {
       "id": "q-c59b32395a",
@@ -6061,7 +6061,7 @@
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html"
         }
       ],
-      "title": "Fargate runs containers without managing EC2 hosts; Aurora Serverless supplies automatically scaling relatio"
+      "title": "Fargate runs containers without managing EC2 hosts; Aurora Serverless supplies automatically scaling…"
     },
     {
       "id": "q-fe3b5f5c6b",
@@ -6198,7 +6198,7 @@
           "url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html"
         }
       ],
-      "title": "FSx for Windows supports Single-AZ/Multi-AZ deployments and private SMB access from connected networks, subj"
+      "title": "FSx for Windows supports Single-AZ/Multi-AZ deployments and private SMB access from connected networks,…"
     },
     {
       "id": "q-231e50849d",
@@ -6405,7 +6405,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GeneratingCustomErrorResponses.html"
         }
       ],
-      "title": "CloudFront custom error responses map selected origin error codes to a configured page hosted in an accessib"
+      "title": "CloudFront custom error responses map selected origin error codes to a configured page hosted in an…"
     },
     {
       "id": "q-b058363ba7",
@@ -6477,7 +6477,7 @@
           "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-condition-types.html"
         }
       ],
-      "title": "HTTP Host header conditions require an Application Load Balancer's host-based listener rules, not an NLB's t"
+      "title": "HTTP Host header conditions require an Application Load Balancer's host-based listener rules, not an NLB's…"
     },
     {
       "id": "q-7646f4c747",
@@ -6553,7 +6553,7 @@
           "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html"
         }
       ],
-      "title": "A custom Secrets Manager rotation Lambda must update the external credential and the stored secret through t"
+      "title": "A custom Secrets Manager rotation Lambda must update the external credential and the stored secret through…"
     },
     {
       "id": "q-2e5e70c9e9",
@@ -6589,7 +6589,7 @@
           "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html"
         }
       ],
-      "title": "AWS Config can evaluate whether secrets have rotation enabled; a notification integration reports noncomplia"
+      "title": "AWS Config can evaluate whether secrets have rotation enabled; a notification integration reports…"
     },
     {
       "id": "q-32231ad3d4",
@@ -6629,7 +6629,7 @@
           "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html"
         }
       ],
-      "title": "Athena can query SSE-KMS-encrypted S3 objects when the querying identity and service workflow have the neces"
+      "title": "Athena can query SSE-KMS-encrypted S3 objects when the querying identity and service workflow have the…"
     },
     {
       "id": "q-eff23b9ffb",
@@ -6665,7 +6665,7 @@
           "url": "https://docs.aws.amazon.com/glue/latest/dg/add-crawler.html"
         }
       ],
-      "title": "A Glue crawler inspects a supported data source and creates/updates Data Catalog metadata; a classifier is p"
+      "title": "A Glue crawler inspects a supported data source and creates/updates Data Catalog metadata; a classifier is…"
     },
     {
       "id": "q-b717ce3f83",
@@ -6765,7 +6765,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
         }
       ],
-      "title": "S3 Versioning preserves older object versions and uses delete markers for ordinary deletes, allowing recover"
+      "title": "S3 Versioning preserves older object versions and uses delete markers for ordinary deletes, allowing…"
     },
     {
       "id": "q-09595e314b",
@@ -6830,7 +6830,7 @@
           "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/purchase-reserved-node-instance.html"
         }
       ],
-      "title": "Redshift is the analytical SQL warehouse among these services, with JDBC/ODBC ecosystem integration for BI a"
+      "title": "Redshift is the analytical SQL warehouse among these services, with JDBC/ODBC ecosystem integration for BI…"
     },
     {
       "id": "q-03d501060c",
@@ -6906,7 +6906,7 @@
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html"
         }
       ],
-      "title": "Environment tags can drive IAM condition-based access, provided tag modification and resource creation are a"
+      "title": "Environment tags can drive IAM condition-based access, provided tag modification and resource creation are…"
     },
     {
       "id": "q-2928624655",
@@ -6992,7 +6992,7 @@
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.Endpoints.html"
         }
       ],
-      "title": "Read replicas and caching offload reads; sharding can distribute load across independent databases but requi"
+      "title": "Read replicas and caching offload reads; sharding can distribute load across independent databases but…"
     },
     {
       "id": "q-2dfc9eae02",
@@ -7032,7 +7032,7 @@
           "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html"
         }
       ],
-      "title": "SNS fans a published message out to subscriptions; subscription filters can route categories to dedicated SQ"
+      "title": "SNS fans a published message out to subscriptions; subscription filters can route categories to dedicated…"
     },
     {
       "id": "q-c45ed6b70b",
@@ -7138,7 +7138,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
         }
       ],
-      "title": "Expire objects when retention ends; transition rules change storage class, while expiration rules remove no-"
+      "title": "Expire objects when retention ends; transition rules change storage class, while expiration rules remove…"
     },
     {
       "id": "q-419da838a4",
@@ -7345,7 +7345,7 @@
           "url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html"
         }
       ],
-      "title": "Stopping an EBS-backed instance preserves its EBS data, but normally releases its auto-assigned public IPv4 "
+      "title": "Stopping an EBS-backed instance preserves its EBS data, but normally releases its auto-assigned public IPv4…"
     },
     {
       "id": "q-ccbd03bde9",
@@ -7385,7 +7385,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
         }
       ],
-      "title": "After a successful delete, S3 provides strong consistency for subsequent GET/LIST requests against that buck"
+      "title": "After a successful delete, S3 provides strong consistency for subsequent GET/LIST requests against that…"
     },
     {
       "id": "q-499ad96d35",
@@ -7425,7 +7425,7 @@
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html"
         }
       ],
-      "title": "Step Functions supplies explicit workflow state, retries and a graphical execution view for multi-step serve"
+      "title": "Step Functions supplies explicit workflow state, retries and a graphical execution view for multi-step…"
     },
     {
       "id": "q-ddc14754ec",
@@ -7469,7 +7469,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html"
         }
       ],
-      "title": "Writing logs from a fresh Lambda environment needs log-group creation when absent, log-stream creation and l"
+      "title": "Writing logs from a fresh Lambda environment needs log-group creation when absent, log-stream creation and…"
     },
     {
       "id": "q-b0357592c1",
@@ -7657,7 +7657,7 @@
           "url": "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html"
         }
       ],
-      "title": "File Gateway maps NFS/SMB files to S3 objects, so authorized administrators can access the object representa"
+      "title": "File Gateway maps NFS/SMB files to S3 objects, so authorized administrators can access the object…"
     },
     {
       "id": "q-7e9c894584",
@@ -7722,7 +7722,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#ConsistencyModel"
         }
       ],
-      "title": "S3 has strong read-after-write consistency for successful object writes to the source bucket, including subs"
+      "title": "S3 has strong read-after-write consistency for successful object writes to the source bucket, including…"
     },
     {
       "id": "q-733952d48e",
@@ -7791,7 +7791,7 @@
           "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html"
         }
       ],
-      "title": "Promote the cross-Region read replica before using it as a writable replacement, then update the application"
+      "title": "Promote the cross-Region read replica before using it as a writable replacement, then update the…"
     },
     {
       "id": "q-c6996f9d9d",
@@ -7921,7 +7921,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html"
         }
       ],
-      "title": "Reference the frontend security group in the backend's port rule to authorize frontend instances even as Aut"
+      "title": "Reference the frontend security group in the backend's port rule to authorize frontend instances even as…"
     },
     {
       "id": "q-739c7aa471",
@@ -7957,7 +7957,7 @@
           "url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html"
         }
       ],
-      "title": "Use flexible Compute Savings Plans for variable EC2 families, family/Region-bound EC2 Instance Savings Plans"
+      "title": "Use flexible Compute Savings Plans for variable EC2 families, family/Region-bound EC2 Instance Savings…"
     },
     {
       "id": "q-d0ca278290",
@@ -7997,7 +7997,7 @@
           "url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html"
         }
       ],
-      "title": "Stopping an EBS-backed instance preserves its EBS data, but normally releases its auto-assigned public IPv4 "
+      "title": "Stopping an EBS-backed instance preserves its EBS data, but normally releases its auto-assigned public IPv4…"
     },
     {
       "id": "q-f628c6f47c",
@@ -8113,7 +8113,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html"
         }
       ],
-      "title": "S3 Cross-Region Replication automatically copies eligible new object versions to a configured destination bu"
+      "title": "S3 Cross-Region Replication automatically copies eligible new object versions to a configured destination…"
     },
     {
       "id": "q-3670899f4e",
@@ -8153,7 +8153,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
         }
       ],
-      "title": "Frequently accessed short-lived objects fit S3 Standard plus Lifecycle expiration, avoiding archive minimum-"
+      "title": "Frequently accessed short-lived objects fit S3 Standard plus Lifecycle expiration, avoiding archive…"
     },
     {
       "id": "q-091898b4ed",
@@ -8294,7 +8294,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/lifecycle-hooks.html"
         }
       ],
-      "title": "A termination lifecycle hook pauses an Auto Scaling transition so an external action can drain, checkpoint o"
+      "title": "A termination lifecycle hook pauses an Auto Scaling transition so an external action can drain, checkpoint…"
     },
     {
       "id": "q-cab5dc4491",
@@ -8337,7 +8337,7 @@
           "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html"
         }
       ],
-      "title": "To survive any one AZ loss with six running instances, subtract the largest AZ's allocation and check that a"
+      "title": "To survive any one AZ loss with six running instances, subtract the largest AZ's allocation and check that…"
     },
     {
       "id": "q-6ccd3e33e2",
@@ -8413,7 +8413,7 @@
           "url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html"
         }
       ],
-      "title": "Global Accelerator uses stable anycast ingress and health-based endpoint routing, reducing dependence on cli"
+      "title": "Global Accelerator uses stable anycast ingress and health-based endpoint routing, reducing dependence on…"
     },
     {
       "id": "q-e8a03b46ab",
@@ -8507,7 +8507,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups.html"
         }
       ],
-      "title": "Keep a non-interruptible On-Demand baseline and diversify interruptible burst capacity with a mixed instance"
+      "title": "Keep a non-interruptible On-Demand baseline and diversify interruptible burst capacity with a mixed…"
     },
     {
       "id": "q-a2faeb01e3",
@@ -8547,7 +8547,7 @@
           "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html"
         }
       ],
-      "title": "A classic bastion pattern places the reachable jump host in a public subnet and allows narrowly scoped SSH f"
+      "title": "A classic bastion pattern places the reachable jump host in a public subnet and allows narrowly scoped SSH…"
     },
     {
       "id": "q-5bb15929f9",
@@ -8583,7 +8583,7 @@
           "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
         }
       ],
-      "title": "CloudFormation drift detection compares supported properties explicitly specified in the template, not every"
+      "title": "CloudFormation drift detection compares supported properties explicitly specified in the template, not…"
     },
     {
       "id": "q-91ef00fd10",
@@ -8658,7 +8658,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html"
         }
       ],
-      "title": "Instance security groups isolate each tier without changing subnet-wide NACL behavior for unrelated applicat"
+      "title": "Instance security groups isolate each tier without changing subnet-wide NACL behavior for unrelated…"
     },
     {
       "id": "q-73c81f0537",
@@ -8701,7 +8701,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/health-checks-overview.html"
         }
       ],
-      "title": "Preserve the MySQL application interface with RDS MySQL Multi-AZ, and spread automatically replaced web capa"
+      "title": "Preserve the MySQL application interface with RDS MySQL Multi-AZ, and spread automatically replaced web…"
     },
     {
       "id": "q-1c40e7f9be",
@@ -8737,7 +8737,7 @@
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html"
         }
       ],
-      "title": "Global tables provide managed multi-Region local access and replication with defined conflict/consistency be"
+      "title": "Global tables provide managed multi-Region local access and replication with defined conflict/consistency…"
     },
     {
       "id": "q-da5385e616",
@@ -8812,7 +8812,7 @@
           "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html"
         }
       ],
-      "title": "KMS exposes managed cryptographic APIs with centrally controlled key policies, supported rotation and CloudT"
+      "title": "KMS exposes managed cryptographic APIs with centrally controlled key policies, supported rotation and…"
     },
     {
       "id": "q-9debe51b9f",
@@ -8848,7 +8848,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
         }
       ],
-      "title": "Intelligent-Tiering moves eligible objects among access tiers according to usage, while its non-archive tier"
+      "title": "Intelligent-Tiering moves eligible objects among access tiers according to usage, while its non-archive…"
     },
     {
       "id": "q-9c3c5cf6c8",
@@ -8888,7 +8888,7 @@
           "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html"
         }
       ],
-      "title": "A cluster placement group trades AZ/hardware separation for tight placement intended for high-throughput low"
+      "title": "A cluster placement group trades AZ/hardware separation for tight placement intended for high-throughput…"
     },
     {
       "id": "q-3ffe9adb8f",
@@ -9001,7 +9001,7 @@
           "url": "https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html"
         }
       ],
-      "title": "FSx for Windows provides a native managed Windows filesystem with SMB/AD features for Windows application mi"
+      "title": "FSx for Windows provides a native managed Windows filesystem with SMB/AD features for Windows application…"
     },
     {
       "id": "q-416a0ba784",
@@ -9037,7 +9037,7 @@
           "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html"
         }
       ],
-      "title": "Organizations consolidated billing centralizes payment while retaining account-level usage/cost attribution "
+      "title": "Organizations consolidated billing centralizes payment while retaining account-level usage/cost attribution…"
     },
     {
       "id": "q-c280ed1596",
@@ -9112,7 +9112,7 @@
           "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html"
         }
       ],
-      "title": "Protect the origin and the viewer independently: OAC authorizes CloudFront-to-S3; signed URLs/cookies author"
+      "title": "Protect the origin and the viewer independently: OAC authorizes CloudFront-to-S3; signed URLs/cookies…"
     },
     {
       "id": "q-58aa771bef",
@@ -9149,7 +9149,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html"
         }
       ],
-      "title": "For two non-overlapping VPCs with no transitive-routing requirement, peering is a direct private connectivit"
+      "title": "For two non-overlapping VPCs with no transitive-routing requirement, peering is a direct private…"
     },
     {
       "id": "q-1052e2c18d",
@@ -9192,7 +9192,7 @@
           "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html"
         }
       ],
-      "title": "CloudFront optimizes viewer downloads with edge caching, while S3 Transfer Acceleration can improve long-dis"
+      "title": "CloudFront optimizes viewer downloads with edge caching, while S3 Transfer Acceleration can improve long-…"
     },
     {
       "id": "q-ad63bb00c8",
@@ -9228,7 +9228,7 @@
           "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
         }
       ],
-      "title": "A single zonal NAT gateway can make all AZs' outbound access depend on the gateway's AZ even when the applic"
+      "title": "A single zonal NAT gateway can make all AZs' outbound access depend on the gateway's AZ even when the…"
     },
     {
       "id": "q-a2705d593a",
@@ -9264,7 +9264,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html"
         }
       ],
-      "title": "Target tracking manages scaling to keep a proportional metric such as average CPU near the chosen target val"
+      "title": "Target tracking manages scaling to keep a proportional metric such as average CPU near the chosen target…"
     },
     {
       "id": "q-979ef077a2",
@@ -9300,7 +9300,7 @@
           "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scheduled-scaling.html"
         }
       ],
-      "title": "A predictable daily load window is a good fit for scheduled scale-out before the window and scale-in after i"
+      "title": "A predictable daily load window is a good fit for scheduled scale-out before the window and scale-in after…"
     },
     {
       "id": "q-3793db234e",
@@ -9336,7 +9336,7 @@
           "url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html"
         }
       ],
-      "title": "An EBS snapshot is regional; copy it into the destination Region using the native snapshot-copy operation to"
+      "title": "An EBS snapshot is regional; copy it into the destination Region using the native snapshot-copy operation…"
     },
     {
       "id": "q-01d1896ca1",
@@ -9380,7 +9380,7 @@
           "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-condition-types.html"
         }
       ],
-      "title": "Use ALB CloudWatch metrics for request volume and target-response latency, with SNS alarm actions for notifi"
+      "title": "Use ALB CloudWatch metrics for request volume and target-response latency, with SNS alarm actions for…"
     },
     {
       "id": "q-60c797d3a5",
@@ -9581,7 +9581,7 @@
           "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html"
         }
       ],
-      "title": "Session Manager provides an interactive managed channel without opening inbound SSH or running a public bast"
+      "title": "Session Manager provides an interactive managed channel without opening inbound SSH or running a public…"
     },
     {
       "id": "q-06943d11b7",
@@ -9642,7 +9642,7 @@
           "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"
         }
       ],
-      "title": "CloudFormation supplies declarative versionable templates, change sets and stack lifecycle management across"
+      "title": "CloudFormation supplies declarative versionable templates, change sets and stack lifecycle management…"
     },
     {
       "id": "q-30fb6f9702",
@@ -9718,7 +9718,7 @@
           "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html"
         }
       ],
-      "title": "CloudFormation Outputs exposes values such as an ALB DNSName for humans, exports and downstream automation a"
+      "title": "CloudFormation Outputs exposes values such as an ALB DNSName for humans, exports and downstream automation…"
     },
     {
       "id": "q-c3cdb22d27",

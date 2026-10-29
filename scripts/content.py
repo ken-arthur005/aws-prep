@@ -9,6 +9,7 @@ FIXES = {}
 MERGES = {38: [37]}
 
 DOCS = {
+    "comprehend": ("Comprehend FAQs: customer content and data privacy", "https://aws.amazon.com/comprehend/faqs/"),
     "cfnfull": ("CloudFormation: templates, stacks and change sets", "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"),
     "cfnoutputs": ("CloudFormation: template Outputs", "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html"),
     "cfnDrift": ("CloudFormation drift detection: considerations", "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"),
@@ -264,7 +265,7 @@ r(40,"A","secure","Data ownership","Using an AWS AI service does not transfer ow
 "The customer retains ownership of their content. Service-specific processing, retention and opt-out terms should still be reviewed.",
 "AWS does not acquire ownership of customer content simply because its service processes the data.",
 "Processing in Comprehend does not automatically transfer ownership to a third-party company.",
-"The use of an AWS service does not create joint ownership of the customer's content."],"macie",note="Ownership is distinct from permitted processing, retention, privacy and AI service-improvement terms. Consult the applicable AWS agreement and service data-protection documentation.")
+"The use of an AWS service does not create joint ownership of the customer's content."],"comprehend",note="Ownership is distinct from permitted processing, retention, privacy and AI service-improvement terms. Consult the applicable AWS agreement and service data-protection documentation.")
 r(41,"A","resilient","Hybrid containers","ECS Anywhere uses the SSM agent for registration/credentials, the ECS agent for task orchestration, and a container runtime such as Docker.",[
 "These are the required Linux components for the described ECS Anywhere setup: Systems Manager agent, ECS container agent and Docker.",
 "SSM and Docker alone do not include the ECS container agent that coordinates container tasks with the ECS control plane.",
