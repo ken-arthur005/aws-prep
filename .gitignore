@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/public/questions/
 
 # testing
 /coverage
@@ -39,3 +40,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local OCR intermediates and browser-check artifacts (the shipped bank is retained)
+/data/ocr.json
+/data/ocr-*.log
+/data/review.txt
+/data/remaining.txt
+/.playwright-mcp/
+/scripts/__pycache__/

@@ -1,0 +1,4371 @@
+{
+  "sources": 727,
+  "uniqueRecords": 635,
+  "studyReady": 198,
+  "flagged": 74,
+  "awaitingReview": 363,
+  "manifest": [
+    {
+      "sourceIndex": 0,
+      "source": "Screenshot 2026-10-08 185338.png",
+      "questionId": "q-008a357d70",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 1,
+      "source": "Screenshot 2026-10-08 190300.png",
+      "questionId": "q-5ce736dc8a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 2,
+      "source": "Screenshot 2026-10-08 191148.png",
+      "questionId": "q-9b6fd81d69",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 3,
+      "source": "Screenshot 2026-10-08 191317.png",
+      "questionId": "q-f17dd78659",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 4,
+      "source": "Screenshot 2026-10-08 192011.png",
+      "questionId": "q-eadfc0674b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 5,
+      "source": "Screenshot 2026-10-08 192152.png",
+      "questionId": "q-1d8d3830e9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 6,
+      "source": "Screenshot 2026-10-08 192628.png",
+      "questionId": "q-c5ec01a1ed",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 7,
+      "source": "Screenshot 2026-10-08 192955.png",
+      "questionId": "q-e88d796105",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 8,
+      "source": "Screenshot 2026-10-08 193203.png",
+      "questionId": "q-9cc1ea7fb5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 9,
+      "source": "Screenshot 2026-10-08 193325.png",
+      "questionId": "q-4a951ef2df",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 10,
+      "source": "Screenshot 2026-10-08 193505.png",
+      "questionId": "q-6c62927967",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 11,
+      "source": "Screenshot 2026-10-08 194041.png",
+      "questionId": "q-8ca9c2f766",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 12,
+      "source": "Screenshot 2026-10-08 194122.png",
+      "questionId": "q-418f22185c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 13,
+      "source": "Screenshot 2026-10-08 194251.png",
+      "questionId": "q-846595b664",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 14,
+      "source": "Screenshot 2026-10-08 194507.png",
+      "questionId": "q-aa0b16af4e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 15,
+      "source": "Screenshot 2026-10-08 194543.png",
+      "questionId": "q-80824617a2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 16,
+      "source": "Screenshot 2026-10-09 030837.png",
+      "questionId": "q-481172858f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 17,
+      "source": "Screenshot 2026-10-09 030917.png",
+      "questionId": "q-055ddaa8a7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 18,
+      "source": "Screenshot 2026-10-09 030940.png",
+      "questionId": "q-9b50c3428b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 19,
+      "source": "Screenshot 2026-10-09 030959.png",
+      "questionId": "q-0c7a17686b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 20,
+      "source": "Screenshot 2026-10-09 031026.png",
+      "questionId": "q-cc81d4560d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 21,
+      "source": "Screenshot 2026-10-09 031046.png",
+      "questionId": "q-50968b836d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 22,
+      "source": "Screenshot 2026-10-09 031106.png",
+      "questionId": "q-2e7e0b5355",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 23,
+      "source": "Screenshot 2026-10-09 031208.png",
+      "questionId": "q-1c4f4e1013",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 24,
+      "source": "Screenshot 2026-10-09 031231.png",
+      "questionId": "q-2ed5188817",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 25,
+      "source": "Screenshot 2026-10-09 031258.png",
+      "questionId": "q-9095368a9d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 26,
+      "source": "Screenshot 2026-10-09 031314.png",
+      "questionId": "q-197bc318fb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 27,
+      "source": "Screenshot 2026-10-09 031420.png",
+      "questionId": "q-197bc318fb",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 28,
+      "source": "Screenshot 2026-10-09 031431.png",
+      "questionId": "q-ffde3e5020",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 29,
+      "source": "Screenshot 2026-10-09 031452.png",
+      "questionId": "q-2180f815d7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 30,
+      "source": "Screenshot 2026-10-09 031609.png",
+      "questionId": "q-c345532cfd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 31,
+      "source": "Screenshot 2026-10-09 031638.png",
+      "questionId": "q-1f790c60b9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 32,
+      "source": "Screenshot 2026-10-09 031708.png",
+      "questionId": "q-5a46a71eb4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 33,
+      "source": "Screenshot 2026-10-09 031728.png",
+      "questionId": "q-3835078873",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 34,
+      "source": "Screenshot 2026-10-09 031750.png",
+      "questionId": "q-9485319e7b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 35,
+      "source": "Screenshot 2026-10-09 031811.png",
+      "questionId": "q-cbddc43946",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 36,
+      "source": "Screenshot 2026-10-09 031833.png",
+      "questionId": "q-0d2d2ecb85",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 37,
+      "source": "Screenshot 2026-10-09 031854.png",
+      "questionId": "q-d1f585dc4a",
+      "kind": "continuation"
+    },
+    {
+      "sourceIndex": 38,
+      "source": "Screenshot 2026-10-09 031902.png",
+      "questionId": "q-d1f585dc4a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 39,
+      "source": "Screenshot 2026-10-09 031920.png",
+      "questionId": "q-fc62eab5da",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 40,
+      "source": "Screenshot 2026-10-09 031942.png",
+      "questionId": "q-c60661cd88",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 41,
+      "source": "Screenshot 2026-10-09 032004.png",
+      "questionId": "q-69297b30e4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 42,
+      "source": "Screenshot 2026-10-09 032022.png",
+      "questionId": "q-7654a2ed77",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 43,
+      "source": "Screenshot 2026-10-09 032037.png",
+      "questionId": "q-b6379ffd2a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 44,
+      "source": "Screenshot 2026-10-09 032057.png",
+      "questionId": "q-2d274ca2a6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 45,
+      "source": "Screenshot 2026-10-09 032113.png",
+      "questionId": "q-739ed0bbfb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 46,
+      "source": "Screenshot 2026-10-09 032132.png",
+      "questionId": "q-48849eb9e0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 47,
+      "source": "Screenshot 2026-10-09 032150.png",
+      "questionId": "q-5d41ccf914",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 48,
+      "source": "Screenshot 2026-10-09 032214.png",
+      "questionId": "q-05cd5b9d3d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 49,
+      "source": "Screenshot 2026-10-09 032234.png",
+      "questionId": "q-6505a43f9f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 50,
+      "source": "Screenshot 2026-10-09 032252.png",
+      "questionId": "q-bfb010a84d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 51,
+      "source": "Screenshot 2026-10-09 032313.png",
+      "questionId": "q-a2db635a40",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 52,
+      "source": "Screenshot 2026-10-09 032331.png",
+      "questionId": "q-eeeaed1180",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 53,
+      "source": "Screenshot 2026-10-09 032350.png",
+      "questionId": "q-c6163b5a9e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 54,
+      "source": "Screenshot 2026-10-09 032539.png",
+      "questionId": "q-b0d92d7619",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 55,
+      "source": "Screenshot 2026-10-09 032602.png",
+      "questionId": "q-bedebb8e78",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 56,
+      "source": "Screenshot 2026-10-09 032619.png",
+      "questionId": "q-70aa16de29",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 57,
+      "source": "Screenshot 2026-10-09 032640.png",
+      "questionId": "q-ed5cf794ab",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 58,
+      "source": "Screenshot 2026-10-09 032659.png",
+      "questionId": "q-e3b85263c0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 59,
+      "source": "Screenshot 2026-10-09 032717.png",
+      "questionId": "q-fc8bd87420",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 60,
+      "source": "Screenshot 2026-10-09 032734.png",
+      "questionId": "q-9a931af375",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 61,
+      "source": "Screenshot 2026-10-09 032754.png",
+      "questionId": "q-d1471480b3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 62,
+      "source": "Screenshot 2026-10-09 032812.png",
+      "questionId": "q-dab18ddb4e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 63,
+      "source": "Screenshot 2026-10-09 032832.png",
+      "questionId": "q-86214946ee",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 64,
+      "source": "Screenshot 2026-10-09 032854.png",
+      "questionId": "q-391c60ba51",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 65,
+      "source": "Screenshot 2026-10-09 032913.png",
+      "questionId": "q-84f6b25e60",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 66,
+      "source": "Screenshot 2026-10-09 032936.png",
+      "questionId": "q-4abe00b8a6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 67,
+      "source": "Screenshot 2026-10-09 032957.png",
+      "questionId": "q-fb634481cb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 68,
+      "source": "Screenshot 2026-10-09 033018.png",
+      "questionId": "q-c332995fa8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 69,
+      "source": "Screenshot 2026-10-09 033039.png",
+      "questionId": "q-7831e0ba94",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 70,
+      "source": "Screenshot 2026-10-09 033100.png",
+      "questionId": "q-0df65a036b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 71,
+      "source": "Screenshot 2026-10-09 033137.png",
+      "questionId": "q-b9e3555dff",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 72,
+      "source": "Screenshot 2026-10-09 033200.png",
+      "questionId": "q-93233727ec",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 73,
+      "source": "Screenshot 2026-10-09 033221.png",
+      "questionId": "q-00e2ecb1b3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 74,
+      "source": "Screenshot 2026-10-09 033241.png",
+      "questionId": "q-80f65d8653",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 75,
+      "source": "Screenshot 2026-10-09 033303.png",
+      "questionId": "q-718a74a0ae",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 76,
+      "source": "Screenshot 2026-10-09 033326.png",
+      "questionId": "q-dae5a34276",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 77,
+      "source": "Screenshot 2026-10-09 033355.png",
+      "questionId": "q-3daee1cdd9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 78,
+      "source": "Screenshot 2026-10-09 033721.png",
+      "questionId": "q-dbabac2a84",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 79,
+      "source": "Screenshot 2026-10-09 034756.png",
+      "questionId": "q-b6f75bf156",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 80,
+      "source": "Screenshot 2026-10-09 035843.png",
+      "questionId": "q-2d1da453ec",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 81,
+      "source": "Screenshot 2026-10-09 035929.png",
+      "questionId": "q-2d1da453ec",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 82,
+      "source": "Screenshot 2026-10-09 035947.png",
+      "questionId": "q-9779a8bd84",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 83,
+      "source": "Screenshot 2026-10-09 040127.png",
+      "questionId": "q-c6c260dc04",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 84,
+      "source": "Screenshot 2026-10-09 040141.png",
+      "questionId": "q-b8e7d08cb2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 85,
+      "source": "Screenshot 2026-10-09 040158.png",
+      "questionId": "q-e77537a987",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 86,
+      "source": "Screenshot 2026-10-09 040347.png",
+      "questionId": "q-7a9c2e93cb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 87,
+      "source": "Screenshot 2026-10-09 040433.png",
+      "questionId": "q-3ab8c49fca",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 88,
+      "source": "Screenshot 2026-10-09 040452.png",
+      "questionId": "q-43cd5478bb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 89,
+      "source": "Screenshot 2026-10-09 040510.png",
+      "questionId": "q-fa6896cba1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 90,
+      "source": "Screenshot 2026-10-09 040524.png",
+      "questionId": "q-d1d15a0620",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 91,
+      "source": "Screenshot 2026-10-09 040539.png",
+      "questionId": "q-568433c1a2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 92,
+      "source": "Screenshot 2026-10-09 040607.png",
+      "questionId": "q-7e6ade9ca6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 93,
+      "source": "Screenshot 2026-10-09 040625.png",
+      "questionId": "q-68d6e2a38a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 94,
+      "source": "Screenshot 2026-10-09 040641.png",
+      "questionId": "q-a233e7ea31",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 95,
+      "source": "Screenshot 2026-10-09 040700.png",
+      "questionId": "q-8f5c76e385",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 96,
+      "source": "Screenshot 2026-10-09 040716.png",
+      "questionId": "q-a6d4b0b3b2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 97,
+      "source": "Screenshot 2026-10-09 040837.png",
+      "questionId": "q-bcc3dcadf5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 98,
+      "source": "Screenshot 2026-10-09 040853.png",
+      "questionId": "q-d2e33ffc64",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 99,
+      "source": "Screenshot 2026-10-09 040912.png",
+      "questionId": "q-6a1f7acc7d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 100,
+      "source": "Screenshot 2026-10-09 041008.png",
+      "questionId": "q-dcafccf6ab",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 101,
+      "source": "Screenshot 2026-10-09 041031.png",
+      "questionId": "q-d027788e9b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 102,
+      "source": "Screenshot 2026-10-09 041054.png",
+      "questionId": "q-8c1ff334eb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 103,
+      "source": "Screenshot 2026-10-09 041114.png",
+      "questionId": "q-bef477d12d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 104,
+      "source": "Screenshot 2026-10-09 041132.png",
+      "questionId": "q-5dd3a96d47",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 105,
+      "source": "Screenshot 2026-10-09 041152.png",
+      "questionId": "q-95106fd053",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 106,
+      "source": "Screenshot 2026-10-09 041222.png",
+      "questionId": "q-380fef0dba",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 107,
+      "source": "Screenshot 2026-10-09 041325.png",
+      "questionId": "q-9c5fc6e9c6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 108,
+      "source": "Screenshot 2026-10-09 041347.png",
+      "questionId": "q-a20c015b16",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 109,
+      "source": "Screenshot 2026-10-09 041414.png",
+      "questionId": "q-6aba3ae26b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 110,
+      "source": "Screenshot 2026-10-09 041435.png",
+      "questionId": "q-840b14d581",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 111,
+      "source": "Screenshot 2026-10-09 041505.png",
+      "questionId": "q-c6889b81d4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 112,
+      "source": "Screenshot 2026-10-09 041536.png",
+      "questionId": "q-17908128d9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 113,
+      "source": "Screenshot 2026-10-09 041615.png",
+      "questionId": "q-5cf354d626",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 114,
+      "source": "Screenshot 2026-10-09 041642.png",
+      "questionId": "q-e24ae795b0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 115,
+      "source": "Screenshot 2026-10-09 041703.png",
+      "questionId": "q-20689060b1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 116,
+      "source": "Screenshot 2026-10-09 041725.png",
+      "questionId": "q-d809b0a25b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 117,
+      "source": "Screenshot 2026-10-09 041751.png",
+      "questionId": "q-02b70226c4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 118,
+      "source": "Screenshot 2026-10-09 041823.png",
+      "questionId": "q-efffd21e62",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 119,
+      "source": "Screenshot 2026-10-09 041846.png",
+      "questionId": "q-610fb68cc7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 120,
+      "source": "Screenshot 2026-10-09 041916.png",
+      "questionId": "q-0f41e65294",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 121,
+      "source": "Screenshot 2026-10-09 041957.png",
+      "questionId": "q-4dc4cf4996",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 122,
+      "source": "Screenshot 2026-10-09 042020.png",
+      "questionId": "q-5856eb7997",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 123,
+      "source": "Screenshot 2026-10-09 042058.png",
+      "questionId": "q-e4a7977275",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 124,
+      "source": "Screenshot 2026-10-09 042125.png",
+      "questionId": "q-e0c4a1aa1a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 125,
+      "source": "Screenshot 2026-10-09 042158.png",
+      "questionId": "q-cf2683dcec",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 126,
+      "source": "Screenshot 2026-10-09 042220.png",
+      "questionId": "q-2fb158cd10",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 127,
+      "source": "Screenshot 2026-10-09 042313.png",
+      "questionId": "q-06cb814af5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 128,
+      "source": "Screenshot 2026-10-09 042339.png",
+      "questionId": "q-3862d6f7c0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 129,
+      "source": "Screenshot 2026-10-09 042429.png",
+      "questionId": "q-988f121eda",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 130,
+      "source": "Screenshot 2026-10-09 042800.png",
+      "questionId": "q-988f121eda",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 131,
+      "source": "Screenshot 2026-10-09 042810.png",
+      "questionId": "q-c845e82a7d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 132,
+      "source": "Screenshot 2026-10-09 042912.png",
+      "questionId": "q-292ab10950",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 133,
+      "source": "Screenshot 2026-10-09 043047.png",
+      "questionId": "q-c48d9c7c03",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 134,
+      "source": "Screenshot 2026-10-09 043128.png",
+      "questionId": "q-25d2c9dc35",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 135,
+      "source": "Screenshot 2026-10-09 043231.png",
+      "questionId": "q-8d92500c9b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 136,
+      "source": "Screenshot 2026-10-09 043254.png",
+      "questionId": "q-e3e05e097f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 137,
+      "source": "Screenshot 2026-10-09 043330.png",
+      "questionId": "q-ad3830d533",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 138,
+      "source": "Screenshot 2026-10-09 043558.png",
+      "questionId": "q-0e9bce3a6f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 139,
+      "source": "Screenshot 2026-10-09 043635.png",
+      "questionId": "q-c49c245c53",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 140,
+      "source": "Screenshot 2026-10-09 043709.png",
+      "questionId": "q-7c4fa788ed",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 141,
+      "source": "Screenshot 2026-10-09 043825.png",
+      "questionId": "q-9f6f1c357d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 142,
+      "source": "Screenshot 2026-10-09 043858.png",
+      "questionId": "q-bdddb39d07",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 143,
+      "source": "Screenshot 2026-10-09 043935.png",
+      "questionId": "q-b01f8c3f7d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 144,
+      "source": "Screenshot 2026-10-09 044016.png",
+      "questionId": "q-f45e7de0dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 145,
+      "source": "Screenshot 2026-10-09 044048.png",
+      "questionId": "q-196dcb1231",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 146,
+      "source": "Screenshot 2026-10-09 114554.png",
+      "questionId": "q-27425bbaa6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 147,
+      "source": "Screenshot 2026-10-09 114637.png",
+      "questionId": "q-0160bc1244",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 148,
+      "source": "Screenshot 2026-10-09 114712.png",
+      "questionId": "q-7a6f6d224e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 149,
+      "source": "Screenshot 2026-10-09 114735.png",
+      "questionId": "q-60fa86aaf8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 150,
+      "source": "Screenshot 2026-10-09 114751.png",
+      "questionId": "q-9f6401049f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 151,
+      "source": "Screenshot 2026-10-09 114811.png",
+      "questionId": "q-c2138090a7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 152,
+      "source": "Screenshot 2026-10-09 114828.png",
+      "questionId": "q-8f7bd3e630",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 153,
+      "source": "Screenshot 2026-10-09 114842.png",
+      "questionId": "q-04f2834711",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 154,
+      "source": "Screenshot 2026-10-09 114857.png",
+      "questionId": "q-cc2c9f545c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 155,
+      "source": "Screenshot 2026-10-09 114919.png",
+      "questionId": "q-1b532c778d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 156,
+      "source": "Screenshot 2026-10-09 114942.png",
+      "questionId": "q-1b4c1caddb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 157,
+      "source": "Screenshot 2026-10-09 115015.png",
+      "questionId": "q-11238ff1a5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 158,
+      "source": "Screenshot 2026-10-09 115042.png",
+      "questionId": "q-9fc2f76756",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 159,
+      "source": "Screenshot 2026-10-09 115102.png",
+      "questionId": "q-f7ab9cc523",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 160,
+      "source": "Screenshot 2026-10-09 115122.png",
+      "questionId": "q-4081b169a5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 161,
+      "source": "Screenshot 2026-10-09 115145.png",
+      "questionId": "q-fa88d2b0a6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 162,
+      "source": "Screenshot 2026-10-09 115219.png",
+      "questionId": "q-9c8d2f6034",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 163,
+      "source": "Screenshot 2026-10-09 115237.png",
+      "questionId": "q-59d1465b7b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 164,
+      "source": "Screenshot 2026-10-09 115256.png",
+      "questionId": "q-6080ba1d36",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 165,
+      "source": "Screenshot 2026-10-09 115317.png",
+      "questionId": "q-6fd87c4e5c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 166,
+      "source": "Screenshot 2026-10-09 115333.png",
+      "questionId": "q-d7c22b7104",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 167,
+      "source": "Screenshot 2026-10-09 115434.png",
+      "questionId": "q-222460d6b0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 168,
+      "source": "Screenshot 2026-10-09 115503.png",
+      "questionId": "q-222460d6b0",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 169,
+      "source": "Screenshot 2026-10-09 115520.png",
+      "questionId": "q-b23b702d9f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 170,
+      "source": "Screenshot 2026-10-09 115542.png",
+      "questionId": "q-4a86fcb878",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 171,
+      "source": "Screenshot 2026-10-09 115606.png",
+      "questionId": "q-85e332c127",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 172,
+      "source": "Screenshot 2026-10-09 115624.png",
+      "questionId": "q-c59b32395a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 173,
+      "source": "Screenshot 2026-10-09 115649.png",
+      "questionId": "q-e9eb0792f1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 174,
+      "source": "Screenshot 2026-10-09 115722.png",
+      "questionId": "q-e4ded97961",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 175,
+      "source": "Screenshot 2026-10-09 115747.png",
+      "questionId": "q-d43e6195c5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 176,
+      "source": "Screenshot 2026-10-09 115812.png",
+      "questionId": "q-fa7bc40c90",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 177,
+      "source": "Screenshot 2026-10-09 115930.png",
+      "questionId": "q-fe3b5f5c6b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 178,
+      "source": "Screenshot 2026-10-09 115954.png",
+      "questionId": "q-48c856847a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 179,
+      "source": "Screenshot 2026-10-09 120241.png",
+      "questionId": "q-3c448fc1d4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 180,
+      "source": "Screenshot 2026-10-09 120321.png",
+      "questionId": "q-3a8e16abf8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 181,
+      "source": "Screenshot 2026-10-09 120358.png",
+      "questionId": "q-231e50849d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 182,
+      "source": "Screenshot 2026-10-09 120428.png",
+      "questionId": "q-aec0fe6261",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 183,
+      "source": "Screenshot 2026-10-09 120454.png",
+      "questionId": "q-e795f578dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 184,
+      "source": "Screenshot 2026-10-09 120513.png",
+      "questionId": "q-91200435d1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 185,
+      "source": "Screenshot 2026-10-09 120535.png",
+      "questionId": "q-77eee06c26",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 186,
+      "source": "Screenshot 2026-10-09 120557.png",
+      "questionId": "q-bdc2b30692",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 187,
+      "source": "Screenshot 2026-10-09 120632.png",
+      "questionId": "q-b058363ba7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 188,
+      "source": "Screenshot 2026-10-09 120647.png",
+      "questionId": "q-bb6ffd0779",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 189,
+      "source": "Screenshot 2026-10-09 120704.png",
+      "questionId": "q-7646f4c747",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 190,
+      "source": "Screenshot 2026-10-09 120720.png",
+      "questionId": "q-2036c8a8ac",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 191,
+      "source": "Screenshot 2026-10-09 120737.png",
+      "questionId": "q-2e5e70c9e9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 192,
+      "source": "Screenshot 2026-10-09 120754.png",
+      "questionId": "q-32231ad3d4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 193,
+      "source": "Screenshot 2026-10-09 120817.png",
+      "questionId": "q-eff23b9ffb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 194,
+      "source": "Screenshot 2026-10-09 120833.png",
+      "questionId": "q-b717ce3f83",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 195,
+      "source": "Screenshot 2026-10-09 122044.png",
+      "questionId": "q-165197da29",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 196,
+      "source": "Screenshot 2026-10-09 122314.png",
+      "questionId": "q-4e98c1ffcf",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 197,
+      "source": "Screenshot 2026-10-09 122405.png",
+      "questionId": "q-09595e314b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 198,
+      "source": "Screenshot 2026-10-09 122502.png",
+      "questionId": "q-9c96020160",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 199,
+      "source": "Screenshot 2026-10-09 122517.png",
+      "questionId": "q-03d501060c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 200,
+      "source": "Screenshot 2026-10-09 122534.png",
+      "questionId": "q-d1f30a4368",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 201,
+      "source": "Screenshot 2026-10-09 122551.png",
+      "questionId": "q-2928624655",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 202,
+      "source": "Screenshot 2026-10-09 122611.png",
+      "questionId": "q-d2e8ac8923",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 203,
+      "source": "Screenshot 2026-10-09 122642.png",
+      "questionId": "q-2dfc9eae02",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 204,
+      "source": "Screenshot 2026-10-09 122657.png",
+      "questionId": "q-c45ed6b70b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 205,
+      "source": "Screenshot 2026-10-09 122737.png",
+      "questionId": "q-8e64f61a0a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 206,
+      "source": "Screenshot 2026-10-09 122753.png",
+      "questionId": "q-c14226d99b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 207,
+      "source": "Screenshot 2026-10-09 122810.png",
+      "questionId": "q-419da838a4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 208,
+      "source": "Screenshot 2026-10-09 122830.png",
+      "questionId": "q-92bbfc9fe8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 209,
+      "source": "Screenshot 2026-10-09 122850.png",
+      "questionId": "q-3b9c3cf96f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 210,
+      "source": "Screenshot 2026-10-09 122913.png",
+      "questionId": "q-fa3f9b0110",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 211,
+      "source": "Screenshot 2026-10-09 122932.png",
+      "questionId": "q-883358a18c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 212,
+      "source": "Screenshot 2026-10-09 123100.png",
+      "questionId": "q-0cce458668",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 213,
+      "source": "Screenshot 2026-10-09 123817.png",
+      "questionId": "q-ccbd03bde9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 214,
+      "source": "Screenshot 2026-10-09 123906.png",
+      "questionId": "q-499ad96d35",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 215,
+      "source": "Screenshot 2026-10-09 123926.png",
+      "questionId": "q-ddc14754ec",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 216,
+      "source": "Screenshot 2026-10-09 123949.png",
+      "questionId": "q-b0357592c1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 217,
+      "source": "Screenshot 2026-10-09 124006.png",
+      "questionId": "q-602cd5dead",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 218,
+      "source": "Screenshot 2026-10-09 124025.png",
+      "questionId": "q-7973f2b4b9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 219,
+      "source": "Screenshot 2026-10-09 124043.png",
+      "questionId": "q-95b19f68bb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 220,
+      "source": "Screenshot 2026-10-09 124120.png",
+      "questionId": "q-4fec82e376",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 221,
+      "source": "Screenshot 2026-10-09 124139.png",
+      "questionId": "q-86c49eceff",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 222,
+      "source": "Screenshot 2026-10-09 124200.png",
+      "questionId": "q-7e9c894584",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 223,
+      "source": "Screenshot 2026-10-09 124219.png",
+      "questionId": "q-32991319dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 224,
+      "source": "Screenshot 2026-10-09 124240.png",
+      "questionId": "q-733952d48e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 225,
+      "source": "Screenshot 2026-10-09 124301.png",
+      "questionId": "q-90e4dfcb42",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 226,
+      "source": "Screenshot 2026-10-09 131157.png",
+      "questionId": "q-c6996f9d9d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 227,
+      "source": "Screenshot 2026-10-09 131215.png",
+      "questionId": "q-0160bc1244",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 228,
+      "source": "Screenshot 2026-10-09 131237.png",
+      "questionId": "q-7a6f6d224e",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 229,
+      "source": "Screenshot 2026-10-09 131252.png",
+      "questionId": "q-60fa86aaf8",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 230,
+      "source": "Screenshot 2026-10-09 131311.png",
+      "questionId": "q-9f6401049f",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 231,
+      "source": "Screenshot 2026-10-09 131327.png",
+      "questionId": "q-c2138090a7",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 232,
+      "source": "Screenshot 2026-10-09 131346.png",
+      "questionId": "q-8f7bd3e630",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 233,
+      "source": "Screenshot 2026-10-09 131403.png",
+      "questionId": "q-04f2834711",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 234,
+      "source": "Screenshot 2026-10-09 131419.png",
+      "questionId": "q-cc2c9f545c",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 235,
+      "source": "Screenshot 2026-10-09 131434.png",
+      "questionId": "q-1b532c778d",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 236,
+      "source": "Screenshot 2026-10-09 131508.png",
+      "questionId": "q-1b4c1caddb",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 237,
+      "source": "Screenshot 2026-10-09 131541.png",
+      "questionId": "q-11238ff1a5",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 238,
+      "source": "Screenshot 2026-10-09 131600.png",
+      "questionId": "q-9fc2f76756",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 239,
+      "source": "Screenshot 2026-10-09 131614.png",
+      "questionId": "q-0cc4a36860",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 240,
+      "source": "Screenshot 2026-10-09 131635.png",
+      "questionId": "q-4081b169a5",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 241,
+      "source": "Screenshot 2026-10-09 131652.png",
+      "questionId": "q-fa88d2b0a6",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 242,
+      "source": "Screenshot 2026-10-09 131711.png",
+      "questionId": "q-2417a84462",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 243,
+      "source": "Screenshot 2026-10-09 131726.png",
+      "questionId": "q-d3240aa8df",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 244,
+      "source": "Screenshot 2026-10-09 131743.png",
+      "questionId": "q-739c7aa471",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 245,
+      "source": "Screenshot 2026-10-09 131801.png",
+      "questionId": "q-d0ca278290",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 246,
+      "source": "Screenshot 2026-10-09 131814.png",
+      "questionId": "q-f628c6f47c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 247,
+      "source": "Screenshot 2026-10-09 131841.png",
+      "questionId": "q-816676ae83",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 248,
+      "source": "Screenshot 2026-10-09 131856.png",
+      "questionId": "q-5a16a5b05f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 249,
+      "source": "Screenshot 2026-10-09 131919.png",
+      "questionId": "q-3670899f4e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 250,
+      "source": "Screenshot 2026-10-09 131956.png",
+      "questionId": "q-091898b4ed",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 251,
+      "source": "Screenshot 2026-10-09 132012.png",
+      "questionId": "q-358d4d3038",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 252,
+      "source": "Screenshot 2026-10-09 132129.png",
+      "questionId": "q-f703d7ad9f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 253,
+      "source": "Screenshot 2026-10-09 132148.png",
+      "questionId": "q-c5d3ed8749",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 254,
+      "source": "Screenshot 2026-10-09 132208.png",
+      "questionId": "q-cab5dc4491",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 255,
+      "source": "Screenshot 2026-10-09 132237.png",
+      "questionId": "q-6ccd3e33e2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 256,
+      "source": "Screenshot 2026-10-09 132313.png",
+      "questionId": "q-0cf673bccf",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 257,
+      "source": "Screenshot 2026-10-09 132329.png",
+      "questionId": "q-e8a03b46ab",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 258,
+      "source": "Screenshot 2026-10-09 132353.png",
+      "questionId": "q-83984e195f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 259,
+      "source": "Screenshot 2026-10-09 132414.png",
+      "questionId": "q-d816cac3a0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 260,
+      "source": "Screenshot 2026-10-09 132433.png",
+      "questionId": "q-a2faeb01e3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 261,
+      "source": "Screenshot 2026-10-09 132453.png",
+      "questionId": "q-5bb15929f9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 262,
+      "source": "Screenshot 2026-10-09 132512.png",
+      "questionId": "q-91ef00fd10",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 263,
+      "source": "Screenshot 2026-10-09 132529.png",
+      "questionId": "q-5bfdd235ae",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 264,
+      "source": "Screenshot 2026-10-09 132551.png",
+      "questionId": "q-73c81f0537",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 265,
+      "source": "Screenshot 2026-10-09 132613.png",
+      "questionId": "q-1c40e7f9be",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 266,
+      "source": "Screenshot 2026-10-09 132717.png",
+      "questionId": "q-da5385e616",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 267,
+      "source": "Screenshot 2026-10-09 133005.png",
+      "questionId": "q-da5385e616",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 268,
+      "source": "Screenshot 2026-10-09 133035.png",
+      "questionId": "q-f77e542687",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 269,
+      "source": "Screenshot 2026-10-09 133053.png",
+      "questionId": "q-9debe51b9f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 270,
+      "source": "Screenshot 2026-10-09 133110.png",
+      "questionId": "q-9c3c5cf6c8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 271,
+      "source": "Screenshot 2026-10-09 133127.png",
+      "questionId": "q-3ffe9adb8f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 272,
+      "source": "Screenshot 2026-10-09 133145.png",
+      "questionId": "q-b2c170e367",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 273,
+      "source": "Screenshot 2026-10-09 133222.png",
+      "questionId": "q-d41c295b33",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 274,
+      "source": "Screenshot 2026-10-09 133252.png",
+      "questionId": "q-416a0ba784",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 275,
+      "source": "Screenshot 2026-10-09 134044.png",
+      "questionId": "q-c280ed1596",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 276,
+      "source": "Screenshot 2026-10-09 134120.png",
+      "questionId": "q-0dee3e843f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 277,
+      "source": "Screenshot 2026-10-09 134149.png",
+      "questionId": "q-58aa771bef",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 278,
+      "source": "Screenshot 2026-10-09 134921.png",
+      "questionId": "q-58aa771bef",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 279,
+      "source": "Screenshot 2026-10-09 134946.png",
+      "questionId": "q-1052e2c18d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 280,
+      "source": "Screenshot 2026-10-09 135013.png",
+      "questionId": "q-ad63bb00c8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 281,
+      "source": "Screenshot 2026-10-09 135028.png",
+      "questionId": "q-a2705d593a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 282,
+      "source": "Screenshot 2026-10-09 135044.png",
+      "questionId": "q-979ef077a2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 283,
+      "source": "Screenshot 2026-10-09 135059.png",
+      "questionId": "q-3793db234e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 284,
+      "source": "Screenshot 2026-10-09 135116.png",
+      "questionId": "q-01d1896ca1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 285,
+      "source": "Screenshot 2026-10-09 135140.png",
+      "questionId": "q-60c797d3a5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 286,
+      "source": "Screenshot 2026-10-09 135205.png",
+      "questionId": "q-58253f9702",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 287,
+      "source": "Screenshot 2026-10-09 135220.png",
+      "questionId": "q-8fec2b19b2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 288,
+      "source": "Screenshot 2026-10-09 135253.png",
+      "questionId": "q-927530df57",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 289,
+      "source": "Screenshot 2026-10-09 135311.png",
+      "questionId": "q-14599c77bb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 290,
+      "source": "Screenshot 2026-10-09 135341.png",
+      "questionId": "q-9f1bb05b1c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 291,
+      "source": "Screenshot 2026-10-09 145219.png",
+      "questionId": "q-06943d11b7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 292,
+      "source": "Screenshot 2026-10-09 145823.png",
+      "questionId": "q-b8c25de35c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 293,
+      "source": "Screenshot 2026-10-09 152507.png",
+      "questionId": "q-b8c25de35c",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 294,
+      "source": "Screenshot 2026-10-09 152525.png",
+      "questionId": "q-30fb6f9702",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 295,
+      "source": "Screenshot 2026-10-09 152539.png",
+      "questionId": "q-f953484cfc",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 296,
+      "source": "Screenshot 2026-10-09 152557.png",
+      "questionId": "q-c3cdb22d27",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 297,
+      "source": "Screenshot 2026-10-09 152639.png",
+      "questionId": "q-0b62708561",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 298,
+      "source": "Screenshot 2026-10-09 152657.png",
+      "questionId": "q-9ca3847a4a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 299,
+      "source": "Screenshot 2026-10-09 152720.png",
+      "questionId": "q-fa8920833c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 300,
+      "source": "Screenshot 2026-10-09 152737.png",
+      "questionId": "q-f449d24c0e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 301,
+      "source": "Screenshot 2026-10-09 152752.png",
+      "questionId": "q-287dc70fe1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 302,
+      "source": "Screenshot 2026-10-09 152805.png",
+      "questionId": "q-686e35c756",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 303,
+      "source": "Screenshot 2026-10-09 152821.png",
+      "questionId": "q-c10b96efc8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 304,
+      "source": "Screenshot 2026-10-09 152838.png",
+      "questionId": "q-391d887c9e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 305,
+      "source": "Screenshot 2026-10-09 152857.png",
+      "questionId": "q-1091acb253",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 306,
+      "source": "Screenshot 2026-10-09 152913.png",
+      "questionId": "q-af2e5ad334",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 307,
+      "source": "Screenshot 2026-10-09 152926.png",
+      "questionId": "q-084d564286",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 308,
+      "source": "Screenshot 2026-10-09 152945.png",
+      "questionId": "q-72b00f7bae",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 309,
+      "source": "Screenshot 2026-10-09 153003.png",
+      "questionId": "q-c63dca1f15",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 310,
+      "source": "Screenshot 2026-10-09 153024.png",
+      "questionId": "q-71e5bf3ac3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 311,
+      "source": "Screenshot 2026-10-09 153042.png",
+      "questionId": "q-efd6f4f5ce",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 312,
+      "source": "Screenshot 2026-10-09 153057.png",
+      "questionId": "q-ab375ca73b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 313,
+      "source": "Screenshot 2026-10-09 153115.png",
+      "questionId": "q-1d855d78c7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 314,
+      "source": "Screenshot 2026-10-09 153131.png",
+      "questionId": "q-c1f73f3dcc",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 315,
+      "source": "Screenshot 2026-10-09 153149.png",
+      "questionId": "q-bc627e8272",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 316,
+      "source": "Screenshot 2026-10-09 153204.png",
+      "questionId": "q-7d4d62b4f5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 317,
+      "source": "Screenshot 2026-10-09 153220.png",
+      "questionId": "q-519960cff7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 318,
+      "source": "Screenshot 2026-10-09 153240.png",
+      "questionId": "q-098e9be6cf",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 319,
+      "source": "Screenshot 2026-10-09 153254.png",
+      "questionId": "q-a96dadc17a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 320,
+      "source": "Screenshot 2026-10-09 153311.png",
+      "questionId": "q-7212efaa51",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 321,
+      "source": "Screenshot 2026-10-09 153330.png",
+      "questionId": "q-a627c28e6c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 322,
+      "source": "Screenshot 2026-10-09 153347.png",
+      "questionId": "q-eb8f07f838",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 323,
+      "source": "Screenshot 2026-10-09 153405.png",
+      "questionId": "q-e3b53901c4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 324,
+      "source": "Screenshot 2026-10-09 153424.png",
+      "questionId": "q-eba138550d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 325,
+      "source": "Screenshot 2026-10-09 153439.png",
+      "questionId": "q-ebfe10a021",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 326,
+      "source": "Screenshot 2026-10-09 153457.png",
+      "questionId": "q-f72aec9735",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 327,
+      "source": "Screenshot 2026-10-09 153521.png",
+      "questionId": "q-f807b712de",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 328,
+      "source": "Screenshot 2026-10-09 153541.png",
+      "questionId": "q-910f4147f4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 329,
+      "source": "Screenshot 2026-10-09 153603.png",
+      "questionId": "q-2bfcc15d27",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 330,
+      "source": "Screenshot 2026-10-09 153622.png",
+      "questionId": "q-82c6ee210f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 331,
+      "source": "Screenshot 2026-10-09 153639.png",
+      "questionId": "q-edf4990ac0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 332,
+      "source": "Screenshot 2026-10-09 153658.png",
+      "questionId": "q-dcbd0872b1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 333,
+      "source": "Screenshot 2026-10-09 153713.png",
+      "questionId": "q-5da432260f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 334,
+      "source": "Screenshot 2026-10-09 153728.png",
+      "questionId": "q-a6c0591178",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 335,
+      "source": "Screenshot 2026-10-09 153743.png",
+      "questionId": "q-9e6c6728b7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 336,
+      "source": "Screenshot 2026-10-09 153803.png",
+      "questionId": "q-bb1ddee436",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 337,
+      "source": "Screenshot 2026-10-09 153820.png",
+      "questionId": "q-bd5e3720f7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 338,
+      "source": "Screenshot 2026-10-09 153851.png",
+      "questionId": "q-b55ae13622",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 339,
+      "source": "Screenshot 2026-10-09 153917.png",
+      "questionId": "q-291d17f155",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 340,
+      "source": "Screenshot 2026-10-09 153941.png",
+      "questionId": "q-12caaadd86",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 341,
+      "source": "Screenshot 2026-10-09 153956.png",
+      "questionId": "q-43e2bb4225",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 342,
+      "source": "Screenshot 2026-10-09 154013.png",
+      "questionId": "q-5e06fbefbe",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 343,
+      "source": "Screenshot 2026-10-09 154034.png",
+      "questionId": "q-9b571b3069",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 344,
+      "source": "Screenshot 2026-10-09 154059.png",
+      "questionId": "q-4224410bda",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 345,
+      "source": "Screenshot 2026-10-09 154117.png",
+      "questionId": "q-92e274c221",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 346,
+      "source": "Screenshot 2026-10-09 154139.png",
+      "questionId": "q-72bcc241d1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 347,
+      "source": "Screenshot 2026-10-09 154210.png",
+      "questionId": "q-8237db68c8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 348,
+      "source": "Screenshot 2026-10-09 154250.png",
+      "questionId": "q-a935054e39",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 349,
+      "source": "Screenshot 2026-10-09 154304.png",
+      "questionId": "q-4fd0e69dce",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 350,
+      "source": "Screenshot 2026-10-09 154327.png",
+      "questionId": "q-5dbb2f9835",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 351,
+      "source": "Screenshot 2026-10-09 154343.png",
+      "questionId": "q-2038dbde33",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 352,
+      "source": "Screenshot 2026-10-09 154359.png",
+      "questionId": "q-e60e032f77",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 353,
+      "source": "Screenshot 2026-10-09 154430.png",
+      "questionId": "q-b9d9cb2625",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 354,
+      "source": "Screenshot 2026-10-09 154445.png",
+      "questionId": "q-a554836c77",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 355,
+      "source": "Screenshot 2026-10-16 103649.png",
+      "questionId": "q-454706fce4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 356,
+      "source": "Screenshot 2026-10-16 105121.png",
+      "questionId": "q-32e0bb1ad3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 357,
+      "source": "Screenshot 2026-10-16 105954.png",
+      "questionId": "q-5db5cf474b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 358,
+      "source": "Screenshot 2026-10-16 110230.png",
+      "questionId": "q-34618d4cea",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 359,
+      "source": "Screenshot 2026-10-16 112028.png",
+      "questionId": "q-80e0a58e1d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 360,
+      "source": "Screenshot 2026-10-16 113025.png",
+      "questionId": "q-b91a4e4dba",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 361,
+      "source": "Screenshot 2026-10-16 113918.png",
+      "questionId": "q-4818cb76b0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 362,
+      "source": "Screenshot 2026-10-16 114532.png",
+      "questionId": "q-4ba12770a5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 363,
+      "source": "Screenshot 2026-10-16 114551.png",
+      "questionId": "q-9f100e5982",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 364,
+      "source": "Screenshot 2026-10-16 120356.png",
+      "questionId": "q-bb287e6fa3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 365,
+      "source": "Screenshot 2026-10-16 120603.png",
+      "questionId": "q-153a34d5d8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 366,
+      "source": "Screenshot 2026-10-16 120805.png",
+      "questionId": "q-fd08c856d0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 367,
+      "source": "Screenshot 2026-10-16 120922.png",
+      "questionId": "q-ea77d7211f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 368,
+      "source": "Screenshot 2026-10-16 121020.png",
+      "questionId": "q-86c6a36013",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 369,
+      "source": "Screenshot 2026-10-16 121044.png",
+      "questionId": "q-65e2f5f352",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 370,
+      "source": "Screenshot 2026-10-16 121133.png",
+      "questionId": "q-d72445e95b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 371,
+      "source": "Screenshot 2026-10-16 121225.png",
+      "questionId": "q-42fb20fa67",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 372,
+      "source": "Screenshot 2026-10-16 121259.png",
+      "questionId": "q-c8e7272165",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 373,
+      "source": "Screenshot 2026-10-16 121329.png",
+      "questionId": "q-7729daa09b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 374,
+      "source": "Screenshot 2026-10-16 121417.png",
+      "questionId": "q-b469208029",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 375,
+      "source": "Screenshot 2026-10-16 121456.png",
+      "questionId": "q-d9c6639194",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 376,
+      "source": "Screenshot 2026-10-16 121559.png",
+      "questionId": "q-63c7f10aa2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 377,
+      "source": "Screenshot 2026-10-16 121612.png",
+      "questionId": "q-30bda7138e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 378,
+      "source": "Screenshot 2026-10-16 121636.png",
+      "questionId": "q-71f038c96a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 379,
+      "source": "Screenshot 2026-10-16 121729.png",
+      "questionId": "q-78eb316640",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 380,
+      "source": "Screenshot 2026-10-16 121757.png",
+      "questionId": "q-af6eb24660",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 381,
+      "source": "Screenshot 2026-10-16 121829.png",
+      "questionId": "q-63e8b0db13",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 382,
+      "source": "Screenshot 2026-10-16 122047.png",
+      "questionId": "q-5cab022712",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 383,
+      "source": "Screenshot 2026-10-16 122132.png",
+      "questionId": "q-df90392851",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 384,
+      "source": "Screenshot 2026-10-16 122509.png",
+      "questionId": "q-82aedffc0a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 385,
+      "source": "Screenshot 2026-10-16 122612.png",
+      "questionId": "q-3afef971f3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 386,
+      "source": "Screenshot 2026-10-16 122645.png",
+      "questionId": "q-4792c3d778",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 387,
+      "source": "Screenshot 2026-10-16 122806.png",
+      "questionId": "q-81d2f45ef1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 388,
+      "source": "Screenshot 2026-10-16 122845.png",
+      "questionId": "q-a31bc8843d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 389,
+      "source": "Screenshot 2026-10-16 123213.png",
+      "questionId": "q-11410e6341",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 390,
+      "source": "Screenshot 2026-10-16 123241.png",
+      "questionId": "q-b185b22c52",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 391,
+      "source": "Screenshot 2026-10-16 123311.png",
+      "questionId": "q-3290affddb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 392,
+      "source": "Screenshot 2026-10-16 123405.png",
+      "questionId": "q-34c7494d63",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 393,
+      "source": "Screenshot 2026-10-16 123654.png",
+      "questionId": "q-25ced6bbf8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 394,
+      "source": "Screenshot 2026-10-16 123700.png",
+      "questionId": "q-aff6ac3ff1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 395,
+      "source": "Screenshot 2026-10-16 123848.png",
+      "questionId": "q-aff6ac3ff1",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 396,
+      "source": "Screenshot 2026-10-16 123910.png",
+      "questionId": "q-12e24077dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 397,
+      "source": "Screenshot 2026-10-16 123941.png",
+      "questionId": "q-54b8ce5d51",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 398,
+      "source": "Screenshot 2026-10-16 124118.png",
+      "questionId": "q-914169417f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 399,
+      "source": "Screenshot 2026-10-16 124136.png",
+      "questionId": "q-468e75c12f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 400,
+      "source": "Screenshot 2026-10-16 124157.png",
+      "questionId": "q-64cb3e6300",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 401,
+      "source": "Screenshot 2026-10-16 124219.png",
+      "questionId": "q-aa27843827",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 402,
+      "source": "Screenshot 2026-10-16 124239.png",
+      "questionId": "q-ab6597c31b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 403,
+      "source": "Screenshot 2026-10-16 124332.png",
+      "questionId": "q-8438c7a26a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 404,
+      "source": "Screenshot 2026-10-16 124358.png",
+      "questionId": "q-e6bac9abb3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 405,
+      "source": "Screenshot 2026-10-17 070221.png",
+      "questionId": "q-a624e238ff",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 406,
+      "source": "Screenshot 2026-10-17 070439.png",
+      "questionId": "q-39586a8b3c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 407,
+      "source": "Screenshot 2026-10-17 070501.png",
+      "questionId": "q-a290d70649",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 408,
+      "source": "Screenshot 2026-10-17 070534.png",
+      "questionId": "q-f9345c354f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 409,
+      "source": "Screenshot 2026-10-17 070611.png",
+      "questionId": "q-ba2ab6dadc",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 410,
+      "source": "Screenshot 2026-10-17 070819.png",
+      "questionId": "q-ba2ab6dadc",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 411,
+      "source": "Screenshot 2026-10-17 083101.png",
+      "questionId": "q-493e455ad2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 412,
+      "source": "Screenshot 2026-10-17 083126.png",
+      "questionId": "q-abe6ea6a1a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 413,
+      "source": "Screenshot 2026-10-17 083147.png",
+      "questionId": "q-60881da3e2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 414,
+      "source": "Screenshot 2026-10-17 083209.png",
+      "questionId": "q-c8c64edb91",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 415,
+      "source": "Screenshot 2026-10-17 083231.png",
+      "questionId": "q-c360d97b80",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 416,
+      "source": "Screenshot 2026-10-17 083255.png",
+      "questionId": "q-02059f46cb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 417,
+      "source": "Screenshot 2026-10-17 083316.png",
+      "questionId": "q-0bc42a3c94",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 418,
+      "source": "Screenshot 2026-10-17 083335.png",
+      "questionId": "q-706ae31f98",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 419,
+      "source": "Screenshot 2026-10-17 083406.png",
+      "questionId": "q-beb45f6b25",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 420,
+      "source": "Screenshot 2026-10-17 083424.png",
+      "questionId": "q-110ab1db45",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 421,
+      "source": "Screenshot 2026-10-17 083448.png",
+      "questionId": "q-8c24f72770",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 422,
+      "source": "Screenshot 2026-10-17 083509.png",
+      "questionId": "q-124d47e0f4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 423,
+      "source": "Screenshot 2026-10-17 083539.png",
+      "questionId": "q-295025b374",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 424,
+      "source": "Screenshot 2026-10-17 083601.png",
+      "questionId": "q-ce7ee861f0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 425,
+      "source": "Screenshot 2026-10-17 083620.png",
+      "questionId": "q-7906763ff2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 426,
+      "source": "Screenshot 2026-10-17 083639.png",
+      "questionId": "q-292dbdf8a2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 427,
+      "source": "Screenshot 2026-10-17 083708.png",
+      "questionId": "q-616cde6cf6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 428,
+      "source": "Screenshot 2026-10-17 083732.png",
+      "questionId": "q-ada299e044",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 429,
+      "source": "Screenshot 2026-10-17 083751.png",
+      "questionId": "q-5d91811026",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 430,
+      "source": "Screenshot 2026-10-17 083813.png",
+      "questionId": "q-3eee2ff9f4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 431,
+      "source": "Screenshot 2026-10-17 083831.png",
+      "questionId": "q-aa6f41bc5d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 432,
+      "source": "Screenshot 2026-10-17 083854.png",
+      "questionId": "q-a9ae2e1369",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 433,
+      "source": "Screenshot 2026-10-17 083918.png",
+      "questionId": "q-797bf79af6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 434,
+      "source": "Screenshot 2026-10-17 083941.png",
+      "questionId": "q-5b5718b832",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 435,
+      "source": "Screenshot 2026-10-17 083955.png",
+      "questionId": "q-bfef84a4af",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 436,
+      "source": "Screenshot 2026-10-17 084016.png",
+      "questionId": "q-fcd35bc167",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 437,
+      "source": "Screenshot 2026-10-17 084041.png",
+      "questionId": "q-64265fe039",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 438,
+      "source": "Screenshot 2026-10-17 084103.png",
+      "questionId": "q-f30ef65797",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 439,
+      "source": "Screenshot 2026-10-17 084129.png",
+      "questionId": "q-da44c36e51",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 440,
+      "source": "Screenshot 2026-10-17 084153.png",
+      "questionId": "q-e5f4fec726",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 441,
+      "source": "Screenshot 2026-10-17 084218.png",
+      "questionId": "q-3d7dc0f69c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 442,
+      "source": "Screenshot 2026-10-17 084239.png",
+      "questionId": "q-f72bd11da5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 443,
+      "source": "Screenshot 2026-10-17 084337.png",
+      "questionId": "q-e521454a8b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 444,
+      "source": "Screenshot 2026-10-17 084402.png",
+      "questionId": "q-802d846ff0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 445,
+      "source": "Screenshot 2026-10-17 084420.png",
+      "questionId": "q-bf9b247f1a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 446,
+      "source": "Screenshot 2026-10-17 084438.png",
+      "questionId": "q-8da5c75204",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 447,
+      "source": "Screenshot 2026-10-17 084503.png",
+      "questionId": "q-63c5e48991",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 448,
+      "source": "Screenshot 2026-10-17 084527.png",
+      "questionId": "q-db48e2b2c1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 449,
+      "source": "Screenshot 2026-10-17 084610.png",
+      "questionId": "q-ff5ec080e5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 450,
+      "source": "Screenshot 2026-10-17 084628.png",
+      "questionId": "q-205d42900c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 451,
+      "source": "Screenshot 2026-10-17 084648.png",
+      "questionId": "q-b1e6629593",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 452,
+      "source": "Screenshot 2026-10-17 084715.png",
+      "questionId": "q-b1e6629593",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 453,
+      "source": "Screenshot 2026-10-17 084732.png",
+      "questionId": "q-525c6f3d52",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 454,
+      "source": "Screenshot 2026-10-17 084805.png",
+      "questionId": "q-7e1dbdc2dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 455,
+      "source": "Screenshot 2026-10-17 084833.png",
+      "questionId": "q-2c8a38e155",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 456,
+      "source": "Screenshot 2026-10-17 084902.png",
+      "questionId": "q-fd5f4e3881",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 457,
+      "source": "Screenshot 2026-10-17 084921.png",
+      "questionId": "q-380bf42e42",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 458,
+      "source": "Screenshot 2026-10-17 084956.png",
+      "questionId": "q-89c88e0c37",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 459,
+      "source": "Screenshot 2026-10-17 085020.png",
+      "questionId": "q-d5544ec7a1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 460,
+      "source": "Screenshot 2026-10-17 085049.png",
+      "questionId": "q-3914b6526f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 461,
+      "source": "Screenshot 2026-10-17 085120.png",
+      "questionId": "q-2efee8b9a1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 462,
+      "source": "Screenshot 2026-10-17 085154.png",
+      "questionId": "q-860ff8f28f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 463,
+      "source": "Screenshot 2026-10-17 085215.png",
+      "questionId": "q-824ed6c08b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 464,
+      "source": "Screenshot 2026-10-17 085227.png",
+      "questionId": "q-824ed6c08b",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 465,
+      "source": "Screenshot 2026-10-17 133749.png",
+      "questionId": "q-fbf40706d4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 466,
+      "source": "Screenshot 2026-10-17 140036.png",
+      "questionId": "q-fbf40706d4",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 467,
+      "source": "Screenshot 2026-10-17 142043.png",
+      "questionId": "q-fbf40706d4",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 468,
+      "source": "Screenshot 2026-10-17 145918.png",
+      "questionId": "q-afb262b07c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 469,
+      "source": "Screenshot 2026-10-18 113150.png",
+      "questionId": "q-a624e238ff",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 470,
+      "source": "Screenshot 2026-10-18 114011.png",
+      "questionId": "q-5ca0e41e10",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 471,
+      "source": "Screenshot 2026-10-18 114143.png",
+      "questionId": "q-a290d70649",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 472,
+      "source": "Screenshot 2026-10-18 114207.png",
+      "questionId": "q-f9345c354f",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 473,
+      "source": "Screenshot 2026-10-18 114259.png",
+      "questionId": "q-ba2ab6dadc",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 474,
+      "source": "Screenshot 2026-10-18 114337.png",
+      "questionId": "q-493e455ad2",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 475,
+      "source": "Screenshot 2026-10-18 114403.png",
+      "questionId": "q-abe6ea6a1a",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 476,
+      "source": "Screenshot 2026-10-18 114438.png",
+      "questionId": "q-60881da3e2",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 477,
+      "source": "Screenshot 2026-10-18 114509.png",
+      "questionId": "q-c8c64edb91",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 478,
+      "source": "Screenshot 2026-10-18 114611.png",
+      "questionId": "q-c360d97b80",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 479,
+      "source": "Screenshot 2026-10-18 114706.png",
+      "questionId": "q-02059f46cb",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 480,
+      "source": "Screenshot 2026-10-18 114805.png",
+      "questionId": "q-0bc42a3c94",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 481,
+      "source": "Screenshot 2026-10-18 114901.png",
+      "questionId": "q-706ae31f98",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 482,
+      "source": "Screenshot 2026-10-18 115111.png",
+      "questionId": "q-08385ddc07",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 483,
+      "source": "Screenshot 2026-10-18 115256.png",
+      "questionId": "q-110ab1db45",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 484,
+      "source": "Screenshot 2026-10-18 115326.png",
+      "questionId": "q-8c24f72770",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 485,
+      "source": "Screenshot 2026-10-18 120155.png",
+      "questionId": "q-295025b374",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 486,
+      "source": "Screenshot 2026-10-18 120518.png",
+      "questionId": "q-ce7ee861f0",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 487,
+      "source": "Screenshot 2026-10-18 120554.png",
+      "questionId": "q-7906763ff2",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 488,
+      "source": "Screenshot 2026-10-18 120805.png",
+      "questionId": "q-7906763ff2",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 489,
+      "source": "Screenshot 2026-10-18 120824.png",
+      "questionId": "q-292dbdf8a2",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 490,
+      "source": "Screenshot 2026-10-18 120932.png",
+      "questionId": "q-616cde6cf6",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 491,
+      "source": "Screenshot 2026-10-18 120953.png",
+      "questionId": "q-ada299e044",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 492,
+      "source": "Screenshot 2026-10-18 121020.png",
+      "questionId": "q-5d91811026",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 493,
+      "source": "Screenshot 2026-10-18 121109.png",
+      "questionId": "q-3eee2ff9f4",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 494,
+      "source": "Screenshot 2026-10-18 121135.png",
+      "questionId": "q-aa6f41bc5d",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 495,
+      "source": "Screenshot 2026-10-18 121159.png",
+      "questionId": "q-c693701189",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 496,
+      "source": "Screenshot 2026-10-18 121212.png",
+      "questionId": "q-797bf79af6",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 497,
+      "source": "Screenshot 2026-10-18 121321.png",
+      "questionId": "q-5b5718b832",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 498,
+      "source": "Screenshot 2026-10-18 121349.png",
+      "questionId": "q-bfef84a4af",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 499,
+      "source": "Screenshot 2026-10-18 121421.png",
+      "questionId": "q-fcd35bc167",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 500,
+      "source": "Screenshot 2026-10-18 121445.png",
+      "questionId": "q-556b203f69",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 501,
+      "source": "Screenshot 2026-10-18 121508.png",
+      "questionId": "q-f30ef65797",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 502,
+      "source": "Screenshot 2026-10-18 121516.png",
+      "questionId": "q-757f662c6b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 503,
+      "source": "Screenshot 2026-10-18 121539.png",
+      "questionId": "q-da44c36e51",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 504,
+      "source": "Screenshot 2026-10-18 121548.png",
+      "questionId": "q-da44c36e51",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 505,
+      "source": "Screenshot 2026-10-18 121645.png",
+      "questionId": "q-e5f4fec726",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 506,
+      "source": "Screenshot 2026-10-18 121655.png",
+      "questionId": "q-0192cb70a2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 507,
+      "source": "Screenshot 2026-10-18 121713.png",
+      "questionId": "q-f72bd11da5",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 508,
+      "source": "Screenshot 2026-10-18 121732.png",
+      "questionId": "q-cd05c18437",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 509,
+      "source": "Screenshot 2026-10-18 121753.png",
+      "questionId": "q-3daed3bab9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 510,
+      "source": "Screenshot 2026-10-18 121824.png",
+      "questionId": "q-802d846ff0",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 511,
+      "source": "Screenshot 2026-10-18 121841.png",
+      "questionId": "q-bf9b247f1a",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 512,
+      "source": "Screenshot 2026-10-18 121856.png",
+      "questionId": "q-8da5c75204",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 513,
+      "source": "Screenshot 2026-10-18 121911.png",
+      "questionId": "q-63c5e48991",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 514,
+      "source": "Screenshot 2026-10-18 121936.png",
+      "questionId": "q-db48e2b2c1",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 515,
+      "source": "Screenshot 2026-10-18 121953.png",
+      "questionId": "q-ad04ffdf7b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 516,
+      "source": "Screenshot 2026-10-18 122010.png",
+      "questionId": "q-ff5ec080e5",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 517,
+      "source": "Screenshot 2026-10-18 122041.png",
+      "questionId": "q-b1e6629593",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 518,
+      "source": "Screenshot 2026-10-18 122057.png",
+      "questionId": "q-525c6f3d52",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 519,
+      "source": "Screenshot 2026-10-18 122125.png",
+      "questionId": "q-23377dc3c9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 520,
+      "source": "Screenshot 2026-10-18 122158.png",
+      "questionId": "q-7e1dbdc2dd",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 521,
+      "source": "Screenshot 2026-10-18 122212.png",
+      "questionId": "q-eec109c4c9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 522,
+      "source": "Screenshot 2026-10-18 122228.png",
+      "questionId": "q-6d0d71e2ff",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 523,
+      "source": "Screenshot 2026-10-18 122302.png",
+      "questionId": "q-380bf42e42",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 524,
+      "source": "Screenshot 2026-10-18 122320.png",
+      "questionId": "q-89c88e0c37",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 525,
+      "source": "Screenshot 2026-10-18 122337.png",
+      "questionId": "q-d5544ec7a1",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 526,
+      "source": "Screenshot 2026-10-18 122352.png",
+      "questionId": "q-1d5ff12f81",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 527,
+      "source": "Screenshot 2026-10-18 122411.png",
+      "questionId": "q-3914b6526f",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 528,
+      "source": "Screenshot 2026-10-18 122425.png",
+      "questionId": "q-2efee8b9a1",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 529,
+      "source": "Screenshot 2026-10-18 122444.png",
+      "questionId": "q-860ff8f28f",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 530,
+      "source": "Screenshot 2026-10-18 122502.png",
+      "questionId": "q-824ed6c08b",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 531,
+      "source": "Screenshot 2026-10-22 115630.png",
+      "questionId": "q-9c775971f5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 532,
+      "source": "Screenshot 2026-10-22 120757.png",
+      "questionId": "q-aa2b5b8d46",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 533,
+      "source": "Screenshot 2026-10-22 120925.png",
+      "questionId": "q-ba1e983977",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 534,
+      "source": "Screenshot 2026-10-22 121017.png",
+      "questionId": "q-edef15e1be",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 535,
+      "source": "Screenshot 2026-10-22 121128.png",
+      "questionId": "q-8d307d2de1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 536,
+      "source": "Screenshot 2026-10-22 121249.png",
+      "questionId": "q-d9e3e02140",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 537,
+      "source": "Screenshot 2026-10-22 121511.png",
+      "questionId": "q-d9e3e02140",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 538,
+      "source": "Screenshot 2026-10-22 125436.png",
+      "questionId": "q-be1d31a31c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 539,
+      "source": "Screenshot 2026-10-22 125505.png",
+      "questionId": "q-b14b012f37",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 540,
+      "source": "Screenshot 2026-10-22 125750.png",
+      "questionId": "q-8b4cfca9c5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 541,
+      "source": "Screenshot 2026-10-22 125834.png",
+      "questionId": "q-94ef30c449",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 542,
+      "source": "Screenshot 2026-10-22 130132.png",
+      "questionId": "q-4542454bc6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 543,
+      "source": "Screenshot 2026-10-22 130831.png",
+      "questionId": "q-e666c3e68d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 544,
+      "source": "Screenshot 2026-10-22 131017.png",
+      "questionId": "q-dc5f223c38",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 545,
+      "source": "Screenshot 2026-10-22 131104.png",
+      "questionId": "q-623fce20ff",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 546,
+      "source": "Screenshot 2026-10-22 131137.png",
+      "questionId": "q-8460c3b3da",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 547,
+      "source": "Screenshot 2026-10-22 131207.png",
+      "questionId": "q-caf539affc",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 548,
+      "source": "Screenshot 2026-10-22 131242.png",
+      "questionId": "q-a3ec79a777",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 549,
+      "source": "Screenshot 2026-10-22 131249.png",
+      "questionId": "q-73f7eff645",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 550,
+      "source": "Screenshot 2026-10-22 132905.png",
+      "questionId": "q-ae7e105c23",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 551,
+      "source": "Screenshot 2026-10-22 133214.png",
+      "questionId": "q-1f8fb5a401",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 552,
+      "source": "Screenshot 2026-10-22 133459.png",
+      "questionId": "q-da9bfba408",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 553,
+      "source": "Screenshot 2026-10-22 133533.png",
+      "questionId": "q-4878aedeb2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 554,
+      "source": "Screenshot 2026-10-22 133626.png",
+      "questionId": "q-952809f32b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 555,
+      "source": "Screenshot 2026-10-22 133704.png",
+      "questionId": "q-668084fdb0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 556,
+      "source": "Screenshot 2026-10-22 133749.png",
+      "questionId": "q-906607bdf2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 557,
+      "source": "Screenshot 2026-10-22 135222.png",
+      "questionId": "q-906607bdf2",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 558,
+      "source": "Screenshot 2026-10-22 135250.png",
+      "questionId": "q-e8f2d4a42b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 559,
+      "source": "Screenshot 2026-10-22 135320.png",
+      "questionId": "q-6524d2d123",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 560,
+      "source": "Screenshot 2026-10-22 135407.png",
+      "questionId": "q-6b5ca5b85b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 561,
+      "source": "Screenshot 2026-10-22 135447.png",
+      "questionId": "q-846741cf86",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 562,
+      "source": "Screenshot 2026-10-22 135556.png",
+      "questionId": "q-dbf4eae247",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 563,
+      "source": "Screenshot 2026-10-22 135649.png",
+      "questionId": "q-cd31f4874c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 564,
+      "source": "Screenshot 2026-10-22 135746.png",
+      "questionId": "q-944828e020",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 565,
+      "source": "Screenshot 2026-10-22 135831.png",
+      "questionId": "q-fb7d8445b8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 566,
+      "source": "Screenshot 2026-10-22 135919.png",
+      "questionId": "q-7b8355af86",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 567,
+      "source": "Screenshot 2026-10-22 135948.png",
+      "questionId": "q-9c0f73ded9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 568,
+      "source": "Screenshot 2026-10-22 140019.png",
+      "questionId": "q-adbb421619",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 569,
+      "source": "Screenshot 2026-10-22 140042.png",
+      "questionId": "q-1aad0b0ac2",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 570,
+      "source": "Screenshot 2026-10-22 140122.png",
+      "questionId": "q-724c0a3f53",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 571,
+      "source": "Screenshot 2026-10-22 140205.png",
+      "questionId": "q-3ae0cdf0a7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 572,
+      "source": "Screenshot 2026-10-22 140225.png",
+      "questionId": "q-c447e6f089",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 573,
+      "source": "Screenshot 2026-10-22 140248.png",
+      "questionId": "q-968b2a919f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 574,
+      "source": "Screenshot 2026-10-22 140309.png",
+      "questionId": "q-84cfe7ccec",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 575,
+      "source": "Screenshot 2026-10-22 140340.png",
+      "questionId": "q-430c84aee3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 576,
+      "source": "Screenshot 2026-10-22 140355.png",
+      "questionId": "q-592bfba3b4",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 577,
+      "source": "Screenshot 2026-10-22 140411.png",
+      "questionId": "q-bc5badafed",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 578,
+      "source": "Screenshot 2026-10-22 140424.png",
+      "questionId": "q-05aad166cb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 579,
+      "source": "Screenshot 2026-10-22 140452.png",
+      "questionId": "q-95c229feac",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 580,
+      "source": "Screenshot 2026-10-22 140506.png",
+      "questionId": "q-bf60da44dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 581,
+      "source": "Screenshot 2026-10-22 140526.png",
+      "questionId": "q-c2e1099cc3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 582,
+      "source": "Screenshot 2026-10-23 123129.png",
+      "questionId": "q-5502ba5968",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 583,
+      "source": "Screenshot 2026-10-23 123907.png",
+      "questionId": "q-064f348d05",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 584,
+      "source": "Screenshot 2026-10-23 123945.png",
+      "questionId": "q-7e23630338",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 585,
+      "source": "Screenshot 2026-10-23 124020.png",
+      "questionId": "q-cd6a71f837",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 586,
+      "source": "Screenshot 2026-10-23 124122.png",
+      "questionId": "q-9e004e8689",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 587,
+      "source": "Screenshot 2026-10-23 124412.png",
+      "questionId": "q-db5db813d9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 588,
+      "source": "Screenshot 2026-10-23 124722.png",
+      "questionId": "q-1f1cb6e9ee",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 589,
+      "source": "Screenshot 2026-10-23 125117.png",
+      "questionId": "q-80c205c9be",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 590,
+      "source": "Screenshot 2026-10-23 125156.png",
+      "questionId": "q-7ae64def8e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 591,
+      "source": "Screenshot 2026-10-23 125300.png",
+      "questionId": "q-e616330e6d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 592,
+      "source": "Screenshot 2026-10-23 125602.png",
+      "questionId": "q-922134235b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 593,
+      "source": "Screenshot 2026-10-23 125924.png",
+      "questionId": "q-9fa05b5c7e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 594,
+      "source": "Screenshot 2026-10-23 130026.png",
+      "questionId": "q-5757414165",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 595,
+      "source": "Screenshot 2026-10-23 130124.png",
+      "questionId": "q-4404d4fb5e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 596,
+      "source": "Screenshot 2026-10-23 130436.png",
+      "questionId": "q-cfbb6a38b8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 597,
+      "source": "Screenshot 2026-10-23 130715.png",
+      "questionId": "q-bc43f990b5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 598,
+      "source": "Screenshot 2026-10-23 130915.png",
+      "questionId": "q-866ca9f98c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 599,
+      "source": "Screenshot 2026-10-23 131005.png",
+      "questionId": "q-83bf7015fb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 600,
+      "source": "Screenshot 2026-10-23 131455.png",
+      "questionId": "q-e15ce6b11d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 601,
+      "source": "Screenshot 2026-10-23 132228.png",
+      "questionId": "q-d5c7632f2c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 602,
+      "source": "Screenshot 2026-10-23 132750.png",
+      "questionId": "q-d5c7632f2c",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 603,
+      "source": "Screenshot 2026-10-23 132844.png",
+      "questionId": "q-4d5d4b2312",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 604,
+      "source": "Screenshot 2026-10-23 132918.png",
+      "questionId": "q-cd1f0c7150",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 605,
+      "source": "Screenshot 2026-10-23 132946.png",
+      "questionId": "q-987ce03524",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 606,
+      "source": "Screenshot 2026-10-23 133017.png",
+      "questionId": "q-acc415c6ac",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 607,
+      "source": "Screenshot 2026-10-23 133252.png",
+      "questionId": "q-8cd3b36bc1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 608,
+      "source": "Screenshot 2026-10-23 133633.png",
+      "questionId": "q-dbfd924698",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 609,
+      "source": "Screenshot 2026-10-23 133727.png",
+      "questionId": "q-0dae7b848a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 610,
+      "source": "Screenshot 2026-10-23 133826.png",
+      "questionId": "q-3c5efaf470",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 611,
+      "source": "Screenshot 2026-10-23 133934.png",
+      "questionId": "q-48f555a790",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 612,
+      "source": "Screenshot 2026-10-23 134007.png",
+      "questionId": "q-94f353babd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 613,
+      "source": "Screenshot 2026-10-23 134054.png",
+      "questionId": "q-8e5f15ab67",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 614,
+      "source": "Screenshot 2026-10-23 134124.png",
+      "questionId": "q-6f14ef398b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 615,
+      "source": "Screenshot 2026-10-23 134208.png",
+      "questionId": "q-45fa3b0290",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 616,
+      "source": "Screenshot 2026-10-23 134246.png",
+      "questionId": "q-45fa3b0290",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 617,
+      "source": "Screenshot 2026-10-23 134315.png",
+      "questionId": "q-7c2878bb0a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 618,
+      "source": "Screenshot 2026-10-23 134400.png",
+      "questionId": "q-8413a2b12c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 619,
+      "source": "Screenshot 2026-10-23 134455.png",
+      "questionId": "q-bc28857150",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 620,
+      "source": "Screenshot 2026-10-23 134523.png",
+      "questionId": "q-2c39e25323",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 621,
+      "source": "Screenshot 2026-10-23 134638.png",
+      "questionId": "q-6fa4a94395",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 622,
+      "source": "Screenshot 2026-10-23 134737.png",
+      "questionId": "q-8fcba9a05b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 623,
+      "source": "Screenshot 2026-10-23 134834.png",
+      "questionId": "q-016660d14a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 624,
+      "source": "Screenshot 2026-10-23 134915.png",
+      "questionId": "q-b0faef14c9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 625,
+      "source": "Screenshot 2026-10-23 135026.png",
+      "questionId": "q-7c669f3b4b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 626,
+      "source": "Screenshot 2026-10-23 135125.png",
+      "questionId": "q-f150d6ffb9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 627,
+      "source": "Screenshot 2026-10-23 135222.png",
+      "questionId": "q-f4aac7a110",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 628,
+      "source": "Screenshot 2026-10-23 135258.png",
+      "questionId": "q-39998f6398",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 629,
+      "source": "Screenshot 2026-10-23 135343.png",
+      "questionId": "q-de02906a74",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 630,
+      "source": "Screenshot 2026-10-23 135443.png",
+      "questionId": "q-97e223c85f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 631,
+      "source": "Screenshot 2026-10-23 135545.png",
+      "questionId": "q-8846004f7e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 632,
+      "source": "Screenshot 2026-10-23 135620.png",
+      "questionId": "q-daa75ca384",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 633,
+      "source": "Screenshot 2026-10-23 135654.png",
+      "questionId": "q-a8aa17346d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 634,
+      "source": "Screenshot 2026-10-23 135754.png",
+      "questionId": "q-dbc55154e0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 635,
+      "source": "Screenshot 2026-10-23 135905.png",
+      "questionId": "q-9b2bc3ade1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 636,
+      "source": "Screenshot 2026-10-23 135938.png",
+      "questionId": "q-73c37cd7d1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 637,
+      "source": "Screenshot 2026-10-23 140009.png",
+      "questionId": "q-bc0dbdccc8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 638,
+      "source": "Screenshot 2026-10-23 140026.png",
+      "questionId": "q-b67682d568",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 639,
+      "source": "Screenshot 2026-10-23 140057.png",
+      "questionId": "q-15d7ee9b73",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 640,
+      "source": "Screenshot 2026-10-23 140142.png",
+      "questionId": "q-7e74863606",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 641,
+      "source": "Screenshot 2026-10-23 140210.png",
+      "questionId": "q-3380200b3f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 642,
+      "source": "Screenshot 2026-10-24 105752.png",
+      "questionId": "q-dd20c155a6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 643,
+      "source": "Screenshot 2026-10-24 110524.png",
+      "questionId": "q-16330a4f53",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 644,
+      "source": "Screenshot 2026-10-24 110603.png",
+      "questionId": "q-cc58cc1c87",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 645,
+      "source": "Screenshot 2026-10-24 110615.png",
+      "questionId": "q-45dfc36521",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 646,
+      "source": "Screenshot 2026-10-24 110652.png",
+      "questionId": "q-45dfc36521",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 647,
+      "source": "Screenshot 2026-10-24 110739.png",
+      "questionId": "q-b32dfa7347",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 648,
+      "source": "Screenshot 2026-10-24 110932.png",
+      "questionId": "q-1c56bf47bb",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 649,
+      "source": "Screenshot 2026-10-24 110957.png",
+      "questionId": "q-fa16511e6e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 650,
+      "source": "Screenshot 2026-10-24 111020.png",
+      "questionId": "q-9ae97128aa",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 651,
+      "source": "Screenshot 2026-10-24 111045.png",
+      "questionId": "q-9c3f5230e8",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 652,
+      "source": "Screenshot 2026-10-24 111112.png",
+      "questionId": "q-0354c8b0ad",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 653,
+      "source": "Screenshot 2026-10-24 111537.png",
+      "questionId": "q-0354c8b0ad",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 654,
+      "source": "Screenshot 2026-10-24 111631.png",
+      "questionId": "q-7a6fda536a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 655,
+      "source": "Screenshot 2026-10-24 111824.png",
+      "questionId": "q-3c1296de1d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 656,
+      "source": "Screenshot 2026-10-24 111849.png",
+      "questionId": "q-42c312d1c7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 657,
+      "source": "Screenshot 2026-10-24 111915.png",
+      "questionId": "q-d1b42bd1e6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 658,
+      "source": "Screenshot 2026-10-24 111940.png",
+      "questionId": "q-32e4f7b539",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 659,
+      "source": "Screenshot 2026-10-24 112006.png",
+      "questionId": "q-76805af6dd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 660,
+      "source": "Screenshot 2026-10-24 112859.png",
+      "questionId": "q-980bb09571",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 661,
+      "source": "Screenshot 2026-10-24 112908.png",
+      "questionId": "q-980bb09571",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 662,
+      "source": "Screenshot 2026-10-24 112956.png",
+      "questionId": "q-ed48f58cb9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 663,
+      "source": "Screenshot 2026-10-24 113016.png",
+      "questionId": "q-3e8e1ae730",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 664,
+      "source": "Screenshot 2026-10-24 113037.png",
+      "questionId": "q-9567f79712",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 665,
+      "source": "Screenshot 2026-10-24 113107.png",
+      "questionId": "q-733ae5a749",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 666,
+      "source": "Screenshot 2026-10-24 113238.png",
+      "questionId": "q-78334fd049",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 667,
+      "source": "Screenshot 2026-10-24 113312.png",
+      "questionId": "q-c49b6e1e96",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 668,
+      "source": "Screenshot 2026-10-24 113339.png",
+      "questionId": "q-359e5e3004",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 669,
+      "source": "Screenshot 2026-10-24 113407.png",
+      "questionId": "q-81dcf37ded",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 670,
+      "source": "Screenshot 2026-10-24 113433.png",
+      "questionId": "q-4c39e9c7c5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 671,
+      "source": "Screenshot 2026-10-24 113511.png",
+      "questionId": "q-180af3a769",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 672,
+      "source": "Screenshot 2026-10-24 113542.png",
+      "questionId": "q-2df4da64fd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 673,
+      "source": "Screenshot 2026-10-24 113557.png",
+      "questionId": "q-666eee875b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 674,
+      "source": "Screenshot 2026-10-24 113630.png",
+      "questionId": "q-fc07c01d6f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 675,
+      "source": "Screenshot 2026-10-24 113705.png",
+      "questionId": "q-4777d0a53c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 676,
+      "source": "Screenshot 2026-10-24 113710.png",
+      "questionId": "q-67b15b5f65",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 677,
+      "source": "Screenshot 2026-10-24 113721.png",
+      "questionId": "q-8bf1c2beb1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 678,
+      "source": "Screenshot 2026-10-24 113730.png",
+      "questionId": "q-a931306c79",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 679,
+      "source": "Screenshot 2026-10-24 113809.png",
+      "questionId": "q-f6839b13c3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 680,
+      "source": "Screenshot 2026-10-24 113839.png",
+      "questionId": "q-529b4b148e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 681,
+      "source": "Screenshot 2026-10-24 113927.png",
+      "questionId": "q-cbfaeea4a5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 682,
+      "source": "Screenshot 2026-10-24 113951.png",
+      "questionId": "q-cbfaeea4a5",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 683,
+      "source": "Screenshot 2026-10-24 114057.png",
+      "questionId": "q-a8c38b5e2e",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 684,
+      "source": "Screenshot 2026-10-24 114152.png",
+      "questionId": "q-9eb3253466",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 685,
+      "source": "Screenshot 2026-10-24 114253.png",
+      "questionId": "q-f767deeffc",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 686,
+      "source": "Screenshot 2026-10-24 114353.png",
+      "questionId": "q-a672266c0d",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 687,
+      "source": "Screenshot 2026-10-24 114625.png",
+      "questionId": "q-e96bab5408",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 688,
+      "source": "Screenshot 2026-10-24 114706.png",
+      "questionId": "q-ecbe36f0b5",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 689,
+      "source": "Screenshot 2026-10-24 114806.png",
+      "questionId": "q-29b3a5b70a",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 690,
+      "source": "Screenshot 2026-10-24 115154.png",
+      "questionId": "q-bf4fac7ec9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 691,
+      "source": "Screenshot 2026-10-24 115229.png",
+      "questionId": "q-286412cfe6",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 692,
+      "source": "Screenshot 2026-10-24 115238.png",
+      "questionId": "q-b8123c9aee",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 693,
+      "source": "Screenshot 2026-10-24 115304.png",
+      "questionId": "q-6571aff96f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 694,
+      "source": "Screenshot 2026-10-24 115310.png",
+      "questionId": "q-f0aa5f6874",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 695,
+      "source": "Screenshot 2026-10-24 115355.png",
+      "questionId": "q-141af0ee31",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 696,
+      "source": "Screenshot 2026-10-24 120652.png",
+      "questionId": "q-9ea7d755e7",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 697,
+      "source": "Screenshot 2026-10-24 121027.png",
+      "questionId": "q-9ea7d755e7",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 698,
+      "source": "Screenshot 2026-10-24 121053.png",
+      "questionId": "q-94209fd8d9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 699,
+      "source": "Screenshot 2026-10-24 121059.png",
+      "questionId": "q-cd759c5ad0",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 700,
+      "source": "Screenshot 2026-10-24 121149.png",
+      "questionId": "q-b3a086a71b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 701,
+      "source": "Screenshot 2026-10-24 121154.png",
+      "questionId": "q-823661ee63",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 702,
+      "source": "Screenshot 2026-10-24 121330.png",
+      "questionId": "q-823661ee63",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 703,
+      "source": "Screenshot 2026-10-24 121401.png",
+      "questionId": "q-edc27e0104",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 704,
+      "source": "Screenshot 2026-10-24 121416.png",
+      "questionId": "q-4e87ffc327",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 705,
+      "source": "Screenshot 2026-10-24 121452.png",
+      "questionId": "q-ba953dcebd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 706,
+      "source": "Screenshot 2026-10-24 121526.png",
+      "questionId": "q-0a854ef464",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 707,
+      "source": "Screenshot 2026-10-24 121552.png",
+      "questionId": "q-9a11fc996f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 708,
+      "source": "Screenshot 2026-10-24 121623.png",
+      "questionId": "q-3b902b879b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 709,
+      "source": "Screenshot 2026-10-24 121714.png",
+      "questionId": "q-e99c8b3c6c",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 710,
+      "source": "Screenshot 2026-10-24 121852.png",
+      "questionId": "q-e99c8b3c6c",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 711,
+      "source": "Screenshot 2026-10-24 121950.png",
+      "questionId": "q-b5a029f239",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 712,
+      "source": "Screenshot 2026-10-24 122130.png",
+      "questionId": "q-7c6077cad9",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 713,
+      "source": "Screenshot 2026-10-24 122236.png",
+      "questionId": "q-f7232e9a0f",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 714,
+      "source": "Screenshot 2026-10-24 122357.png",
+      "questionId": "q-f7232e9a0f",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 715,
+      "source": "Screenshot 2026-10-24 122509.png",
+      "questionId": "q-35504410ec",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 716,
+      "source": "Screenshot 2026-10-24 122551.png",
+      "questionId": "q-5185b2ecfd",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 717,
+      "source": "Screenshot 2026-10-24 122709.png",
+      "questionId": "q-71a3b5840b",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 718,
+      "source": "Screenshot 2026-10-24 122850.png",
+      "questionId": "q-5aec38b1a1",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 719,
+      "source": "Screenshot 2026-10-24 122936.png",
+      "questionId": "q-5aec38b1a1",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 720,
+      "source": "Screenshot 2026-10-24 123040.png",
+      "questionId": "q-5aec38b1a1",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 721,
+      "source": "Screenshot 2026-10-24 123110.png",
+      "questionId": "q-450a1bd818",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 722,
+      "source": "Screenshot 2026-10-24 123138.png",
+      "questionId": "q-be710637d3",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 723,
+      "source": "Screenshot 2026-10-24 123226.png",
+      "questionId": "q-5fc8275f81",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 724,
+      "source": "Screenshot 2026-10-24 123309.png",
+      "questionId": "q-5fc8275f81",
+      "kind": "duplicate"
+    },
+    {
+      "sourceIndex": 725,
+      "source": "Screenshot 2026-10-24 123343.png",
+      "questionId": "q-ddfa116b89",
+      "kind": "question"
+    },
+    {
+      "sourceIndex": 726,
+      "source": "Screenshot 2026-10-24 123421.png",
+      "questionId": "q-311bb7a10b",
+      "kind": "question"
+    }
+  ]
+}
