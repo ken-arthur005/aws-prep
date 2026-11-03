@@ -54,3 +54,12 @@ next-env.d.ts
 /data/new-ocr.json
 /data/new-review.txt
 /data/new-unique-review.txt
+/data/copyedit-packet.txt
+/data/copyedit-spelling.json
+/data/copyedit-spelling.txt
+/data/copyedit-grammar.json
+/data/copyedit-grammar.txt
+/data/copyedit-word-candidates.txt
+/data/copyedit-focus.txt
+/data/copyedit-context.txt
+/data/copyedit-boundaries.txt

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import bank from "../data/questions.json";
@@ -19,6 +19,24 @@ import { createSession, finishSession } from "../lib/study";
 import type { Question, StudyState } from "../lib/types";
 
 const questions = bank.questions as Question[];
+const copyReview = JSON.parse(
+  readFileSync(
+    new URL("../data/copy-edit-review.json", import.meta.url),
+    "utf8",
+  ),
+) as {
+  reviewedRecords: number;
+  editedRecords: number;
+  editedFields: number;
+  scoringContractSha256: string;
+  edits: Record<
+    string,
+    {
+      number: number;
+      fields: Record<string, { before: string; after: string }>;
+    }
+  >;
+};
 const blank = (): StudyState => ({
   version: 1,
   examDate: "2026-11-05",
@@ -61,18 +79,79 @@ test("the original question/answer contract remains intact for saved sessions", 
   assert.equal(original.length, 606);
   const contract = original.map((q) => [
     q.id,
-    q.prompt,
-    q.options,
+    copyReview.edits[q.id]?.fields.prompt?.before ?? q.prompt,
+    q.options.map(
+      (value, i) =>
+        copyReview.edits[q.id]?.fields[`options.${i}`]?.before ?? value,
+    ),
     q.select,
     q.correct,
   ]);
-  // Frozen original contract from the pre-v2 bank; excludes only additive source metadata.
+  // Reconstruct pre-copy-edit wording from the ledger; IDs, option positions, and keys remain frozen.
   const digest = createHash("sha256")
     .update(JSON.stringify(contract))
     .digest("hex");
   assert.equal(
     digest,
     "3d7255f83cb0a6fda0344a1269b0d58e215446efc4e02a259bb3ab6132252747",
+  );
+});
+
+test("copy edits are traceable and preserve the complete scoring contract", () => {
+  assert.equal(
+    copyReview.reviewedRecords,
+    questions.filter((q) => q.status === "ready").length,
+  );
+  assert.equal(copyReview.editedRecords, Object.keys(copyReview.edits).length);
+  let fields = 0;
+  for (const [id, record] of Object.entries(copyReview.edits)) {
+    const q = questions.find((q) => q.id === id)!;
+    assert.ok(q && q.status === "ready");
+    for (const [path, edit] of Object.entries(record.fields)) {
+      const [field, key] = path.split(".");
+      const value = (q as unknown as Record<string, unknown>)[field];
+      const actual =
+        key === undefined
+          ? value
+          : Array.isArray(value)
+            ? value[Number(key)]
+            : (value as Record<string, unknown>)[key];
+      assert.equal(actual, edit.after, `${id}:${path}`);
+      assert.notEqual(edit.before, edit.after);
+      fields++;
+    }
+  }
+  assert.equal(fields, copyReview.editedFields);
+  const scoring = questions.map((q) => [
+    q.id,
+    q.options.length,
+    q.select,
+    q.correct,
+    q.status,
+  ]);
+  assert.equal(
+    createHash("sha256").update(JSON.stringify(scoring)).digest("hex"),
+    "d9f600ca3f6c9a74acebcc1cedc3e32b7d4208b99d756ceb566eb2fbdc63816d",
+  );
+  assert.equal(
+    copyReview.scoringContractSha256,
+    "d9f600ca3f6c9a74acebcc1cedc3e32b7d4208b99d756ceb566eb2fbdc63816d",
+  );
+  const cloudhsm = questions.find((q) => q.number === 198)!;
+  assert.match(cloudhsm.options[0], /same Region/);
+  assert.match(cloudhsm.options[2], /different Region/);
+  const firewall = questions.find((q) => q.number === 264)!;
+  assert.match(firewall.prompt, /443/);
+  assert.match(firewall.options[2], /3306/);
+  assert.match(firewall.options[4], /442/); // Preserve the deliberately wrong port.
+  assert.match(questions.find((q) => q.number === 1037)!.prompt, /\.NET/);
+  assert.equal(
+    questions.find((q) => q.number === 178)!.options[0],
+    "http://169.254.169.254/latest/meta-data/ami-id",
+  );
+  assert.equal(
+    questions.find((q) => q.number === 952)!.options[0],
+    "arn:aws:lambda:aws-region:acct-id:function:helloworld:$LATEST",
   );
 });
 

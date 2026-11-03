@@ -22,6 +22,12 @@ Substantive wording corrections are labeled in the app and documented with the q
 - performance: 193
 - cost: 93
 
+## Copy-edit review
+
+All 705 study-ready records received the local spelling/grammar audit and reviewed prose repair pass. 702 records / 2708 fields changed. Every before/after edit is retained in `copy-edit-review.json`. Scoring IDs, option counts/order, selection counts, answer indices, and editorial statuses are preserved.
+
+Technical identifiers and intentionally incorrect distractor claims are not treated as ordinary grammar suggestions. Original screenshots and extraction remain available for comparison.
+
 ## Reviewed exclusions
 
 These are closed editorial dispositions, not an automatic/background work queue. The source issue and relevant reading are listed below.

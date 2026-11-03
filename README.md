@@ -55,7 +55,7 @@ The question pool has 209 Secure, 210 Resilient, 193 High-performing and 93 Cost
 
 ### November import
 
-The **314 captures in `public/new set/`** add **171 study-ready questions** and **21 documented exclusions**. Another **122 captures** are duplicate/continuation evidence attached to canonical records. Original question IDs, option orders, selection counts, prompts, and answer sets remain frozen; a regression checksum protects the pre-v2 saved-session contract.
+The **314 captures in `public/new set/`** add **171 study-ready questions** and **21 documented exclusions**. Another **122 captures** are duplicate/continuation evidence attached to canonical records. Question IDs, option positions/counts, selection counts, and answer sets remain frozen. Prose corrections are traceable through a before/after ledger; regression checks reconstruct the pre-copy-edit text and protect saved-session scoring compatibility.
 
 Some complete new screenshots genuinely have three options; those are preserved rather than inventing a fourth. Substantive corrections and study variants are explicitly labelled. Historical Pinpoint journeys, unavailable new-customer services, unsupported network transit, and genuinely underspecified questions do not enter scored mocks.
 
@@ -64,6 +64,16 @@ Some complete new screenshots genuinely have three options; those are preserved 
 `lib/revision-content.ts` contains original concise summaries informed by the supplied resources. It is the shared source for guides, comparisons, pocket cards, and recall. Community source: [RonitSachdev — AWS SAA-C03 Guides](https://github.com/RonitSachdev/aws-saa-c03-guides), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The summaries shorten/reorganise the material, add examples, and correct outdated details; in-app source notes retain attribution and identify the guide used. The original resource files remain available for inspection.
 
 The revision summaries correct outdated shortcuts including SQS's former 256 KB limit, the old gp3 16,000 IOPS ceiling, creation-only Object Lock, blanket non-readable RDS Multi-AZ claims, the absolute 29-second API Gateway timeout, and outdated KMS validation/certificate-export claims. Primary references support these corrections. Source material is not automatically treated as a verified answer key.
+
+### Bank-wide proofreading
+
+All **705 study-ready records** have received a local spelling/grammar audit and a reviewed copy-edit pass across prompts, options, explanations, takeaways, and editorial notes. Repairs include lost sentence boundaries, broken OCR words, malformed example hostnames, split hyphens, punctuation, capitalization, American-English consistency, and normalized multi-answer instructions. Question text is separated from its scenario for easier reading.
+
+- `scripts/copyedit_content.py`: reviewed general rules and contextual field repairs, applied after answer review and duplicate grouping.
+- `data/copy-edit-review.json`: complete before/after ledger plus a frozen scoring-contract checksum.
+- The bank builder checks normalization idempotence and rejects changes to scoring metadata. Tests verify the ledger against the shipped text and explicitly protect technical distinctions and identifiers.
+
+The optional `audit_copy.py`, `audit_spelling.mjs`, and `audit_grammar.mjs` scripts prepare local review packets. Spelling uses nspell/dictionary-en through `COPYEDIT_TOOLS`; grammar uses a local LanguageTool installation through `COPYEDIT_JAVA` and `COPYEDIT_LT`. These authoring tools are not runtime dependencies, and question text is not sent to an external proofreading service. Suggestions involving AWS names, command syntax, or deliberately incorrect answer claims are reviewed rather than blindly applied. The original extraction and screenshots remain source evidence; reviewed exclusions retain their source transcription.
 
 ### Source of truth
 

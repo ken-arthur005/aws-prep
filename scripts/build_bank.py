@@ -124,8 +124,10 @@ def main():
         entry.update({"collection":"original", "path":"/questions/"+entry["source"]})
     from import_batch import extend_bank
     november = extend_bank(bank, manifest, aliases)
+    from copyedit_content import apply_copyedits
+    copy_review = apply_copyedits(bank)
     source_count = len(extracted) + november["sourceCount"]
-    output = {"sourceCount": source_count, "reviewedAt": "2026-11-03", "collections":[{"id":"original","sourceCount":len(extracted)},november], "aliases": aliases, "questions": bank}
+    output = {"sourceCount": source_count, "reviewedAt": "2026-11-03", "copyEditedAt":copy_review["reviewedAt"], "collections":[{"id":"original","sourceCount":len(extracted)},november], "aliases": aliases, "questions": bank}
     (ROOT / "data/questions.json").write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     report = {"sources": source_count, "uniqueRecords": len(bank), "studyReady": sum(q["status"] == "ready" for q in bank), "flagged": sum(q["status"] == "legacy" for q in bank), "awaitingReview": sum(q["status"] == "review" for q in bank), "manifest": sorted(manifest, key=lambda m: m["sourceIndex"])}
     (ROOT / "data/source-manifest.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
@@ -133,6 +135,7 @@ def main():
     lines = ["# Editorial review report", "", "Reviewed: 2026-11-03. Original screenshot selections were disregarded.", "", f"- Uploaded screenshots: **{source_count}** (727 original + 314 November)", f"- Combined question/source records: **{len(bank)}**", f"- Study-ready, with option-level explanations: **{report['studyReady']}**", f"- Reviewed exclusions: **{report['flagged']}**", f"- Awaiting review: **{report['awaitingReview']}**", "", "All sources are preserved in `source-manifest.json`; merged capture IDs are recorded in `source-aliases.json`.", "Substantive wording corrections are labeled in the app and documented with the question. These are independent study explanations, not an AWS answer key.", "", "## November collection", "", f"{november['recordsAdded']} records added: {november['readyAdded']} ready, {november['excludedAdded']} excluded; {november['mergedSources']} duplicate/continuation sources joined to canonical records.", "", "## Study-ready pool by domain", ""]
     for domain in ["secure", "resilient", "performance", "cost"]:
         lines.append(f"- {domain}: {sum(q['domain'] == domain and q['status'] == 'ready' for q in bank)}")
+    lines.extend(["", "## Copy-edit review", "", f"All {copy_review['reviewedRecords']} study-ready records received the local spelling/grammar audit and reviewed prose repair pass. {copy_review['editedRecords']} records / {copy_review['editedFields']} fields changed. Every before/after edit is retained in `copy-edit-review.json`. Scoring IDs, option counts/order, selection counts, answer indices, and editorial statuses are preserved.", "", "Technical identifiers and intentionally incorrect distractor claims are not treated as ordinary grammar suggestions. Original screenshots and extraction remain available for comparison."])
     lines.extend(["", "## Reviewed exclusions", "", "These are closed editorial dispositions, not an automatic/background work queue. The source issue and relevant reading are listed below."])
     for q in bank:
         if q["status"] == "legacy":
