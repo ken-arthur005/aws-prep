@@ -124,28 +124,34 @@ def main():
         entry.update({"collection":"original", "path":"/questions/"+entry["source"]})
     from import_batch import extend_bank
     november = extend_bank(bank, manifest, aliases)
+    from import_html import extend_html, finalize_study_pool
+    html_records = extend_html(bank)
     from copyedit_content import apply_copyedits
     copy_review = apply_copyedits(bank)
+    html = finalize_study_pool(bank, html_records, aliases)
+    def study_ready(q):
+        return q["status"] == "ready" and not q.get("duplicateOf") and not q.get("studyExcludedReason")
     source_count = len(extracted) + november["sourceCount"]
-    output = {"sourceCount": source_count, "reviewedAt": "2026-11-03", "copyEditedAt":copy_review["reviewedAt"], "collections":[{"id":"original","sourceCount":len(extracted)},november], "aliases": aliases, "questions": bank}
+    output = {"sourceCount": source_count, "reviewedAt": "2026-11-03", "copyEditedAt":copy_review["reviewedAt"], "collections":[{"id":"original","sourceCount":len(extracted)},november,{"id":"html","sourceCount":html["sourceRecords"],"readyAdded":html["added"],"matched":html["matched"],"excluded":html["excluded"]}], "aliases": aliases, "questions": bank}
     (ROOT / "data/questions.json").write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-    report = {"sources": source_count, "uniqueRecords": len(bank), "studyReady": sum(q["status"] == "ready" for q in bank), "flagged": sum(q["status"] == "legacy" for q in bank), "awaitingReview": sum(q["status"] == "review" for q in bank), "manifest": sorted(manifest, key=lambda m: m["sourceIndex"])}
+    report = {"sources": source_count, "uniqueRecords": len(bank), "studyReady": sum(study_ready(q) for q in bank), "flagged": sum(not study_ready(q) and not q.get("duplicateOf") for q in bank), "historyDuplicates":html["retainedHistoryDuplicates"], "awaitingReview": sum(q["status"] == "review" for q in bank), "manifest": sorted(manifest, key=lambda m: m["sourceIndex"])}
     (ROOT / "data/source-manifest.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     (ROOT / "data/source-aliases.json").write_text(json.dumps(aliases, indent=2), encoding="utf-8")
     lines = ["# Editorial review report", "", "Reviewed: 2026-11-03. Original screenshot selections were disregarded.", "", f"- Uploaded screenshots: **{source_count}** (727 original + 314 November)", f"- Combined question/source records: **{len(bank)}**", f"- Study-ready, with option-level explanations: **{report['studyReady']}**", f"- Reviewed exclusions: **{report['flagged']}**", f"- Awaiting review: **{report['awaitingReview']}**", "", "All sources are preserved in `source-manifest.json`; merged capture IDs are recorded in `source-aliases.json`.", "Substantive wording corrections are labeled in the app and documented with the question. These are independent study explanations, not an AWS answer key.", "", "## November collection", "", f"{november['recordsAdded']} records added: {november['readyAdded']} ready, {november['excludedAdded']} excluded; {november['mergedSources']} duplicate/continuation sources joined to canonical records.", "", "## Study-ready pool by domain", ""]
     for domain in ["secure", "resilient", "performance", "cost"]:
-        lines.append(f"- {domain}: {sum(q['domain'] == domain and q['status'] == 'ready' for q in bank)}")
+        lines.append(f"- {domain}: {sum(q['domain'] == domain and study_ready(q) for q in bank)}")
+    lines.extend(["", "## Native HTML integration", "", f"All {html['sourceRecords']} supplied records have a closed disposition: {html['added']} independently authored additions, {html['matched']} matches, and {html['excluded']} exclusions. See `html-review.json` for every source decision. The provisional supplied keys/explanations are not used by the application.", "", f"{html['retainedHistoryDuplicates']} redundant historical records are retained for saved-session grading but excluded from new study, and {html['additionalStudyExclusions']} previously ready records have additional ambiguity exclusions. Canonical option mappings are in `question-equivalents.json`; original scoring contracts and session indices are unchanged."])
     lines.extend(["", "## Copy-edit review", "", f"All {copy_review['reviewedRecords']} study-ready records received the local spelling/grammar audit and reviewed prose repair pass. {copy_review['editedRecords']} records / {copy_review['editedFields']} fields changed. Every before/after edit is retained in `copy-edit-review.json`. Scoring IDs, option counts/order, selection counts, answer indices, and editorial statuses are preserved.", "", "Technical identifiers and intentionally incorrect distractor claims are not treated as ordinary grammar suggestions. Original screenshots and extraction remain available for comparison."])
     lines.extend(["", "## Reviewed exclusions", "", "These are closed editorial dispositions, not an automatic/background work queue. The source issue and relevant reading are listed below."])
     for q in bank:
-        if q["status"] == "legacy":
-            lines.extend(["", f"### #{q['number']:03d} — {q['topic']}", "", q["note"], ""])
+        if q["status"] == "legacy" or q.get("studyExcludedReason"):
+            lines.extend(["", f"### #{q['number']:03d} — {q['topic']}", "", q.get("studyExcludedReason", q["note"]), ""])
             paths = q.get("sourcePaths", ["/questions/"+s for s in q["sources"]])
             lines.extend(f"- Source: `public{path}`" for path in paths)
             lines.extend(f"- [{link['title']}]({link['url']})" for link in q["readMore"])
     (ROOT / "data/content-review.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k != "manifest"}, indent=2))
-    print("Study-ready domains:", {d: sum(q["domain"] == d and q["status"] == "ready" for q in bank) for d in ["secure", "resilient", "performance", "cost"]})
+    print("Study-ready domains:", {d: sum(q["domain"] == d and study_ready(q) for q in bank) for d in ["secure", "resilient", "performance", "cost"]})
 
 
 def links(keys):

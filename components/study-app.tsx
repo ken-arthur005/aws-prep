@@ -54,6 +54,7 @@ import {
   DOMAINS,
   EXAM_GUIDE,
   accuracy,
+  canonicalQuestionId,
   createSession,
   daysUntil,
   domainStats,
@@ -61,10 +62,12 @@ import {
   firstAttempts,
   formatTime,
   isCorrect,
+  isStudyReady,
   latestAttempts,
   localDate,
   percent,
   selectQuestions,
+  studyAttempts,
 } from "@/lib/study";
 import {
   getStudy,
@@ -192,7 +195,7 @@ export default function StudyApp({
   }>({});
   const [now, setNow] = useState(0);
   const ready = useMemo(
-    () => questions.filter((q) => q.status === "ready"),
+    () => questions.filter(isStudyReady),
     [questions],
   );
   const stats = domainStats(questions, state.attempts);
@@ -298,6 +301,7 @@ export default function StudyApp({
     window.scrollTo({ top: 0, behavior: "instant" });
   }
   function bookmark(id: string) {
+    id = canonicalQuestionId(id);
     updateStudy((s) => ({
       ...s,
       bookmarks: s.bookmarks.includes(id)
@@ -881,7 +885,7 @@ function PracticeSetup({
         (filter === "unseen" && !latest.has(q.id)) ||
         (filter === "missed" && latest.get(q.id)?.correct === false) ||
         (filter === "uncertain" && (state.uncertain ?? []).includes(q.id)) ||
-        (filter === "new" && q.batch === "november") ||
+        (filter === "new" && (q.batch === "november" || q.batch === "html")) ||
         (filter === "bookmarked" && state.bookmarks.includes(q.id))),
   );
   const topics = [
@@ -964,7 +968,7 @@ function PracticeSetup({
                 <option value="unseen">Not explored yet</option>
                 <option value="missed">Missed on my last attempt</option>
                 <option value="uncertain">Guessed / unsure</option>
-                <option value="new">New November questions</option>
+                <option value="new">Recently added questions</option>
                 <option value="bookmarked">My bookmarks</option>
               </select>
             </label>
@@ -1463,18 +1467,18 @@ function SessionScreen({
             <Chip color={domain.color}>{domain.short}</Chip>
             <span>{q.topic}</span>
             <button
-              className={`icon-button bookmark-button ${state.bookmarks.includes(q.id) ? "saved" : ""}`}
+              className={`icon-button bookmark-button ${state.bookmarks.includes(canonicalQuestionId(q.id)) ? "saved" : ""}`}
               onClick={() => bookmark(q.id)}
               aria-label={
-                state.bookmarks.includes(q.id)
+                state.bookmarks.includes(canonicalQuestionId(q.id))
                   ? "Remove bookmark"
                   : "Bookmark question"
               }
-              aria-pressed={state.bookmarks.includes(q.id)}
+              aria-pressed={state.bookmarks.includes(canonicalQuestionId(q.id))}
             >
               <Bookmark
                 size={20}
-                fill={state.bookmarks.includes(q.id) ? "currentColor" : "none"}
+                fill={state.bookmarks.includes(canonicalQuestionId(q.id)) ? "currentColor" : "none"}
               />
             </button>
           </div>
@@ -1784,7 +1788,7 @@ function Explanation({
           </a>
         ))}
       </div>
-      <details className="source-details">
+      {q.sources.length > 0 && <details className="source-details">
         <summary>
           Original screenshot
           {q.sources.length > 1 ? `s (${q.sources.length})` : ""} & content
@@ -1810,12 +1814,13 @@ function Explanation({
             />
           </div>
         ))}
-      </details>
+      </details>}
     </section>
   );
 }
 
-function UncertainControl({ questionId }: { questionId: string }) {
+function UncertainControl({ questionId: originalId }: { questionId: string }) {
+  const questionId = canonicalQuestionId(originalId);
   const state = useStudy();
   const unsure = (state.uncertain ?? []).includes(questionId);
   return (
@@ -1843,7 +1848,8 @@ function UncertainControl({ questionId }: { questionId: string }) {
   );
 }
 
-function MistakeNote({ questionId }: { questionId: string }) {
+function MistakeNote({ questionId: originalId }: { questionId: string }) {
+  const questionId = canonicalQuestionId(originalId);
   const state = useStudy();
   return (
     <div className="mistake-note">
@@ -2035,7 +2041,7 @@ function Results({
             </ol>
             <button className="text-button" onClick={() => bookmark(q.id)}>
               <Bookmark size={16} />
-              {state.bookmarks.includes(q.id)
+              {state.bookmarks.includes(canonicalQuestionId(q.id))
                 ? "Remove bookmark"
                 : "Save for later"}
             </button>
@@ -2111,9 +2117,9 @@ function Analytics({
   showResult: (id: string) => void;
 }) {
   const first = firstAttempts(state.attempts);
-  const repeat = state.attempts.length - first.length;
+  const repeat = studyAttempts(state.attempts).length - first.length;
   const stats = domainStats(questions, state.attempts);
-  const ready = questions.filter((q) => q.status === "ready");
+  const ready = questions.filter(isStudyReady);
   const topics = [...new Set(ready.map((q) => q.topic))]
     .map((topic) => {
       const ids = new Set(
@@ -2395,18 +2401,18 @@ function ReviewShelf({
   );
   const items = questions.filter(
     (q) =>
-      !(
+      !q.duplicateOf && !(
         state.activeSession?.mode === "exam" &&
-        state.activeSession.questionIds.includes(q.id)
+        state.activeSession.questionIds.some(id => canonicalQuestionId(id) === q.id)
       ) &&
       (filter === "missed"
-        ? q.status === "ready" && latest.get(q.id)?.correct === false
+        ? isStudyReady(q) && latest.get(q.id)?.correct === false
         : filter === "uncertain"
-          ? q.status === "ready" && (state.uncertain ?? []).includes(q.id)
+          ? isStudyReady(q) && (state.uncertain ?? []).includes(q.id)
           : state.bookmarks.includes(q.id)),
   );
   const missedCount = questions.filter(
-    (q) => q.status === "ready" && latest.get(q.id)?.correct === false,
+    (q) => isStudyReady(q) && latest.get(q.id)?.correct === false,
   ).length;
   return (
     <>
@@ -2440,7 +2446,7 @@ function ReviewShelf({
             </div>
             <button
               className="button small"
-              disabled={!items.some((q) => q.status === "ready")}
+              disabled={!items.some(isStudyReady)}
               onClick={() => practice(undefined, filter)}
             >
               Practice this stack <Play size={15} />
@@ -2453,7 +2459,7 @@ function ReviewShelf({
                   <span className="eyebrow">{q.topic}</span>
                   <h3>{q.title}</h3>
                   <p>{q.prompt.slice(0, 175)}…</p>
-                  {q.status === "ready" && (
+                  {isStudyReady(q) && (
                     <div className="concept-links">
                       {questionConcepts(q)
                         .slice(0, 2)
@@ -2465,7 +2471,7 @@ function ReviewShelf({
                         ))}
                     </div>
                   )}
-                  {q.status === "ready" ? (
+                  {isStudyReady(q) ? (
                     <button
                       className="text-button"
                       onClick={() =>
@@ -2477,7 +2483,7 @@ function ReviewShelf({
                   ) : (
                     <>
                       <Chip color="peach">Reviewed · excluded</Chip>
-                      <p>{q.note}</p>
+                      <p>{q.studyExcludedReason ?? q.note}</p>
                       <a
                         className="text-button"
                         href={sourceUrl(q, q.sources[0])}
@@ -2590,9 +2596,10 @@ function Library({
   const [preview, setPreview] = useState<string | null>(null);
   const results = questions.filter(
     (q) =>
+      !q.duplicateOf &&
       (domain === "all" || q.domain === domain) &&
       (status === "all" ||
-        (status === "review" ? q.status !== "ready" : q.status === status)) &&
+        (status === "review" ? !isStudyReady(q) : isStudyReady(q))) &&
       `${q.prompt} ${q.options.join(" ")} ${q.topic}`
         .toLowerCase()
         .includes(search.toLowerCase()),
@@ -2600,15 +2607,15 @@ function Library({
   const pages = Math.ceil(results.length / 12);
   const shown = results.slice(page * 12, (page + 1) * 12);
   const counts = {
-    ready: questions.filter((q) => q.status === "ready").length,
-    review: questions.filter((q) => q.status !== "ready").length,
+    ready: questions.filter(isStudyReady).length,
+    review: questions.filter((q) => !q.duplicateOf && !isStudyReady(q)).length,
   };
   return (
     <>
       <PageHeading
         eyebrow="ALL YOUR QUESTIONS, A LITTLE MORE ORGANIZED"
         title="A whole sky of possibilities."
-        description={`${sourceCount} screenshots reviewed, organized into ${questions.length} question/source records. ${counts.ready} are study-ready; ${counts.review} have documented exclusions.`}
+        description={`${counts.ready} unique study-ready questions with explanations, plus ${counts.review} documented exclusions. Built from ${sourceCount} reviewed screenshots and your additional question collection.`}
       />
       <div className="library-toolbar">
         <label className="search-input">
@@ -2710,9 +2717,9 @@ function Library({
                 <span>{q.topic}</span>
                 {q.adapted && <Chip color="peach">Updated source</Chip>}
                 <span
-                  className={`status-label ${q.status === "ready" ? "ready" : ""}`}
+                  className={`status-label ${isStudyReady(q) ? "ready" : ""}`}
                 >
-                  {q.status === "ready" ? (
+                  {isStudyReady(q) ? (
                     <>
                       <Check size={13} /> Study-ready
                     </>
@@ -2728,7 +2735,7 @@ function Library({
                   : q.prompt}
               </p>
               <div className="library-actions">
-                {q.status === "ready" ? (
+                {isStudyReady(q) ? (
                   <button
                     className="text-button"
                     disabled={!!state.activeSession}
@@ -2755,7 +2762,7 @@ function Library({
               </div>
               {preview === q.id && (
                 <div className="source-preview">
-                  <p>{q.note}</p>
+                  <p>{q.studyExcludedReason ?? q.note}</p>
                   {q.takeaway && (
                     <p>
                       <strong>Concept:</strong> {q.takeaway}

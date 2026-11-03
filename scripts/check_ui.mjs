@@ -106,7 +106,7 @@ try {
   const practice = (await saved()).activeSession;
   assert.ok(
     practice.questionIds.every(
-      (id) => questions.find((q) => q.id === id)?.batch === "november",
+      (id) => ["november", "html"].includes(questions.find((q) => q.id === id)?.batch),
     ),
   );
   const q = questions.find((q) => q.id === practice.questionIds[0]);
@@ -115,11 +115,15 @@ try {
     await page.locator(".answer-option").nth(i).click();
   await page.getByRole("button", { name: "Check my answer" }).click();
   await page.locator(".concept-connections").waitFor();
-  const evidenceHref = await page.locator(".source-details a").first().getAttribute("href");
-  assert.ok(evidenceHref.startsWith("/new%20set/"));
-  const evidence = await context.request.get(`${base}${evidenceHref}`);
-  assert.equal(evidence.status(), 200, "new screenshot source link is broken");
-  assert.ok(evidence.headers()["content-type"].startsWith("image/"));
+  if (q.batch === "november") {
+    const evidenceHref = await page.locator(".source-details a").first().getAttribute("href");
+    assert.ok(evidenceHref.startsWith("/new%20set/"));
+    const evidence = await context.request.get(`${base}${evidenceHref}`);
+    assert.equal(evidence.status(), 200, "new screenshot source link is broken");
+    assert.ok(evidence.headers()["content-type"].startsWith("image/"));
+  } else {
+    assert.equal(await page.locator(".source-details").count(), 0);
+  }
   await page.locator(".mistake-note select").selectOption("services");
   assert.ok((await saved()).uncertain.includes(q.id));
   await page.locator(".concept-links a").first().click();
@@ -133,6 +137,35 @@ try {
   await navigate("review");
   await page.getByRole("button", { name: /Guessed \/ unsure/ }).click();
   assert.ok((await page.locator(".review-layout .library-item").count()) >= 1);
+  // A known imported question must use the same library, runner, review,
+  // and persistence flow; no offline-quiz navigation or imaginary screenshot.
+  const native = questions.find(item => item.id === (q.id === "html-033" ? "html-196" : "html-033"));
+  await navigate("library");
+  await page.getByRole("textbox", { name: "Search question text, answers, or topics" }).fill(native.prompt.split("\n\n")[0]);
+  assert.equal(await page.locator(".library-list .library-item").count(), 1);
+  await page.getByRole("button", { name: /Explore this question/ }).click();
+  await page.locator(".question-prompt").waitFor();
+  assert.deepEqual((await saved()).activeSession.questionIds, [native.id]);
+  await page.getByLabel(/Guessed \/ unsure/).check();
+  await page.getByRole("button", { name: "Bookmark question", exact: true }).click();
+  for (const i of native.correct) await page.locator(".answer-option").nth(i).click();
+  await page.getByRole("button", { name: "Check my answer" }).click();
+  await page.locator(".option-explanations").waitFor();
+  assert.equal(await page.locator(".option-explanation").count(), native.options.length);
+  assert.equal(await page.locator(".source-details, .source-image").count(), 0);
+  assert.ok((await page.locator(".reading a").count()) > 0);
+  await noOverflow();
+  await page.locator(".mistake-note select").selectOption("concept");
+  await page.reload();
+  await page.getByRole("button", { name: /^Resume/ }).click();
+  assert.ok((await saved()).uncertain.includes(native.id));
+  assert.equal((await saved()).mistakes[native.id], "concept");
+  await page.getByRole("button", { name: "Finish & review" }).click();
+  await page.getByRole("button", { name: /Submit & see results/ }).click();
+  await page.getByRole("heading", { name: "Look at you, making progress." }).waitFor();
+  await navigate("review");
+  await page.getByRole("button", { name: /Guessed \/ unsure/ }).click();
+  assert.ok((await page.locator(".review-layout").innerText()).includes(native.title));
   await navigate("exams");
   await page.getByRole("button", { name: /Start full mock/ }).click();
   await page.locator(".question-prompt").waitFor();
@@ -159,7 +192,7 @@ try {
   const final = await saved();
   assert.ok(final.bookmarks.includes(old.bookmarks[0]));
   assert.equal(final.examDate, old.examDate);
-  assert.equal(final.attempts.length, 66);
+  assert.equal(final.attempts.length, 67);
   assert.ok(Object.keys(final.recall).length === 1);
   assert.equal(final.mistakes[q.id], "services");
   await page.setViewportSize({ width: 390, height: 844 });
@@ -187,7 +220,7 @@ try {
   await noOverflow();
   assert.deepEqual(errors, []);
   console.log(
-    "UI passed: desktop/mobile revision, multiword search, recall persistence, print, new-question practice, uncertainty review, old progress, and mock deadline/explanation boundaries.",
+    "UI passed: desktop/mobile revision, multiword search, recall persistence, print, mixed new-question practice, native HTML library/practice/review and reload persistence, old progress, and mock deadline/explanation boundaries.",
   );
 } finally {
   await browser.close();

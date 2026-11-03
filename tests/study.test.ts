@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { accuracy, createSession, domainStats, finishSession, firstAttempts, isCorrect, latestAttempts, selectQuestions } from "../lib/study";
+import { accuracy, createSession, domainStats, finishSession, firstAttempts, isCorrect, isStudyReady, latestAttempts, selectQuestions } from "../lib/study";
 import { reconcileSourceBookmarks, validateBackup } from "../lib/store";
 import type { Attempt, DomainId, Question, StudyState } from "../lib/types";
 import bank from "../data/questions.json";
@@ -9,7 +9,7 @@ import textRepairs from "../data/text-repairs.json";
 import manifest from "../data/source-manifest.json";
 
 const questions = bank.questions as Question[];
-const ready = questions.filter(q => q.status === "ready");
+const ready = questions.filter(isStudyReady);
 function blank(): StudyState { return { version: 1, examDate: "2026-11-02", dailyTarget: 40, attempts: [], bookmarks: [], completedTasks: [], sessions: [], activeSession: null, storageError: "" }; }
 function attempt(id: string, correct: boolean, at: number): Attempt { return { questionId: id, sessionId: "test", selected: [0], correct, seconds: 10, at, mode: "practice" }; }
 
@@ -18,7 +18,7 @@ test("full mocks contain 65 unique study-ready questions at the official approxi
     const selected = selectQuestions(questions, 65, [], true);
     assert.equal(selected.length, 65);
     assert.equal(new Set(selected.map(q => q.id)).size, 65);
-    assert.ok(selected.every(q => q.status === "ready"));
+    assert.ok(selected.every(isStudyReady));
     const counts = Object.fromEntries(["secure", "resilient", "performance", "cost"].map(d => [d, selected.filter(q => q.domain === d).length]));
     assert.deepEqual(counts, { secure: 19, resilient: 17, performance: 16, cost: 13 });
   }

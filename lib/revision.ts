@@ -1,5 +1,5 @@
 import { REVISION_TOPICS, type RevisionTopic } from "./revision-content";
-import { latestAttempts } from "./study";
+import { canonicalQuestionId, isStudyReady, latestAttempts } from "./study";
 import type { Question, StudyState } from "./types";
 
 const fallback: Record<string, string> = {
@@ -74,14 +74,14 @@ export const RECALL_CARDS = REVISION_TOPICS.flatMap((topic) => [
 
 export function revisionPriorities(bank: Question[], state: StudyState) {
   const latest = latestAttempts(state.attempts);
-  const uncertain = new Set(state.uncertain ?? []);
+  const uncertain = new Set((state.uncertain ?? []).map(canonicalQuestionId));
   const evidence = new Map(
     REVISION_TOPICS.map((t) => [t.id, { missed: 0, uncertain: 0, seen: 0 }]),
   );
-  for (const q of bank.filter((q) => q.status === "ready")) {
+  for (const q of bank.filter(isStudyReady)) {
     if (
       state.activeSession?.mode === "exam" &&
-      state.activeSession.questionIds.includes(q.id)
+      state.activeSession.questionIds.some(id => canonicalQuestionId(id) === q.id)
     )
       continue;
     const attempt = latest.get(q.id);

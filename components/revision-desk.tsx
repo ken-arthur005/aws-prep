@@ -26,7 +26,7 @@ import {
   revisionPriorities,
 } from "@/lib/revision";
 import { updateStudy } from "@/lib/store";
-import { DOMAINS } from "@/lib/study";
+import { DOMAINS, isStudyReady } from "@/lib/study";
 import type { Question, StudyState } from "@/lib/types";
 
 type Mode = "understand" | "compare" | "recall" | "last-lap";
@@ -89,7 +89,7 @@ export function RevisionDesk({
   const poolFor = (id: string) =>
     questions.filter(
       (q) =>
-        q.status === "ready" && questionConcepts(q).some((t) => t.id === id),
+        isStudyReady(q) && questionConcepts(q).some((t) => t.id === id),
     );
   const pool = poolFor(topic.id);
   const recallTopics =

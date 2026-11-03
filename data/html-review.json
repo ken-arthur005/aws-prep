@@ -1,0 +1,1988 @@
+{
+  "sourceRecords": 322,
+  "added": 51,
+  "matched": 264,
+  "excluded": 7,
+  "retainedHistoryDuplicates": 26,
+  "additionalStudyExclusions": 4,
+  "studyReady": 727,
+  "checksum": "b2bf0714eb026874be87b5b87bcdeff6aecb40c36ad5400a37a71b4c6e493e75",
+  "records": [
+    {
+      "importId": 1,
+      "disposition": "added",
+      "questionId": "html-001",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 2,
+      "disposition": "matched",
+      "questionId": "q-980bb09571",
+      "studyEligible": false
+    },
+    {
+      "importId": 3,
+      "disposition": "added",
+      "questionId": "html-003",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 4,
+      "disposition": "added",
+      "questionId": "html-004",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 5,
+      "disposition": "added",
+      "questionId": "html-005",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 6,
+      "disposition": "added",
+      "questionId": "html-006",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 7,
+      "disposition": "matched",
+      "questionId": "q-dd20c155a6",
+      "studyEligible": true
+    },
+    {
+      "importId": 8,
+      "disposition": "matched",
+      "questionId": "q-454706fce4",
+      "studyEligible": true
+    },
+    {
+      "importId": 9,
+      "disposition": "added",
+      "questionId": "html-009",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 10,
+      "disposition": "added",
+      "questionId": "html-010",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 11,
+      "disposition": "added",
+      "questionId": "html-011",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 12,
+      "disposition": "added",
+      "questionId": "html-012",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 13,
+      "disposition": "added",
+      "questionId": "html-013",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 14,
+      "disposition": "added",
+      "questionId": "html-014",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 15,
+      "disposition": "added",
+      "questionId": "html-015",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 16,
+      "disposition": "added",
+      "questionId": "html-016",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 17,
+      "disposition": "added",
+      "questionId": "html-017",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 18,
+      "disposition": "added",
+      "questionId": "html-018",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 19,
+      "disposition": "added",
+      "questionId": "html-019",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 20,
+      "disposition": "added",
+      "questionId": "html-020",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 21,
+      "disposition": "added",
+      "questionId": "html-021",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 22,
+      "disposition": "added",
+      "questionId": "html-022",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 23,
+      "disposition": "added",
+      "questionId": "html-023",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 24,
+      "disposition": "matched",
+      "questionId": "q-9ae97128aa",
+      "studyEligible": true
+    },
+    {
+      "importId": 25,
+      "disposition": "added",
+      "questionId": "html-025",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 26,
+      "disposition": "added",
+      "questionId": "html-026",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 27,
+      "disposition": "added",
+      "questionId": "html-027",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 28,
+      "disposition": "added",
+      "questionId": "html-028",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 29,
+      "disposition": "matched",
+      "questionId": "q-9eb3253466",
+      "studyEligible": true
+    },
+    {
+      "importId": 30,
+      "disposition": "matched",
+      "questionId": "html-010",
+      "studyEligible": true
+    },
+    {
+      "importId": 31,
+      "disposition": "matched",
+      "questionId": "q-a2db635a40",
+      "studyEligible": true
+    },
+    {
+      "importId": 32,
+      "disposition": "added",
+      "questionId": "html-032",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 33,
+      "disposition": "added",
+      "questionId": "html-033",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 34,
+      "disposition": "matched",
+      "questionId": "q-d5544ec7a1",
+      "studyEligible": true
+    },
+    {
+      "importId": 35,
+      "disposition": "matched",
+      "questionId": "q-1d5ff12f81",
+      "studyEligible": true
+    },
+    {
+      "importId": 36,
+      "disposition": "matched",
+      "questionId": "q-3914b6526f",
+      "studyEligible": true
+    },
+    {
+      "importId": 37,
+      "disposition": "matched",
+      "questionId": "q-2efee8b9a1",
+      "studyEligible": true
+    },
+    {
+      "importId": 38,
+      "disposition": "matched",
+      "questionId": "q-860ff8f28f",
+      "studyEligible": false
+    },
+    {
+      "importId": 39,
+      "disposition": "matched",
+      "questionId": "q-824ed6c08b",
+      "studyEligible": true
+    },
+    {
+      "importId": 40,
+      "disposition": "matched",
+      "questionId": "q-450a1bd818",
+      "studyEligible": true
+    },
+    {
+      "importId": 41,
+      "disposition": "added",
+      "questionId": "html-041",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 42,
+      "disposition": "matched",
+      "questionId": "q-fc07c01d6f",
+      "studyEligible": true
+    },
+    {
+      "importId": 43,
+      "disposition": "matched",
+      "questionId": "q-529b4b148e",
+      "studyEligible": true
+    },
+    {
+      "importId": 44,
+      "disposition": "added",
+      "questionId": "html-044",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 45,
+      "disposition": "added",
+      "questionId": "html-045",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 46,
+      "disposition": "added",
+      "questionId": "html-046",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 47,
+      "disposition": "matched",
+      "questionId": "html-023",
+      "studyEligible": true
+    },
+    {
+      "importId": 48,
+      "disposition": "added",
+      "questionId": "html-048",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 49,
+      "disposition": "added",
+      "questionId": "html-049",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 50,
+      "disposition": "added",
+      "questionId": "html-050",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 51,
+      "disposition": "excluded",
+      "reason": "AD Connector is a directory proxy, not by itself a complete AWS console federation flow. The offered pair omits the necessary supported SSO/IdP integration and trust setup; adding an IAM role alone does not specify how a developer obtains a federated console session."
+    },
+    {
+      "importId": 52,
+      "disposition": "added",
+      "questionId": "html-052",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 53,
+      "disposition": "added",
+      "questionId": "html-053",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 54,
+      "disposition": "matched",
+      "questionId": "q-e0c4a1aa1a",
+      "studyEligible": true
+    },
+    {
+      "importId": 55,
+      "disposition": "added",
+      "questionId": "html-055",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 56,
+      "disposition": "matched",
+      "questionId": "q-952809f32b",
+      "studyEligible": true
+    },
+    {
+      "importId": 57,
+      "disposition": "added",
+      "questionId": "html-057",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 58,
+      "disposition": "excluded",
+      "reason": "The embedded IAM JSON is materially corrupted: actions, ARNs, braces, and resource scopes cannot be read reliably. The AI explanation infers a policy absent from the available source. Without an intact policy, selecting three allowed operations would fabricate the decisive facts."
+    },
+    {
+      "importId": 59,
+      "disposition": "added",
+      "questionId": "html-059",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 60,
+      "disposition": "added",
+      "questionId": "html-060",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 61,
+      "disposition": "added",
+      "questionId": "html-061",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 62,
+      "disposition": "added",
+      "questionId": "html-062",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 63,
+      "disposition": "added",
+      "questionId": "html-063",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 64,
+      "disposition": "added",
+      "questionId": "html-064",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 65,
+      "disposition": "added",
+      "questionId": "html-065",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 66,
+      "disposition": "matched",
+      "questionId": "q-8413a2b12c",
+      "studyEligible": true
+    },
+    {
+      "importId": 67,
+      "disposition": "excluded",
+      "reason": "Modern EKS already provides default envelope encryption for supported API data. The source does not require a customer-managed key or identify an older eligible cluster, and its choices mix control-plane etcd encryption with EBS CSI/secret-store features. The stated requirement does not uniquely establish the proposed extra encryption action."
+    },
+    {
+      "importId": 68,
+      "disposition": "added",
+      "questionId": "html-068",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 69,
+      "disposition": "added",
+      "questionId": "html-069",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 70,
+      "disposition": "matched",
+      "questionId": "nov-c17f7e9491",
+      "studyEligible": true
+    },
+    {
+      "importId": 71,
+      "disposition": "matched",
+      "questionId": "q-02059f46cb",
+      "studyEligible": true
+    },
+    {
+      "importId": 72,
+      "disposition": "matched",
+      "questionId": "q-0bc42a3c94",
+      "studyEligible": true
+    },
+    {
+      "importId": 73,
+      "disposition": "matched",
+      "questionId": "q-706ae31f98",
+      "studyEligible": true
+    },
+    {
+      "importId": 74,
+      "disposition": "matched",
+      "questionId": "q-beb45f6b25",
+      "studyEligible": true
+    },
+    {
+      "importId": 75,
+      "disposition": "matched",
+      "questionId": "q-110ab1db45",
+      "studyEligible": true
+    },
+    {
+      "importId": 76,
+      "disposition": "matched",
+      "questionId": "q-8c24f72770",
+      "studyEligible": true
+    },
+    {
+      "importId": 77,
+      "disposition": "matched",
+      "questionId": "q-124d47e0f4",
+      "studyEligible": true
+    },
+    {
+      "importId": 78,
+      "disposition": "matched",
+      "questionId": "q-295025b374",
+      "studyEligible": true
+    },
+    {
+      "importId": 79,
+      "disposition": "matched",
+      "questionId": "q-ce7ee861f0",
+      "studyEligible": true
+    },
+    {
+      "importId": 80,
+      "disposition": "matched",
+      "questionId": "q-7906763ff2",
+      "studyEligible": true
+    },
+    {
+      "importId": 81,
+      "disposition": "matched",
+      "questionId": "q-292dbdf8a2",
+      "studyEligible": true
+    },
+    {
+      "importId": 82,
+      "disposition": "matched",
+      "questionId": "q-616cde6cf6",
+      "studyEligible": true
+    },
+    {
+      "importId": 83,
+      "disposition": "matched",
+      "questionId": "q-ada299e044",
+      "studyEligible": true
+    },
+    {
+      "importId": 84,
+      "disposition": "matched",
+      "questionId": "q-5d91811026",
+      "studyEligible": true
+    },
+    {
+      "importId": 85,
+      "disposition": "matched",
+      "questionId": "q-3eee2ff9f4",
+      "studyEligible": true
+    },
+    {
+      "importId": 86,
+      "disposition": "matched",
+      "questionId": "q-aa6f41bc5d",
+      "studyEligible": true
+    },
+    {
+      "importId": 87,
+      "disposition": "matched",
+      "questionId": "q-a9ae2e1369",
+      "studyEligible": true
+    },
+    {
+      "importId": 88,
+      "disposition": "matched",
+      "questionId": "q-797bf79af6",
+      "studyEligible": true
+    },
+    {
+      "importId": 89,
+      "disposition": "matched",
+      "questionId": "q-5b5718b832",
+      "studyEligible": true
+    },
+    {
+      "importId": 90,
+      "disposition": "matched",
+      "questionId": "q-bfef84a4af",
+      "studyEligible": true
+    },
+    {
+      "importId": 91,
+      "disposition": "matched",
+      "questionId": "q-fcd35bc167",
+      "studyEligible": true
+    },
+    {
+      "importId": 92,
+      "disposition": "matched",
+      "questionId": "q-64265fe039",
+      "studyEligible": true
+    },
+    {
+      "importId": 93,
+      "disposition": "matched",
+      "questionId": "q-f30ef65797",
+      "studyEligible": true
+    },
+    {
+      "importId": 94,
+      "disposition": "matched",
+      "questionId": "q-da44c36e51",
+      "studyEligible": true
+    },
+    {
+      "importId": 95,
+      "disposition": "matched",
+      "questionId": "q-e5f4fec726",
+      "studyEligible": true
+    },
+    {
+      "importId": 96,
+      "disposition": "matched",
+      "questionId": "q-3d7dc0f69c",
+      "studyEligible": true
+    },
+    {
+      "importId": 97,
+      "disposition": "matched",
+      "questionId": "q-f72bd11da5",
+      "studyEligible": true
+    },
+    {
+      "importId": 98,
+      "disposition": "matched",
+      "questionId": "q-cd05c18437",
+      "studyEligible": true
+    },
+    {
+      "importId": 99,
+      "disposition": "matched",
+      "questionId": "q-3daed3bab9",
+      "studyEligible": true
+    },
+    {
+      "importId": 100,
+      "disposition": "matched",
+      "questionId": "q-e521454a8b",
+      "studyEligible": true
+    },
+    {
+      "importId": 101,
+      "disposition": "matched",
+      "questionId": "q-802d846ff0",
+      "studyEligible": true
+    },
+    {
+      "importId": 102,
+      "disposition": "matched",
+      "questionId": "q-bf9b247f1a",
+      "studyEligible": true
+    },
+    {
+      "importId": 103,
+      "disposition": "matched",
+      "questionId": "q-8da5c75204",
+      "studyEligible": false
+    },
+    {
+      "importId": 104,
+      "disposition": "matched",
+      "questionId": "q-63c5e48991",
+      "studyEligible": false
+    },
+    {
+      "importId": 105,
+      "disposition": "matched",
+      "questionId": "q-db48e2b2c1",
+      "studyEligible": true
+    },
+    {
+      "importId": 106,
+      "disposition": "matched",
+      "questionId": "q-ad04ffdf7b",
+      "studyEligible": true
+    },
+    {
+      "importId": 107,
+      "disposition": "matched",
+      "questionId": "q-ff5ec080e5",
+      "studyEligible": true
+    },
+    {
+      "importId": 108,
+      "disposition": "matched",
+      "questionId": "q-205d42900c",
+      "studyEligible": true
+    },
+    {
+      "importId": 109,
+      "disposition": "matched",
+      "questionId": "q-b1e6629593",
+      "studyEligible": true
+    },
+    {
+      "importId": 110,
+      "disposition": "matched",
+      "questionId": "q-525c6f3d52",
+      "studyEligible": true
+    },
+    {
+      "importId": 111,
+      "disposition": "matched",
+      "questionId": "q-23377dc3c9",
+      "studyEligible": true
+    },
+    {
+      "importId": 112,
+      "disposition": "matched",
+      "questionId": "q-7e1dbdc2dd",
+      "studyEligible": true
+    },
+    {
+      "importId": 113,
+      "disposition": "matched",
+      "questionId": "q-2c8a38e155",
+      "studyEligible": true
+    },
+    {
+      "importId": 114,
+      "disposition": "matched",
+      "questionId": "q-6d0d71e2ff",
+      "studyEligible": true
+    },
+    {
+      "importId": 115,
+      "disposition": "matched",
+      "questionId": "q-fd5f4e3881",
+      "studyEligible": true
+    },
+    {
+      "importId": 116,
+      "disposition": "matched",
+      "questionId": "q-380bf42e42",
+      "studyEligible": true
+    },
+    {
+      "importId": 117,
+      "disposition": "matched",
+      "questionId": "q-89c88e0c37",
+      "studyEligible": false
+    },
+    {
+      "importId": 118,
+      "disposition": "matched",
+      "questionId": "q-8cd3b36bc1",
+      "studyEligible": false
+    },
+    {
+      "importId": 119,
+      "disposition": "matched",
+      "questionId": "q-af6eb24660",
+      "studyEligible": true
+    },
+    {
+      "importId": 120,
+      "disposition": "matched",
+      "questionId": "q-adbb421619",
+      "studyEligible": true
+    },
+    {
+      "importId": 121,
+      "disposition": "matched",
+      "questionId": "q-a672266c0d",
+      "studyEligible": true
+    },
+    {
+      "importId": 122,
+      "disposition": "matched",
+      "questionId": "q-e96bab5408",
+      "studyEligible": true
+    },
+    {
+      "importId": 123,
+      "disposition": "matched",
+      "questionId": "q-ecbe36f0b5",
+      "studyEligible": true
+    },
+    {
+      "importId": 124,
+      "disposition": "matched",
+      "questionId": "q-29b3a5b70a",
+      "studyEligible": true
+    },
+    {
+      "importId": 125,
+      "disposition": "matched",
+      "questionId": "q-cd31f4874c",
+      "studyEligible": true
+    },
+    {
+      "importId": 126,
+      "disposition": "matched",
+      "questionId": "q-286412cfe6",
+      "studyEligible": true
+    },
+    {
+      "importId": 127,
+      "disposition": "matched",
+      "questionId": "q-4d5d4b2312",
+      "studyEligible": true
+    },
+    {
+      "importId": 128,
+      "disposition": "matched",
+      "questionId": "q-45fa3b0290",
+      "studyEligible": true
+    },
+    {
+      "importId": 129,
+      "disposition": "matched",
+      "questionId": "q-acc415c6ac",
+      "studyEligible": false
+    },
+    {
+      "importId": 130,
+      "disposition": "matched",
+      "questionId": "q-ba953dcebd",
+      "studyEligible": true
+    },
+    {
+      "importId": 131,
+      "disposition": "matched",
+      "questionId": "q-0a854ef464",
+      "studyEligible": true
+    },
+    {
+      "importId": 132,
+      "disposition": "matched",
+      "questionId": "q-a624e238ff",
+      "studyEligible": true
+    },
+    {
+      "importId": 133,
+      "disposition": "matched",
+      "questionId": "q-1f8fb5a401",
+      "studyEligible": true
+    },
+    {
+      "importId": 134,
+      "disposition": "excluded",
+      "reason": "The policy JSON and source CIDRs are corrupted and the prompt is truncated. The exact Allow/Deny actions, IP condition, and valid alternative address determine the answer; the AI reconstruction is not an independently verifiable policy from this file."
+    },
+    {
+      "importId": 135,
+      "disposition": "matched",
+      "questionId": "q-fd08c856d0",
+      "studyEligible": true
+    },
+    {
+      "importId": 136,
+      "disposition": "matched",
+      "questionId": "q-cfbb6a38b8",
+      "studyEligible": true
+    },
+    {
+      "importId": 137,
+      "disposition": "matched",
+      "questionId": "q-4ba12770a5",
+      "studyEligible": true
+    },
+    {
+      "importId": 138,
+      "disposition": "matched",
+      "questionId": "q-9f100e5982",
+      "studyEligible": true
+    },
+    {
+      "importId": 139,
+      "disposition": "matched",
+      "questionId": "q-be710637d3",
+      "studyEligible": true
+    },
+    {
+      "importId": 140,
+      "disposition": "matched",
+      "questionId": "q-5fc8275f81",
+      "studyEligible": true
+    },
+    {
+      "importId": 141,
+      "disposition": "matched",
+      "questionId": "q-80e0a58e1d",
+      "studyEligible": false
+    },
+    {
+      "importId": 142,
+      "disposition": "matched",
+      "questionId": "q-39586a8b3c",
+      "studyEligible": true
+    },
+    {
+      "importId": 143,
+      "disposition": "matched",
+      "questionId": "q-a290d70649",
+      "studyEligible": true
+    },
+    {
+      "importId": 144,
+      "disposition": "matched",
+      "questionId": "q-f9345c354f",
+      "studyEligible": true
+    },
+    {
+      "importId": 145,
+      "disposition": "matched",
+      "questionId": "q-ba2ab6dadc",
+      "studyEligible": true
+    },
+    {
+      "importId": 146,
+      "disposition": "matched",
+      "questionId": "q-493e455ad2",
+      "studyEligible": true
+    },
+    {
+      "importId": 147,
+      "disposition": "matched",
+      "questionId": "q-abe6ea6a1a",
+      "studyEligible": true
+    },
+    {
+      "importId": 148,
+      "disposition": "matched",
+      "questionId": "q-60881da3e2",
+      "studyEligible": true
+    },
+    {
+      "importId": 149,
+      "disposition": "matched",
+      "questionId": "q-c8c64edb91",
+      "studyEligible": false
+    },
+    {
+      "importId": 150,
+      "disposition": "matched",
+      "questionId": "q-c360d97b80",
+      "studyEligible": false
+    },
+    {
+      "importId": 151,
+      "disposition": "matched",
+      "questionId": "q-f150d6ffb9",
+      "studyEligible": true
+    },
+    {
+      "importId": 152,
+      "disposition": "matched",
+      "questionId": "q-4224410bda",
+      "studyEligible": true
+    },
+    {
+      "importId": 153,
+      "disposition": "excluded",
+      "reason": "A compute placement group does not control the placement of FSx service endpoints or guarantee on-premises-to-cloud latency. The source combines local-network latency and multi-protocol storage without a complete connectivity/workload placement design, so the exact two choices cannot guarantee the stated result."
+    },
+    {
+      "importId": 154,
+      "disposition": "matched",
+      "questionId": "q-f4aac7a110",
+      "studyEligible": true
+    },
+    {
+      "importId": 155,
+      "disposition": "matched",
+      "questionId": "q-39998f6398",
+      "studyEligible": true
+    },
+    {
+      "importId": 156,
+      "disposition": "matched",
+      "questionId": "q-de02906a74",
+      "studyEligible": false
+    },
+    {
+      "importId": 157,
+      "disposition": "excluded",
+      "reason": "The licensing prohibition is expressed as an AWS Region ban, but the proposed Local Zone is an extension of that same parent Region. The source does not distinguish physical-location restrictions from parent-Region restrictions or establish an eligible zone/network path. A single-digit end-to-end latency guarantee is also unsupported."
+    },
+    {
+      "importId": 158,
+      "disposition": "matched",
+      "questionId": "q-97e223c85f",
+      "studyEligible": true
+    },
+    {
+      "importId": 159,
+      "disposition": "matched",
+      "questionId": "q-8846004f7e",
+      "studyEligible": true
+    },
+    {
+      "importId": 160,
+      "disposition": "matched",
+      "questionId": "q-daa75ca384",
+      "studyEligible": true
+    },
+    {
+      "importId": 161,
+      "disposition": "matched",
+      "questionId": "q-a8aa17346d",
+      "studyEligible": true
+    },
+    {
+      "importId": 162,
+      "disposition": "matched",
+      "questionId": "q-dbc55154e0",
+      "studyEligible": true
+    },
+    {
+      "importId": 163,
+      "disposition": "matched",
+      "questionId": "q-9b2bc3ade1",
+      "studyEligible": true
+    },
+    {
+      "importId": 164,
+      "disposition": "matched",
+      "questionId": "q-73c37cd7d1",
+      "studyEligible": true
+    },
+    {
+      "importId": 165,
+      "disposition": "matched",
+      "questionId": "q-bc0dbdccc8",
+      "studyEligible": true
+    },
+    {
+      "importId": 166,
+      "disposition": "matched",
+      "questionId": "q-b67682d568",
+      "studyEligible": true
+    },
+    {
+      "importId": 167,
+      "disposition": "matched",
+      "questionId": "q-15d7ee9b73",
+      "studyEligible": true
+    },
+    {
+      "importId": 168,
+      "disposition": "added",
+      "questionId": "html-168",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 169,
+      "disposition": "added",
+      "questionId": "html-169",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 170,
+      "disposition": "matched",
+      "questionId": "q-7e74863606",
+      "studyEligible": true
+    },
+    {
+      "importId": 171,
+      "disposition": "matched",
+      "questionId": "q-3380200b3f",
+      "studyEligible": true
+    },
+    {
+      "importId": 172,
+      "disposition": "matched",
+      "questionId": "q-16330a4f53",
+      "studyEligible": true
+    },
+    {
+      "importId": 173,
+      "disposition": "matched",
+      "questionId": "q-45dfc36521",
+      "studyEligible": false
+    },
+    {
+      "importId": 174,
+      "disposition": "matched",
+      "questionId": "q-b32dfa7347",
+      "studyEligible": true
+    },
+    {
+      "importId": 175,
+      "disposition": "matched",
+      "questionId": "q-fa16511e6e",
+      "studyEligible": true
+    },
+    {
+      "importId": 176,
+      "disposition": "matched",
+      "questionId": "q-b14b012f37",
+      "studyEligible": true
+    },
+    {
+      "importId": 177,
+      "disposition": "matched",
+      "questionId": "q-0354c8b0ad",
+      "studyEligible": true
+    },
+    {
+      "importId": 178,
+      "disposition": "matched",
+      "questionId": "q-7729daa09b",
+      "studyEligible": true
+    },
+    {
+      "importId": 179,
+      "disposition": "matched",
+      "questionId": "q-3c1296de1d",
+      "studyEligible": true
+    },
+    {
+      "importId": 180,
+      "disposition": "added",
+      "questionId": "html-180",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": false
+    },
+    {
+      "importId": 181,
+      "disposition": "matched",
+      "questionId": "q-b91a4e4dba",
+      "studyEligible": true
+    },
+    {
+      "importId": 182,
+      "disposition": "matched",
+      "questionId": "q-32e4f7b539",
+      "studyEligible": true
+    },
+    {
+      "importId": 183,
+      "disposition": "matched",
+      "questionId": "q-ed48f58cb9",
+      "studyEligible": true
+    },
+    {
+      "importId": 184,
+      "disposition": "matched",
+      "questionId": "q-3e8e1ae730",
+      "studyEligible": true
+    },
+    {
+      "importId": 185,
+      "disposition": "matched",
+      "questionId": "q-9567f79712",
+      "studyEligible": true
+    },
+    {
+      "importId": 186,
+      "disposition": "matched",
+      "questionId": "q-78334fd049",
+      "studyEligible": true
+    },
+    {
+      "importId": 187,
+      "disposition": "matched",
+      "questionId": "q-c49b6e1e96",
+      "studyEligible": true
+    },
+    {
+      "importId": 188,
+      "disposition": "matched",
+      "questionId": "q-9c0f73ded9",
+      "studyEligible": true
+    },
+    {
+      "importId": 189,
+      "disposition": "matched",
+      "questionId": "q-4542454bc6",
+      "studyEligible": true
+    },
+    {
+      "importId": 190,
+      "disposition": "matched",
+      "questionId": "q-4c39e9c7c5",
+      "studyEligible": true
+    },
+    {
+      "importId": 191,
+      "disposition": "matched",
+      "questionId": "q-48f555a790",
+      "studyEligible": false
+    },
+    {
+      "importId": 192,
+      "disposition": "matched",
+      "questionId": "q-e666c3e68d",
+      "studyEligible": true
+    },
+    {
+      "importId": 193,
+      "disposition": "matched",
+      "questionId": "q-666eee875b",
+      "studyEligible": true
+    },
+    {
+      "importId": 194,
+      "disposition": "matched",
+      "questionId": "nov-b009afc3d5",
+      "studyEligible": false
+    },
+    {
+      "importId": 195,
+      "disposition": "matched",
+      "questionId": "nov-a833a1ba4b",
+      "studyEligible": false
+    },
+    {
+      "importId": 196,
+      "disposition": "added",
+      "questionId": "html-196",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 197,
+      "disposition": "matched",
+      "questionId": "q-5502ba5968",
+      "studyEligible": true
+    },
+    {
+      "importId": 198,
+      "disposition": "matched",
+      "questionId": "q-064f348d05",
+      "studyEligible": true
+    },
+    {
+      "importId": 199,
+      "disposition": "matched",
+      "questionId": "q-7e23630338",
+      "studyEligible": true
+    },
+    {
+      "importId": 200,
+      "disposition": "matched",
+      "questionId": "q-cd6a71f837",
+      "studyEligible": true
+    },
+    {
+      "importId": 201,
+      "disposition": "matched",
+      "questionId": "q-db5db813d9",
+      "studyEligible": true
+    },
+    {
+      "importId": 202,
+      "disposition": "matched",
+      "questionId": "q-1f1cb6e9ee",
+      "studyEligible": true
+    },
+    {
+      "importId": 203,
+      "disposition": "matched",
+      "questionId": "q-7ae64def8e",
+      "studyEligible": true
+    },
+    {
+      "importId": 204,
+      "disposition": "matched",
+      "questionId": "q-e616330e6d",
+      "studyEligible": true
+    },
+    {
+      "importId": 205,
+      "disposition": "matched",
+      "questionId": "q-922134235b",
+      "studyEligible": true
+    },
+    {
+      "importId": 206,
+      "disposition": "matched",
+      "questionId": "q-9fa05b5c7e",
+      "studyEligible": false
+    },
+    {
+      "importId": 207,
+      "disposition": "matched",
+      "questionId": "q-5757414165",
+      "studyEligible": true
+    },
+    {
+      "importId": 208,
+      "disposition": "matched",
+      "questionId": "q-4404d4fb5e",
+      "studyEligible": false
+    },
+    {
+      "importId": 209,
+      "disposition": "matched",
+      "questionId": "q-bc43f990b5",
+      "studyEligible": true
+    },
+    {
+      "importId": 210,
+      "disposition": "matched",
+      "questionId": "q-866ca9f98c",
+      "studyEligible": true
+    },
+    {
+      "importId": 211,
+      "disposition": "matched",
+      "questionId": "q-83bf7015fb",
+      "studyEligible": true
+    },
+    {
+      "importId": 212,
+      "disposition": "matched",
+      "questionId": "q-e15ce6b11d",
+      "studyEligible": true
+    },
+    {
+      "importId": 213,
+      "disposition": "matched",
+      "questionId": "q-d5c7632f2c",
+      "studyEligible": true
+    },
+    {
+      "importId": 214,
+      "disposition": "matched",
+      "questionId": "q-cd1f0c7150",
+      "studyEligible": true
+    },
+    {
+      "importId": 215,
+      "disposition": "matched",
+      "questionId": "q-987ce03524",
+      "studyEligible": true
+    },
+    {
+      "importId": 216,
+      "disposition": "matched",
+      "questionId": "q-dbfd924698",
+      "studyEligible": true
+    },
+    {
+      "importId": 217,
+      "disposition": "matched",
+      "questionId": "q-0dae7b848a",
+      "studyEligible": true
+    },
+    {
+      "importId": 218,
+      "disposition": "matched",
+      "questionId": "q-3c5efaf470",
+      "studyEligible": true
+    },
+    {
+      "importId": 219,
+      "disposition": "matched",
+      "questionId": "q-94f353babd",
+      "studyEligible": true
+    },
+    {
+      "importId": 220,
+      "disposition": "matched",
+      "questionId": "q-8e5f15ab67",
+      "studyEligible": true
+    },
+    {
+      "importId": 221,
+      "disposition": "matched",
+      "questionId": "q-6f14ef398b",
+      "studyEligible": true
+    },
+    {
+      "importId": 222,
+      "disposition": "matched",
+      "questionId": "q-7c2878bb0a",
+      "studyEligible": true
+    },
+    {
+      "importId": 223,
+      "disposition": "matched",
+      "questionId": "q-8413a2b12c",
+      "studyEligible": true
+    },
+    {
+      "importId": 224,
+      "disposition": "matched",
+      "questionId": "q-bc28857150",
+      "studyEligible": true
+    },
+    {
+      "importId": 225,
+      "disposition": "matched",
+      "questionId": "q-2c39e25323",
+      "studyEligible": true
+    },
+    {
+      "importId": 226,
+      "disposition": "matched",
+      "questionId": "q-6fa4a94395",
+      "studyEligible": true
+    },
+    {
+      "importId": 227,
+      "disposition": "matched",
+      "questionId": "q-8fcba9a05b",
+      "studyEligible": false
+    },
+    {
+      "importId": 228,
+      "disposition": "added",
+      "questionId": "html-228",
+      "answerIndependentlyReviewed": true,
+      "sameAnswerPositionsAsSupplied": true
+    },
+    {
+      "importId": 229,
+      "disposition": "matched",
+      "questionId": "q-016660d14a",
+      "studyEligible": true
+    },
+    {
+      "importId": 230,
+      "disposition": "matched",
+      "questionId": "q-b0faef14c9",
+      "studyEligible": true
+    },
+    {
+      "importId": 231,
+      "disposition": "matched",
+      "questionId": "q-7c669f3b4b",
+      "studyEligible": false
+    },
+    {
+      "importId": 232,
+      "disposition": "matched",
+      "questionId": "q-dc5f223c38",
+      "studyEligible": true
+    },
+    {
+      "importId": 233,
+      "disposition": "matched",
+      "questionId": "q-623fce20ff",
+      "studyEligible": true
+    },
+    {
+      "importId": 234,
+      "disposition": "matched",
+      "questionId": "q-8460c3b3da",
+      "studyEligible": true
+    },
+    {
+      "importId": 235,
+      "disposition": "matched",
+      "questionId": "q-caf539affc",
+      "studyEligible": true
+    },
+    {
+      "importId": 236,
+      "disposition": "matched",
+      "questionId": "q-a3ec79a777",
+      "studyEligible": true
+    },
+    {
+      "importId": 237,
+      "disposition": "matched",
+      "questionId": "q-ae7e105c23",
+      "studyEligible": true
+    },
+    {
+      "importId": 238,
+      "disposition": "matched",
+      "questionId": "q-da9bfba408",
+      "studyEligible": true
+    },
+    {
+      "importId": 239,
+      "disposition": "matched",
+      "questionId": "q-4878aedeb2",
+      "studyEligible": false
+    },
+    {
+      "importId": 240,
+      "disposition": "matched",
+      "questionId": "q-668084fdb0",
+      "studyEligible": true
+    },
+    {
+      "importId": 241,
+      "disposition": "matched",
+      "questionId": "q-906607bdf2",
+      "studyEligible": false
+    },
+    {
+      "importId": 242,
+      "disposition": "matched",
+      "questionId": "q-e8f2d4a42b",
+      "studyEligible": true
+    },
+    {
+      "importId": 243,
+      "disposition": "matched",
+      "questionId": "nov-42f71602e5",
+      "studyEligible": true
+    },
+    {
+      "importId": 244,
+      "disposition": "matched",
+      "questionId": "q-6b5ca5b85b",
+      "studyEligible": true
+    },
+    {
+      "importId": 245,
+      "disposition": "matched",
+      "questionId": "q-fb7d8445b8",
+      "studyEligible": true
+    },
+    {
+      "importId": 246,
+      "disposition": "matched",
+      "questionId": "q-1aad0b0ac2",
+      "studyEligible": true
+    },
+    {
+      "importId": 247,
+      "disposition": "matched",
+      "questionId": "q-724c0a3f53",
+      "studyEligible": true
+    },
+    {
+      "importId": 248,
+      "disposition": "matched",
+      "questionId": "q-3ae0cdf0a7",
+      "studyEligible": true
+    },
+    {
+      "importId": 249,
+      "disposition": "matched",
+      "questionId": "q-c447e6f089",
+      "studyEligible": true
+    },
+    {
+      "importId": 250,
+      "disposition": "matched",
+      "questionId": "q-968b2a919f",
+      "studyEligible": true
+    },
+    {
+      "importId": 251,
+      "disposition": "matched",
+      "questionId": "q-84cfe7ccec",
+      "studyEligible": true
+    },
+    {
+      "importId": 252,
+      "disposition": "matched",
+      "questionId": "q-592bfba3b4",
+      "studyEligible": true
+    },
+    {
+      "importId": 253,
+      "disposition": "matched",
+      "questionId": "q-05aad166cb",
+      "studyEligible": true
+    },
+    {
+      "importId": 254,
+      "disposition": "matched",
+      "questionId": "nov-642f9e9d4e",
+      "studyEligible": true
+    },
+    {
+      "importId": 255,
+      "disposition": "matched",
+      "questionId": "q-95c229feac",
+      "studyEligible": true
+    },
+    {
+      "importId": 256,
+      "disposition": "matched",
+      "questionId": "q-bf60da44dd",
+      "studyEligible": true
+    },
+    {
+      "importId": 257,
+      "disposition": "matched",
+      "questionId": "q-c2e1099cc3",
+      "studyEligible": true
+    },
+    {
+      "importId": 258,
+      "disposition": "matched",
+      "questionId": "nov-146c451f3d",
+      "studyEligible": true
+    },
+    {
+      "importId": 259,
+      "disposition": "matched",
+      "questionId": "nov-557c0f2aee",
+      "studyEligible": true
+    },
+    {
+      "importId": 260,
+      "disposition": "matched",
+      "questionId": "nov-6b62a5448e",
+      "studyEligible": true
+    },
+    {
+      "importId": 261,
+      "disposition": "matched",
+      "questionId": "nov-6446074e8c",
+      "studyEligible": true
+    },
+    {
+      "importId": 262,
+      "disposition": "matched",
+      "questionId": "nov-a289fb3663",
+      "studyEligible": true
+    },
+    {
+      "importId": 263,
+      "disposition": "matched",
+      "questionId": "nov-f2d9c3a3bd",
+      "studyEligible": true
+    },
+    {
+      "importId": 264,
+      "disposition": "matched",
+      "questionId": "nov-553fbc5754",
+      "studyEligible": true
+    },
+    {
+      "importId": 265,
+      "disposition": "matched",
+      "questionId": "nov-734c823286",
+      "studyEligible": true
+    },
+    {
+      "importId": 266,
+      "disposition": "matched",
+      "questionId": "nov-964ac25373",
+      "studyEligible": true
+    },
+    {
+      "importId": 267,
+      "disposition": "matched",
+      "questionId": "nov-a6fbde5d57",
+      "studyEligible": true
+    },
+    {
+      "importId": 268,
+      "disposition": "matched",
+      "questionId": "nov-770d28790d",
+      "studyEligible": false
+    },
+    {
+      "importId": 269,
+      "disposition": "matched",
+      "questionId": "nov-5cb61c7135",
+      "studyEligible": true
+    },
+    {
+      "importId": 270,
+      "disposition": "matched",
+      "questionId": "nov-09ce7014c9",
+      "studyEligible": false
+    },
+    {
+      "importId": 271,
+      "disposition": "matched",
+      "questionId": "nov-34fe2534e3",
+      "studyEligible": true
+    },
+    {
+      "importId": 272,
+      "disposition": "matched",
+      "questionId": "nov-af2c949bf7",
+      "studyEligible": true
+    },
+    {
+      "importId": 273,
+      "disposition": "matched",
+      "questionId": "nov-6254e141e0",
+      "studyEligible": true
+    },
+    {
+      "importId": 274,
+      "disposition": "matched",
+      "questionId": "nov-dfde5224a3",
+      "studyEligible": true
+    },
+    {
+      "importId": 275,
+      "disposition": "matched",
+      "questionId": "nov-9a9bb58dea",
+      "studyEligible": true
+    },
+    {
+      "importId": 276,
+      "disposition": "matched",
+      "questionId": "nov-aa4994ee5d",
+      "studyEligible": true
+    },
+    {
+      "importId": 277,
+      "disposition": "matched",
+      "questionId": "nov-3c7602c690",
+      "studyEligible": true
+    },
+    {
+      "importId": 278,
+      "disposition": "matched",
+      "questionId": "nov-f4d0f7ad45",
+      "studyEligible": true
+    },
+    {
+      "importId": 279,
+      "disposition": "matched",
+      "questionId": "nov-78f94fc268",
+      "studyEligible": true
+    },
+    {
+      "importId": 280,
+      "disposition": "matched",
+      "questionId": "nov-82865a7d8b",
+      "studyEligible": true
+    },
+    {
+      "importId": 281,
+      "disposition": "matched",
+      "questionId": "q-9c775971f5",
+      "studyEligible": true
+    },
+    {
+      "importId": 282,
+      "disposition": "matched",
+      "questionId": "q-aa2b5b8d46",
+      "studyEligible": true
+    },
+    {
+      "importId": 283,
+      "disposition": "matched",
+      "questionId": "q-ba1e983977",
+      "studyEligible": true
+    },
+    {
+      "importId": 284,
+      "disposition": "matched",
+      "questionId": "q-edef15e1be",
+      "studyEligible": true
+    },
+    {
+      "importId": 285,
+      "disposition": "matched",
+      "questionId": "nov-6608a19e41",
+      "studyEligible": false
+    },
+    {
+      "importId": 286,
+      "disposition": "matched",
+      "questionId": "q-d9e3e02140",
+      "studyEligible": true
+    },
+    {
+      "importId": 287,
+      "disposition": "matched",
+      "questionId": "q-be1d31a31c",
+      "studyEligible": true
+    },
+    {
+      "importId": 288,
+      "disposition": "matched",
+      "questionId": "q-8b4cfca9c5",
+      "studyEligible": false
+    },
+    {
+      "importId": 289,
+      "disposition": "matched",
+      "questionId": "q-94ef30c449",
+      "studyEligible": true
+    },
+    {
+      "importId": 290,
+      "disposition": "matched",
+      "questionId": "q-63e8b0db13",
+      "studyEligible": true
+    },
+    {
+      "importId": 291,
+      "disposition": "matched",
+      "questionId": "q-5cab022712",
+      "studyEligible": true
+    },
+    {
+      "importId": 292,
+      "disposition": "matched",
+      "questionId": "nov-e8c0c7dd2b",
+      "studyEligible": true
+    },
+    {
+      "importId": 293,
+      "disposition": "matched",
+      "questionId": "q-df90392851",
+      "studyEligible": true
+    },
+    {
+      "importId": 294,
+      "disposition": "matched",
+      "questionId": "q-82aedffc0a",
+      "studyEligible": true
+    },
+    {
+      "importId": 295,
+      "disposition": "matched",
+      "questionId": "q-3afef971f3",
+      "studyEligible": true
+    },
+    {
+      "importId": 296,
+      "disposition": "matched",
+      "questionId": "q-4792c3d778",
+      "studyEligible": false
+    },
+    {
+      "importId": 297,
+      "disposition": "matched",
+      "questionId": "q-81d2f45ef1",
+      "studyEligible": true
+    },
+    {
+      "importId": 298,
+      "disposition": "matched",
+      "questionId": "nov-28c8bf1a92",
+      "studyEligible": true
+    },
+    {
+      "importId": 299,
+      "disposition": "matched",
+      "questionId": "q-34c7494d63",
+      "studyEligible": false
+    },
+    {
+      "importId": 300,
+      "disposition": "matched",
+      "questionId": "q-914169417f",
+      "studyEligible": true
+    },
+    {
+      "importId": 301,
+      "disposition": "excluded",
+      "reason": "The embedded NoSQL engine and required application access patterns are unspecified. DMS does not migrate every arbitrary embedded database into DynamoDB as a drop-in replacement. A supported source/target, schema/access assessment, and application migration plan are missing from the supposed complete answer."
+    },
+    {
+      "importId": 302,
+      "disposition": "matched",
+      "questionId": "q-32e0bb1ad3",
+      "studyEligible": true
+    },
+    {
+      "importId": 303,
+      "disposition": "matched",
+      "questionId": "nov-3aa974ebb1",
+      "studyEligible": true
+    },
+    {
+      "importId": 304,
+      "disposition": "matched",
+      "questionId": "q-34618d4cea",
+      "studyEligible": true
+    },
+    {
+      "importId": 305,
+      "disposition": "matched",
+      "questionId": "nov-8c940881af",
+      "studyEligible": true
+    },
+    {
+      "importId": 306,
+      "disposition": "matched",
+      "questionId": "nov-2c504a1230",
+      "studyEligible": true
+    },
+    {
+      "importId": 307,
+      "disposition": "matched",
+      "questionId": "nov-8f56e953df",
+      "studyEligible": true
+    },
+    {
+      "importId": 308,
+      "disposition": "matched",
+      "questionId": "nov-3e0feabc6a",
+      "studyEligible": true
+    },
+    {
+      "importId": 309,
+      "disposition": "matched",
+      "questionId": "nov-f1b5d1f341",
+      "studyEligible": false
+    },
+    {
+      "importId": 310,
+      "disposition": "matched",
+      "questionId": "nov-773216c688",
+      "studyEligible": true
+    },
+    {
+      "importId": 311,
+      "disposition": "matched",
+      "questionId": "q-bb287e6fa3",
+      "studyEligible": true
+    },
+    {
+      "importId": 312,
+      "disposition": "matched",
+      "questionId": "q-ea77d7211f",
+      "studyEligible": true
+    },
+    {
+      "importId": 313,
+      "disposition": "matched",
+      "questionId": "q-86c6a36013",
+      "studyEligible": true
+    },
+    {
+      "importId": 314,
+      "disposition": "matched",
+      "questionId": "q-65e2f5f352",
+      "studyEligible": true
+    },
+    {
+      "importId": 315,
+      "disposition": "matched",
+      "questionId": "q-d72445e95b",
+      "studyEligible": true
+    },
+    {
+      "importId": 316,
+      "disposition": "matched",
+      "questionId": "q-42fb20fa67",
+      "studyEligible": true
+    },
+    {
+      "importId": 317,
+      "disposition": "matched",
+      "questionId": "q-c8e7272165",
+      "studyEligible": true
+    },
+    {
+      "importId": 318,
+      "disposition": "matched",
+      "questionId": "q-d9c6639194",
+      "studyEligible": true
+    },
+    {
+      "importId": 319,
+      "disposition": "matched",
+      "questionId": "q-63c7f10aa2",
+      "studyEligible": true
+    },
+    {
+      "importId": 320,
+      "disposition": "matched",
+      "questionId": "q-30bda7138e",
+      "studyEligible": true
+    },
+    {
+      "importId": 321,
+      "disposition": "matched",
+      "questionId": "q-71f038c96a",
+      "studyEligible": true
+    },
+    {
+      "importId": 322,
+      "disposition": "matched",
+      "questionId": "q-78eb316640",
+      "studyEligible": true
+    }
+  ]
+}

@@ -27,10 +27,16 @@ export function reconcileSourceBookmarks(state: StudyState): StudyState {
   const bookmarks = [
     ...new Set(state.bookmarks.map((id) => sourceAliases[id] ?? id)),
   ];
-  return bookmarks.length === state.bookmarks.length &&
-    bookmarks.every((id, i) => id === state.bookmarks[i])
-    ? state
-    : { ...state, bookmarks };
+  const uncertain = Array.isArray(state.uncertain)
+    ? [...new Set(state.uncertain.map(id => sourceAliases[id] ?? id))]
+    : state.uncertain;
+  const mistakes = state.mistakes && typeof state.mistakes === "object" && !Array.isArray(state.mistakes)
+    ? Object.fromEntries(Object.entries(state.mistakes)
+        .sort(([a], [b]) => Number(!sourceAliases[a]) - Number(!sourceAliases[b]))
+        .map(([id, reason]) => [sourceAliases[id] ?? id, reason]))
+    : state.mistakes;
+  if (JSON.stringify([bookmarks, uncertain, mistakes]) === JSON.stringify([state.bookmarks, state.uncertain, state.mistakes])) return state;
+  return { ...state, bookmarks, ...(uncertain !== undefined ? { uncertain } : {}), ...(mistakes !== undefined ? { mistakes } : {}) };
 }
 
 function isSession(value: unknown, ids: Set<string>): value is Session {
@@ -218,7 +224,7 @@ function snapshot() {
         const parsed = JSON.parse(raw);
         current = validateBackup(parsed);
         if (
-          JSON.stringify(parsed.bookmarks) !== JSON.stringify(current.bookmarks)
+          JSON.stringify([parsed.bookmarks, parsed.uncertain, parsed.mistakes]) !== JSON.stringify([current.bookmarks, current.uncertain, current.mistakes])
         ) {
           try {
             localStorage.setItem(KEY, JSON.stringify(current));

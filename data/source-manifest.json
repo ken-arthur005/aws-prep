@@ -1,8 +1,9 @@
 {
   "sources": 1041,
-  "uniqueRecords": 798,
-  "studyReady": 705,
-  "flagged": 93,
+  "uniqueRecords": 849,
+  "studyReady": 727,
+  "flagged": 96,
+  "historyDuplicates": 26,
   "awaitingReview": 0,
   "manifest": [
     {

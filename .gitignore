@@ -12,6 +12,7 @@
 /public/questions/
 /public/new set/
 
+
 # testing
 /coverage
 
@@ -57,9 +58,15 @@ next-env.d.ts
 /data/copyedit-packet.txt
 /data/copyedit-spelling.json
 /data/copyedit-spelling.txt
+/data/copyedit-spelling-*.json
+/data/copyedit-spelling-*.txt
 /data/copyedit-grammar.json
 /data/copyedit-grammar.txt
 /data/copyedit-word-candidates.txt
 /data/copyedit-focus.txt
 /data/copyedit-context.txt
 /data/copyedit-boundaries.txt
+/data/html-review-packet.txt
+/data/html-review-weaker.txt
+/data/html-review-summary.txt
+/data/bank-duplicate-review.txt

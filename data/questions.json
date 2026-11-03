@@ -15,6 +15,13 @@
       "excludedAdded": 21,
       "mergedSources": 122,
       "orderChecksum": "1b0efe8dba15a993733bc6cbaf4e273d31593fc4a4212fe7c52d0950a133c37f"
+    },
+    {
+      "id": "html",
+      "sourceCount": 322,
+      "readyAdded": 51,
+      "matched": 264,
+      "excluded": 7
     }
   ],
   "aliases": {
@@ -121,11 +128,11 @@
     "q-67b15b5f65": "q-8cd3b36bc1",
     "q-8bf1c2beb1": "q-8cd3b36bc1",
     "q-a931306c79": "q-8cd3b36bc1",
-    "q-94df98abc5": "q-cbfaeea4a5",
+    "q-94df98abc5": "html-014",
     "q-b8123c9aee": "q-286412cfe6",
     "q-6571aff96f": "q-4d5d4b2312",
     "q-f0aa5f6874": "q-4d5d4b2312",
-    "q-8d7493b2b9": "q-9ea7d755e7",
+    "q-8d7493b2b9": "q-bfef84a4af",
     "q-94209fd8d9": "q-bf9b247f1a",
     "q-cd759c5ad0": "q-bf9b247f1a",
     "q-b3a086a71b": "q-45fa3b0290",
@@ -133,11 +140,11 @@
     "q-2987178f46": "q-45fa3b0290",
     "q-edc27e0104": "q-acc415c6ac",
     "q-4e87ffc327": "q-acc415c6ac",
-    "q-51262f862f": "q-e99c8b3c6c",
+    "q-51262f862f": "q-1f8fb5a401",
     "q-7c6077cad9": "q-8da5c75204",
-    "q-d813246501": "q-f7232e9a0f",
-    "q-2672b808e3": "q-5aec38b1a1",
-    "q-83ea7016b9": "q-5aec38b1a1",
+    "q-d813246501": "q-fd08c856d0",
+    "q-2672b808e3": "q-db48e2b2c1",
+    "q-83ea7016b9": "q-db48e2b2c1",
     "q-0e57efc02f": "q-5fc8275f81",
     "nov-839720b75d": "q-454706fce4",
     "nov-94249fec33": "q-32e0bb1ad3",
@@ -149,26 +156,26 @@
     "nov-1804369918": "q-286412cfe6",
     "nov-4988c8f303": "q-311bb7a10b",
     "nov-832824bb70": "q-b91a4e4dba",
-    "nov-5f897fca9c": "q-5185b2ecfd",
-    "nov-adfac88a30": "q-71a3b5840b",
+    "nov-5f897fca9c": "q-4ba12770a5",
+    "nov-adfac88a30": "q-9f100e5982",
     "nov-061935a538": "q-0a854ef464",
     "nov-9d5051e7a2": "q-bb287e6fa3",
     "nov-adbbf626fe": "q-153a34d5d8",
-    "nov-ffc4fcf720": "q-f7232e9a0f",
+    "nov-ffc4fcf720": "q-fd08c856d0",
     "nov-833df1b01e": "q-ea77d7211f",
     "nov-201ade2300": "q-86c6a36013",
     "nov-0654be6b44": "q-65e2f5f352",
     "nov-92088e1b1e": "q-d72445e95b",
     "nov-9e76437170": "q-42fb20fa67",
     "nov-866367bb93": "q-c8e7272165",
-    "nov-57c9bbdb02": "q-7a6fda536a",
+    "nov-57c9bbdb02": "q-7729daa09b",
     "nov-b277c2ec10": "q-b469208029",
     "nov-cb55df53fc": "q-d9c6639194",
     "nov-9026cc10de": "q-63c7f10aa2",
     "nov-c028d6f84a": "q-30bda7138e",
     "nov-4250ec2867": "q-71f038c96a",
     "nov-7dc374dc20": "q-78eb316640",
-    "nov-1c55ae28b4": "q-f6839b13c3",
+    "nov-1c55ae28b4": "q-af6eb24660",
     "nov-a4db5fae65": "q-63e8b0db13",
     "nov-d44f232fb3": "q-5cab022712",
     "nov-c584c8bd03": "q-df90392851",
@@ -200,7 +207,7 @@
     "nov-98889020b1": "q-b14b012f37",
     "nov-febafbdf45": "q-8b4cfca9c5",
     "nov-042b2626be": "q-94ef30c449",
-    "nov-260b643f0c": "q-81dcf37ded",
+    "nov-260b643f0c": "q-4542454bc6",
     "nov-cfd02c73fe": "q-e666c3e68d",
     "nov-3eac7b8f47": "q-dc5f223c38",
     "nov-e069541319": "q-623fce20ff",
@@ -223,8 +230,8 @@
     "nov-90c8dab111": "q-944828e020",
     "nov-f891aab654": "q-fb7d8445b8",
     "nov-bc19ee9a3b": "q-7b8355af86",
-    "nov-d2c0d2f24e": "q-359e5e3004",
-    "nov-12483d0ae6": "q-f767deeffc",
+    "nov-d2c0d2f24e": "q-9c0f73ded9",
+    "nov-12483d0ae6": "q-adbb421619",
     "nov-6c9eb2e286": "q-1aad0b0ac2",
     "nov-e24bc00759": "q-724c0a3f53",
     "nov-1534c92911": "q-3ae0cdf0a7",
@@ -260,7 +267,297 @@
     "nov-41883c3d04": "q-ed48f58cb9",
     "nov-86284facf5": "q-78334fd049",
     "nov-fe62f40aae": "nov-6af4230aed",
-    "nov-ee401176bd": "nov-570432a375"
+    "nov-ee401176bd": "nov-570432a375",
+    "q-0cc4a36860": "q-f7ab9cc523",
+    "q-d1b42bd1e6": "q-b91a4e4dba",
+    "q-5185b2ecfd": "q-4ba12770a5",
+    "q-71a3b5840b": "q-9f100e5982",
+    "q-f7232e9a0f": "q-fd08c856d0",
+    "q-7a6fda536a": "q-7729daa09b",
+    "q-f6839b13c3": "q-af6eb24660",
+    "q-3b902b879b": "q-a624e238ff",
+    "q-9a11fc996f": "q-02059f46cb",
+    "q-141af0ee31": "q-292dbdf8a2",
+    "q-ddfa116b89": "q-aa6f41bc5d",
+    "q-9ea7d755e7": "q-bfef84a4af",
+    "q-5aec38b1a1": "q-db48e2b2c1",
+    "q-a8c38b5e2e": "q-824ed6c08b",
+    "q-76805af6dd": "q-ad04ffdf7b",
+    "q-81dcf37ded": "q-4542454bc6",
+    "q-2df4da64fd": "q-e666c3e68d",
+    "q-e99c8b3c6c": "q-1f8fb5a401",
+    "q-bf4fac7ec9": "q-cd31f4874c",
+    "q-359e5e3004": "q-9c0f73ded9",
+    "q-f767deeffc": "q-adbb421619",
+    "q-35504410ec": "q-cfbb6a38b8",
+    "q-1c56bf47bb": "q-9b2bc3ade1",
+    "q-9debe51b9f": "q-4224410bda",
+    "q-6524d2d123": "nov-42f71602e5",
+    "q-cbfaeea4a5": "html-014",
+    "html-002": "q-980bb09571",
+    "html-007": "q-dd20c155a6",
+    "html-008": "q-454706fce4",
+    "html-024": "q-9ae97128aa",
+    "html-029": "q-9eb3253466",
+    "html-030": "html-010",
+    "html-031": "q-a2db635a40",
+    "html-034": "q-d5544ec7a1",
+    "html-035": "q-1d5ff12f81",
+    "html-036": "q-3914b6526f",
+    "html-037": "q-2efee8b9a1",
+    "html-038": "q-860ff8f28f",
+    "html-039": "q-824ed6c08b",
+    "html-040": "q-450a1bd818",
+    "html-042": "q-fc07c01d6f",
+    "html-043": "q-529b4b148e",
+    "html-047": "html-023",
+    "html-054": "q-e0c4a1aa1a",
+    "html-056": "q-952809f32b",
+    "html-066": "q-8413a2b12c",
+    "html-070": "nov-c17f7e9491",
+    "html-071": "q-02059f46cb",
+    "html-072": "q-0bc42a3c94",
+    "html-073": "q-706ae31f98",
+    "html-074": "q-beb45f6b25",
+    "html-075": "q-110ab1db45",
+    "html-076": "q-8c24f72770",
+    "html-077": "q-124d47e0f4",
+    "html-078": "q-295025b374",
+    "html-079": "q-ce7ee861f0",
+    "html-080": "q-7906763ff2",
+    "html-081": "q-292dbdf8a2",
+    "html-082": "q-616cde6cf6",
+    "html-083": "q-ada299e044",
+    "html-084": "q-5d91811026",
+    "html-085": "q-3eee2ff9f4",
+    "html-086": "q-aa6f41bc5d",
+    "html-087": "q-a9ae2e1369",
+    "html-088": "q-797bf79af6",
+    "html-089": "q-5b5718b832",
+    "html-090": "q-bfef84a4af",
+    "html-091": "q-fcd35bc167",
+    "html-092": "q-64265fe039",
+    "html-093": "q-f30ef65797",
+    "html-094": "q-da44c36e51",
+    "html-095": "q-e5f4fec726",
+    "html-096": "q-3d7dc0f69c",
+    "html-097": "q-f72bd11da5",
+    "html-098": "q-cd05c18437",
+    "html-099": "q-3daed3bab9",
+    "html-100": "q-e521454a8b",
+    "html-101": "q-802d846ff0",
+    "html-102": "q-bf9b247f1a",
+    "html-103": "q-8da5c75204",
+    "html-104": "q-63c5e48991",
+    "html-105": "q-db48e2b2c1",
+    "html-106": "q-ad04ffdf7b",
+    "html-107": "q-ff5ec080e5",
+    "html-108": "q-205d42900c",
+    "html-109": "q-b1e6629593",
+    "html-110": "q-525c6f3d52",
+    "html-111": "q-23377dc3c9",
+    "html-112": "q-7e1dbdc2dd",
+    "html-113": "q-2c8a38e155",
+    "html-114": "q-6d0d71e2ff",
+    "html-115": "q-fd5f4e3881",
+    "html-116": "q-380bf42e42",
+    "html-117": "q-89c88e0c37",
+    "html-118": "q-8cd3b36bc1",
+    "html-119": "q-af6eb24660",
+    "html-120": "q-adbb421619",
+    "html-121": "q-a672266c0d",
+    "html-122": "q-e96bab5408",
+    "html-123": "q-ecbe36f0b5",
+    "html-124": "q-29b3a5b70a",
+    "html-125": "q-cd31f4874c",
+    "html-126": "q-286412cfe6",
+    "html-127": "q-4d5d4b2312",
+    "html-128": "q-45fa3b0290",
+    "html-129": "q-acc415c6ac",
+    "html-130": "q-ba953dcebd",
+    "html-131": "q-0a854ef464",
+    "html-132": "q-a624e238ff",
+    "html-133": "q-1f8fb5a401",
+    "html-135": "q-fd08c856d0",
+    "html-136": "q-cfbb6a38b8",
+    "html-137": "q-4ba12770a5",
+    "html-138": "q-9f100e5982",
+    "html-139": "q-be710637d3",
+    "html-140": "q-5fc8275f81",
+    "html-141": "q-80e0a58e1d",
+    "html-142": "q-39586a8b3c",
+    "html-143": "q-a290d70649",
+    "html-144": "q-f9345c354f",
+    "html-145": "q-ba2ab6dadc",
+    "html-146": "q-493e455ad2",
+    "html-147": "q-abe6ea6a1a",
+    "html-148": "q-60881da3e2",
+    "html-149": "q-c8c64edb91",
+    "html-150": "q-c360d97b80",
+    "html-151": "q-f150d6ffb9",
+    "html-152": "q-4224410bda",
+    "html-154": "q-f4aac7a110",
+    "html-155": "q-39998f6398",
+    "html-156": "q-de02906a74",
+    "html-158": "q-97e223c85f",
+    "html-159": "q-8846004f7e",
+    "html-160": "q-daa75ca384",
+    "html-161": "q-a8aa17346d",
+    "html-162": "q-dbc55154e0",
+    "html-163": "q-9b2bc3ade1",
+    "html-164": "q-73c37cd7d1",
+    "html-165": "q-bc0dbdccc8",
+    "html-166": "q-b67682d568",
+    "html-167": "q-15d7ee9b73",
+    "html-170": "q-7e74863606",
+    "html-171": "q-3380200b3f",
+    "html-172": "q-16330a4f53",
+    "html-173": "q-45dfc36521",
+    "html-174": "q-b32dfa7347",
+    "html-175": "q-fa16511e6e",
+    "html-176": "q-b14b012f37",
+    "html-177": "q-0354c8b0ad",
+    "html-178": "q-7729daa09b",
+    "html-179": "q-3c1296de1d",
+    "html-181": "q-b91a4e4dba",
+    "html-182": "q-32e4f7b539",
+    "html-183": "q-ed48f58cb9",
+    "html-184": "q-3e8e1ae730",
+    "html-185": "q-9567f79712",
+    "html-186": "q-78334fd049",
+    "html-187": "q-c49b6e1e96",
+    "html-188": "q-9c0f73ded9",
+    "html-189": "q-4542454bc6",
+    "html-190": "q-4c39e9c7c5",
+    "html-191": "q-48f555a790",
+    "html-192": "q-e666c3e68d",
+    "html-193": "q-666eee875b",
+    "html-194": "nov-b009afc3d5",
+    "html-195": "nov-a833a1ba4b",
+    "html-197": "q-5502ba5968",
+    "html-198": "q-064f348d05",
+    "html-199": "q-7e23630338",
+    "html-200": "q-cd6a71f837",
+    "html-201": "q-db5db813d9",
+    "html-202": "q-1f1cb6e9ee",
+    "html-203": "q-7ae64def8e",
+    "html-204": "q-e616330e6d",
+    "html-205": "q-922134235b",
+    "html-206": "q-9fa05b5c7e",
+    "html-207": "q-5757414165",
+    "html-208": "q-4404d4fb5e",
+    "html-209": "q-bc43f990b5",
+    "html-210": "q-866ca9f98c",
+    "html-211": "q-83bf7015fb",
+    "html-212": "q-e15ce6b11d",
+    "html-213": "q-d5c7632f2c",
+    "html-214": "q-cd1f0c7150",
+    "html-215": "q-987ce03524",
+    "html-216": "q-dbfd924698",
+    "html-217": "q-0dae7b848a",
+    "html-218": "q-3c5efaf470",
+    "html-219": "q-94f353babd",
+    "html-220": "q-8e5f15ab67",
+    "html-221": "q-6f14ef398b",
+    "html-222": "q-7c2878bb0a",
+    "html-223": "q-8413a2b12c",
+    "html-224": "q-bc28857150",
+    "html-225": "q-2c39e25323",
+    "html-226": "q-6fa4a94395",
+    "html-227": "q-8fcba9a05b",
+    "html-229": "q-016660d14a",
+    "html-230": "q-b0faef14c9",
+    "html-231": "q-7c669f3b4b",
+    "html-232": "q-dc5f223c38",
+    "html-233": "q-623fce20ff",
+    "html-234": "q-8460c3b3da",
+    "html-235": "q-caf539affc",
+    "html-236": "q-a3ec79a777",
+    "html-237": "q-ae7e105c23",
+    "html-238": "q-da9bfba408",
+    "html-239": "q-4878aedeb2",
+    "html-240": "q-668084fdb0",
+    "html-241": "q-906607bdf2",
+    "html-242": "q-e8f2d4a42b",
+    "html-243": "nov-42f71602e5",
+    "html-244": "q-6b5ca5b85b",
+    "html-245": "q-fb7d8445b8",
+    "html-246": "q-1aad0b0ac2",
+    "html-247": "q-724c0a3f53",
+    "html-248": "q-3ae0cdf0a7",
+    "html-249": "q-c447e6f089",
+    "html-250": "q-968b2a919f",
+    "html-251": "q-84cfe7ccec",
+    "html-252": "q-592bfba3b4",
+    "html-253": "q-05aad166cb",
+    "html-254": "nov-642f9e9d4e",
+    "html-255": "q-95c229feac",
+    "html-256": "q-bf60da44dd",
+    "html-257": "q-c2e1099cc3",
+    "html-258": "nov-146c451f3d",
+    "html-259": "nov-557c0f2aee",
+    "html-260": "nov-6b62a5448e",
+    "html-261": "nov-6446074e8c",
+    "html-262": "nov-a289fb3663",
+    "html-263": "nov-f2d9c3a3bd",
+    "html-264": "nov-553fbc5754",
+    "html-265": "nov-734c823286",
+    "html-266": "nov-964ac25373",
+    "html-267": "nov-a6fbde5d57",
+    "html-268": "nov-770d28790d",
+    "html-269": "nov-5cb61c7135",
+    "html-270": "nov-09ce7014c9",
+    "html-271": "nov-34fe2534e3",
+    "html-272": "nov-af2c949bf7",
+    "html-273": "nov-6254e141e0",
+    "html-274": "nov-dfde5224a3",
+    "html-275": "nov-9a9bb58dea",
+    "html-276": "nov-aa4994ee5d",
+    "html-277": "nov-3c7602c690",
+    "html-278": "nov-f4d0f7ad45",
+    "html-279": "nov-78f94fc268",
+    "html-280": "nov-82865a7d8b",
+    "html-281": "q-9c775971f5",
+    "html-282": "q-aa2b5b8d46",
+    "html-283": "q-ba1e983977",
+    "html-284": "q-edef15e1be",
+    "html-285": "nov-6608a19e41",
+    "html-286": "q-d9e3e02140",
+    "html-287": "q-be1d31a31c",
+    "html-288": "q-8b4cfca9c5",
+    "html-289": "q-94ef30c449",
+    "html-290": "q-63e8b0db13",
+    "html-291": "q-5cab022712",
+    "html-292": "nov-e8c0c7dd2b",
+    "html-293": "q-df90392851",
+    "html-294": "q-82aedffc0a",
+    "html-295": "q-3afef971f3",
+    "html-296": "q-4792c3d778",
+    "html-297": "q-81d2f45ef1",
+    "html-298": "nov-28c8bf1a92",
+    "html-299": "q-34c7494d63",
+    "html-300": "q-914169417f",
+    "html-302": "q-32e0bb1ad3",
+    "html-303": "nov-3aa974ebb1",
+    "html-304": "q-34618d4cea",
+    "html-305": "nov-8c940881af",
+    "html-306": "nov-2c504a1230",
+    "html-307": "nov-8f56e953df",
+    "html-308": "nov-3e0feabc6a",
+    "html-309": "nov-f1b5d1f341",
+    "html-310": "nov-773216c688",
+    "html-311": "q-bb287e6fa3",
+    "html-312": "q-ea77d7211f",
+    "html-313": "q-86c6a36013",
+    "html-314": "q-65e2f5f352",
+    "html-315": "q-d72445e95b",
+    "html-316": "q-42fb20fa67",
+    "html-317": "q-c8e7272165",
+    "html-318": "q-d9c6639194",
+    "html-319": "q-63c7f10aa2",
+    "html-320": "q-30bda7138e",
+    "html-321": "q-71f038c96a",
+    "html-322": "q-78eb316640"
   },
   "questions": [
     {
@@ -8706,7 +9003,8 @@
         }
       ],
       "adapted": false,
-      "title": "A load balancer stops routing to unhealthy targets; Auto Scaling replaces them and restores desired capacity"
+      "title": "A load balancer stops routing to unhealthy targets; Auto Scaling replaces them and restores desired capacity",
+      "duplicateOf": "q-f7ab9cc523"
     },
     {
       "id": "q-2417a84462",
@@ -9762,7 +10060,8 @@
         }
       ],
       "adapted": false,
-      "title": "Intelligent-Tiering moves eligible objects among access tiers according to usage, while its non-archive…"
+      "title": "Intelligent-Tiering moves eligible objects among access tiers according to usage, while its non-archive…",
+      "duplicateOf": "q-4224410bda"
     },
     {
       "id": "q-9c3c5cf6c8",
@@ -17902,7 +18201,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-22 125750.png",
         "/new set/Screenshot 2026-11-02 040722.png"
-      ]
+      ],
+      "studyExcludedReason": "The choices conflate On-Demand instances with explicit capacity reservations and imply a built-in recurring reservation schedule. No single complete, unqualified architecture is specified. Historical results are retained; practise the capacity-versus-discount distinction in the revision guide instead."
     },
     {
       "id": "q-94ef30c449",
@@ -18434,7 +18734,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-22 133533.png",
         "/new set/Screenshot 2026-11-02 041131.png"
-      ]
+      ],
+      "studyExcludedReason": "Both ECS and Docker on Elastic Beanstalk can meet parts of this broad migration description. The source does not distinguish direct container orchestration from a managed application environment, so its single-answer key is not uniquely supported."
     },
     {
       "id": "q-952809f32b",
@@ -18634,7 +18935,8 @@
         }
       ],
       "adapted": false,
-      "title": "Resources is the required CloudFormation template section; Parameters and Conditions have different…"
+      "title": "Resources is the required CloudFormation template section; Parameters and Conditions have different…",
+      "duplicateOf": "nov-42f71602e5"
     },
     {
       "id": "q-6b5ca5b85b",
@@ -21206,7 +21508,8 @@
         }
       ],
       "adapted": false,
-      "title": "IA transitions require the supported object age; Flexible Retrieval can supply expedited restores when…"
+      "title": "IA transitions require the supported object age; Flexible Retrieval can supply expedited restores when…",
+      "studyExcludedReason": "The choose-two source mixes lifecycle transition timing, storage-duration charging, and archival retrieval assumptions. It does not provide a uniquely current set of two valid designs with the necessary cost/retrieval constraints. Historical answer selections are preserved rather than silently regraded."
     },
     {
       "id": "q-f150d6ffb9",
@@ -22015,7 +22318,8 @@
         }
       ],
       "adapted": false,
-      "title": "Inspector scans supported EC2/software workloads and publishes findings that can feed EventBridge…"
+      "title": "Inspector scans supported EC2/software workloads and publishes findings that can feed EventBridge…",
+      "duplicateOf": "q-9b2bc3ade1"
     },
     {
       "id": "q-fa16511e6e",
@@ -22196,7 +22500,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 111631.png",
         "/new set/Screenshot 2026-11-01 153805.png"
-      ]
+      ],
+      "duplicateOf": "q-7729daa09b"
     },
     {
       "id": "q-3c1296de1d",
@@ -22275,7 +22580,8 @@
         }
       ],
       "adapted": false,
-      "title": "Guest swap usage needs an OS-level agent/custom metric; default EC2 infrastructure metrics do not collect it"
+      "title": "Guest swap usage needs an OS-level agent/custom metric; default EC2 infrastructure metrics do not collect it",
+      "duplicateOf": "q-b91a4e4dba"
     },
     {
       "id": "q-32e4f7b539",
@@ -22354,7 +22660,8 @@
         }
       ],
       "adapted": false,
-      "title": "File Gateway caches active data locally while storing file objects in S3 through supported SMB/NFS…"
+      "title": "File Gateway caches active data locally while storing file objects in S3 through supported SMB/NFS…",
+      "duplicateOf": "q-ad04ffdf7b"
     },
     {
       "id": "q-980bb09571",
@@ -22652,7 +22959,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 113339.png",
         "/new set/Screenshot 2026-11-02 041754.png"
-      ]
+      ],
+      "duplicateOf": "q-9c0f73ded9"
     },
     {
       "id": "q-81dcf37ded",
@@ -22694,7 +23002,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 113407.png",
         "/new set/Screenshot 2026-11-02 040759.png"
-      ]
+      ],
+      "duplicateOf": "q-4542454bc6"
     },
     {
       "id": "q-4c39e9c7c5",
@@ -22806,7 +23115,8 @@
         }
       ],
       "adapted": false,
-      "title": "For legacy ACL-enabled buckets, require bucket-owner-full-control on uploads so the bucket owner receives…"
+      "title": "For legacy ACL-enabled buckets, require bucket-owner-full-control on uploads so the bucket owner receives…",
+      "duplicateOf": "q-e666c3e68d"
     },
     {
       "id": "q-666eee875b",
@@ -22929,7 +23239,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 113809.png",
         "/new set/Screenshot 2026-11-01 154024.png"
-      ]
+      ],
+      "duplicateOf": "q-af6eb24660"
     },
     {
       "id": "q-529b4b148e",
@@ -23001,7 +23312,8 @@
         }
       ],
       "adapted": false,
-      "title": "Shared filesystems: A content management system (CMS) is hosted on a fleet of auto-scaled, On-Demand…"
+      "title": "Shared filesystems: A content management system (CMS) is hosted on a fleet of auto-scaled, On-Demand…",
+      "duplicateOf": "html-014"
     },
     {
       "id": "q-a8c38b5e2e",
@@ -23042,7 +23354,8 @@
         }
       ],
       "adapted": true,
-      "title": "The execution role is the AWS principal making SDK calls"
+      "title": "The execution role is the AWS principal making SDK calls",
+      "duplicateOf": "q-824ed6c08b"
     },
     {
       "id": "q-9eb3253466",
@@ -23125,7 +23438,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 114253.png",
         "/new set/Screenshot 2026-11-02 041818.png"
-      ]
+      ],
+      "duplicateOf": "q-adbb421619"
     },
     {
       "id": "q-a672266c0d",
@@ -23333,7 +23647,8 @@
         }
       ],
       "adapted": true,
-      "title": "Cross-Region VPC routing needs regional gateways/peering and explicit inspection routes; a firewall is not…"
+      "title": "Cross-Region VPC routing needs regional gateways/peering and explicit inspection routes; a firewall is not…",
+      "duplicateOf": "q-cd31f4874c"
     },
     {
       "id": "q-286412cfe6",
@@ -23423,7 +23738,8 @@
         }
       ],
       "adapted": false,
-      "title": "Traditional RDS read replicas asynchronously offload reads; a Multi-AZ DB instance standby is for…"
+      "title": "Traditional RDS read replicas asynchronously offload reads; a Multi-AZ DB instance standby is for…",
+      "duplicateOf": "q-292dbdf8a2"
     },
     {
       "id": "q-9ea7d755e7",
@@ -23465,7 +23781,8 @@
         }
       ],
       "adapted": false,
-      "title": "A Direct Connect gateway associated with Transit Gateway can extend a shared hybrid connection to supported…"
+      "title": "A Direct Connect gateway associated with Transit Gateway can extend a shared hybrid connection to supported…",
+      "duplicateOf": "q-bfef84a4af"
     },
     {
       "id": "q-ba953dcebd",
@@ -23597,7 +23914,8 @@
         }
       ],
       "adapted": false,
-      "title": "An attached IGW does not give every new subnet/instance internet reachability; the subnet route and public…"
+      "title": "An attached IGW does not give every new subnet/instance internet reachability; the subnet route and public…",
+      "duplicateOf": "q-02059f46cb"
     },
     {
       "id": "q-3b902b879b",
@@ -23641,7 +23959,8 @@
         }
       ],
       "adapted": false,
-      "title": "To encrypt before upload, use a client encryption library with KMS-protected or independently managed…"
+      "title": "To encrypt before upload, use a client encryption library with KMS-protected or independently managed…",
+      "duplicateOf": "q-a624e238ff"
     },
     {
       "id": "q-e99c8b3c6c",
@@ -23687,7 +24006,8 @@
         }
       ],
       "adapted": false,
-      "title": "Separate static objects, scalable application workers and a managed multi-AZ relational database"
+      "title": "Separate static objects, scalable application workers and a managed multi-AZ relational database",
+      "duplicateOf": "q-1f8fb5a401"
     },
     {
       "id": "q-b5a029f239",
@@ -23763,7 +24083,8 @@
         "/questions/Screenshot 2026-10-24 122236.png",
         "/questions/Screenshot 2026-10-24 122357.png",
         "/new set/Screenshot 2026-11-01 153552.png"
-      ]
+      ],
+      "duplicateOf": "q-fd08c856d0"
     },
     {
       "id": "q-35504410ec",
@@ -23806,7 +24127,8 @@
         }
       ],
       "adapted": false,
-      "title": "The default policy favors AZ balance, then obsolete launch configuration/template lineage, then applicable…"
+      "title": "The default policy favors AZ balance, then obsolete launch configuration/template lineage, then applicable…",
+      "duplicateOf": "q-cfbb6a38b8"
     },
     {
       "id": "q-5185b2ecfd",
@@ -23852,7 +24174,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 122551.png",
         "/new set/Screenshot 2026-11-01 153204.png"
-      ]
+      ],
+      "duplicateOf": "q-4ba12770a5"
     },
     {
       "id": "q-71a3b5840b",
@@ -23894,7 +24217,8 @@
       "sourcePaths": [
         "/questions/Screenshot 2026-10-24 122709.png",
         "/new set/Screenshot 2026-11-01 153244.png"
-      ]
+      ],
+      "duplicateOf": "q-9f100e5982"
     },
     {
       "id": "q-5aec38b1a1",
@@ -23940,7 +24264,8 @@
         }
       ],
       "adapted": false,
-      "title": "Signed viewer authorization and OAC-scoped S3 access solve separate halves of private CloudFront delivery"
+      "title": "Signed viewer authorization and OAC-scoped S3 access solve separate halves of private CloudFront delivery",
+      "duplicateOf": "q-db48e2b2c1"
     },
     {
       "id": "q-450a1bd818",
@@ -24100,7 +24425,8 @@
         }
       ],
       "adapted": false,
-      "title": "S3 server-side encryption and client-side encryption both protect object contents at rest; perimeter…"
+      "title": "S3 server-side encryption and client-side encryption both protect object contents at rest; perimeter…",
+      "duplicateOf": "q-aa6f41bc5d"
     },
     {
       "id": "q-311bb7a10b",
@@ -29895,7 +30221,8 @@
           "url": "https://anywhere.eks.amazonaws.com/docs/overview/"
         }
       ],
-      "title": "Scale pod replicas for workload demand and node capacity for unschedulable supported workloads"
+      "title": "Scale pod replicas for workload demand and node capacity for unschedulable supported workloads",
+      "studyExcludedReason": "HPA can be paired with either a correctly configured Cluster Autoscaler or Karpenter. The vague failed/rescheduled-pod wording does not reliably eliminate Karpenter, so selecting exactly two cannot establish a unique complete pair."
     },
     {
       "id": "nov-5cb61c7135",
@@ -32023,6 +32350,1959 @@
         }
       ],
       "title": "An open HTTP port does not prove that the load balancer's health check reaches a valid responding…"
+    },
+    {
+      "id": "html-001",
+      "number": 1042,
+      "title": "Place the transformation before the protected destination; reacting after a database write is too late.",
+      "prompt": "A healthcare analytics pipeline receives real-time records containing personally identifiable information (PII). Records must be anonymized before reaching the destination NoSQL database, and raw PII must not be staged in an S3 data lake.\n\nWhich design meets these requirements?",
+      "options": [
+        "Write raw records to DynamoDB and anonymize them later using DynamoDB Streams.",
+        "Transform records with Data Firehose and deliver them to Amazon Redshift.",
+        "Ingest records with Kinesis Data Streams, anonymize them with Lambda, and write the results to DynamoDB.",
+        "Write raw records to an S3 data lake and use an S3-triggered Lambda function to anonymize them before writing to DynamoDB."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "The unmasked record reaches the database before the change stream triggers anonymization.",
+        "Redshift is a warehouse, not the required NoSQL destination.",
+        "Lambda transforms the stream records before writing the anonymized results to DynamoDB.",
+        "This stages raw PII in S3, violating the explicitly stated intermediate-storage restriction."
+      ],
+      "takeaway": "Place the transformation before the protected destination; reacting after a database write is too late.",
+      "domain": "secure",
+      "topic": "Data protection before storage",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Study variant: the S3 staging restriction is explicit because the supplied wording only prohibited raw PII in the NoSQL database. Configure stream retention, access, encryption, and idempotent processing separately.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Lambda stream processing",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html"
+        },
+        {
+          "title": "DynamoDB data model",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html"
+        }
+      ]
+    },
+    {
+      "id": "html-003",
+      "number": 1044,
+      "title": "Lambda fits bounded event-driven API work; protect the database from the resulting concurrency.",
+      "prompt": "A startup has an RDS-backed application with low activity between sudden product-announcement traffic bursts. It wants an API compute layer that can scale quickly without maintaining an idle server fleet.\n\nWhich offered design is the best fit?",
+      "options": [
+        "API Gateway with an EC2-backed ECS service.",
+        "API Gateway with an Elastic Beanstalk EC2 environment.",
+        "API Gateway with Lambda functions.",
+        "API Gateway with an EC2 Auto Scaling group."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "EC2-backed containers need instance capacity and scaling configuration, even when service scaling is enabled.",
+        "Beanstalk manages an application environment but still operates a provisioned EC2 fleet.",
+        "Lambda supplies request-driven compute without the application managing a standing instance fleet.",
+        "An EC2 group needs instance launch/readiness time and capacity planning for the burst."
+      ],
+      "takeaway": "Lambda fits bounded event-driven API work; protect the database from the resulting concurrency.",
+      "domain": "performance",
+      "topic": "Bursty serverless APIs",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Lambda has quotas and scaling limits; it does not guarantee arbitrary instantaneous capacity. RDS remains chargeable when idle, and connection pooling or concurrency controls may be needed.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Lambda execution and scaling",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+        },
+        {
+          "title": "API Gateway throttling",
+          "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html"
+        }
+      ]
+    },
+    {
+      "id": "html-004",
+      "number": 1045,
+      "title": "DynamoDB Streams is a change feed; DAX is a read cache.",
+      "prompt": "A social application stores user activity in DynamoDB. It must react to item changes and email the relevant followers with minimal custom polling infrastructure.\n\nWhich integration should it use?",
+      "options": [
+        "Run a custom Kinesis adapter inside Lambda to poll the DynamoDB Streams endpoint manually.",
+        "Maintain a KCL worker application to poll DynamoDB Streams and send SNS messages.",
+        "Use DAX as the event source for change notifications.",
+        "Enable DynamoDB Streams and a Lambda event source mapping; let the function identify followers and publish suitable SNS notifications."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "Lambda already provides a managed event source mapping, so a custom polling adapter adds unnecessary work.",
+        "A custom KCL worker can consume compatible streams but adds worker management compared with the native integration.",
+        "DAX caches reads and does not replace the DynamoDB item-change stream.",
+        "The managed mapping delivers change records to Lambda, where application logic selects recipients and sends notifications."
+      ],
+      "takeaway": "DynamoDB Streams is a change feed; DAX is a read cache.",
+      "domain": "resilient",
+      "topic": "Database change notifications",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Configure least-privilege roles, subscription/follower routing, retries, and idempotency. A stream does not automatically determine the application's followers.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "DynamoDB Streams and Lambda",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html"
+        }
+      ]
+    },
+    {
+      "id": "html-005",
+      "number": 1046,
+      "title": "Federation establishes identity; IAM policies enforce the resource scope.",
+      "prompt": "A company wants 1,200 employees to use existing corporate AD/LDAP identities for SSO to personal document storage in S3. Each employee must be limited to an assigned prefix without creating a separate IAM user for every employee.\n\nWhich two components are required? (Select TWO.)",
+      "options": [
+        "A suitable identity-provider/federation flow that obtains temporary STS credentials.",
+        "IAM roles and policies scoped to the user's assigned S3 prefix using trusted identity attributes.",
+        "WorkDocs as the mechanism that automatically maps every user to the S3 prefix.",
+        "A third-party SSO product without AWS role or S3 permission configuration.",
+        "A matching long-lived IAM user for each corporate directory user."
+      ],
+      "select": 2,
+      "correct": [
+        0,
+        1
+      ],
+      "explanations": [
+        "A supported federation flow reuses the corporate identity and obtains temporary AWS access.",
+        "Trusted identity/session attributes and least-privilege policies enforce the intended per-user prefix boundary.",
+        "WorkDocs is not the permission-mapping mechanism required for arbitrary S3 prefixes and is retired.",
+        "An SSO product still needs the AWS role and resource authorizations; the product name alone grants nothing.",
+        "Duplicating all users in IAM contradicts the stated federated-access requirement."
+      ],
+      "takeaway": "Federation establishes identity; IAM policies enforce the resource scope.",
+      "domain": "secure",
+      "topic": "Federated per-user access",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "SAML federation and IAM roles",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html"
+        }
+      ]
+    },
+    {
+      "id": "html-006",
+      "number": 1047,
+      "title": "Rate-based rules match measured request rates; an IP list alone does not express a rate policy.",
+      "prompt": "An ALB-backed website receives sustained excessive HTTP requests from individual clients. Offending addresses change over time, so manually maintaining an IP block list is impractical. Each abusive client exceeds a defined request-rate threshold.\n\nWhich control best limits this traffic?",
+      "options": [
+        "Create a regular WAF rule without a request-matching pattern or rate condition.",
+        "Create a suitably scoped WAF rate-based rule and associate the web ACL with the ALB.",
+        "Maintain subnet NACL deny entries for every observed source address.",
+        "Add explicit deny rules to the ALB security group."
+      ],
+      "select": 1,
+      "correct": [
+        1
+      ],
+      "explanations": [
+        "A regular rule needs a meaningful match condition and does not implement the requested rate threshold by itself.",
+        "The rule can count requests using an appropriate aggregation key and limit sources exceeding its threshold.",
+        "A manually maintained list becomes stale as sources change and does not directly implement HTTP request-rate control.",
+        "Security groups are allow-only and cannot express a WAF-style HTTP rate rule."
+      ],
+      "takeaway": "Rate-based rules match measured request rates; an IP list alone does not express a rate policy.",
+      "domain": "secure",
+      "topic": "Rate-based web protection",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Clarification: each abusive aggregation key exceeds the threshold. Low-rate distributed traffic or rapid address rotation can evade a per-IP limit and needs additional controls.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "WAF rate-based rules",
+          "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html"
+        }
+      ]
+    },
+    {
+      "id": "html-009",
+      "number": 1050,
+      "title": "Transfer Acceleration optimizes the long-distance S3 path; multipart upload parallelizes the object…",
+      "prompt": "Weather stations in many countries each upload roughly 600 GB of data over high-speed internet links to one S3 bucket in Northern Virginia.\n\nWhich offered feature is designed to improve long-distance transfers to that central bucket while allowing parallel upload parts?",
+      "options": [
+        "Use Site-to-Site VPN as the upload acceleration service.",
+        "Enable S3 Transfer Acceleration and use multipart uploads.",
+        "Upload into separate regional buckets and add cross-Region replication for every source.",
+        "Ship an offline Snowball device for each upload."
+      ],
+      "select": 1,
+      "correct": [
+        1
+      ],
+      "explanations": [
+        "VPN supplies encrypted network connectivity, not this managed S3 upload-acceleration feature.",
+        "The acceleration endpoint uses edge ingress and multipart upload can transfer parts concurrently.",
+        "An extra regional copy and replication pipeline add stages rather than directly optimizing the central upload endpoint.",
+        "Device shipment is not the appropriate repeated online transfer path when suitable high-speed connectivity already exists."
+      ],
+      "takeaway": "Transfer Acceleration optimizes the long-distance S3 path; multipart upload parallelizes the object transfer.",
+      "domain": "performance",
+      "topic": "Long-distance uploads",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Benchmark actual improvement and cost. Transfer Acceleration is not a guarantee of faster transfer for every source or connection.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 Transfer Acceleration",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html"
+        }
+      ]
+    },
+    {
+      "id": "html-010",
+      "number": 1051,
+      "title": "Versioning preserves historical contents; MFA Delete adds protection to permanent version deletion.",
+      "prompt": "An S3 application must recover earlier object contents after accidental overwrites or deletes. It also needs an MFA requirement for permanently deleting retained object versions.\n\nWhich two features provide these specific controls? (Select TWO.)",
+      "options": [
+        "Allow access only through presigned URLs.",
+        "Deny DeleteObject but allow overwrites and permanent version deletion.",
+        "Enable MFA Delete with the required supported configuration.",
+        "Enable S3 Versioning.",
+        "Use Intelligent-Tiering."
+      ],
+      "select": 2,
+      "correct": [
+        2,
+        3
+      ],
+      "explanations": [
+        "A temporary access URL does not preserve an earlier object version or impose the requested MFA deletion check.",
+        "This incomplete policy does not cover the stated overwrite and permanent-version-deletion requirements.",
+        "MFA Delete adds the supported MFA requirement to protected version-deletion/versioning operations.",
+        "Versioning retains earlier versions, allowing recovery after accidental changes.",
+        "Tiering controls storage cost and access tiers, not object version retention or MFA checks."
+      ],
+      "takeaway": "Versioning preserves historical contents; MFA Delete adds protection to permanent version deletion.",
+      "domain": "resilient",
+      "topic": "Recoverable S3 object changes",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Versioning is recovery protection rather than a blanket ban on writes/deletes. Carefully scope permissions and configure MFA Delete through its supported root-authorized workflow.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 Versioning and MFA Delete",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/MultiFactorAuthenticationDelete.html"
+        }
+      ]
+    },
+    {
+      "id": "html-011",
+      "number": 1052,
+      "title": "Enhanced Monitoring supplies supported guest OS/process evidence; a single aggregate CPU metric cannot…",
+      "prompt": "An RDS-backed application needs OS-level visibility into database process and thread CPU/memory usage. Default database monitoring does not provide the required per-process view.\n\nWhich option should the team enable?",
+      "options": [
+        "Inspect only the default CloudWatch CPUUtilization metric.",
+        "Enable RDS Enhanced Monitoring with appropriate permissions.",
+        "Assume the default RDS console already supplies every process CPU% and MEM% value.",
+        "Log into the managed RDS host to install a custom process-monitoring script."
+      ],
+      "select": 1,
+      "correct": [
+        1
+      ],
+      "explanations": [
+        "An aggregate CPU metric does not supply the requested process/thread breakdown.",
+        "Enhanced Monitoring gathers supported OS-level metrics and process information at the configured interval.",
+        "The required process view depends on the appropriate monitoring feature rather than being implied by default metrics.",
+        "Ordinary managed RDS does not expose arbitrary host login for installing the proposed script."
+      ],
+      "takeaway": "Enhanced Monitoring supplies supported guest OS/process evidence; a single aggregate CPU metric cannot identify the process.",
+      "domain": "resilient",
+      "topic": "Database operating-system visibility",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "RDS Enhanced Monitoring",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html"
+        }
+      ]
+    },
+    {
+      "id": "html-012",
+      "number": 1053,
+      "title": "File Gateway provides the ongoing file interface; lifecycle policies govern the supported object's…",
+      "prompt": "A company needs SMB access from its data center to durable cloud-backed documents, with a local working-set cache. Documents must remain online for six months and can then move to long-term archival storage for another ten years.\n\nWhich offered design best preserves the file interface with minimal infrastructure management?",
+      "options": [
+        "Use Direct Connect and EBS volumes, then move their snapshots directly through an S3 object lifecycle rule.",
+        "Use Snowmobile as the permanent SMB access service.",
+        "Use a Tape Gateway as the SMB document file share.",
+        "Use S3 File Gateway for SMB access and a suitable S3 lifecycle/archive policy after the online-access period."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "A network connection and EBS volumes do not supply this managed SMB/S3-object interface or the claimed lifecycle path.",
+        "An offline transport device is not an ongoing SMB share and Snowmobile is obsolete.",
+        "Tape Gateway exposes a virtual tape library, not the required ordinary SMB file share.",
+        "File Gateway provides SMB access and local caching, while the S3-backed objects can follow the configured supported storage lifecycle."
+      ],
+      "takeaway": "File Gateway provides the ongoing file interface; lifecycle policies govern the supported object's storage lifetime.",
+      "domain": "cost",
+      "topic": "Hybrid file access and archival",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "A cache is not a guarantee that every recent file remains pinned locally. Archived objects require the appropriate restore/access workflow; design retention and recovery separately.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 File Gateway",
+          "url": "https://docs.aws.amazon.com/filegateway/latest/files3/what-is-file-s3.html"
+        },
+        {
+          "title": "S3 storage classes",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+        }
+      ]
+    },
+    {
+      "id": "html-013",
+      "number": 1054,
+      "title": "Default scale-in first considers AZ balance, then the configured termination-selection priorities.",
+      "prompt": "An EC2 Auto Scaling group spans three AZs and uses the default termination policy. After selecting the AZ to preserve balance during scale-in, it must choose among otherwise eligible instances in that AZ.\n\nWhich offered configuration characteristic does the default policy prefer to retire?",
+      "options": [
+        "The instance that has simply been running the longest.",
+        "The instance with the fewest application sessions.",
+        "An instance chosen randomly before evaluating configuration.",
+        "An instance using the oldest applicable launch template/configuration."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "Instance age alone is not the same as the configuration priority of the default policy.",
+        "Application session count is not a standard default termination-policy input.",
+        "The policy evaluates its documented priorities rather than starting with an unrestricted random choice.",
+        "Retiring an older launch configuration/template is a relevant default priority within the eligible selected-AZ candidates."
+      ],
+      "takeaway": "Default scale-in first considers AZ balance, then the configured termination-selection priorities.",
+      "domain": "resilient",
+      "topic": "Scale-in selection",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Clarification makes the AZ-selection step explicit. Mixed purchasing options, allocation strategy, protection, and other documented tie-breaks can further constrain selection.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "EC2 Auto Scaling termination policies",
+          "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-termination-policies.html"
+        }
+      ]
+    },
+    {
+      "id": "html-014",
+      "number": 1055,
+      "title": "A shared filesystem requirement is different from faster local block storage or an object API.",
+      "prompt": "A Linux CMS runs across an Auto Scaling fleet and stores uploaded documents on one instance's EBS volume. It needs a scalable, highly available POSIX/NFS shared filesystem accessible to the fleet.\n\nWhich offered service is the best fit?",
+      "options": [
+        "Use Regional Amazon EFS with appropriate mount targets and permissions.",
+        "Upgrade the existing EBS volume's provisioned IOPS.",
+        "Use ElastiCache as the durable shared filesystem.",
+        "Use S3 directly as if it were a native POSIX filesystem."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "Regional EFS provides the shared Linux/NFS filesystem and regional resilience pattern requested.",
+        "More IOPS does not turn an AZ-scoped block device into an ordinary multi-AZ shared filesystem.",
+        "An in-memory cache is not the durable POSIX file service described.",
+        "S3 provides object semantics; using its API requires a different application access model."
+      ],
+      "takeaway": "A shared filesystem requirement is different from faster local block storage or an object API.",
+      "domain": "performance",
+      "topic": "Shared POSIX storage",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Study variant repairs the missing EFS choice in an older defective capture and makes the Linux/POSIX access requirement explicit.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Amazon EFS",
+          "url": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html"
+        }
+      ]
+    },
+    {
+      "id": "html-015",
+      "number": 1056,
+      "title": "An egress-only gateway controls IPv6 initiation; Network Firewall performs the supported inline…",
+      "prompt": "An EC2 workload must initiate IPv6 connections to the internet while preventing unsolicited inbound IPv6 connections. Its routed traffic also needs a supported inline inspection/filtering layer.\n\nWhich offered design supplies both capabilities?",
+      "options": [
+        "Use a public IPv4 NAT gateway and Firewall Manager alone as the packet-inspection engine.",
+        "Use a PrivateLink service endpoint and GuardDuty as the internet-egress filter.",
+        "Use an egress-only internet gateway and correctly routed Network Firewall endpoints/rules.",
+        "Use an ordinary internet gateway and Traffic Mirroring as an inline blocking firewall."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "This confuses IPv4 NAT with the requested native IPv6 path and central policy rollout with inspection.",
+        "A service endpoint does not supply general internet egress, and GuardDuty is detection rather than inline blocking.",
+        "The gateway supplies the IPv6 outbound-only pattern and routed firewall endpoints provide the inspection control.",
+        "An IGW is not inherently outbound-only, and mirroring copies packets rather than blocking them inline."
+      ],
+      "takeaway": "An egress-only gateway controls IPv6 initiation; Network Firewall performs the supported inline inspection.",
+      "domain": "secure",
+      "topic": "IPv6 egress and inspection",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Egress-only internet gateways",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/egress-only-internet-gateway.html"
+        },
+        {
+          "title": "AWS Network Firewall",
+          "url": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html"
+        }
+      ]
+    },
+    {
+      "id": "html-016",
+      "number": 1057,
+      "title": "Choose the destination's availability architecture separately from the data migration process.",
+      "prompt": "An on-premises Oracle application must move to AWS with minimal engine changes and remain available after a database instance failure.\n\nWhich two actions provide the appropriate managed destination and supported migration mechanism? (Select TWO.)",
+      "options": [
+        "Enable RMAN alone as the entire availability and migration design.",
+        "Convert the schema to a different engine even though Oracle compatibility is required.",
+        "Use a single-instance Aurora cluster as a drop-in Oracle replacement.",
+        "Configure a suitable RDS for Oracle Multi-AZ DB instance deployment.",
+        "Use a supported DMS migration task and controlled cutover for the Oracle data."
+      ],
+      "select": 2,
+      "correct": [
+        3,
+        4
+      ],
+      "explanations": [
+        "A backup utility alone does not establish the complete managed migration and standby failover design.",
+        "A same-engine migration does not inherently require heterogeneous schema conversion.",
+        "Aurora is not Oracle-compatible and a lone compute instance is not the stated managed standby design.",
+        "A supported RDS for Oracle Multi-AZ deployment supplies the managed standby/failover architecture.",
+        "DMS can migrate supported Oracle data and changes when configured with the required logging and permissions."
+      ],
+      "takeaway": "Choose the destination's availability architecture separately from the data migration process.",
+      "domain": "resilient",
+      "topic": "Oracle migration and failover",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "RDS Multi-AZ deployments",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html"
+        },
+        {
+          "title": "Database Migration Service",
+          "url": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html"
+        }
+      ]
+    },
+    {
+      "id": "html-017",
+      "number": 1058,
+      "title": "An event can start an independent ECS task without changing a long-running service's desired count.",
+      "prompt": "Each new object in S3 should start one independent Fargate processing task. The team wants the least custom invocation code and can configure S3 events, EventBridge, and IAM permissions.\n\nWhich offered design is the most direct?",
+      "options": [
+        "Use a CloudWatch alarm to edit an ECS service's desired count for each object.",
+        "Use EventBridge to call a Lambda function that manually invokes StartTask for Fargate.",
+        "Use a metric alarm as an indirect detector of arbitrary CloudTrail traffic.",
+        "Use an EventBridge rule with a supported ECS RunTask target and Fargate task/network configuration."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "Changing a service count is not a direct one-job-per-object invocation and requires separate scale-in semantics.",
+        "StartTask does not support Fargate; use RunTask. Even a corrected Lambda invoker adds code when the native ECS target fits.",
+        "An aggregate metric alarm is an indirect and incomplete substitute for matching the object-created event.",
+        "The supported target can start a standalone Fargate task directly with the configured invocation role."
+      ],
+      "takeaway": "An event can start an independent ECS task without changing a long-running service's desired count.",
+      "domain": "resilient",
+      "topic": "Event-driven Fargate jobs",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Study variant distinguishes standalone RunTask jobs from scaling an ECS service. Configure retries, duplicate-event handling, and network access; one object event is not an exactly-once execution guarantee.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "EventBridge ECS targets",
+          "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html"
+        }
+      ]
+    },
+    {
+      "id": "html-018",
+      "number": 1059,
+      "title": "Custom reader endpoints can expose chosen reader subsets; an endpoint cannot infer business intent from…",
+      "prompt": "An Aurora cluster has high-capacity and low-capacity reader instances. Read-only production queries should use only the high-capacity readers, while internal reporting should use only the low-capacity readers. Writes already use the writer endpoint.\n\nWhich approach gives the required workload separation?",
+      "options": [
+        "Create separate suitable Aurora custom reader endpoints for the two instance subsets and route each read workload accordingly.",
+        "Send production reads to one instance endpoint and all reports to the writer endpoint.",
+        "Assume Aurora automatically classifies queries and chooses a reader by business purpose.",
+        "Send both workloads to the general reader endpoint without separating its members."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "Separate custom endpoints and application routing express the two desired reader groups.",
+        "This does not distribute production reads across the intended group and sends reporting load to the writer.",
+        "Aurora does not automatically infer the stated workload classification and endpoint policy.",
+        "The general reader endpoint does not enforce this explicit high/low reader-subset separation."
+      ],
+      "takeaway": "Custom reader endpoints can expose chosen reader subsets; an endpoint cannot infer business intent from every query.",
+      "domain": "performance",
+      "topic": "Aurora workload endpoints",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Clarification limits the split workloads to reads. Custom reader endpoints do not replace the writer endpoint for write operations.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Aurora endpoints",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Overview.Endpoints.html"
+        }
+      ]
+    },
+    {
+      "id": "html-019",
+      "number": 1060,
+      "title": "A canary release limits initial exposure; it is not a guarantee of database-level rollback or zero data…",
+      "prompt": "A Regional API Gateway REST API uses a custom domain. A new deployment should receive a small percentage of traffic first, be monitored, and then be gradually promoted while preserving the customer-facing domain.\n\nWhich offered release mechanism is the most direct fit?",
+      "options": [
+        "Create a replacement API and immediately point all traffic to it without validation.",
+        "Overwrite the production API definition and immediately send all traffic to it.",
+        "Build two complete separate environments even though the native staged-release feature is sufficient.",
+        "Configure a canary deployment on the API stage, monitor it, and progressively increase the canary traffic percentage."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "Immediate cutover exposes all customers to an unvalidated deployment.",
+        "An immediate overwrite does not supply the requested percentage-based validation period.",
+        "Blue/green can be valid, but adds an extra environment when the specified native canary mechanism fits.",
+        "A supported stage canary directly supplies controlled traffic percentages and gradual promotion."
+      ],
+      "takeaway": "A canary release limits initial exposure; it is not a guarantee of database-level rollback or zero data loss.",
+      "domain": "resilient",
+      "topic": "Gradual API releases",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Use compatible backend/data changes, health monitoring, and rollback procedures. A canary deployment is configured on a stage, not an automatically isolated new database environment.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "API Gateway canary releases",
+          "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/canary-release.html"
+        }
+      ]
+    },
+    {
+      "id": "html-020",
+      "number": 1061,
+      "title": "At-rest encryption and permission to view or decrypt configuration are separate controls.",
+      "prompt": "A Lambda function stores database and API credentials in environment variables. Configuration viewers who lack KMS decrypt permission must not see the plaintext values. The authorized runtime may decrypt them.\n\nWhich offered approach provides the additional client-side protection and key-access control?",
+      "options": [
+        "Rely only on default at-rest encryption and assume every console viewer is denied plaintext.",
+        "Move the function to EC2 because Lambda has no environment-variable encryption.",
+        "Use a suitable customer-managed KMS key and supported client-side encryption helpers, with runtime decryption permissions scoped separately.",
+        "Use ACM/CloudHSM SSL settings as the environment-variable storage control."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Default storage encryption alone does not establish the specific separation of viewer and decrypt permissions.",
+        "Lambda supports environment-variable encryption; changing compute service does not inherently solve the access policy.",
+        "Client-side ciphertext and restricted KMS permissions support the stated separation when runtime decryption is implemented.",
+        "TLS certificate/HSM configuration is not the supported Lambda environment-value encryption-helper mechanism."
+      ],
+      "takeaway": "At-rest encryption and permission to view or decrypt configuration are separate controls.",
+      "domain": "secure",
+      "topic": "Lambda configuration secrecy",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "This does not protect secrets from an actor who can change authorized function code or impersonate its runtime. Secrets Manager/Parameter Store retrieval is another architecture to evaluate when offered.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Lambda environment-variable encryption",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars-encryption.html"
+        }
+      ]
+    },
+    {
+      "id": "html-021",
+      "number": 1062,
+      "title": "ONTAP supplies supported iSCSI access; Windows file sharing and object storage are different interfaces.",
+      "prompt": "A Windows trading application will run on EC2 instances across two AZs. Its data interface requires block storage through iSCSI rather than an SMB share or object API.\n\nWhich offered managed storage design supports the required multi-AZ architecture?",
+      "options": [
+        "Use a suitable Multi-AZ FSx for NetApp ONTAP filesystem and supported Windows iSCSI/multipath configuration.",
+        "Use FSx for Windows File Server as the iSCSI block target.",
+        "Use EFS and cross-Region replication as a Windows block device.",
+        "Use S3 buckets in individual AZs with cross-Region replication."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "A supported ONTAP Multi-AZ and Windows iSCSI design provides the offered managed block-access pattern.",
+        "FSx for Windows exposes native SMB file sharing, not the stated iSCSI block target.",
+        "EFS is NFS file storage, not the Windows iSCSI device described.",
+        "S3 is regional object storage and does not expose the requested AZ-local bucket/block-device model."
+      ],
+      "takeaway": "ONTAP supplies supported iSCSI access; Windows file sharing and object storage are different interfaces.",
+      "domain": "performance",
+      "topic": "Highly available Windows block access",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Validate supported multipath, failover, network, and application clustering configuration and benchmark latency; naming Multi-AZ alone does not configure every client.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "FSx for NetApp ONTAP",
+          "url": "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html"
+        }
+      ]
+    },
+    {
+      "id": "html-022",
+      "number": 1063,
+      "title": "Pick hot-processing and cold-retention storage independently instead of buying the fastest tier for every…",
+      "prompt": "A machine-learning training workload uses existing Lustre clients for high-throughput parallel access to active datasets. It also needs economical object storage for inactive datasets.\n\nWhich offered pairing preserves that filesystem compatibility and supplies the cold object tier?",
+      "options": [
+        "FSx for Lustre for active parallel files and S3 for inactive objects.",
+        "EFS for active files and S3 for inactive objects.",
+        "FSx for Windows for active files and S3 for inactive objects.",
+        "FSx for Lustre and permanently provisioned io1 EBS volumes as the low-cost cold object archive."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "Lustre targets the stated client/parallel processing interface, and S3 provides object-storage classes for inactive data.",
+        "EFS supports many parallel shared-file workloads, but it is not the explicitly required Lustre-compatible filesystem.",
+        "A Windows SMB filesystem is not the Lustre interface requested by this workload.",
+        "Provisioned-IOPS block volumes are not the natural low-cost object-archive service."
+      ],
+      "takeaway": "Pick hot-processing and cold-retention storage independently instead of buying the fastest tier for every copy.",
+      "domain": "performance",
+      "topic": "Parallel processing and cold objects",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Study clarification makes existing Lustre compatibility explicit. Use supported data-repository integration and import/export/retention policies; S3 does not become a general POSIX filesystem.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "FSx for Lustre",
+          "url": "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html"
+        },
+        {
+          "title": "S3 storage classes",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+        }
+      ]
+    },
+    {
+      "id": "html-023",
+      "number": 1064,
+      "title": "Native SMB/NTFS, AD integration, and managed Multi-AZ support identify FSx for Windows File Server.",
+      "prompt": "A company is migrating a Windows application, such as SharePoint or IIS, and its shared files to AWS. It needs native Windows file-sharing semantics, AD integration, and a managed multi-AZ option.\n\nWhich offered service is the best fit?",
+      "options": [
+        "Create an NFS-only File Gateway share as the native Windows filesystem replacement.",
+        "Join an EFS filesystem to AD as a native SMB/NTFS service.",
+        "Mount an ordinary S3 bucket as if it supplied the complete Windows filesystem semantics.",
+        "Use FSx for Windows File Server with the supported AD and Multi-AZ configuration."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "The offered NFS share does not provide the required native Windows file-sharing feature set.",
+        "EFS does not turn into a native SMB/NTFS filesystem by naming an AD domain.",
+        "An S3 object API is not a transparent replacement for all required Windows filesystem semantics.",
+        "FSx for Windows supplies the supported Windows sharing, directory, and high-availability options."
+      ],
+      "takeaway": "Native SMB/NTFS, AD integration, and managed Multi-AZ support identify FSx for Windows File Server.",
+      "domain": "performance",
+      "topic": "Windows shared-file migration",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "FSx for Windows File Server",
+          "url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html"
+        }
+      ]
+    },
+    {
+      "id": "html-025",
+      "number": 1066,
+      "title": "A private bucket and time-limited authorization links replace unrestricted public reads.",
+      "prompt": "A photo service discovers that unrestricted public S3 object URLs are being reused by other websites. It wants to remove public read access and issue short-lived download links only after its application authorizes a customer.\n\nWhich offered change directly provides that access model?",
+      "options": [
+        "Move the files to WorkDocs as the S3 access-control mechanism.",
+        "Add CloudFront while keeping the origin unrestricted and issuing no access credentials.",
+        "Make the bucket private and issue appropriately scoped presigned URLs with expiry.",
+        "Use subnet NACLs to block the remote websites' referrer names."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "WorkDocs is retired and is not the requested S3 access-control mechanism.",
+        "A CDN alone does not authorize customers or prevent direct public-origin access.",
+        "The application can authorize a user and issue a bounded signed request using suitable permissions.",
+        "NACLs do not inspect browser referrer names and are not attached to S3 buckets."
+      ],
+      "takeaway": "A private bucket and time-limited authorization links replace unrestricted public reads.",
+      "domain": "secure",
+      "topic": "Temporary private object downloads",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Presigned URLs are bearer capabilities and can be shared or reused until expiry within their permissions. This is not absolute hotlink or redistribution prevention.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 presigned URLs",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html"
+        }
+      ]
+    },
+    {
+      "id": "html-026",
+      "number": 1067,
+      "title": "Guest memory and filesystem-space measurements need a collection mechanism; default EC2 metrics do not…",
+      "prompt": "A company runs Linux and Windows EC2 workloads continuously. It needs guest memory utilization and filesystem-space metrics from every instance in CloudWatch.\n\nWhich offered implementation supplies those measurements?",
+      "options": [
+        "Enable a nonexistent EC2 Enhanced Monitoring switch and assume no agent configuration is needed.",
+        "Use only default EC2 monitoring because it already reports every guest memory/filesystem metric.",
+        "Install and configure the unified CloudWatch agent with suitable instance permissions and metric settings.",
+        "Use Inspector vulnerability scans as the performance-metric collector."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Enhanced Monitoring is an RDS feature name and does not replace configured EC2 guest collection.",
+        "Default EC2 monitoring does not expose the requested guest memory and filesystem-space measurements.",
+        "A configured unified agent publishes supported OS measurements as CloudWatch metrics.",
+        "Vulnerability findings do not provide the requested continuous guest performance time series."
+      ],
+      "takeaway": "Guest memory and filesystem-space measurements need a collection mechanism; default EC2 metrics do not supply them all.",
+      "domain": "resilient",
+      "topic": "Guest metrics across operating systems",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "CloudWatch agent host metrics",
+          "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html"
+        }
+      ]
+    },
+    {
+      "id": "html-027",
+      "number": 1068,
+      "title": "A traditional Multi-AZ DB instance standby provides synchronous replication; ordinary read replicas…",
+      "prompt": "A MySQL application currently uses one RDS DB instance in one AZ. It needs a traditional managed standby with synchronous replication and automatic instance failover in another AZ.\n\nWhich offered configuration fits?",
+      "options": [
+        "Use a DynamoDB read replica for the MySQL database.",
+        "Add a traditional asynchronous RDS read replica only.",
+        "Run CloudFront as the database Multi-AZ replica.",
+        "Enable a traditional RDS Multi-AZ DB instance deployment."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "DynamoDB does not supply a native MySQL read replica through this proposed operation.",
+        "A traditional RDS read replica normally uses asynchronous replication and is not this managed synchronous standby.",
+        "CloudFront is a content-delivery service rather than an RDS database standby.",
+        "This deployment supplies the supported synchronous standby and automatic failover pattern."
+      ],
+      "takeaway": "A traditional Multi-AZ DB instance standby provides synchronous replication; ordinary read replicas address different needs.",
+      "domain": "resilient",
+      "topic": "Synchronous RDS standby",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "This is specifically the DB instance deployment; Multi-AZ DB clusters have different replication and readable-instance behavior.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "RDS Multi-AZ deployments",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html"
+        }
+      ]
+    },
+    {
+      "id": "html-028",
+      "number": 1069,
+      "title": "Macie classifies supported sensitive S3 content; speech, document search, and fraud scoring have…",
+      "prompt": "A government portal stores supported census document types in S3 using supported server-side encryption. It needs sensitive-data findings for PII and notifications about relevant bucket/privacy risks.\n\nWhich offered analysis service is appropriate?",
+      "options": [
+        "Use Polly to scan S3 object contents for sensitive-data patterns.",
+        "Use Kendra as the bucket threat and PII compliance scanner.",
+        "Configure Macie discovery and appropriate findings/notification integrations.",
+        "Use Fraud Detector as the general S3 object-content classifier."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Polly synthesizes speech and is not the sensitive-object discovery service.",
+        "Kendra provides enterprise search, not this dedicated S3 sensitive-data discovery workflow.",
+        "Macie supplies supported discovery and findings that can feed the configured notification workflow.",
+        "Fraud scoring is not a substitute for the stated S3 content-classification capability."
+      ],
+      "takeaway": "Macie classifies supported sensitive S3 content; speech, document search, and fraud scoring have different purposes.",
+      "domain": "secure",
+      "topic": "PII discovery in object storage",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Grant the required S3/KMS permissions and configure supported data identifiers and formats. Classification findings alone do not prove application compliance or automatically prevent uploads.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Macie sensitive-data discovery",
+          "url": "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html"
+        }
+      ]
+    },
+    {
+      "id": "html-032",
+      "number": 1073,
+      "title": "Federation reuses an external identity; role trust and permissions still authorize AWS access.",
+      "prompt": "Employees authenticate to an existing corporate Active Directory and need federated AWS access using those identities.\n\nWhich offered approach implements a supported SAML-based trust flow rather than duplicating IAM users?",
+      "options": [
+        "Create a VPC and assume network placement authenticates the employees.",
+        "Use an appropriate AD FS/SAML identity-provider integration and authorized IAM roles.",
+        "Treat social web identity federation as an interchangeable SAML provider.",
+        "Create a separate long-lived IAM user for each employee."
+      ],
+      "select": 1,
+      "correct": [
+        1
+      ],
+      "explanations": [
+        "A VPC is a network boundary and does not itself establish the required identity federation.",
+        "A suitable SAML IdP, trust policy, and role permissions implement the offered corporate federation design.",
+        "Web identity and SAML are distinct trust protocols and cannot simply be substituted by name.",
+        "Duplicating users contradicts the requested use of the existing federated identity flow."
+      ],
+      "takeaway": "Federation reuses an external identity; role trust and permissions still authorize AWS access.",
+      "domain": "secure",
+      "topic": "Corporate SAML federation",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "IAM Identity Center is a current workforce SSO option to evaluate where offered. Directory connectivity and application federation still need configuration.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "SAML federation and IAM roles",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_saml.html"
+        }
+      ]
+    },
+    {
+      "id": "html-033",
+      "number": 1074,
+      "title": "When AWS must receive neither plaintext data nor the master key, encryption and master-key custody stay…",
+      "prompt": "A medical application uploads sensitive objects to S3. The master key must remain under the client's control outside AWS, and plaintext object data must never be sent to AWS.\n\nWhich encryption approach meets both requirements?",
+      "options": [
+        "Use client-side encryption with the master key held in AWS KMS.",
+        "Encrypt and decrypt locally with a client-held master key, then upload only ciphertext and appropriate encrypted-key metadata.",
+        "Upload plaintext over TLS and use SSE-KMS.",
+        "Supply the plaintext customer encryption key to S3 using SSE-C."
+      ],
+      "select": 1,
+      "correct": [
+        1
+      ],
+      "explanations": [
+        "This still places the master key in an AWS key-management service rather than entirely outside AWS.",
+        "The client controls the master key and sends encrypted object data rather than plaintext.",
+        "TLS protects transit, but S3 receives plaintext for server-side encryption.",
+        "SSE-C sends the supplied key to S3 for server-side cryptography, contrary to this custody requirement."
+      ],
+      "takeaway": "When AWS must receive neither plaintext data nor the master key, encryption and master-key custody stay on the client side.",
+      "domain": "secure",
+      "topic": "Client-controlled encryption boundaries",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 client-side encryption",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingClientSideEncryption.html"
+        }
+      ]
+    },
+    {
+      "id": "html-041",
+      "number": 1082,
+      "title": "Artifact supplies AWS compliance evidence; workload findings are a different output.",
+      "prompt": "Auditors need AWS-issued SOC, PCI, and related compliance reports for the AWS services the company uses.\n\nWhich offered service provides those documents?",
+      "options": [
+        "Use AWS Artifact to access the applicable AWS compliance reports.",
+        "Use Security Hub as the portal for downloading every AWS audit report.",
+        "Use Macie to retrieve SOC reports from ACM.",
+        "Run Inspector to download AWS's compliance attestations."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "Artifact is the supported self-service source for applicable AWS compliance documents.",
+        "Security Hub aggregates findings and controls rather than acting as the AWS report-download portal.",
+        "Macie classifies supported S3 content, and ACM manages certificates rather than SOC documents.",
+        "Inspector scans supported vulnerabilities rather than distributing AWS compliance attestations."
+      ],
+      "takeaway": "Artifact supplies AWS compliance evidence; workload findings are a different output.",
+      "domain": "secure",
+      "topic": "AWS compliance evidence",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "An AWS report does not establish that the company's own application configuration and processes are compliant.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "AWS Artifact reports",
+          "url": "https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html"
+        }
+      ]
+    },
+    {
+      "id": "html-044",
+      "number": 1085,
+      "title": "Flexible item attributes do not remove the need to design stable keys and access patterns.",
+      "prompt": "A high-traffic application uses key-based access, needs regional/global scalability, and frequently adds or changes non-key item attributes. It wants managed NoSQL storage without a relational schema migration for every optional attribute.\n\nWhich offered service fits best?",
+      "options": [
+        "Amazon Redshift.",
+        "A traditional RDS relational DB instance.",
+        "Aurora with relational read replicas.",
+        "Amazon DynamoDB with appropriate key, capacity, and global-table design."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "A warehouse is not the requested high-traffic operational key-value/document database.",
+        "A relational instance targets a different schema and query model than the one explicitly described.",
+        "Read replicas add read capacity but do not change Aurora into the requested NoSQL access model.",
+        "DynamoDB supports flexible non-key attributes and managed capacity/replication options for appropriate workloads."
+      ],
+      "takeaway": "Flexible item attributes do not remove the need to design stable keys and access patterns.",
+      "domain": "performance",
+      "topic": "Flexible NoSQL attributes",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Changing primary keys or adding some access patterns can require indexes, new tables, or migration. No service guarantees zero impact from every possible data-model change.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "DynamoDB data model",
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html"
+        }
+      ]
+    },
+    {
+      "id": "html-045",
+      "number": 1086,
+      "title": "A CloudHSM custom key store combines KMS integration with customer administration of the backing cluster.",
+      "prompt": "A company wants KMS integrations while keeping key material in a customer-controlled dedicated HSM cluster. It must be able to disconnect that store to stop KMS cryptographic use and inspect supported HSM audit logs independently.\n\nWhich offered design fits?",
+      "options": [
+        "Store KMS custom-key-store material as plaintext objects in S3.",
+        "Use an AWS-managed key and assume the customer controls its dedicated HSM cluster.",
+        "Use an AWS-owned key and assume the customer can administer its underlying HSM cluster.",
+        "Use a supported customer-managed KMS key in a CloudHSM custom key store."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "An S3 plaintext key object is not the supported backing store of this KMS custom-key-store architecture.",
+        "An AWS-managed key does not give the customer the described dedicated cluster administration.",
+        "AWS-owned keys are not customer-administered custom-key-store resources.",
+        "A supported CloudHSM-backed custom store supplies the requested integration and disconnect/administration boundary."
+      ],
+      "takeaway": "A CloudHSM custom key store combines KMS integration with customer administration of the backing cluster.",
+      "domain": "secure",
+      "topic": "Dedicated key-store control",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Study clarification replaces the supplied claim of immediate removal of all key copies with the supported disconnect control. Backups and KMS key-deletion waiting periods require separate handling.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "KMS CloudHSM key stores",
+          "url": "https://docs.aws.amazon.com/kms/latest/developerguide/keystore-cloudhsm.html"
+        }
+      ]
+    },
+    {
+      "id": "html-046",
+      "number": 1087,
+      "title": "Target tracking expresses the desired metric level; AWS computes supported capacity adjustments.",
+      "prompt": "An EC2 application should automatically add and remove capacity to maintain a measured utilization target without hand-authoring many scaling adjustment steps.\n\nWhich offered policy is the most direct fit?",
+      "options": [
+        "Target tracking scaling.",
+        "Scheduled scaling without a workload metric.",
+        "Suspending scaling permanently.",
+        "A simple scaling adjustment without the requested maintained target."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "A supported target metric lets the policy adjust capacity toward the stated utilization objective.",
+        "A calendar schedule is useful for known times but does not itself maintain the requested measured target.",
+        "Suspending scaling prevents automatic adaptation and does not meet the capacity objective.",
+        "A simple adjustment is not the same as configuring a continuously maintained target."
+      ],
+      "takeaway": "Target tracking expresses the desired metric level; AWS computes supported capacity adjustments.",
+      "domain": "cost",
+      "topic": "Automatic capacity targets",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Target tracking scaling",
+          "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html"
+        }
+      ]
+    },
+    {
+      "id": "html-048",
+      "number": 1089,
+      "title": "Database-instance events and application row-change events are different signals.",
+      "prompt": "A dealership uses a supported Aurora MySQL configuration. When a car is sold, application/database logic must remove the active listing and send processing work to SQS.\n\nWhich offered integration can react to the business data change rather than only database-instance lifecycle events?",
+      "options": [
+        "Use appropriate application/stored-procedure logic with Aurora's supported Lambda integration, then let Lambda publish to SQS.",
+        "Use an RDS instance event subscription as if it emitted every sold-car row change directly to Lambda.",
+        "Subscribe SQS to RDS lifecycle events and assume SQS fans them out to SNS automatically.",
+        "Treat database-instance event subscriptions as a complete row-level change-data feed."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "Supported Aurora MySQL Lambda invocation can connect explicit business/database logic to the queue publisher.",
+        "Instance events do not provide an automatic event for every business row update.",
+        "This confuses lifecycle notifications, message queues, and pub/sub delivery direction.",
+        "Instance event subscriptions are not a general row-level CDC mechanism."
+      ],
+      "takeaway": "Database-instance events and application row-change events are different signals.",
+      "domain": "resilient",
+      "topic": "Row changes versus database events",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Coordinate commit, retries, and side effects carefully; an outbox/CDC architecture can be preferable for stronger delivery guarantees. Configure the supported engine integration and IAM/network access.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Aurora MySQL Lambda integration",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Integrating.Lambda.html"
+        }
+      ]
+    },
+    {
+      "id": "html-049",
+      "number": 1090,
+      "title": "Reader-count scaling and cross-Region replication solve different primary problems.",
+      "prompt": "An Aurora application has variable read traffic and uses supported Aurora Replicas through the reader endpoint. The team wants to adjust reader count automatically within configured bounds rather than maintain peak capacity all day.\n\nWhich offered feature fits?",
+      "options": [
+        "Aurora replica auto scaling.",
+        "Aurora Global Database solely as a replacement for local reader-count scaling.",
+        "A cross-Region replica without a scaling policy.",
+        "A fixed larger cluster without automatic capacity adjustment."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "A suitable replica scaling policy adjusts supported reader capacity between the configured minimum and maximum.",
+        "Global replication adds a regional architecture and does not replace this local replica-count policy.",
+        "A remote replica alone does not implement the requested automatic local reader count.",
+        "A fixed larger configuration retains capacity planning and idle peak resources."
+      ],
+      "takeaway": "Reader-count scaling and cross-Region replication solve different primary problems.",
+      "domain": "performance",
+      "topic": "Aurora read capacity",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Replica scaling takes time and is not automatic writer resizing. Configure metrics, limits, failover capacity, and application connection behavior.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Aurora replica auto scaling",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Integrating.AutoScaling.html"
+        }
+      ]
+    },
+    {
+      "id": "html-050",
+      "number": 1091,
+      "title": "Use a compatible cross-Region database architecture, then test the complete recovery process.",
+      "prompt": "A compatible relational application needs a cross-Region recovery architecture targeting very low replication lag and rapid managed promotion after a primary-Region outage.\n\nWhich offered service is specifically designed for this Aurora-compatible relational pattern?",
+      "options": [
+        "Aurora Global Database.",
+        "Amazon Timestream.",
+        "DynamoDB Global Tables as a drop-in relational engine.",
+        "A generic RDS PostgreSQL cross-Region replica with an unconditional sub-second lag guarantee."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "Aurora Global Database provides the targeted compatible relational replication and supported recovery operations.",
+        "A time-series engine does not provide the same relational compatibility and recovery architecture.",
+        "Global Tables is a NoSQL multi-Region design, not a drop-in relational database.",
+        "Ordinary asynchronous replica lag and end-to-end recovery are not unconditional timing guarantees."
+      ],
+      "takeaway": "Use a compatible cross-Region database architecture, then test the complete recovery process.",
+      "domain": "resilient",
+      "topic": "Cross-Region relational recovery",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Clarified as a design target rather than a guaranteed one-second RPO/sub-minute RTO. Detection, promotion, application routing, and dependent services all affect recovery.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Aurora Global Database",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html"
+        }
+      ]
+    },
+    {
+      "id": "html-052",
+      "number": 1093,
+      "title": "Network-access policy and protected-version retention are separate layers.",
+      "prompt": "Tax documents in S3 must be accessed only through a designated VPC-only access path. Protected object versions must remain WORM-protected while an authorized legal hold is active.\n\nWhich two controls fit these requirements? (Select TWO.)",
+      "options": [
+        "Enable Object Lock while disabling bucket versioning.",
+        "Attach Network Firewall directly to the S3 bucket as its complete access policy.",
+        "Use a VPC-only S3 access point with bucket policies that enforce the intended exclusive access path.",
+        "Enable versioning/Object Lock and apply the required legal holds and least-privilege hold-management permissions.",
+        "Choose Glacier Instant Retrieval alone as the immutability control."
+      ],
+      "select": 2,
+      "correct": [
+        2,
+        3
+      ],
+      "explanations": [
+        "Object Lock depends on versioning; disabling it is not the required supported configuration.",
+        "Network Firewall is not a firewall attached directly to an S3 bucket instead of its policies.",
+        "A properly enforced VPC-only access-point path scopes supported access to the designated VPC.",
+        "Object Lock/legal holds protect the selected versions while the hold is active and properly governed.",
+        "A storage class does not itself prevent deletion or establish a legal hold."
+      ],
+      "takeaway": "Network-access policy and protected-version retention are separate layers.",
+      "domain": "secure",
+      "topic": "Private WORM object access",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "An access point alone does not block every alternative bucket access path. Legal holds can be removed by authorized principals; protecting a version does not forbid creating a newer version of the same key.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 VPC-only access points",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-points-vpc.html"
+        },
+        {
+          "title": "S3 Object Lock",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html"
+        }
+      ]
+    },
+    {
+      "id": "html-053",
+      "number": 1094,
+      "title": "Shield mitigates supported DDoS threats; policy managers and allow lists have different roles.",
+      "prompt": "A company needs a supported enhanced managed DDoS protection service for its public-facing AWS resources.\n\nWhich offered service is specifically intended for DDoS mitigation rather than only network allow rules or findings?",
+      "options": [
+        "Use WAF request filtering alone as the complete defense against every network-layer DDoS attack.",
+        "Use Shield Advanced protections for supported resources and the appropriate response integrations.",
+        "Use security groups and NACLs alone as the complete managed DDoS mitigation service.",
+        "Use Firewall Manager without any actual Shield or filtering protections."
+      ],
+      "select": 1,
+      "correct": [
+        1
+      ],
+      "explanations": [
+        "WAF is useful for supported HTTP traffic but is not a universal replacement for network-layer DDoS protections.",
+        "Shield Advanced supplies the enhanced managed DDoS capabilities for appropriately protected resources.",
+        "Access rules are useful controls but are not the enhanced managed DDoS service described.",
+        "Central policy rollout does not substitute for enabling the relevant protections."
+      ],
+      "takeaway": "Shield mitigates supported DDoS threats; policy managers and allow lists have different roles.",
+      "domain": "secure",
+      "topic": "Managed DDoS protection",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Shield Standard already provides baseline protection. Advanced capabilities, resources, support, and cost-protection eligibility have specific conditions.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "AWS Shield protections",
+          "url": "https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html"
+        }
+      ]
+    },
+    {
+      "id": "html-055",
+      "number": 1096,
+      "title": "Organizations groups accounts; RAM shares supported resources without duplicating them.",
+      "prompt": "A company wants to organize its AWS accounts centrally and share supported resources such as Transit Gateways, Resolver rules, and License Manager configurations across business units.\n\nWhich two offered building blocks supply account organization and resource sharing? (Select TWO.)",
+      "options": [
+        "Use ParallelCluster as the multi-account organization service.",
+        "Use Resource Access Manager shares for the supported resources.",
+        "Use IAM permissions alone as if they created every resource-sharing relationship.",
+        "Use Control Tower alone as a substitute for all resource shares.",
+        "Use AWS Organizations to organize the accounts and enable the appropriate sharing integration."
+      ],
+      "select": 2,
+      "correct": [
+        1,
+        4
+      ],
+      "explanations": [
+        "ParallelCluster manages suitable HPC clusters, not the account organization hierarchy.",
+        "RAM provides the supported resource-sharing relationships with intended principals.",
+        "Identity permission alone does not create every service's cross-account resource share.",
+        "Control Tower helps governance but is not a blanket replacement for configuring RAM shares.",
+        "Organizations supplies the central account structure and appropriate integration used by the sharing design."
+      ],
+      "takeaway": "Organizations groups accounts; RAM shares supported resources without duplicating them.",
+      "domain": "cost",
+      "topic": "Multi-account resource sharing",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Sharing resources with RAM",
+          "url": "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html"
+        }
+      ]
+    },
+    {
+      "id": "html-057",
+      "number": 1098,
+      "title": "An instance role grants AWS permissions; the database must also support and enable the token…",
+      "prompt": "An EC2 application must authenticate to a supported RDS MySQL database using short-lived tokens authorized by its instance role instead of a stored database password.\n\nWhich offered database feature is required?",
+      "options": [
+        "Enable supported IAM database authentication and configure the database user, IAM permission, and TLS connection.",
+        "Enable TLS alone and assume it authenticates the database user using an IAM role.",
+        "Attach an instance role and assume the database automatically accepts signed tokens without enabling the feature.",
+        "Use a generic STS token directly as the MySQL password without the supported RDS authentication flow."
+      ],
+      "select": 1,
+      "correct": [
+        0
+      ],
+      "explanations": [
+        "The supported feature connects the signed token and IAM permission to the configured database user.",
+        "TLS encrypts the connection but does not by itself configure this database-user authentication method.",
+        "A role alone does not turn on or configure database-native IAM authentication.",
+        "An arbitrary STS session token is not the RDS MySQL authentication token format."
+      ],
+      "takeaway": "An instance role grants AWS permissions; the database must also support and enable the token authentication flow.",
+      "domain": "secure",
+      "topic": "Role-based database tokens",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "IAM database authentication",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.html"
+        }
+      ]
+    },
+    {
+      "id": "html-059",
+      "number": 1100,
+      "title": "A scalable front door does not mean an unlimited backend; throttle to the capacity the application can…",
+      "prompt": "An API Gateway/Lambda application expects a large public traffic surge. Its downstream systems have limited sustainable capacity.\n\nWhich offered API control directly limits the request rate reaching the backend?",
+      "options": [
+        "Manually resize the servers underlying the managed API Gateway service.",
+        "Assume API Gateway's own scaling means downstream limits need no configuration.",
+        "Enable a nonexistent API Gateway Multi-AZ read replica as the request buffer.",
+        "Configure appropriate steady-state and burst throttling limits."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "Customers do not resize API Gateway's underlying managed servers through this mechanism.",
+        "The managed gateway can scale while its downstream database or external API remains constrained.",
+        "Database replica terminology does not describe an API Gateway request-rate control.",
+        "Throttling bounds supported incoming request rates and reduces overload passed downstream."
+      ],
+      "takeaway": "A scalable front door does not mean an unlimited backend; throttle to the capacity the application can handle.",
+      "domain": "performance",
+      "topic": "Protecting API backends",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Throttling is best-effort rather than an absolute hard concurrency guarantee. Clients need suitable retry/backoff behavior.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "API Gateway throttling",
+          "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html"
+        }
+      ]
+    },
+    {
+      "id": "html-060",
+      "number": 1101,
+      "title": "CPU/network and supported device activity differ from measurements inside the guest's memory and…",
+      "prompt": "Which offered EC2 measurement normally requires guest-side/custom collection rather than being supplied by the standard EC2 metric set?",
+      "options": [
+        "Instance CPU utilization.",
+        "Supported instance-store disk read activity.",
+        "Network packet output.",
+        "Guest memory utilization."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "CPUUtilization is part of the ordinary EC2 monitoring set.",
+        "Supported EC2 disk activity metrics exist; this is different from filesystem free space.",
+        "The EC2 metric set includes supported network packet activity.",
+        "Guest memory use normally needs the CloudWatch agent or another configured custom metric publisher."
+      ],
+      "takeaway": "CPU/network and supported device activity differ from measurements inside the guest's memory and filesystems.",
+      "domain": "resilient",
+      "topic": "Default versus guest metrics",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "CloudWatch agent host metrics",
+          "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html"
+        }
+      ]
+    },
+    {
+      "id": "html-061",
+      "number": 1102,
+      "title": "Reduce redevelopment by selecting compatible managed platforms, while configuring availability at both…",
+      "prompt": "A company is moving a compatible Windows/.NET application and an Oracle Standard Edition database to AWS. It wants a managed multi-AZ application/database architecture with minimal application redevelopment.\n\nWhich two offered actions best fit? (Select TWO.)",
+      "options": [
+        "Rehost the complete Oracle server on EC2 as the managed-database destination.",
+        "Require a container rewrite and use ECS Anywhere as the regional deployment service.",
+        "Use DMS to migrate supported data to a suitable RDS for Oracle Multi-AZ deployment.",
+        "Deploy the compatible Windows/.NET application to an appropriately configured Beanstalk multi-AZ environment.",
+        "Require a .NET Core/Kubernetes rewrite even though a compatible managed platform is available."
+      ],
+      "select": 2,
+      "correct": [
+        2,
+        3
+      ],
+      "explanations": [
+        "EC2 rehosting can be valid but retains database host operations rather than supplying the requested managed database.",
+        "The proposed rewrite/service description adds work without an explicit container requirement.",
+        "A suitable managed Oracle destination and supported migration task meet the database compatibility/HA objective.",
+        "Beanstalk can provision the compatible application environment with appropriate multi-AZ capacity and load balancing.",
+        "A mandatory rewrite conflicts with the goal when the existing application fits a supported platform."
+      ],
+      "takeaway": "Reduce redevelopment by selecting compatible managed platforms, while configuring availability at both tiers.",
+      "domain": "resilient",
+      "topic": "Managed Windows and Oracle migration",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Assess platform/engine compatibility, licensing, schema/features, migration logging, and cutover. DMS moves supported data, not every Oracle application component automatically.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Elastic Beanstalk environments",
+          "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html"
+        },
+        {
+          "title": "Database Migration Service",
+          "url": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html"
+        },
+        {
+          "title": "RDS Multi-AZ deployments",
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html"
+        }
+      ]
+    },
+    {
+      "id": "html-062",
+      "number": 1103,
+      "title": "Central governance can share access to data where it resides; it is not necessarily a physical copy into…",
+      "prompt": "Business accounts each own S3 datasets. Authorized users must query a centrally governed data lake using role-based cross-account access, without maintaining unnecessary duplicate copies.\n\nWhich offered service directly supplies the data-lake permissions/catalog-sharing layer?",
+      "options": [
+        "Use Control Tower as the per-table data-lake permission engine.",
+        "Schedule Lambda to copy every dataset before considering permissions.",
+        "Use appropriate Lake Formation cross-account permissions, catalog/resource links, and supported sharing integrations.",
+        "Use Firehose delivery alone as the cross-account governance policy."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Account governance does not replace fine-grained data-lake permissions and supported query access.",
+        "Copying data adds synchronization work and still requires a governance design.",
+        "Lake Formation supplies supported permissions/sharing mechanisms for the intended catalog and data access.",
+        "A delivery pipeline moves records but does not itself establish the requested role-based lake governance."
+      ],
+      "takeaway": "Central governance can share access to data where it resides; it is not necessarily a physical copy into one account.",
+      "domain": "secure",
+      "topic": "Governed cross-account data lakes",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Lake Formation cross-account access",
+          "url": "https://docs.aws.amazon.com/lake-formation/latest/dg/cross-account-permissions.html"
+        }
+      ]
+    },
+    {
+      "id": "html-063",
+      "number": 1104,
+      "title": "Use the managed transfer endpoint for the protocol and the storage service's lifecycle for object…",
+      "prompt": "A company wants confidential SFTP uploads to durable, encrypted object storage. Objects should become eligible for deletion after 30 days with minimal server management.\n\nWhich offered architecture fits?",
+      "options": [
+        "Use Transfer Family with S3 but assume the SFTP server has a general object-retention deletion switch.",
+        "Manage an EC2 SFTP server and a cron-based deletion process.",
+        "Use EFS and assume its storage-tier lifecycle policy deletes files at 30 days.",
+        "Use an appropriate Transfer Family SFTP endpoint, encrypted S3 storage, and an S3 lifecycle expiration rule."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "The proposed server-retention switch is not the S3 object lifecycle mechanism.",
+        "A self-managed transfer server and scheduler add operations when a supported managed option fits.",
+        "EFS lifecycle tiering is not a general timed file-deletion policy.",
+        "The endpoint preserves the SFTP client workflow while S3 supplies encryption, durability, and supported expiration."
+      ],
+      "takeaway": "Use the managed transfer endpoint for the protocol and the storage service's lifecycle for object expiration.",
+      "domain": "cost",
+      "topic": "Managed transfers with expiration",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Lifecycle deletion is asynchronous after eligibility, not a guaranteed exact-second retention deadline. Configure permissions, encryption access, version handling, and endpoint exposure appropriately.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Transfer Family",
+          "url": "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html"
+        },
+        {
+          "title": "S3 storage classes",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+        }
+      ]
+    },
+    {
+      "id": "html-064",
+      "number": 1105,
+      "title": "Fanout copies the event to independent queues; competing workers on one queue do not each receive every…",
+      "prompt": "S3 object-created/deleted events must reach two teams. Each team needs an independent durable queue, so its consumer can be temporarily unavailable without competing with the other consumer.\n\nWhich offered fanout design is appropriate?",
+      "options": [
+        "Send S3 events directly to an SNS FIFO topic without another supported integration.",
+        "Configure overlapping identical S3 notification filters and assume both direct queue destinations are always accepted.",
+        "Send supported S3 notifications to an SNS Standard topic with a separate subscribed SQS queue per team.",
+        "Have the SQS queues poll the SNS topic instead of subscribing."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Direct S3 event notifications do not support that FIFO topic target as stated.",
+        "Overlapping S3 notification configurations have restrictions; the proposed assumption is not a general fanout design.",
+        "A supported topic/queue subscription design gives each team its own retained work backlog.",
+        "SNS pushes to subscribed endpoints; SQS queues do not poll an SNS topic as a stream."
+      ],
+      "takeaway": "Fanout copies the event to independent queues; competing workers on one queue do not each receive every event.",
+      "domain": "resilient",
+      "topic": "Durable S3 event fanout",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Set bucket/topic/queue permissions, retries, retention, and consumer idempotency. Alternative EventBridge designs can also be valid when offered.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 event destinations",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html"
+        }
+      ]
+    },
+    {
+      "id": "html-065",
+      "number": 1106,
+      "title": "A crawler describes data; an explicitly invoked ETL job transforms it.",
+      "prompt": "A company receives 2 GB CSV objects in S3 and must start managed CSV-to-Parquet conversion on each upload, writing results to another bucket. It wants a durable trigger path and minimal self-managed processing infrastructure.\n\nWhich complete offered design best fits?",
+      "options": [
+        "Convert files in a custom Lambda processor and add an SFTP service solely to copy the output between S3 buckets.",
+        "Schedule only a Glue crawler and assume discovering a schema performs ETL immediately for every upload.",
+        "Use S3 notifications to SQS, a configured Lambda event source mapping that starts a Glue ETL job, and a job that writes Parquet to the target bucket.",
+        "Maintain an EC2 Spark cluster and custom Function URL invocation code for every uploaded object."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "The custom processor and unnecessary SFTP hop add integration work for this managed conversion requirement.",
+        "A crawler does not itself convert CSV to Parquet, and periodic discovery is not the requested upload trigger.",
+        "The queue, invocation function, and Glue job specify the missing trigger-to-job link and the managed transformation.",
+        "The EC2 cluster and custom invocation add infrastructure management that the Glue job can avoid."
+      ],
+      "takeaway": "A crawler describes data; an explicitly invoked ETL job transforms it.",
+      "domain": "performance",
+      "topic": "Event-driven file conversion",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Study repair explicitly supplies the job-invocation component missing from the source's SQS-to-Glue claim. Handle duplicate events/job starts, object arguments, IAM, and concurrency limits.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Glue job triggers",
+          "url": "https://docs.aws.amazon.com/glue/latest/dg/trigger-job.html"
+        },
+        {
+          "title": "S3 event destinations",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html"
+        }
+      ]
+    },
+    {
+      "id": "html-068",
+      "number": 1109,
+      "title": "Encryption settings, hybrid circuits, and private service endpoints solve different problems.",
+      "prompt": "A private EC2 instance requires private, same-Region access to S3 and DynamoDB without an internet egress path. It does not require hybrid access to those endpoints.\n\nWhich offered mechanism directly provides this service connectivity?",
+      "options": [
+        "Create a Direct Connect circuit solely as the VPC-local service endpoint.",
+        "Use VPN CloudHub as the S3/DynamoDB endpoint service.",
+        "Configure suitable S3 and DynamoDB VPC endpoints, route tables, and policies.",
+        "Enable encryption at rest and assume it creates private routes."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "A dedicated hybrid circuit is not needed merely to create these VPC-local service paths.",
+        "CloudHub connects suitable VPN sites and is not the requested service endpoint mechanism.",
+        "Appropriate gateway endpoints provide the stated eligible private service paths without general NAT egress.",
+        "Encrypting stored data does not create a network route or an endpoint."
+      ],
+      "takeaway": "Encryption settings, hybrid circuits, and private service endpoints solve different problems.",
+      "domain": "secure",
+      "topic": "VPC-local service access",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "",
+      "adapted": false,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "S3 gateway endpoints",
+          "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-s3.html"
+        }
+      ]
+    },
+    {
+      "id": "html-069",
+      "number": 1110,
+      "title": "WAF supplies the HTTP control; Firewall Manager coordinates the organization-wide policy.",
+      "prompt": "Several AWS accounts host ALB-backed web applications receiving SQL injection attempts. The organization wants suitable HTTP rules and centrally managed rollout to the relevant applications.\n\nWhich offered design fits?",
+      "options": [
+        "Use GuardDuty as the inline SQL-injection filter and Security Hub as the rule-deployment engine.",
+        "Treat Network Firewall alone as an ALB-associated WAF web ACL.",
+        "Use suitable WAF managed/custom rules and Firewall Manager policies with the required organization/configuration prerequisites.",
+        "Use Macie to scan application software vulnerabilities and Audit Manager to distribute web ACLs."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Threat findings and aggregation do not provide the stated inline request filtering and rule distribution.",
+        "This does not specify the supported ALB web ACL and centralized WAF policy relationship.",
+        "The supported web ACL and policy rollout supply both requested layers.",
+        "S3 content classification and audit evidence are not the web request-filtering/deployment services."
+      ],
+      "takeaway": "WAF supplies the HTTP control; Firewall Manager coordinates the organization-wide policy.",
+      "domain": "secure",
+      "topic": "Consistent web filtering across accounts",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "WAF reduces exposure but does not replace parameterized SQL and application remediation. Configure supported targets, Organizations/Config prerequisites, exceptions, and rule testing.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "WAF rate-based rules",
+          "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html"
+        },
+        {
+          "title": "Firewall Manager policies",
+          "url": "https://docs.aws.amazon.com/waf/latest/developerguide/fms-chapter.html"
+        }
+      ]
+    },
+    {
+      "id": "html-168",
+      "number": 1209,
+      "title": "State the ordering scope and partition key; a managed stream does not imply universal global order.",
+      "prompt": "A REST API receives ordered readings from each sensor. Readings for one sensor must be processed in their accepted stream order; sensors do not require one shared global order.\n\nWhich offered design preserves this scope with managed stream consumption?",
+      "options": [
+        "Use an API authorizer as the data-ordering engine.",
+        "Write records to S3 and assume object notifications preserve a global processing order.",
+        "Use an SQS Standard queue without an ordering design.",
+        "Integrate the API with Kinesis Data Streams using a consistent sensor partition key and configure a supported Lambda consumer for ordered per-key processing."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "An authorizer controls access, not record ordering or downstream execution sequence.",
+        "Object notifications and independent function calls do not establish the stated per-sensor processing order.",
+        "Standard queues have at-least-once delivery and best-effort ordering, not the specified ordering guarantee.",
+        "Consistent partitioning and the appropriate stream consumer settings preserve the stated supported per-key order."
+      ],
+      "takeaway": "State the ordering scope and partition key; a managed stream does not imply universal global order.",
+      "domain": "resilient",
+      "topic": "Partition-scoped stream ordering",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Clarification makes partition-scoped ordering explicit. Producer ordering/retries, failure handling, and idempotency remain part of the design.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "Lambda stream processing",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/with-kinesis.html"
+        }
+      ]
+    },
+    {
+      "id": "html-169",
+      "number": 1210,
+      "title": "The execution role supports launch-time injection; the task role authorizes application code after launch.",
+      "prompt": "An ECS Fargate application must receive database credentials as environment variables without placing plaintext values in the task definition.\n\nWhich offered configuration correctly retrieves encrypted Parameter Store values during task launch?",
+      "options": [
+        "Encrypt secrets with ACM and give the application task role the secret-injection responsibility.",
+        "Store credentials in ECS Anywhere and use Access Analyzer to encrypt them.",
+        "Store a task-definition JSON file in Aurora and assume that encrypts every runtime environment value.",
+        "Use SecureString parameters encrypted with KMS, grant the task execution role the required access, and reference parameter ARNs in the container secrets configuration."
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "ACM certificates do not encrypt secret-store values and the proposed role conflates application and launch plumbing.",
+        "ECS Anywhere is not a credential vault, and Access Analyzer is not an encryption engine.",
+        "The proposal adds an unrelated database and does not describe the supported launch-time secret integration.",
+        "Supported secrets references and execution-role permissions let ECS retrieve the values without plaintext task-definition entries."
+      ],
+      "takeaway": "The execution role supports launch-time injection; the task role authorizes application code after launch.",
+      "domain": "secure",
+      "topic": "Secrets injected into ECS tasks",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "The source's taskRoleArn/execution-role confusion is corrected. Injected values are available to the authorized container in plaintext; rotation does not automatically update an already running task.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "ECS secrets from Parameter Store",
+          "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/secrets-envvar-ssm-paramstore.html"
+        }
+      ]
+    },
+    {
+      "id": "html-180",
+      "number": 1221,
+      "title": "Three separate tiers across two AZs require six subnets: two public ALB, two private application, and two…",
+      "prompt": "An internet-facing ALB fronts private application instances and a private database tier. The database must have its own subnets and custom route tables, separate from all other tiers. All three tiers must support a two-AZ highly available design.\n\nWhat is the minimum number of subnets for this stated architecture?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "select": 1,
+      "correct": [
+        3
+      ],
+      "explanations": [
+        "Two subnets cannot give three independently subnet-isolated tiers in each of two AZs.",
+        "Three subnets can separate tiers once, but do not provide each tier in two AZs.",
+        "Four subnets fit some two-tier layouts but omit one of the separately required tier pairs.",
+        "Two subnets per tier across three tiers gives the required total of six."
+      ],
+      "takeaway": "Three separate tiers across two AZs require six subnets: two public ALB, two private application, and two private database subnets.",
+      "domain": "resilient",
+      "topic": "Three-tier subnet isolation",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "The supplied explanation also counted six, but its selected index pointed to four. The independently reviewed key selects six. Security groups, routes, and tier failover still need configuration.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "VPC subnet design",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html"
+        }
+      ]
+    },
+    {
+      "id": "html-196",
+      "number": 1237,
+      "title": "EBS encryption by default is a regional setting for eligible new resources, not an in-place conversion of…",
+      "prompt": "A company wants eligible new EBS volumes in an AWS Region to be encrypted automatically, including new restores from unencrypted snapshots.\n\nWhich offered account/Region configuration provides that default?",
+      "options": [
+        "Use asymmetric KMS keys as the EBS encryption key type.",
+        "Rely on every operator to request a symmetric key manually for each restore.",
+        "Enable EBS encryption by default in the relevant AWS Region and configure the appropriate default KMS key.",
+        "Enable an account-wide encryption-by-default switch separately on each existing unencrypted volume."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "EBS encryption uses supported symmetric encryption keys, not the proposed asymmetric key selection.",
+        "Manual per-volume configuration does not supply the requested automatic regional default.",
+        "The regional default applies to eligible new volumes and supported snapshot-derived volume creation.",
+        "This is not a separate in-place toggle that retroactively encrypts each existing volume."
+      ],
+      "takeaway": "EBS encryption by default is a regional setting for eligible new resources, not an in-place conversion of old volumes.",
+      "domain": "secure",
+      "topic": "Regional default block encryption",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "Existing unencrypted volumes/snapshots need an appropriate encrypted-copy/replacement workflow. Configure each required Region independently.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "EBS encryption by default",
+          "url": "https://docs.aws.amazon.com/ebs/latest/userguide/encryption-by-default.html"
+        }
+      ]
+    },
+    {
+      "id": "html-228",
+      "number": 1269,
+      "title": "Origin access, viewer authorization, and country restrictions are separate controls.",
+      "prompt": "A CloudFront distribution serves a private S3 origin using OAC. Licensing permits viewers in only specified countries, and denied viewers should receive a configured error page.\n\nWhich offered change supplies the country-based viewer restriction?",
+      "options": [
+        "Use signed URLs/cookies alone and assume they identify the viewer's country.",
+        "Use a time-based IAM policy as the distribution's country allow list.",
+        "Configure CloudFront geographic restrictions with the appropriate allow list and supported custom error responses.",
+        "Create a nonexistent CloudFront Function URL as the country-filter feature."
+      ],
+      "select": 1,
+      "correct": [
+        2
+      ],
+      "explanations": [
+        "Signed capabilities can authorize content access but do not by themselves implement this geographic allow list.",
+        "A time restriction is not a country-based viewer filter.",
+        "The geographic policy supplies the country restriction while supported error configuration handles denied responses.",
+        "CloudFront Functions does not expose the proposed Lambda-style Function URL feature."
+      ],
+      "takeaway": "Origin access, viewer authorization, and country restrictions are separate controls.",
+      "domain": "secure",
+      "topic": "Geographic content restrictions",
+      "sources": [],
+      "sourcePaths": [],
+      "status": "ready",
+      "note": "IP geolocation is not perfect proof of physical location. OAC restricts origin access; it does not determine a viewer's licensing country.",
+      "adapted": true,
+      "batch": "html",
+      "readMore": [
+        {
+          "title": "CloudFront geographic restrictions",
+          "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/georestrictions.html"
+        }
+      ]
     }
   ]
 }

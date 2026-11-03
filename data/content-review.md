@@ -3,9 +3,9 @@
 Reviewed: 2026-11-03. Original screenshot selections were disregarded.
 
 - Uploaded screenshots: **1041** (727 original + 314 November)
-- Combined question/source records: **798**
-- Study-ready, with option-level explanations: **705**
-- Reviewed exclusions: **93**
+- Combined question/source records: **849**
+- Study-ready, with option-level explanations: **727**
+- Reviewed exclusions: **96**
 - Awaiting review: **0**
 
 All sources are preserved in `source-manifest.json`; merged capture IDs are recorded in `source-aliases.json`.
@@ -17,14 +17,20 @@ Substantive wording corrections are labeled in the app and documented with the q
 
 ## Study-ready pool by domain
 
-- secure: 209
-- resilient: 210
-- performance: 193
+- secure: 217
+- resilient: 216
+- performance: 201
 - cost: 93
+
+## Native HTML integration
+
+All 322 supplied records have a closed disposition: 51 independently authored additions, 264 matches, and 7 exclusions. See `html-review.json` for every source decision. The provisional supplied keys/explanations are not used by the application.
+
+26 redundant historical records are retained for saved-session grading but excluded from new study, and 4 previously ready records have additional ambiguity exclusions. Canonical option mappings are in `question-equivalents.json`; original scoring contracts and session indices are unchanged.
 
 ## Copy-edit review
 
-All 705 study-ready records received the local spelling/grammar audit and reviewed prose repair pass. 702 records / 2708 fields changed. Every before/after edit is retained in `copy-edit-review.json`. Scoring IDs, option counts/order, selection counts, answer indices, and editorial statuses are preserved.
+All 756 study-ready records received the local spelling/grammar audit and reviewed prose repair pass. 752 records / 2758 fields changed. Every before/after edit is retained in `copy-edit-review.json`. Scoring IDs, option counts/order, selection counts, answer indices, and editorial statuses are preserved.
 
 Technical identifiers and intentionally incorrect distractor claims are not treated as ordinary grammar suggestions. Original screenshots and extraction remain available for comparison.
 
@@ -468,6 +474,24 @@ The upload is a Google Drive file-open error page, not readable question content
 - Source: `public/questions/Screenshot 2026-10-17 145918.png`
 - [AWS Well-Architected: disaster recovery strategies](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
 
+### #541 — Capacity assurance
+
+The choices conflate On-Demand instances with explicit capacity reservations and imply a built-in recurring reservation schedule. No single complete, unqualified architecture is specified. Historical results are retained; practise the capacity-versus-discount distinction in the revision guide instead.
+
+- Source: `public/questions/Screenshot 2026-10-22 125750.png`
+- Source: `public/new set/Screenshot 2026-11-02 040722.png`
+- [EC2 On-Demand Capacity Reservations](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html)
+- [EC2 Reserved Instance billing and Marketplace](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-general.html)
+
+### #554 — Container orchestration
+
+Both ECS and Docker on Elastic Beanstalk can meet parts of this broad migration description. The source does not distinguish direct container orchestration from a managed application environment, so its single-answer key is not uniquely supported.
+
+- Source: `public/questions/Screenshot 2026-10-22 133533.png`
+- Source: `public/new set/Screenshot 2026-11-02 041131.png`
+- [ECS Anywhere: external instances and agents](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-anywhere.html)
+- [Fargate: serverless compute for containers](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)
+
 ### #557 — Sensitive data remediation
 
 Macie in C is the appropriate PII discovery service, but it does not automatically delete detected objects. Every offered choice omits the required removal/quarantine workflow and approval/retention behavior. A complete design needs findings-driven remediation as well as access policies.
@@ -538,6 +562,13 @@ Snowball export is the historical offline answer, but new-customer access ended 
 - Source: `public/questions/Screenshot 2026-10-23 134737.png`
 - [DataSync: supported locations and transfers](https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html)
 - [S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/userguide/transfer-acceleration.html)
+
+### #626 — Object lifecycle timing
+
+The choose-two source mixes lifecycle transition timing, storage-duration charging, and archival retrieval assumptions. It does not provide a uniquely current set of two valid designs with the necessary cost/retrieval constraints. Historical answer selections are preserved rather than silently regraded.
+
+- Source: `public/questions/Screenshot 2026-10-23 135026.png`
+- [S3 storage classes and access patterns](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
 
 ### #630 — Migration assessment
 
@@ -714,6 +745,13 @@ Options B and C restate the same EFS inbound security-group problem rather than 
 
 - Source: `public/new set/Screenshot 2026-11-02 114541.png`
 - [EFS: lifecycle management](https://docs.aws.amazon.com/efs/latest/ug/lifecycle-management-efs.html)
+
+### #981 — Containers & orchestration
+
+HPA can be paired with either a correctly configured Cluster Autoscaler or Karpenter. The vague failed/rescheduled-pod wording does not reliably eliminate Karpenter, so selecting exactly two cannot establish a unique complete pair.
+
+- Source: `public/new set/Screenshot 2026-11-02 115009.png`
+- [EKS Anywhere: on-premises Kubernetes](https://anywhere.eks.amazonaws.com/docs/overview/)
 
 ### #983 — Specialised service selection
 

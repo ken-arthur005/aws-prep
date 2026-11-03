@@ -1,0 +1,337 @@
+{
+  "duplicates": {
+    "q-0cc4a36860": {
+      "canonicalId": "q-f7ab9cc523",
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "q-d1b42bd1e6": {
+      "canonicalId": "q-b91a4e4dba",
+      "optionMap": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    "q-5185b2ecfd": {
+      "canonicalId": "q-4ba12770a5",
+      "optionMap": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "q-71a3b5840b": {
+      "canonicalId": "q-9f100e5982",
+      "optionMap": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "q-f7232e9a0f": {
+      "canonicalId": "q-fd08c856d0",
+      "optionMap": [
+        4,
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "q-7a6fda536a": {
+      "canonicalId": "q-7729daa09b",
+      "optionMap": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    "q-f6839b13c3": {
+      "canonicalId": "q-af6eb24660",
+      "optionMap": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    "q-3b902b879b": {
+      "canonicalId": "q-a624e238ff",
+      "optionMap": [
+        2,
+        1,
+        3,
+        0,
+        4
+      ]
+    },
+    "q-9a11fc996f": {
+      "canonicalId": "q-02059f46cb",
+      "optionMap": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    "q-141af0ee31": {
+      "canonicalId": "q-292dbdf8a2",
+      "optionMap": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ]
+    },
+    "q-ddfa116b89": {
+      "canonicalId": "q-aa6f41bc5d",
+      "optionMap": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ]
+    },
+    "q-9ea7d755e7": {
+      "canonicalId": "q-bfef84a4af",
+      "optionMap": [
+        3,
+        0,
+        1,
+        2
+      ]
+    },
+    "q-5aec38b1a1": {
+      "canonicalId": "q-db48e2b2c1",
+      "optionMap": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    "q-a8c38b5e2e": {
+      "canonicalId": "q-824ed6c08b",
+      "optionMap": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    "q-76805af6dd": {
+      "canonicalId": "q-ad04ffdf7b",
+      "optionMap": [
+        3,
+        0,
+        1,
+        2
+      ]
+    },
+    "q-81dcf37ded": {
+      "canonicalId": "q-4542454bc6",
+      "optionMap": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "q-2df4da64fd": {
+      "canonicalId": "q-e666c3e68d",
+      "optionMap": [
+        3,
+        0,
+        1,
+        2
+      ]
+    },
+    "q-e99c8b3c6c": {
+      "canonicalId": "q-1f8fb5a401",
+      "optionMap": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "q-bf4fac7ec9": {
+      "canonicalId": "q-cd31f4874c",
+      "optionMap": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "q-359e5e3004": {
+      "canonicalId": "q-9c0f73ded9",
+      "optionMap": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    "q-f767deeffc": {
+      "canonicalId": "q-adbb421619",
+      "optionMap": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    "q-35504410ec": {
+      "canonicalId": "q-cfbb6a38b8",
+      "optionMap": [
+        4,
+        3,
+        2,
+        0,
+        1,
+        5
+      ]
+    },
+    "q-1c56bf47bb": {
+      "canonicalId": "q-9b2bc3ade1",
+      "optionMap": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "q-9debe51b9f": {
+      "canonicalId": "q-4224410bda",
+      "optionMap": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    "q-6524d2d123": {
+      "canonicalId": "nov-42f71602e5",
+      "optionMap": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "excludedIds": [
+    "q-5ce736dc8a",
+    "q-9b6fd81d69",
+    "q-1d8d3830e9",
+    "q-9cc1ea7fb5",
+    "q-aa0b16af4e",
+    "q-055ddaa8a7",
+    "q-9b50c3428b",
+    "q-50968b836d",
+    "q-2ed5188817",
+    "q-c345532cfd",
+    "q-9485319e7b",
+    "q-fc62eab5da",
+    "q-7654a2ed77",
+    "q-5d41ccf914",
+    "q-eeeaed1180",
+    "q-86214946ee",
+    "q-84f6b25e60",
+    "q-4abe00b8a6",
+    "q-0df65a036b",
+    "q-b6f75bf156",
+    "q-4dc4cf4996",
+    "q-cf2683dcec",
+    "q-9f6f1c357d",
+    "q-bdddb39d07",
+    "q-1b4c1caddb",
+    "q-c59b32395a",
+    "q-e9eb0792f1",
+    "q-e4ded97961",
+    "q-48c856847a",
+    "q-231e50849d",
+    "q-aec0fe6261",
+    "q-92bbfc9fe8",
+    "q-3b9c3cf96f",
+    "q-4fec82e376",
+    "q-733952d48e",
+    "q-b2c170e367",
+    "q-14599c77bb",
+    "q-06943d11b7",
+    "q-9ca3847a4a",
+    "q-084d564286",
+    "q-bc627e8272",
+    "q-dcbd0872b1",
+    "q-5da432260f",
+    "q-9b571b3069",
+    "q-72bcc241d1",
+    "q-80e0a58e1d",
+    "q-4792c3d778",
+    "q-34c7494d63",
+    "q-25ced6bbf8",
+    "q-c8c64edb91",
+    "q-c360d97b80",
+    "q-8da5c75204",
+    "q-63c5e48991",
+    "q-89c88e0c37",
+    "q-860ff8f28f",
+    "q-fbf40706d4",
+    "q-afb262b07c",
+    "q-8b4cfca9c5",
+    "q-4878aedeb2",
+    "q-906607bdf2",
+    "q-430c84aee3",
+    "q-9fa05b5c7e",
+    "q-4404d4fb5e",
+    "q-acc415c6ac",
+    "q-8cd3b36bc1",
+    "q-48f555a790",
+    "q-8fcba9a05b",
+    "q-7c669f3b4b",
+    "q-de02906a74",
+    "q-45dfc36521",
+    "q-980bb09571",
+    "q-180af3a769",
+    "q-cbfaeea4a5",
+    "q-b5a029f239",
+    "q-311bb7a10b",
+    "nov-f1b5d1f341",
+    "nov-6608a19e41",
+    "nov-b009afc3d5",
+    "nov-a833a1ba4b",
+    "nov-5ef0695c06",
+    "nov-08172a8d84",
+    "nov-a342325296",
+    "nov-6c5a988c97",
+    "nov-aa2339b3f8",
+    "nov-2456e6ff01",
+    "nov-c2cb58f788",
+    "nov-cb0e416f01",
+    "nov-0563695154",
+    "nov-224ac75289",
+    "nov-bbeef4a3bd",
+    "nov-de37e291ad",
+    "nov-439637235a",
+    "nov-770d28790d",
+    "nov-09ce7014c9",
+    "nov-dce76754b6",
+    "nov-68ce217e55",
+    "nov-cde3a2fd26"
+  ]
+}

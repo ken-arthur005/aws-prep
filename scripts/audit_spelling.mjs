@@ -9,9 +9,13 @@ const spell = nspell({
   dic: readFileSync(join(root, "dictionary-en/index.dic")),
 });
 const bank = JSON.parse(readFileSync("data/questions.json", "utf8")).questions;
+const batch = process.env.COPYEDIT_BATCH;
+if (batch && !/^[a-z0-9-]+$/.test(batch)) throw new Error("Invalid batch name");
+const output = `data/copyedit-spelling${batch ? `-${batch}` : ""}`;
 const words = new Map();
 for (const q of bank) {
   if (q.status !== "ready") continue;
+  if (batch && q.batch !== batch) continue;
   const fields = {
     prompt: q.prompt,
     ...Object.fromEntries(q.options.map((v, i) => [`option-${i}`, v])),
@@ -45,9 +49,9 @@ const result = [...words.values()].sort((a, b) => b.count - a.count);
 for (const row of result)
   if (!/^[A-Z]/.test(row.word) || /[A-Z].*[A-Z]/.test(row.word.slice(1)))
     row.suggestions = spell.suggest(row.word).slice(0, 4);
-writeFileSync("data/copyedit-spelling.json", JSON.stringify(result, null, 2));
+writeFileSync(`${output}.json`, JSON.stringify(result, null, 2));
 writeFileSync(
-  "data/copyedit-spelling.txt",
+  `${output}.txt`,
   result
     .map(
       (r) =>

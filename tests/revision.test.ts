@@ -122,20 +122,23 @@ test("copy edits are traceable and preserve the complete scoring contract", () =
     }
   }
   assert.equal(fields, copyReview.editedFields);
-  const scoring = questions.map((q) => [
+  const baseline = questions.filter(q => q.batch !== "html");
+  assert.equal(baseline.length, 798);
+  const contract = (pool: Question[]) => pool.map((q) => [
     q.id,
     q.options.length,
     q.select,
     q.correct,
     q.status,
   ]);
+  const scoring = contract(baseline);
   assert.equal(
     createHash("sha256").update(JSON.stringify(scoring)).digest("hex"),
     "d9f600ca3f6c9a74acebcc1cedc3e32b7d4208b99d756ceb566eb2fbdc63816d",
   );
   assert.equal(
     copyReview.scoringContractSha256,
-    "d9f600ca3f6c9a74acebcc1cedc3e32b7d4208b99d756ceb566eb2fbdc63816d",
+    createHash("sha256").update(JSON.stringify(contract(questions))).digest("hex"),
   );
   const cloudhsm = questions.find((q) => q.number === 198)!;
   assert.match(cloudhsm.options[0], /same Region/);

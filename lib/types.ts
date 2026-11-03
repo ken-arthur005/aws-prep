@@ -14,6 +14,8 @@ export type Question = {
   sources: string[];
   sourcePaths?: string[];
   batch?: string;
+  duplicateOf?: string;
+  studyExcludedReason?: string;
   reasoning?: {
     ask: string;
     requirements: string[];

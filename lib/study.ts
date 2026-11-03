@@ -1,4 +1,24 @@
 import type { Attempt, DomainId, Question, Session, StudyState } from "./types";
+import equivalents from "../data/question-equivalents.json";
+import aliases from "../data/source-aliases.json";
+
+const duplicates: Record<string, { canonicalId: string; optionMap: number[] }> = equivalents.duplicates;
+const excludedIds = new Set(equivalents.excludedIds);
+export function canonicalQuestionId(id: string) {
+  return (aliases as Record<string, string>)[id] ?? id;
+}
+export function isStudyReady(q: Question) {
+  return q.status === "ready" && !q.duplicateOf && !q.studyExcludedReason;
+}
+// Derived evidence only: saved answers and historical session grading stay untouched.
+export function studyAttempts(attempts: Attempt[]): Attempt[] {
+  return attempts.flatMap(a => {
+    const duplicate = duplicates[a.questionId];
+    const id = duplicate?.canonicalId ?? a.questionId;
+    if (excludedIds.has(id)) return [];
+    return [duplicate ? { ...a, questionId: id, selected: a.selected.map(i => duplicate.optionMap[i]) } : a];
+  });
+}
 
 export const DOMAINS: { id: DomainId; name: string; short: string; weight: number; color: string; description: string }[] = [
   { id: "secure", name: "Design Secure Architectures", short: "Secure", weight: 30, color: "mint", description: "IAM, encryption, network protection & data security" },
@@ -15,11 +35,11 @@ export function percent(right: number, total: number) { return total ? Math.roun
 export function accuracy(attempts: Attempt[]) { return percent(attempts.filter(a => a.correct).length, attempts.length); }
 export function firstAttempts(attempts: Attempt[]) {
   const seen = new Set<string>();
-  return [...attempts].sort((a, b) => a.at - b.at).filter(a => { if (seen.has(a.questionId)) return false; seen.add(a.questionId); return true; });
+  return studyAttempts(attempts).sort((a, b) => a.at - b.at).filter(a => { if (seen.has(a.questionId)) return false; seen.add(a.questionId); return true; });
 }
 export function latestAttempts(attempts: Attempt[]) {
   const latest = new Map<string, Attempt>();
-  for (const a of [...attempts].sort((a, b) => a.at - b.at)) latest.set(a.questionId, a);
+  for (const a of studyAttempts(attempts).sort((a, b) => a.at - b.at)) latest.set(a.questionId, a);
   return latest;
 }
 export function shuffle<T>(items: T[]): T[] {
@@ -33,9 +53,9 @@ export function shuffle<T>(items: T[]): T[] {
   return result;
 }
 export function selectQuestions(pool: Question[], count: number, attempts: Attempt[], weighted = false) {
-  const eligible = pool.filter(q => q.status === "ready");
+  const eligible = pool.filter(isStudyReady);
   const recent = new Map<string, number>();
-  for (const a of attempts) recent.set(a.questionId, Math.max(recent.get(a.questionId) ?? 0, a.at));
+  for (const a of studyAttempts(attempts)) recent.set(a.questionId, Math.max(recent.get(a.questionId) ?? 0, a.at));
   const prioritize = (items: Question[]) => shuffle(items).sort((a, b) => (recent.get(a.id) ?? 0) - (recent.get(b.id) ?? 0));
   if (!weighted) return prioritize(eligible).slice(0, count);
   const total = Math.min(count, eligible.length);
@@ -77,9 +97,10 @@ export function daysUntil(date: string) {
 }
 export function domainStats(bank: Question[], attempts: Attempt[]) {
   const first = firstAttempts(attempts);
+  const evidence = studyAttempts(attempts);
   return DOMAINS.map(domain => {
-    const ids = new Set(bank.filter(q => q.domain === domain.id && q.status === "ready").map(q => q.id));
-    const records = attempts.filter(a => ids.has(a.questionId));
+    const ids = new Set(bank.filter(q => q.domain === domain.id && isStudyReady(q)).map(q => q.id));
+    const records = evidence.filter(a => ids.has(a.questionId));
     const initial = first.filter(a => ids.has(a.questionId));
     return { ...domain, total: ids.size, attempted: initial.length, accuracy: accuracy(records), firstAccuracy: accuracy(initial), attempts: records.length, priority: domain.weight * (1 - (initial.filter(a => a.correct).length + 1) / (initial.length + 2)) };
   });

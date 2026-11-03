@@ -34,30 +34,49 @@ pnpm start        # serve the production build
 - **Guessed / unsure** markers and optional mistake reasons. Correct guesses remain reviewable until explicitly cleared.
 - Concept recommendations from latest misses and uncertainty, including deep links such as `#revision/rds/compare`.
 - Self-rated recall with ten-minute / twelve-hour revisit intervals, stored separately from question/mock accuracy.
-- New-November-only practice and source-aware original screenshot links.
+- Recently-added practice across the November and native HTML additions, with source-aware original screenshot links where available.
 - An exam-date-aware sprint with four milestones, rather than four mandatory calendar days. New profiles default to the confirmed **5 November 2026** exam; existing dates are preserved.
 
 AWS's passing score of **720** is scaled; the app deliberately does not equate it to 72% raw accuracy or predict a pass.
 
 ## Content coverage and quality
 
-All **1,041 uploaded PNG screenshots** have an editorial disposition, with original source links preserved. After combining duplicate and split captures there are **798 question/source records**:
+All **1,041 uploaded PNG screenshots** and **322 supplied HTML questions** have an editorial disposition. The shipped bank retains **849 question/source records**, including historical duplicates needed for saved-session grading:
 
-- **705 study-ready questions** have independently prepared answers, a rationale for every option, key takeaways, internal revision links, and AWS references.
-- **93 reviewed exclusions** have specific notes documenting obsolete service eligibility, contradictory/missing answers, unreadable crops or non-question material. They remain inspectable and do not enter scored sessions.
+- **727 unique study-ready questions** have independently prepared answers, a rationale for every option, key takeaways, internal revision links, and AWS references.
+- **96 inspectable reviewed exclusions** document obsolete service eligibility, ambiguous/missing answers, unreadable crops or non-question material. They do not enter new scored sessions.
+- **26 redundant historical records** are hidden from the ordinary library and new study sampling; original IDs, choices and answer keys remain available for existing sessions. One is an old unscored defective capture recovered by a complete native counterpart.
+- **7 unusable HTML questions** have documented source dispositions in `data/html-review.json` and are not added to the study bank.
 - **0 awaiting review.** The bank builder and tests reject an unexplained return to the review backlog.
 
 The screenshot's chosen answers, checkmarks and highlights are never used as an answer key. Some material is materially outdated: the S3 object-size limit changed, and CloudTrail Lake closed to new customers on May 31, 2026. The source-quality notes explain affected records.
 
 The editorial pass is complete for this uploaded collection. Source-faithful transcription repairs and explicitly labeled study variants recover useful material; substantive corrections are described in each question's notes and marked **Updated source**. Original screenshots remain available for comparison. These are independent study explanations, not an official AWS answer key or a guarantee every source scenario is deployment-ready.
 
-The question pool has 209 Secure, 210 Resilient, 193 High-performing and 93 Cost-optimized questions. Full mocks still sample approximately the official domain weights, rather than copying these pool proportions.
+The active question pool has **217 Secure, 216 Resilient, 201 High-performing and 93 Cost-optimized** questions. Full mocks still sample approximately the official domain weights, rather than copying these pool proportions.
 
 ### November import
 
 The **314 captures in `public/new set/`** add **171 study-ready questions** and **21 documented exclusions**. Another **122 captures** are duplicate/continuation evidence attached to canonical records. Question IDs, option positions/counts, selection counts, and answer sets remain frozen. Prose corrections are traceable through a before/after ledger; regression checks reconstruct the pre-copy-edit text and protect saved-session scoring compatibility.
 
 Some complete new screenshots genuinely have three options; those are preserved rather than inventing a fourth. Substantive corrections and study variants are explicitly labelled. Historical Pinpoint journeys, unavailable new-customer services, unsupported network transit, and genuinely underspecified questions do not enter scored mocks.
+
+### Native HTML question integration
+
+The supplied `public/resources/saa-c03-quiz (offline).html` contains **322 records**: **51 independently authored additions**, **264 matches** to existing/canonical questions, and **7 documented exclusions**. Only its embedded JSON is extracted; the supplied JavaScript is never executed by the importer. Its provisional AI answer keys and explanations are not used by the study application.
+
+New questions use the ordinary practice, weighted mocks, library, review shelf, concept links, and progress calculations. Explanations are original and option-specific, with primary AWS references. Ambiguous scenarios receive explicit study clarifications or are excluded. For example, the three-tier/two-AZ question correctly selects six subnets, and ECS launch-time secret injection uses the task execution role rather than the application task role. No PDF-page references or imaginary screenshot links are added.
+
+Reviewed equivalent records contribute one canonical first attempt and coverage entry. Reordered historical choices are mapped only in derived study evidence. Stored attempts, completed results, active-session question IDs, answers, and deadlines remain intact. Bookmarks, uncertainty markers, and mistake notes resolve to canonical questions. Four previously scored but ambiguous scenarios are excluded from future sampling without silently changing their historical answer keys.
+
+- `scripts/prepare_html.py`: JSON extraction and similarity proposals for human/editorial review.
+- `scripts/content_html.py`: closed matches, original authored questions/explanations, explicit exclusions, and reviewed duplicate pairs.
+- `scripts/import_html.py`: checksum-bound exhaustive import and history-safe study metadata.
+- `data/html-extracted.json`, `data/html-review.json`: original provisional data and all 322 final source dispositions.
+- `data/question-equivalents.json`: reviewed option permutations and IDs excluded from derived study evidence.
+- `scripts/find_bank_duplicates.py --study-pool`: final-pool duplicate proposals, including reordered options. A broader audit (`--min-overlap .4 --min-prompt .65 --min-option .5`) found no remaining candidate pairs; similarity is a review aid, not proof that every semantic overlap is absent.
+
+The original 798-record scoring-contract checksum and original 606-record text/answer reconstruction remain protected by regression tests. The full expanded bank also has a generated scoring checksum.
 
 ### Revision editorial approach
 
@@ -67,7 +86,7 @@ The revision summaries correct outdated shortcuts including SQS's former 256 KB 
 
 ### Bank-wide proofreading
 
-All **705 study-ready records** have received a local spelling/grammar audit and a reviewed copy-edit pass across prompts, options, explanations, takeaways, and editorial notes. Repairs include lost sentence boundaries, broken OCR words, malformed example hostnames, split hyphens, punctuation, capitalization, American-English consistency, and normalized multi-answer instructions. Question text is separated from its scenario for easier reading.
+All **756 answer-reviewed records**, including the **727 active study questions** and retained historical answer variants, receive the local spelling/grammar audit and reviewed copy-edit pass across prompts, options, explanations, takeaways, and editorial notes. Repairs include lost sentence boundaries, broken OCR words, malformed example hostnames, split hyphens, punctuation, capitalization, American-English consistency, and normalized multi-answer instructions. Question text is separated from its scenario for easier reading.
 
 - `scripts/copyedit_content.py`: reviewed general rules and contextual field repairs, applied after answer review and duplicate grouping.
 - `data/copy-edit-review.json`: complete before/after ledger plus a frozen scoring-contract checksum.
@@ -132,6 +151,7 @@ This preserves coordinates and detects the two-column divider. Parsing supports 
 - `lib/revision-content.ts`: shared editorial revision material, including primary references and counterfactual examples.
 - `tests/study.test.ts`: meaningful regression tests for exam behavior and content invariants.
 - `tests/revision.test.ts`: full source traceability, original contract checksum, revision graph integrity, uncertainty/recall persistence, old backups, and mock recommendation boundaries.
+- `tests/html.test.ts`: exhaustive HTML source dispositions, native content integrity, historical duplicate grading, reordered-answer evidence, canonical coverage, and marker reconciliation.
 
 An optional real-browser regression script is included at `scripts/check_ui.mjs`. Install Playwright and Chromium in a development environment and build the app. Run a production server on port 3100, or set `UI_START_SERVER=1` to have the script start and stop its own preview, then run `node scripts/check_ui.mjs`. `PLAYWRIGHT_MODULE` may point to an external Playwright installation; `UI_ARTIFACTS` optionally names an existing screenshot directory. It checks desktop/mobile revision, multiword search, recall, print layout, new-question practice, uncertainty review, saved progress, and mock deadline/explanation boundaries.
 
