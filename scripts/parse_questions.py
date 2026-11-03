@@ -2,9 +2,13 @@
 import hashlib
 import json
 import re
+from statistics import median
 from pathlib import Path
 
-from PIL import Image
+try:
+    from PIL import Image
+except ImportError:
+    Image = None  # PowerShell OCR batches already supply a pixel-detected divider.
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -30,25 +34,35 @@ def rows(words):
     return [(y, clean(" ".join(w["text"] for w in sorted(ws, key=lambda w: w["x"])))) for y, ws in buckets]
 
 
+def find_divider(image):
+    image = image.convert("RGB")
+    width, height = image.size
+    counts = []
+    for x in range(int(width * .28), int(width * .65)):
+        score = sum(1 for y in range(12, height - 8, 4) if (lambda p: 215 < p[0] < 250 and abs(p[0] - p[1]) < 15 and p[2] >= p[0])(image.getpixel((x, y))))
+        counts.append((score, x))
+    return max(counts)[1]
+
+
 def parse(item):
     words = [w for line in item["lines"] for w in line["words"]]
-    side = any("Description" == line["text"].strip() for line in item["lines"]) and item.get("width", 0) > 1050
+    side = any("Description" == line["text"].strip() for line in item["lines"]) and (item.get("width", 0) > 1050 or bool(item.get("divider")))
     options = []
     prompt = []
     if side:
-        with Image.open(ROOT / "public" / "questions" / item["source"]) as image:
-            image = image.convert("RGB")
-            width, height = image.size
-            counts = []
-            for x in range(int(width * .28), int(width * .65)):
-                score = sum(1 for y in range(12, height - 8, 4) if (lambda p: 215 < p[0] < 250 and abs(p[0] - p[1]) < 15 and p[2] >= p[0])(image.getpixel((x, y))))
-                counts.append((score, x))
-            divider = max(counts)[1]
+        divider = item.get("divider", 0)
+        if not divider:
+            if Image is None:
+                raise RuntimeError("Install Pillow for original captures or supply an OCR divider")
+            with Image.open(ROOT / "public" / "questions" / item["source"]) as image:
+                divider = find_divider(image)
         prompt = [t for _, t in rows([w for w in words if w["x"] < divider - 5]) if t != "Description"]
+        option_words = [w for w in words if w["x"] > divider + 15]
+        gap = max(27, median(w["h"] for w in option_words) * 2.1) if item.get("divider") and option_words else 27
         previous = None
-        for y, text in rows([w for w in words if w["x"] > divider + 15]):
+        for y, text in rows(option_words):
             text = re.sub(r"^[O0©◯✓✔]\s+", "", text)
-            if previous is None or y - previous > 27:
+            if previous is None or y - previous > gap:
                 options.append(text)
             else:
                 options[-1] += " " + text

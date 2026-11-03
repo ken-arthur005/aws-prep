@@ -14,15 +14,13 @@ const body = Nunito_Sans({
 
 export const metadata: Metadata = {
   title: "Cloudbound — Your AWS SAA-C03 Study Basecamp",
-  description: "One concept at a time. Personal AWS Solutions Architect Associate practice, timed mock exams, detailed explanations, and study analytics.",
+  description:
+    "AWS SAA-C03 practice, timed mock exams, plain-English revision guides, service comparisons, active recall, and study analytics.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${heading.variable} ${body.variable}`}
-    >
+    <html lang="en" className={`${heading.variable} ${body.variable}`}>
       <body>{children}</body>
     </html>
   );

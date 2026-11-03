@@ -12,12 +12,29 @@ export type Question = {
   domain: DomainId;
   topic: string;
   sources: string[];
+  sourcePaths?: string[];
+  batch?: string;
+  reasoning?: {
+    ask: string;
+    requirements: string[];
+    why: string;
+    alternative: string;
+    alternativeWhen: string;
+  };
   status: "ready" | "review" | "legacy";
   note: string;
   adapted?: boolean;
   readMore: { title: string; url: string }[];
 };
-export type Attempt = { questionId: string; sessionId: string; selected: number[]; correct: boolean; seconds: number; at: number; mode: "practice" | "exam" };
+export type Attempt = {
+  questionId: string;
+  sessionId: string;
+  selected: number[];
+  correct: boolean;
+  seconds: number;
+  at: number;
+  mode: "practice" | "exam";
+};
 export type Session = {
   id: string;
   mode: "practice" | "exam";
@@ -42,5 +59,19 @@ export type StudyState = {
   sessions: Session[];
   activeSession: Session | null;
   storageError: string;
+  uncertain?: string[];
+  mistakes?: Record<string, "concept" | "services" | "requirement" | "timing">;
+  recall?: Record<
+    string,
+    { rating: "again" | "known"; at: number; due: number }
+  >;
 };
-export type Tab = "dashboard" | "practice" | "exams" | "analytics" | "review" | "library" | "settings";
+export type Tab =
+  | "dashboard"
+  | "practice"
+  | "exams"
+  | "analytics"
+  | "review"
+  | "revision"
+  | "library"
+  | "settings";

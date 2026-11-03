@@ -120,19 +120,25 @@ def main():
     aliases = {item["id"]: source_to_id[item["source"]] for item in extracted if item["id"] != source_to_id[item["source"]]}
     assert len(source_to_id) == len(extracted), "A source was lost during merging."
     assert sum(len(q["sources"]) for q in bank) == len(extracted), "A source was assigned more than once."
-    output = {"sourceCount": len(extracted), "reviewedAt": "2026-10-29", "aliases": aliases, "questions": bank}
+    for entry in manifest:
+        entry.update({"collection":"original", "path":"/questions/"+entry["source"]})
+    from import_batch import extend_bank
+    november = extend_bank(bank, manifest, aliases)
+    source_count = len(extracted) + november["sourceCount"]
+    output = {"sourceCount": source_count, "reviewedAt": "2026-11-03", "collections":[{"id":"original","sourceCount":len(extracted)},november], "aliases": aliases, "questions": bank}
     (ROOT / "data/questions.json").write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-    report = {"sources": len(extracted), "uniqueRecords": len(bank), "studyReady": sum(q["status"] == "ready" for q in bank), "flagged": sum(q["status"] == "legacy" for q in bank), "awaitingReview": sum(q["status"] == "review" for q in bank), "manifest": sorted(manifest, key=lambda m: m["sourceIndex"])}
+    report = {"sources": source_count, "uniqueRecords": len(bank), "studyReady": sum(q["status"] == "ready" for q in bank), "flagged": sum(q["status"] == "legacy" for q in bank), "awaitingReview": sum(q["status"] == "review" for q in bank), "manifest": sorted(manifest, key=lambda m: m["sourceIndex"])}
     (ROOT / "data/source-manifest.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     (ROOT / "data/source-aliases.json").write_text(json.dumps(aliases, indent=2), encoding="utf-8")
-    lines = ["# Editorial review report", "", "Reviewed: 2026-10-29. Original screenshot selections were disregarded.", "", f"- Uploaded screenshots: **{len(extracted)}**", f"- Combined question/source records: **{len(bank)}**", f"- Study-ready, with option-level explanations: **{report['studyReady']}**", f"- Reviewed exclusions: **{report['flagged']}**", f"- Awaiting review: **{report['awaitingReview']}**", "", "All sources are preserved in `source-manifest.json`; merged capture IDs are recorded in `source-aliases.json`.", "Substantive wording corrections are labeled in the app and documented with the question. These are independent study explanations, not an AWS answer key.", "", "## Study-ready pool by domain", ""]
+    lines = ["# Editorial review report", "", "Reviewed: 2026-11-03. Original screenshot selections were disregarded.", "", f"- Uploaded screenshots: **{source_count}** (727 original + 314 November)", f"- Combined question/source records: **{len(bank)}**", f"- Study-ready, with option-level explanations: **{report['studyReady']}**", f"- Reviewed exclusions: **{report['flagged']}**", f"- Awaiting review: **{report['awaitingReview']}**", "", "All sources are preserved in `source-manifest.json`; merged capture IDs are recorded in `source-aliases.json`.", "Substantive wording corrections are labeled in the app and documented with the question. These are independent study explanations, not an AWS answer key.", "", "## November collection", "", f"{november['recordsAdded']} records added: {november['readyAdded']} ready, {november['excludedAdded']} excluded; {november['mergedSources']} duplicate/continuation sources joined to canonical records.", "", "## Study-ready pool by domain", ""]
     for domain in ["secure", "resilient", "performance", "cost"]:
         lines.append(f"- {domain}: {sum(q['domain'] == domain and q['status'] == 'ready' for q in bank)}")
     lines.extend(["", "## Reviewed exclusions", "", "These are closed editorial dispositions, not an automatic/background work queue. The source issue and relevant reading are listed below."])
     for q in bank:
         if q["status"] == "legacy":
             lines.extend(["", f"### #{q['number']:03d} — {q['topic']}", "", q["note"], ""])
-            lines.extend(f"- Source: `public/questions/{source}`" for source in q["sources"])
+            paths = q.get("sourcePaths", ["/questions/"+s for s in q["sources"]])
+            lines.extend(f"- Source: `public{path}`" for path in paths)
             lines.extend(f"- [{link['title']}]({link['url']})" for link in q["readMore"])
     (ROOT / "data/content-review.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k != "manifest"}, indent=2))

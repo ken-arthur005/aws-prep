@@ -1,22 +1,26 @@
 # Editorial review report
 
-Reviewed: 2026-10-29. Original screenshot selections were disregarded.
+Reviewed: 2026-11-03. Original screenshot selections were disregarded.
 
-- Uploaded screenshots: **727**
-- Combined question/source records: **606**
-- Study-ready, with option-level explanations: **534**
-- Reviewed exclusions: **72**
+- Uploaded screenshots: **1041** (727 original + 314 November)
+- Combined question/source records: **798**
+- Study-ready, with option-level explanations: **705**
+- Reviewed exclusions: **93**
 - Awaiting review: **0**
 
 All sources are preserved in `source-manifest.json`; merged capture IDs are recorded in `source-aliases.json`.
 Substantive wording corrections are labeled in the app and documented with the question. These are independent study explanations, not an AWS answer key.
 
+## November collection
+
+192 records added: 171 ready, 21 excluded; 122 duplicate/continuation sources joined to canonical records.
+
 ## Study-ready pool by domain
 
-- secure: 176
-- resilient: 156
-- performance: 130
-- cost: 72
+- secure: 209
+- resilient: 210
+- performance: 193
+- cost: 93
 
 ## Reviewed exclusions
 
@@ -27,6 +31,7 @@ These are closed editorial dispositions, not an automatic/background work queue.
 CloudTrail Lake is the intended historical answer, but it closed to new customers on May 31, 2026. Existing customers can continue using it. The question does not establish customer eligibility. Trails, S3 and Athena are a current alternative, but that complete option is absent.
 
 - Source: `public/questions/Screenshot 2026-10-08 190300.png`
+- Source: `public/new set/Screenshot 2026-11-02 110800.png`
 - [CloudTrail Lake: querying and availability changes](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-lake.html)
 
 ### #003 — Hybrid architectures
@@ -174,6 +179,7 @@ To block replacement/deletion during stack updates, a stack policy is the releva
 Security-group ingress and NACL filtering are plausible causes, but the route option describes an underspecified modified local route. Current local routes can be replaced/overridden for supported routing designs. The question does not provide enough actual route/rule configuration for its exact two-choice claim.
 
 - Source: `public/questions/Screenshot 2026-10-09 041957.png`
+- Source: `public/new set/Screenshot 2026-11-02 113801.png`
 - [VPC: route tables and local routing](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html)
 
 ### #126 — VPN authentication
@@ -370,6 +376,7 @@ The historical offline-transfer answer is Snowball devices, but new-customer Sno
 Adding a larger IPv4 subnet can work only if free VPC address space exists; IPv6-only subnets require supported instance/workload configurations. The source does not establish these prerequisites and incorrectly describes associating a new VPC, so it cannot uniquely choose the proposed migration path.
 
 - Source: `public/questions/Screenshot 2026-10-16 122645.png`
+- Source: `public/new set/Screenshot 2026-11-01 154226.png`
 - [VPC: subnet address sizes and reserved addresses](https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html)
 
 ### #393 — Network inspection
@@ -377,6 +384,7 @@ Adding a larger IPv4 subnet can work only if free VPC address space exists; IPv6
 The offered 'minimum' topology misstates ALB public-subnet requirements and calls FQDNs a source identity for incoming requests. Network Firewall domain inspection applies to supported HTTP Host/TLS SNI flows, not authenticated source FQDN identity; NAT and a direct ALB integration do not solve this. A precise inspectable traffic direction/topology is required.
 
 - Source: `public/questions/Screenshot 2026-10-16 123405.png`
+- Source: `public/new set/Screenshot 2026-11-01 154417.png`
 - [VPC: route tables and local routing](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html)
 - [WAF: use-case-specific managed rule groups](https://docs.aws.amazon.com/waf/latest/developerguide/aws-managed-rule-groups-use-case.html)
 
@@ -460,6 +468,7 @@ Macie in C is the appropriate PII discovery service, but it does not automatical
 
 - Source: `public/questions/Screenshot 2026-10-22 133749.png`
 - Source: `public/questions/Screenshot 2026-10-22 135222.png`
+- Source: `public/new set/Screenshot 2026-11-02 041238.png`
 - [Macie: discovering sensitive S3 data](https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html)
 
 ### #576 — IAM policy scope
@@ -538,6 +547,7 @@ The intended interface is S3 File Gateway for NFS, but the choice couples it to 
 - Source: `public/questions/Screenshot 2026-10-24 110615.png`
 - Source: `public/questions/Screenshot 2026-10-24 110603.png`
 - Source: `public/questions/Screenshot 2026-10-24 110652.png`
+- Source: `public/new set/Screenshot 2026-11-02 120402.png`
 - [Storage Gateway: cached versus stored volumes](https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html)
 
 ### #661 — Authentication latency
@@ -577,4 +587,152 @@ The original screenshot ends mid-policy and does not include the remainder, fina
 The historical offline-transfer answer is Snowball devices, but new-customer Snowball access ended in November 2025 and Snowmobile is retired. The question omits eligibility, required completion time and current transfer alternatives, so its fastest/cheapest claim is not a current general recommendation.
 
 - Source: `public/questions/Screenshot 2026-10-24 123421.png`
+- Source: `public/new set/Screenshot 2026-11-01 153046.png`
 - [DataSync: supported locations and transfers](https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html)
+
+### #745 — Specialised service selection
+
+Historical answer is Snowball Edge, but it is no longer available to new customers and the source establishes no eligibility. Snowmobile is also obsolete. Multipart upload cannot overcome the stated bandwidth; assess current physical-transfer/partner options instead.
+
+- Source: `public/new set/Screenshot 2026-11-01 153410.png`
+- [Snowball Edge availability](https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html)
+
+### #798 — Database availability
+
+The source uses obsolete MySQL 5.6 and asks for a cross-region replication latency below a fixed second without stating an Aurora Global Database or other sufficient architecture. Ordinary cross-region replica lag is workload-dependent; no offered statement guarantees the claimed latency.
+
+- Source: `public/new set/Screenshot 2026-11-02 040553.png`
+- [Aurora high availability and storage recovery](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html)
+
+### #854 — Hybrid storage
+
+The intended file-gateway local-cache answer does not guarantee that a historical backup from exactly 48 hours ago remains locally cached: cache entries are evictable and require version/backup management. The other options also omit the required historical-state and immediate-local-access guarantee. Cache sizing alone is not a retention policy.
+
+- Source: `public/new set/Screenshot 2026-11-02 042630.png`
+- [Storage Gateway: cached versus stored volumes](https://docs.aws.amazon.com/storagegateway/latest/vgw/WhatIsStorageGateway.html)
+
+### #855 — Streaming analytics
+
+The intended historical Pinpoint-journey answer depends on a service feature whose support ended October 30, 2026. The other options do not provide the complete two-way SMS, streaming analysis, and one-year retention design. Relevant messaging APIs continue under AWS End User Messaging, but the offered journey design is obsolete.
+
+- Source: `public/new set/Screenshot 2026-11-02 042653.png`
+- [Kinesis Data Streams: stream consumers and retention](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html)
+
+### #862 — Database availability
+
+Aurora Global Database is a relevant cross-region recovery architecture, but the offered answer claims automatic regional takeover without specifying an orchestrated detection/failover/application workflow. Built-in in-region Multi-AZ failover is not global automatic failover, and sub-minute end-to-end recovery is not guaranteed by this source.
+
+- Source: `public/new set/Screenshot 2026-11-02 104640.png`
+- [Aurora high availability and storage recovery](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html)
+
+### #876 — Private network connectivity
+
+Both peering choices imply that on-premises traffic can traverse VPC B's Direct Connect attachment and then the B–A peering connection. VPC peering does not support that edge-to-edge transit. A complete design needs appropriate direct hybrid connectivity to VPC A or a supported gateway/TGW architecture, which is absent.
+
+- Source: `public/new set/Screenshot 2026-11-02 110117.png`
+- [VPC peering: private connectivity and limits](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html)
+
+### #905 — Specialised service selection
+
+The source recommends AQUA as a separately selectable acceleration feature and omits the current Redshift configuration/workload context needed to diagnose CPU/network bottlenecks. Old AQUA feature-selection material does not establish a supported present-day tuning action; Spectrum and caching also do not automatically resolve the stated bottleneck.
+
+- Source: `public/new set/Screenshot 2026-11-02 111115.png`
+- [Redshift: purchasing reserved nodes](https://docs.aws.amazon.com/redshift/latest/mgmt/purchase-reserved-node-instance.html)
+
+### #918 — Specialised service selection
+
+The intended historical answer is Application Discovery inventory/dependency collection, but AWS Application Discovery Service is no longer available to new customers. This new assessment establishes no customer eligibility, and its captured inventory option is also incomplete. Current migration-assessment alternatives must be evaluated rather than scoring an unconditional historical recommendation.
+
+- Source: `public/new set/Screenshot 2026-11-02 111458.png`
+- [Application Discovery availability and alternatives](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
+
+### #922 — Specialised service selection
+
+The question conflates generating graph-based recommendations with low-latency serving of precomputed recommendation/user-interaction values. Redis and Neptune address different data models, but the source states neither a relationship-traversal requirement nor a precomputed-result serving model, preventing a uniquely supported answer.
+
+- Source: `public/new set/Screenshot 2026-11-02 111615.png`
+- [Amazon Neptune: purpose-built graph database](https://docs.aws.amazon.com/neptune/latest/userguide/intro.html)
+
+### #923 — Streaming analytics
+
+No option is technically complete: MSK does not offer general multi-cloud deployment or SSH access; Lambda needs a supported event source mapping; provisioned MSK storage autoscaling is not automatic arbitrary broker-count scaling. Serverless MSK differs, but the offered broker-and-storage claim does not specify that architecture.
+
+- Source: `public/new set/Screenshot 2026-11-02 112237.png`
+- [Kinesis Data Streams: stream consumers and retention](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html)
+
+### #925 — Specialised service selection
+
+Several listed service pairs could participate in a streaming analytics system, but none specifies the complete feedback ingestion, sentiment extraction, and visualisation pipeline. Kinesis/Redshift and MSK/QuickSight can both be components; the omitted NLP and integration requirements prevent a single fully supported choice.
+
+- Source: `public/new set/Screenshot 2026-11-02 112311.png`
+- [Comprehend FAQs: customer content and data privacy](https://aws.amazon.com/comprehend/faqs/)
+
+### #927 — Streaming analytics
+
+Both Kinesis Data Streams and Amazon MSK can build highly scalable real-time streaming platforms with downstream consumers. The source does not require Kafka compatibility, a particular consumer ecosystem, replay model, or an operational objective that would distinguish the two; selecting one solely from the word streaming would be a keyword shortcut.
+
+- Source: `public/new set/Screenshot 2026-11-02 112401.png`
+- [Kinesis Data Streams: stream consumers and retention](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html)
+
+### #936 — NoSQL access patterns
+
+Provisioned DynamoDB auto scaling reacts with delay and does not guarantee that an unpredictable instantaneous jump from 1,000 to 3,000 WCU is served without throttling. The question demands consistent burst capacity but omits on-demand mode or provisioned headroom/burst timing, so the intended auto-scaling answer is not a complete guarantee.
+
+- Source: `public/new set/Screenshot 2026-11-02 112924.png`
+- [DynamoDB: core components and access patterns](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html)
+
+### #939 — Disaster recovery
+
+The question does not specify whether recovery is from corruption/deletion or a regional outage. Global Tables can replicate bad writes/deletes, while PITR/backup restore duration depends on table size and is not guaranteed within one hour. The source omits failure scope and tested restore evidence, so the strict objectives cannot select a uniquely complete design.
+
+- Source: `public/new set/Screenshot 2026-11-02 113051.png`
+- [AWS Well-Architected: disaster recovery strategies](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/plan-for-disaster-recovery-dr.html)
+
+### #947 — Messaging & integration
+
+The source requires strict order 'for all consumers' without defining one queue, per-key ordering, independent readers, or global ordering. SQS FIFO orders within message groups, while Kinesis orders within its stream partition model; neither offered generic configuration guarantees universal total order for unspecified consumers. The consumer/ordering scope must be stated.
+
+- Source: `public/new set/Screenshot 2026-11-02 113343.png`
+- [SQS: queue types and delivery semantics](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html)
+
+### #955 — Specialised service selection
+
+The source asks for exactly two non-access-control mechanisms, but server-side certificates, VPC route tables, and usage plans are not substitutes for API authentication/authorisation. Usage plans/API keys control consumption and should not be treated as a strong direct access-control mechanism, so the wording leaves more than two defensible choices.
+
+- Source: `public/new set/Screenshot 2026-11-02 113645.png`
+- [API Gateway: execution and access logging](https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-logging.html)
+
+### #974 — Shared file storage
+
+Options B and C restate the same EFS inbound security-group problem rather than two distinct causes. Peering DNS-resolution flags alone also do not guarantee the EFS mount-target DNS design across Regions; direct reachable mount-target addressing can work. The source does not supply two clearly distinct correct diagnoses.
+
+- Source: `public/new set/Screenshot 2026-11-02 114541.png`
+- [EFS: lifecycle management](https://docs.aws.amazon.com/efs/latest/ug/lifecycle-management-efs.html)
+
+### #983 — Specialised service selection
+
+ALB access logs are the right request-level evidence, but delivery is best-effort rather than a complete guaranteed record every five minutes. The attached CloudWatch Application Insights claim also does not establish supported analysis of all ECS Anywhere request logs. None of the offered complete combinations satisfies all of the source's absolute logging/integration claims.
+
+- Source: `public/new set/Screenshot 2026-11-02 115127.png`
+- [Application Load Balancer: listener rule conditions](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/rule-condition-types.html)
+
+### #1005 — Database connections & availability
+
+The generic Amazon RDS choice and Aurora can both provide ACID relational OLTP and complex SQL. Current supported RDS engines can exceed 50 TB, so size alone no longer uniquely selects Aurora. Missing engine compatibility, exact growth target, and performance requirements make the historical storage-limit answer ambiguous.
+
+- Source: `public/new set/Screenshot 2026-11-02 120157.png`
+- [RDS: Multi-AZ deployments](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html)
+
+### #1032 — Encryption & key management
+
+The source describes legacy CloudHSM zeroisation after three administrator login failures. Current CloudHSM credential lockout, backup, and recovery behaviour differs, including automatically managed cluster backups. Without a supported current HSM/version and backup state, the claim that no key copy can exist or that a generic snapshot restores it is unreliable historical material.
+
+- Source: `public/new set/Screenshot 2026-11-02 121203.png`
+- [AWS KMS: asymmetric and symmetric keys](https://docs.aws.amazon.com/kms/latest/developerguide/symmetric-asymmetric.html)
+
+### #1038 — Private service access
+
+An S3 gateway endpoint can make the private EC2-to-S3 leg private, but internet users following presigned S3 URLs still contact S3 directly over their own network path. None of the choices supplies a private viewer path or an application proxy architecture. Adding a VPC endpoint alone does not fix the stated concern about all users' internet access.
+
+- Source: `public/new set/Screenshot 2026-11-02 121431.png`
+- [VPC: gateway endpoints for S3](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-s3.html)

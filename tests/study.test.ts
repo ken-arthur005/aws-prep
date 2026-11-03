@@ -91,7 +91,7 @@ test("all shipped ready questions have complete explanations and valid answer in
   assert.ok(ready.length >= 65);
   for (const q of ready) {
     assert.ok(q.prompt.length >= 50, q.id);
-    assert.ok(q.options.length >= 4 && q.options.length <= 6, q.id);
+    assert.ok(q.options.length >= (q.batch === "november" ? 3 : 4) && q.options.length <= 6, q.id);
     assert.equal(q.explanations.length, q.options.length, q.id);
     assert.ok(q.explanations.every(text => text.length >= 40), q.id);
     assert.equal(q.correct.length, q.select, q.id);
@@ -105,10 +105,12 @@ test("all shipped ready questions have complete explanations and valid answer in
   const domains = ["secure", "resilient", "performance", "cost"] as DomainId[];
   assert.ok(questions.every(q => domains.includes(q.domain)));
 });
-test("all 727 screenshot sources are preserved exactly once across records", () => {
+test("both collections preserve all 1,041 screenshot sources exactly once", () => {
   const sources = questions.flatMap(q => q.sources);
-  assert.equal(sources.length, 727);
-  assert.equal(new Set(sources).size, 727);
+  assert.equal(sources.length, 1041);
+  assert.equal(new Set(sources).size, 1041);
+  assert.equal(manifest.manifest.filter(m => m.collection === "original").length, 727);
+  assert.equal(manifest.manifest.filter(m => m.collection === "november").length, 314);
 });
 
 test("editorial backlog cannot silently return or enter a scored mock", () => {
